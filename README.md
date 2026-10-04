@@ -10,9 +10,9 @@ Picks a watchlist out of the **top 1000 cryptocurrencies** (by market cap) using
 
 Stablecoins, wrapped/bridged tokens and coins with very low 24h volume are removed too. The remaining coins are ranked by a 0–100 **watch score**.
 
-The data refreshes every day automatically through GitHub Actions, and the results are shown on a dashboard hosted free on GitHub Pages.
+The dashboard (free on GitHub Pages) loads **live prices from CoinGecko every time it is opened or refreshed**. A GitHub Actions job also saves a daily snapshot, which the page shows instantly and falls back to if CoinGecko is busy.
 
-> **Hinglish summary:** Top 1000 coin ki list CoinGecko se aati hai. Jo coin ₹500 se mehenga hai, ya jo apne lowest (ATL) se highest (ATH) tak 2000% se zyada chadh chuka hai, woh cut ho jaata hai. Baaki coins ki watchlist banti hai, score ke hisaab se sorted. Website par sliders se ₹500 / 2000% badal sakte ho. Roz subah 6 baje data apne aap update hota hai.
+> **Hinglish summary:** Top 1000 coin ki list CoinGecko se aati hai. Jo coin ₹500 se mehenga hai, ya jo apne lowest (ATL) se highest (ATH) tak 2000% se zyada chadh chuka hai, woh cut ho jaata hai. Baaki coins ki watchlist banti hai, score ke hisaab se sorted. Website par sliders se ₹500 / 2000% badal sakte ho. Page refresh karte hi live price aata hai; roz subah 6 baje ek snapshot bhi save hota hai.
 
 ## How "max rise" is calculated
 
