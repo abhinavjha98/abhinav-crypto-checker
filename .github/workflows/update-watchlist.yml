@@ -2,7 +2,7 @@ name: Update watchlist
 
 on:
   schedule:
-    - cron: "7 * * * *"    # every hour (minute 7, avoids the busy top of the hour)
+    - cron: "7 */3 * * *"  # every 3 hours (minute 7, avoids the busy top of the hour)
   workflow_dispatch:         # "Run workflow" button in the Actions tab
 
 permissions:
@@ -32,7 +32,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/data
+          git add docs/data cache
           if git diff --cached --quiet; then
             echo "No changes"
           else

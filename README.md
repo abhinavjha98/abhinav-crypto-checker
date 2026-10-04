@@ -6,23 +6,34 @@ Picks a watchlist out of the **top 1000 cryptocurrencies** (by market cap) using
 |---|---|
 | Market-cap rank | ≤ 1000 |
 | Current price | ≤ ₹500 |
-| Max historical rise (ATL → ATH) | ≤ 2000% |
+| Biggest jump that ever happened (low → later high) | ≤ 2000% |
 
 Stablecoins, wrapped/bridged tokens and coins with very low 24h volume are removed too. The remaining coins are ranked by a 0–100 **watch score**.
 
-A GitHub Actions job fetches fresh data from CoinGecko **every hour** and saves it to the repo. The dashboard (free on GitHub Pages) shows that saved data and says how many minutes old it is. The page itself never calls CoinGecko.
+A GitHub Actions job fetches fresh data from CoinGecko **every 3 hours** and saves it to the repo. The dashboard (free on GitHub Pages) shows that saved data and says how many minutes old it is. The page itself never calls CoinGecko.
 
-> **Hinglish summary:** Top 1000 coin ki list CoinGecko se aati hai. Jo coin ₹500 se mehenga hai, ya jo apne lowest (ATL) se highest (ATH) tak 2000% se zyada chadh chuka hai, woh cut ho jaata hai. Baaki coins ki watchlist banti hai, score ke hisaab se sorted. Website par sliders se ₹500 / 2000% badal sakte ho. Data har ghante apne aap update hota hai.
+> **Hinglish summary:** Top 1000 coin ki list CoinGecko se aati hai. Jo coin ₹500 se mehenga hai, ya jo apne lowest (ATL) se highest (ATH) tak 2000% se zyada chadh chuka hai, woh cut ho jaata hai. Baaki coins ki watchlist banti hai, score ke hisaab se sorted. Website par sliders se ₹500 / 2000% badal sakte ho. Data har 3 ghante mein apne aap update hota hai.
 
-## How "max rise" is calculated
+## How "biggest jump" is calculated
+
+The biggest jump is the largest rise that **actually happened**: a low price followed by a *later* high price.
 
 ```
-Max rise % = (ATH ÷ ATL − 1) × 100
+Biggest jump % = (later high ÷ earlier low − 1) × 100
 ```
 
-Example: ATL ₹10 and ATH ₹180 gives 1,700%, so the coin is kept. ATL ₹10 and ATH ₹400 gives 3,900%, so it is removed.
+Example: a low of ₹10 followed by a high of ₹180 gives 1,700%, so the coin is kept. A low of ₹10 followed by a high of ₹400 gives 3,900%, so it is removed.
 
-ATH and ATL are CoinGecko's all-time high and all-time low prices in INR.
+The simple formula ATH ÷ ATL is only correct when the all-time low came *before* the all-time high. For about half the coins the all-time high came first and the coin crashed afterwards. For those coins the screener looks at daily price history:
+
+| Case | Source | Label on the site |
+|---|---|---|
+| All-time low came before the all-time high | ATH ÷ ATL (exact) | none |
+| Coin trades on Binance | Binance daily candles since its Binance listing (free, no key) | "Checked on daily prices since …" |
+| Not on Binance | CoinGecko daily prices; the free plan only gives the last 365 days | ⚠ if the peak is older than that |
+| History not downloaded yet | Rise from all-time low to today (a real rise, used until history arrives) | ⚠ |
+
+Each coin's history is downloaded once and stored in `cache/rise_cache.json`. Every later run only adds the newest prices, so runs stay fast. The dashboard has a "Hide coins whose older price history is missing" option under More filters.
 
 ## Watch score (0–100)
 
@@ -50,7 +61,8 @@ docs/data/coins.json                all 1000 coins with metrics (dashboard reads
 docs/data/watchlist.csv             final watchlist, opens in Excel
 docs/data/changes.json              coins that entered / left since the previous day
 docs/data/history/YYYY-MM-DD.json   daily snapshots (last 90 days)
-.github/workflows/update-watchlist.yml   hourly auto-update
+.github/workflows/update-watchlist.yml   auto-update every 3 hours
+cache/rise_cache.json               stored price-history results per coin
 ```
 
 ## Run it locally
@@ -72,7 +84,7 @@ Open http://localhost:8000. A full run takes about 2–4 minutes because the fre
 4. Recommended: get a free CoinGecko Demo API key at https://www.coingecko.com/en/api/pricing and add it under **Settings → Secrets and variables → Actions** as `COINGECKO_API_KEY`. Without a key the public API often rate-limits GitHub's servers.
 5. **Actions → Update watchlist → Run workflow** to run it the first time.
 
-The site will be at `https://<username>.github.io/<repo-name>/`. After that the workflow runs every hour (at minute 7) and commits fresh data. GitHub sometimes starts scheduled runs a few minutes late.
+The site will be at `https://<username>.github.io/<repo-name>/`. After that the workflow runs every 3 hours (at minute 7) and commits fresh data. GitHub sometimes starts scheduled runs a few minutes late.
 
 ## Changing the rules
 
@@ -81,12 +93,12 @@ The site will be at `https://<username>.github.io/<repo-name>/`. After that the 
 
 ## Known limitations
 
-- A coin that launched at an extremely low price (for example a ₹0.000001 ATL from launch-day trading) shows a huge max rise and gets removed, even if its real trading history is normal.
+- A coin that launched at an extremely low price (for example a ₹0.000001 first trade) can show a huge jump and get removed, even if its real trading history is normal.
+- Coins that are not on Binance and peaked more than a year ago only have one year of free history, marked ⚠.
 - Token price alone says nothing about valuation. A ₹5 coin with a huge supply can be more expensive than a ₹5,000 coin. Check market cap.
 - Data comes from CoinGecko's free API and may be a few minutes old.
 
 ## Possible next steps
 
-- 1-year and 2-year max rise instead of all-time ATL → ATH
 - Telegram / email alert when a coin enters the watchlist with a high score
 - Backtesting the rules on the daily snapshots

@@ -255,7 +255,7 @@ footer { color: var(--muted); font-size: 12.5px; max-width: 90ch; }
       <h1>Crypto Watchlist <em>Screener</em></h1>
       <div class="live" id="live"><span class="dot" id="dot"></span><span id="liveText">Loading…</span></div>
     </div>
-    <p class="sub">From the top 1000 coins, we remove coins that cost more than ₹500 and coins that have already jumped more than 2000%. What's left is your watchlist, best score first.</p>
+    <p class="sub">From the top 1000 coins, we remove coins that cost more than ₹500 and coins that have already jumped more than 2000% at some point. What's left is your watchlist, best score first.</p>
   </header>
 
   <section class="summary" aria-label="Summary">
@@ -313,6 +313,7 @@ footer { color: var(--muted); font-size: 12.5px; max-width: 90ch; }
         <div class="field">
           <span class="lbl">Options</span>
           <label class="check"><input type="checkbox" id="exType" checked> Hide stablecoins and wrapped coins</label>
+          <label class="check"><input type="checkbox" id="exLimited"> Hide coins whose older price history is missing (⚠)</label>
           <label class="check"><input type="checkbox" id="showRejected"> Also show removed coins (greyed out)</label>
         </div>
       </div>
@@ -352,10 +353,10 @@ footer { color: var(--muted); font-size: 12.5px; max-width: 90ch; }
   <details class="guide" id="guide">
     <summary>How to read this page / Yeh page kaise padhein</summary>
     <div class="guide-body">
-      <p class="hi"><b>Hinglish:</b> Top 1000 coin mein se jo coin ₹500 se mehenga hai, ya jo apne sabse kam price se sabse upar tak 2000% se zyada chadh chuka hai, woh hata diye jaate hain. Baaki coins ki list yahan hai, sabse achhe score wale upar. Kisi bhi coin par tap karo, poori detail aa jayegi. Price har ghante apne aap update hota hai.</p>
+      <p class="hi"><b>Hinglish:</b> Top 1000 coin mein se jo coin ₹500 se mehenga hai, ya jo kabhi bhi neeche se upar 2000% se zyada chadh chuka hai, woh hata diye jaate hain. Baaki coins ki list yahan hai, sabse achhe score wale upar. Kisi bhi coin par tap karo, poori detail aa jayegi. Price har 3 ghante mein apne aap update hota hai.</p>
       <dl class="glossary">
         <dt>Price</dt><dd>What one coin costs right now, in rupees.</dd>
-        <dt>Biggest jump ever</dt><dd>How much the coin went up from its lowest price ever to its highest price ever. 2000% means it went up about 21 times.</dd>
+        <dt>Biggest jump ever</dt><dd>The biggest rise that really happened: from a low price up to a later high price. 2000% means it went up about 21 times. ⚠ means older price history was not available, so an earlier, bigger jump may be missing.</dd>
         <dt>Below its peak</dt><dd>How far today's price is under its highest price ever. −70% means it is 70% cheaper than its peak.</dd>
         <dt>Last 30 days</dt><dd>How much the price went up or down in the last month.</dd>
         <dt>Score (0–100)</dt><dd>Higher is better to watch. It looks at coin size, how much it is traded, how far below its peak it is, recent trend and price calmness.</dd>
@@ -367,7 +368,7 @@ footer { color: var(--muted); font-size: 12.5px; max-width: 90ch; }
   </details>
 
   <footer>
-    Data from <a href="https://www.coingecko.com" target="_blank" rel="noopener">CoinGecko</a>, refreshed automatically every hour. "New today" compares with yesterday's list.
+    Data from <a href="https://www.coingecko.com" target="_blank" rel="noopener">CoinGecko</a>, refreshed automatically every 3 hours. Price history from CoinGecko and Binance. "New today" compares with yesterday's list.
   </footer>
 </div>
 
@@ -435,13 +436,18 @@ function settings() {
     exType: $("exType").checked,
     q: $("search").value.trim().toLowerCase(),
     showRejected: $("showRejected").checked,
+    exLimited: $("exLimited").checked,
   };
 }
+
+const isPartial = (c) => c.rise_basis === "limited" || c.rise_basis === "pending";
+const monthYr = (d) => (d ? new Date(d + "T00:00:00Z").toLocaleDateString("en-IN", { month: "short", year: "numeric", timeZone: "UTC" }) : "");
 
 function reasonFor(c, s) {
   if (c.price == null || c.market_cap == null || c.max_rise_pct == null) return "No data";
   if (c.price > s.maxPrice) return "Too expensive";
   if (c.max_rise_pct > s.maxRise) return "Already jumped a lot";
+  if (s.exLimited && isPartial(c)) return "History incomplete";
   if ((c.volume_24h || 0) < s.minVol) return "Rarely traded";
   if (s.exType && c.token_type) return "Stablecoin / wrapped";
   if (c.score < s.minScore) return "Low score";
@@ -476,6 +482,7 @@ function render(resetPaging = true) {
     ["Rarely traded", count("Rarely traded"), true],
     ["Stablecoins / wrapped", count("Stablecoin / wrapped"), true],
   ];
+  if (s.exLimited) steps.push(["History incomplete", count("History incomplete"), true]);
   if (s.minScore > 0) steps.push([`Score below ${s.minScore}`, count("Low score"), true]);
   if (count("No data")) steps.push(["No price data", count("No data"), true]);
   $("steps").innerHTML = steps.map(([l, v, m]) =>
@@ -513,7 +520,7 @@ function render(resetPaging = true) {
         <div class="${cls(c.change_30d)}"><span>30 days</span><b>${fmtPct(c.change_30d)}</b></div>
       </div>
       <div class="stats">
-        <div><span>Biggest jump</span><b>${fmtPct(c.max_rise_pct, false)}</b></div>
+        <div><span>Biggest jump</span><b>${fmtPct(c.max_rise_pct, false)}${isPartial(c) ? ' <span title="Older price history missing">⚠</span>' : ""}</b></div>
         <div><span>Below peak</span><b class="${cls(c.from_ath_pct)}">${fmtPct(c.from_ath_pct)}</b></div>
         <div><span>Traded today</span><b>${fmtBig(c.volume_24h)}</b></div>
       </div></button>`;
@@ -543,11 +550,19 @@ function render(resetPaging = true) {
   }).join("");
 }
 
+function riseNote(c) {
+  if (c.rise_basis === "exact") return "";
+  if (c.rise_basis === "history") return `Checked on daily prices since ${monthYr(c.rise_since)}`;
+  if (c.rise_basis === "limited") return `⚠ Price history only from ${monthYr(c.rise_since)}. An older, bigger jump may be missing`;
+  if (c.rise_basis === "pending") return "⚠ Full price history will be checked in the next update";
+  return "";
+}
+
 function plainSummary(c, reason) {
   const name = esc(c.name);
   let t = `${name} costs <b>${fmtPrice(c.price)}</b> today. `;
-  if (c.atl != null && c.ath != null)
-    t += `Its lowest price ever was ${fmtPrice(c.atl)} and its highest was ${fmtPrice(c.ath)}, a jump of <b>${fmtPct(c.max_rise_pct, false)}</b>. `;
+  if (c.max_rise_pct != null && c.rise_low != null && c.rise_high != null)
+    t += `Its biggest rise was <b>${fmtPct(c.max_rise_pct, false)}</b>: it went from ${fmtPrice(c.rise_low)} (${monthYr(c.rise_low_date)}) up to ${fmtPrice(c.rise_high)} (${monthYr(c.rise_high_date)}). `;
   if (c.from_ath_pct != null) t += `Right now it is <b>${Math.abs(Math.round(c.from_ath_pct))}% below</b> its highest price. `;
   if (c.change_30d != null) t += `In the last 30 days it went ${c.change_30d >= 0 ? "up" : "down"} ${fmtPct(Math.abs(c.change_30d), false)}.`;
   if (reason) t += `<br><br>It is <b>not in your watchlist</b>: ${esc(reason.toLowerCase())}.`;
@@ -577,7 +592,8 @@ function openCoin(id) {
       <dt>Price now</dt><dd>${fmtPrice(c.price)}</dd>
       <dt>Highest ever</dt><dd>${fmtPrice(c.ath)} <small>${esc(c.ath_date)}</small></dd>
       <dt>Lowest ever</dt><dd>${fmtPrice(c.atl)} <small>${esc(c.atl_date)}</small></dd>
-      <dt>Biggest jump ever</dt><dd>${fmtPct(c.max_rise_pct, false)}</dd>
+      <dt>Biggest jump ever</dt><dd>${fmtPct(c.max_rise_pct, false)}${isPartial(c) ? " ⚠" : ""}</dd>
+      ${riseNote(c) ? `<dt>About the jump</dt><dd style="font-family:var(--body);text-align:right;max-width:24ch">${riseNote(c)}</dd>` : ""}
       <dt>Below its peak</dt><dd class="${cls(c.from_ath_pct)}">${fmtPct(c.from_ath_pct)}</dd>
       <dt>Last 24 hours</dt><dd class="${cls(c.change_24h)}">${fmtPct(c.change_24h)}</dd>
       <dt>Last 7 days</dt><dd class="${cls(c.change_7d)}">${fmtPct(c.change_7d)}</dd>
@@ -625,7 +641,7 @@ function resetDefaults() {
   $("minVol").value = String(DEFAULTS.min_volume_24h ?? 10000000);
   if (![...$("minVol").options].some((o) => o.value === $("minVol").value)) $("minVol").value = "10000000";
   $("minScore").value = 0; $("search").value = "";
-  $("exType").checked = true; $("showRejected").checked = false;
+  $("exType").checked = true; $("showRejected").checked = false; $("exLimited").checked = false;
   sortKey = "score"; sortDir = -1;
   render();
 }
@@ -641,7 +657,7 @@ function renderChanges(ch) {
 }
 
 /* ---------- Data: refreshed every hour by GitHub Actions (screener.py). The page never calls CoinGecko. ---------- */
-const UPDATE_EVERY_MIN = 60;
+const UPDATE_EVERY_MIN = 180;
 
 function setStatus(state, html) {
   $("dot").className = "dot " + (state === "fresh" ? "on" : state === "stale" ? "busy" : "");
@@ -659,7 +675,7 @@ function showFreshness() {
   const at = DATA.meta.generated_at, min = Math.floor((Date.now() - new Date(at).getTime()) / 60000);
   const fresh = min <= UPDATE_EVERY_MIN + 30;
   setStatus(fresh ? "fresh" : "stale", `Prices updated <b>${agoStr(min)}</b> · ${timeStr(at)}` +
-    (fresh ? ` · updates every hour` : ` · next update is on its way`));
+    (fresh ? ` · updates every 3 hours` : ` · next update is on its way`));
   return min;
 }
 
@@ -696,7 +712,7 @@ async function init() {
 }
 
 /* ---------- Events ---------- */
-["maxPrice", "maxRise", "minVol", "minScore", "search", "exType", "showRejected"].forEach((id) =>
+["maxPrice", "maxRise", "minVol", "minScore", "search", "exType", "showRejected", "exLimited"].forEach((id) =>
   $(id).addEventListener("input", () => render()));
 document.querySelectorAll(".presets").forEach((p) => p.addEventListener("click", (e) => {
   const b = e.target.closest("button"); if (!b) return;

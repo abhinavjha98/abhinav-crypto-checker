@@ -14,5 +14,6 @@
   ],
 
   "request_delay_seconds": 6,
+  "history_fetches_per_run": 150,
   "history_days_to_keep": 90
 }
