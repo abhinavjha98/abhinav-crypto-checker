@@ -160,6 +160,12 @@ details.more[open] summary::before { content: "−"; }
 .card .stats div { display: grid; gap: 2px; min-width: 0; }
 .card .stats span { font-size: 11.5px; color: var(--muted); }
 .card .stats b { font: 600 14px var(--mono); font-variant-numeric: tabular-nums; }
+.card .moves { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+.card .moves div { display: grid; gap: 1px; padding: 6px 8px; border-radius: 8px; background: var(--panel-2); min-width: 0; }
+.card .moves div.up { background: var(--good-soft); }
+.card .moves div.down { background: var(--bad-soft); }
+.card .moves span { font-size: 11px; color: var(--muted); }
+.card .moves b { font: 600 14px var(--mono); font-variant-numeric: tabular-nums; }
 
 /* Table (wide screens only) */
 .tablebox { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; overflow-x: auto; display: none; }
@@ -501,10 +507,15 @@ function render(resetPaging = true) {
         <span class="pill ${sc}">${esc(st)}</span></div>
       <div class="row2"><span class="price">${fmtPrice(c.price)}</span>
         <span class="score">Score <b>${c.score}</b><span class="bar"><i style="width:${c.score}%"></i></span></span></div>
+      <div class="moves">
+        <div class="${cls(c.change_24h)}"><span>24 hours</span><b>${fmtPct(c.change_24h)}</b></div>
+        <div class="${cls(c.change_7d)}"><span>7 days</span><b>${fmtPct(c.change_7d)}</b></div>
+        <div class="${cls(c.change_30d)}"><span>30 days</span><b>${fmtPct(c.change_30d)}</b></div>
+      </div>
       <div class="stats">
         <div><span>Biggest jump</span><b>${fmtPct(c.max_rise_pct, false)}</b></div>
         <div><span>Below peak</span><b class="${cls(c.from_ath_pct)}">${fmtPct(c.from_ath_pct)}</b></div>
-        <div><span>Last 30 days</span><b class="${cls(c.change_30d)}">${fmtPct(c.change_30d)}</b></div>
+        <div><span>Traded today</span><b>${fmtBig(c.volume_24h)}</b></div>
       </div></button>`;
   }).join("");
   $("moreCards").hidden = rows.length <= shown;
