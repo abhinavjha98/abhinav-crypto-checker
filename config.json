@@ -1,0 +1,18 @@
+{
+  "vs_currency": "inr",
+  "top_n": 1000,
+
+  "max_price": 500,
+  "max_rise_pct": 2000,
+  "min_volume_24h": 10000000,
+
+  "exclude_categories": [
+    "stablecoins",
+    "wrapped-tokens",
+    "bridged-tokens",
+    "liquid-staking-tokens"
+  ],
+
+  "request_delay_seconds": 6,
+  "history_days_to_keep": 90
+}
