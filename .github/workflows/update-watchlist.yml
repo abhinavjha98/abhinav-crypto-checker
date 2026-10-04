@@ -2,7 +2,7 @@ name: Update watchlist
 
 on:
   schedule:
-    - cron: "30 0 * * *"   # every day 06:00 IST
+    - cron: "7 * * * *"    # every hour (minute 7, avoids the busy top of the hour)
   workflow_dispatch:         # "Run workflow" button in the Actions tab
 
 permissions:
@@ -37,5 +37,6 @@ jobs:
             echo "No changes"
           else
             git commit -m "Update watchlist data $(date -u +%Y-%m-%d)"
+            git pull --rebase --autostash
             git push
           fi

@@ -3,50 +3,57 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#d97706">
+<meta name="theme-color" content="#0b0b0d">
 <title>Crypto Watchlist Screener</title>
 <meta name="description" content="Top 1000 coins, filtered by price up to ₹500 and biggest-ever jump up to 2000%, ranked by watch score.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600;700&display=swap">
 <style>
-/* Layout: phone-first. Summary funnel → two big filters → coin cards (table on wide screens) → tap for plain-language detail sheet. */
+/* Layout: phone-first. Summary funnel → two big filters → coin cards (table on wide screens) → tap for plain-language detail sheet.
+   Theme: Innovly brand — near-black ground, warm off-white text, signature yellow with soft glow, pill CTAs, mono uppercase labels. Dark-first. */
 :root {
-  --bg: #f3f5f8;
-  --panel: #ffffff;
-  --fg: #141a24;
-  --muted: #5b6577;
-  --line: #dde2ea;
-  --accent: #d97706;
-  --accent-ink: #ffffff;
-  --accent-soft: #fdf1df;
-  --good: #15803d;
-  --good-soft: #e3f4e8;
-  --warn: #a16207;
-  --warn-soft: #fbf3d6;
-  --bad: #b91c1c;
-  --bad-soft: #fbe5e5;
-  --scrim: rgba(10, 14, 20, 0.45);
-  --display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
-  --body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --bg: #0b0b0d;
+  --panel: #121212;
+  --panel-2: #18181a;
+  --fg: #f2f2f0;
+  --muted: #9b9b98;
+  --line: #262624;
+  --accent: #ffc21a;
+  --accent-hover: #ffd45c;
+  --accent-text: #ffc21a;
+  --accent-ink: #0b0b0d;
+  --accent-soft: rgba(255, 194, 26, 0.09);
+  --glow: 0 0 28px rgba(255, 194, 26, 0.35);
+  --good: #4ade80;
+  --good-soft: rgba(74, 222, 128, 0.12);
+  --warn: #ffc21a;
+  --warn-soft: rgba(255, 194, 26, 0.12);
+  --bad: #ff8b8b;
+  --bad-soft: rgba(255, 139, 139, 0.12);
+  --scrim: rgba(0, 0, 0, 0.65);
+  --display: "Schibsted Grotesk", Helvetica, system-ui, sans-serif;
+  --body: "Schibsted Grotesk", Helvetica, system-ui, sans-serif;
   --mono: "JetBrains Mono", ui-monospace, Consolas, monospace;
-  color-scheme: light;
+  color-scheme: dark;
 }
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --bg: #0e131b; --panel: #151c27; --fg: #e6eaf1; --muted: #93a0b5; --line: #263142;
-    --accent: #f59e0b; --accent-ink: #1a1205; --accent-soft: #33260f;
-    --good: #4ade80; --good-soft: #12301f; --warn: #facc15; --warn-soft: #2f2a0f;
-    --bad: #f87171; --bad-soft: #3a1717; --scrim: rgba(0, 0, 0, 0.6);
-    color-scheme: dark;
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) {
+    --bg: #f4f4f2; --panel: #ffffff; --panel-2: #f1f1ef; --fg: #121212; --muted: #62625e; --line: #e3e2dc;
+    --accent: #ffc21a; --accent-hover: #ffd45c; --accent-text: #8a6508; --accent-ink: #0b0b0d;
+    --accent-soft: #fdf4dc; --glow: 0 0 0 transparent;
+    --good: #15803d; --good-soft: #e8f7ee; --warn: #8a6508; --warn-soft: #fdf4dc;
+    --bad: #b91c1c; --bad-soft: #fbe9e9; --scrim: rgba(18, 18, 18, 0.45);
+    color-scheme: light;
   }
 }
-:root[data-theme="dark"] {
-  --bg: #0e131b; --panel: #151c27; --fg: #e6eaf1; --muted: #93a0b5; --line: #263142;
-  --accent: #f59e0b; --accent-ink: #1a1205; --accent-soft: #33260f;
-  --good: #4ade80; --good-soft: #12301f; --warn: #facc15; --warn-soft: #2f2a0f;
-  --bad: #f87171; --bad-soft: #3a1717; --scrim: rgba(0, 0, 0, 0.6);
-  color-scheme: dark;
+:root[data-theme="light"] {
+  --bg: #f4f4f2; --panel: #ffffff; --panel-2: #f1f1ef; --fg: #121212; --muted: #62625e; --line: #e3e2dc;
+  --accent: #ffc21a; --accent-hover: #ffd45c; --accent-text: #8a6508; --accent-ink: #0b0b0d;
+  --accent-soft: #fdf4dc; --glow: 0 0 0 transparent;
+  --good: #15803d; --good-soft: #e8f7ee; --warn: #8a6508; --warn-soft: #fdf4dc;
+  --bad: #b91c1c; --bad-soft: #fbe9e9; --scrim: rgba(18, 18, 18, 0.45);
+  color-scheme: light;
 }
 * { box-sizing: border-box; }
 [hidden] { display: none !important; }
@@ -61,41 +68,42 @@ body {
 body.locked { overflow: hidden; }
 .wrap { max-width: 1400px; margin: 0 auto; display: grid; gap: 16px; }
 :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-a { color: var(--accent); }
+a { color: var(--accent-text); }
 
 /* Header */
 header { display: grid; gap: 12px; }
 .top { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 10px; }
 h1 { font: 800 clamp(24px, 6vw, 38px)/1.05 var(--display); margin: 0; letter-spacing: -0.02em; text-wrap: balance; }
-h1 em { font-style: normal; color: var(--accent); }
+h1 em { font-style: normal; color: var(--accent-text); text-shadow: var(--glow); }
 .sub { color: var(--muted); margin: 0; max-width: 70ch; }
-.live { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; font-size: 13px; color: var(--muted); }
-.dot { width: 9px; height: 9px; border-radius: 50%; background: var(--muted); flex: none; }
+.live { display: flex; align-items: baseline; gap: 8px; flex-wrap: nowrap; font-size: 13px; color: var(--muted); }
+.dot { width: 9px; height: 9px; border-radius: 50%; background: var(--muted); flex: none; align-self: center; }
 .dot.on { background: var(--good); box-shadow: 0 0 0 4px var(--good-soft); }
-.dot.busy { background: var(--warn); }
+.dot.busy { background: var(--accent); box-shadow: 0 0 10px rgba(255, 194, 26, 0.8); }
 .live b { color: var(--fg); font-weight: 600; }
 
 /* Buttons */
-.btn { min-height: 42px; padding: 8px 16px; border-radius: 10px; border: 1px solid var(--line); background: var(--panel); color: var(--fg); font: 500 14px var(--body); cursor: pointer; display: inline-flex; align-items: center; justify-content: center; gap: 6px; }
-.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); font-weight: 600; }
+.btn { min-height: 42px; padding: 8px 18px; border-radius: 999px; border: 1px solid var(--line); background: var(--panel); color: var(--fg); font: 500 14px var(--body); cursor: pointer; display: inline-flex; align-items: center; justify-content: center; gap: 6px; }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); font-weight: 700; box-shadow: var(--glow); }
+.btn.primary:hover { background: var(--accent-hover); filter: none; }
 .btn:hover { filter: brightness(1.04); }
 .btn:disabled { opacity: 0.6; cursor: default; }
 
 /* Summary / funnel */
 .summary { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
 .result { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; padding: 16px; background: var(--accent-soft); }
-.result .big { font: 800 44px/1 var(--display); color: var(--accent); font-variant-numeric: tabular-nums; }
+.result .big { font: 800 48px/1 var(--display); letter-spacing: -0.03em; color: var(--accent-text); text-shadow: var(--glow); font-variant-numeric: tabular-nums; }
 .result .txt { font-size: 15px; }
 .result .txt b { display: block; font-size: 17px; }
 .steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
 .step { padding: 12px 16px; border-top: 1px solid var(--line); border-right: 1px solid var(--line); display: flex; justify-content: space-between; align-items: baseline; gap: 10px; min-width: 0; }
-.step .lbl { font-size: 13px; color: var(--muted); }
+.step .lbl { font: 600 10.5px/1.4 var(--mono); text-transform: uppercase; letter-spacing: 0.12em; color: var(--muted); }
 .step .val { font: 600 18px var(--mono); font-variant-numeric: tabular-nums; }
 .step .val.minus { color: var(--bad); }
 
 /* Changes */
 .changes { display: flex; gap: 8px; align-items: center; overflow-x: auto; padding-bottom: 4px; font-size: 13px; scrollbar-width: thin; }
-.changes .tag { font: 600 11px var(--body); text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); white-space: nowrap; }
+.changes .tag { font: 700 10.5px var(--mono); text-transform: uppercase; letter-spacing: 0.14em; color: var(--muted); white-space: nowrap; }
 .chip { flex: none; border: 1px solid var(--line); background: var(--panel); border-radius: 999px; padding: 6px 12px; cursor: pointer; color: var(--fg); font: 500 13px var(--body); white-space: nowrap; }
 .chip.in { border-color: var(--good); color: var(--good); }
 .chip.out { border-color: var(--bad); color: var(--bad); }
@@ -106,21 +114,21 @@ h1 em { font-style: normal; color: var(--accent); }
 .field { display: grid; gap: 6px; min-width: 0; }
 .field > label, .field > .lbl { font-weight: 600; font-size: 14px; }
 .hint { font-size: 12.5px; color: var(--muted); margin: 0; }
-.inbox { display: flex; align-items: center; border: 1px solid var(--line); border-radius: 10px; background: var(--bg); overflow: hidden; }
+.inbox { display: flex; align-items: center; border: 1px solid var(--line); border-radius: 10px; background: var(--panel-2); overflow: hidden; }
 .inbox span { padding: 0 12px; color: var(--muted); font: 600 15px var(--mono); }
 .inbox input { flex: 1; min-width: 0; border: 0; background: transparent; color: var(--fg); padding: 11px 12px 11px 0; font: 600 17px var(--mono); }
 .inbox input:focus { outline: none; }
 .inbox:focus-within { border-color: var(--accent); }
 .presets { display: flex; gap: 6px; flex-wrap: wrap; }
 .presets button { border: 1px solid var(--line); background: var(--panel); color: var(--fg); border-radius: 999px; padding: 5px 12px; font: 500 13px var(--body); cursor: pointer; min-height: 34px; }
-.presets button.on { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); }
+.presets button.on { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); font-weight: 700; }
 input[type=search], select {
   width: 100%; min-height: 44px; padding: 10px 12px; border-radius: 10px; border: 1px solid var(--line);
-  background: var(--bg); color: var(--fg); font: 15px var(--body);
+  background: var(--panel-2); color: var(--fg); font: 15px var(--body);
 }
 input[type=range] { width: 100%; accent-color: var(--accent); min-height: 30px; }
 details.more { border-top: 1px solid var(--line); padding-top: 12px; }
-details.more summary { cursor: pointer; font-weight: 600; color: var(--accent); min-height: 32px; display: flex; align-items: center; list-style: none; }
+details.more summary { cursor: pointer; font-weight: 600; color: var(--accent-text); min-height: 32px; display: flex; align-items: center; list-style: none; }
 details.more summary::-webkit-details-marker { display: none; }
 details.more summary::before { content: "+"; display: inline-block; width: 20px; font: 600 18px var(--mono); }
 details.more[open] summary::before { content: "−"; }
@@ -139,7 +147,7 @@ details.more[open] summary::before { content: "−"; }
 /* Cards (phones & tablets) */
 .cards { display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); }
 .card { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 14px; display: grid; gap: 10px; cursor: pointer; text-align: left; font: inherit; color: inherit; width: 100%; }
-.card:hover { border-color: var(--accent); }
+.card:hover { border-color: var(--accent); box-shadow: var(--glow); }
 .card.rejected { opacity: 0.6; }
 .card .row1 { display: flex; align-items: center; gap: 10px; min-width: 0; }
 .card .row1 img { width: 34px; height: 34px; border-radius: 50%; flex: none; }
@@ -156,11 +164,11 @@ details.more[open] summary::before { content: "−"; }
 /* Table (wide screens only) */
 .tablebox { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; overflow-x: auto; display: none; }
 table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
-th, td { padding: 10px 12px; text-align: right; white-space: nowrap; border-bottom: 1px solid var(--line); }
-th { position: sticky; top: 0; background: var(--panel); font: 600 12px var(--body); color: var(--muted); cursor: pointer; user-select: none; vertical-align: bottom; }
-th small { display: block; font-weight: 400; font-size: 11px; }
+th, td { padding: 10px 9px; text-align: right; white-space: nowrap; border-bottom: 1px solid var(--line); }
+th { position: sticky; top: 0; background: var(--panel); font: 700 10.5px/1.4 var(--mono); text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); cursor: pointer; user-select: none; vertical-align: bottom; }
+th small { display: block; font-weight: 400; font-size: 10px; text-transform: none; letter-spacing: 0; }
 th:hover { color: var(--fg); }
-th.sorted { color: var(--accent); }
+th.sorted { color: var(--accent-text); }
 th.l, td.l { text-align: left; }
 td { font: 13.5px var(--mono); }
 td.l { font-family: var(--body); }
@@ -183,10 +191,10 @@ tbody tr.rejected { opacity: 0.55; }
 .pill.w { background: var(--good-soft); color: var(--good); }
 .pill.m { background: var(--warn-soft); color: var(--warn); }
 .pill.x { background: var(--bad-soft); color: var(--bad); }
-.pill.r { background: var(--bg); color: var(--muted); border: 1px solid var(--line); }
+.pill.r { background: var(--panel-2); color: var(--muted); border: 1px solid var(--line); }
 .score { display: inline-flex; align-items: center; gap: 8px; }
 .bar { width: 52px; height: 6px; background: var(--line); border-radius: 3px; overflow: hidden; }
-.bar i { display: block; height: 100%; background: var(--accent); }
+.bar i { display: block; height: 100%; background: var(--accent); box-shadow: 0 0 8px rgba(255, 194, 26, 0.5); }
 .empty { padding: 32px 16px; text-align: center; color: var(--muted); background: var(--panel); border: 1px dashed var(--line); border-radius: 14px; }
 .morebtn { justify-self: center; }
 
@@ -214,12 +222,12 @@ aside.sheet { position: fixed; z-index: 6; background: var(--panel); overflow-y:
 .sheet-head img { width: 40px; height: 40px; border-radius: 50%; }
 .sheet h2 { font: 800 24px/1.1 var(--display); margin: 0; flex: 1; min-width: 0; }
 .sheet h2 small { display: block; font: 13px var(--mono); color: var(--muted); margin-top: 4px; }
-.closebtn { width: 44px; height: 44px; border-radius: 50%; border: 1px solid var(--line); background: var(--bg); color: var(--fg); font-size: 22px; line-height: 1; cursor: pointer; flex: none; }
-.plain { font-size: 15.5px; line-height: 1.6; margin: 0; background: var(--bg); border-radius: 12px; padding: 12px 14px; }
+.closebtn { width: 44px; height: 44px; border-radius: 50%; border: 1px solid var(--line); background: var(--panel-2); color: var(--fg); font-size: 22px; line-height: 1; cursor: pointer; flex: none; }
+.plain { font-size: 15.5px; line-height: 1.6; margin: 0; background: var(--accent-soft); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; }
 .kv { display: grid; grid-template-columns: 1fr auto; gap: 8px 12px; font-size: 14px; margin: 0; }
 .kv dt { color: var(--muted); }
 .kv dd { margin: 0; text-align: right; font-family: var(--mono); }
-.sect { font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); border-top: 1px solid var(--line); padding-top: 14px; }
+.sect { font: 700 11px var(--mono); text-transform: uppercase; letter-spacing: 0.14em; color: var(--accent-text); border-top: 1px solid var(--line); padding-top: 14px; }
 .bd { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr) 48px; gap: 8px 10px; align-items: center; font-size: 13.5px; }
 .bd .track { height: 8px; background: var(--line); border-radius: 4px; overflow: hidden; }
 .bd .track i { display: block; height: 100%; background: var(--accent); }
@@ -306,7 +314,7 @@ footer { color: var(--muted); font-size: 12.5px; max-width: 90ch; }
 
     <div class="filter-actions">
       <button class="btn" id="reset" type="button">Reset to ₹500 / 2000%</button>
-      <button class="btn" id="csv" type="button">Download list for Excel</button>
+      <button class="btn primary" id="csv" type="button">Download list for Excel</button>
     </div>
   </section>
 
@@ -338,7 +346,7 @@ footer { color: var(--muted); font-size: 12.5px; max-width: 90ch; }
   <details class="guide" id="guide">
     <summary>How to read this page / Yeh page kaise padhein</summary>
     <div class="guide-body">
-      <p class="hi"><b>Hinglish:</b> Top 1000 coin mein se jo coin ₹500 se mehenga hai, ya jo apne sabse kam price se sabse upar tak 2000% se zyada chadh chuka hai, woh hata diye jaate hain. Baaki coins ki list yahan hai, sabse achhe score wale upar. Kisi bhi coin par tap karo, poori detail aa jayegi. Page kholte hi live price aata hai.</p>
+      <p class="hi"><b>Hinglish:</b> Top 1000 coin mein se jo coin ₹500 se mehenga hai, ya jo apne sabse kam price se sabse upar tak 2000% se zyada chadh chuka hai, woh hata diye jaate hain. Baaki coins ki list yahan hai, sabse achhe score wale upar. Kisi bhi coin par tap karo, poori detail aa jayegi. Price har ghante apne aap update hota hai.</p>
       <dl class="glossary">
         <dt>Price</dt><dd>What one coin costs right now, in rupees.</dd>
         <dt>Biggest jump ever</dt><dd>How much the coin went up from its lowest price ever to its highest price ever. 2000% means it went up about 21 times.</dd>
@@ -353,7 +361,7 @@ footer { color: var(--muted); font-size: 12.5px; max-width: 90ch; }
   </details>
 
   <footer>
-    Prices load live from <a href="https://www.coingecko.com" target="_blank" rel="noopener">CoinGecko</a> every time you open this page. If CoinGecko is busy, the page shows the last saved daily data.
+    Data from <a href="https://www.coingecko.com" target="_blank" rel="noopener">CoinGecko</a>, refreshed automatically every hour. "New today" compares with yesterday's list.
   </footer>
 </div>
 
@@ -621,143 +629,59 @@ function renderChanges(ch) {
   $("changes").hidden = false;
 }
 
-/* ---------- Live data: same metrics + score as screener.py ---------- */
-const API = "https://api.coingecko.com/api/v3/coins/markets";
-const LIVE_KEY = "cws-live-v1";
-const LIVE_REUSE_MS = 60 * 1000; // CoinGecko itself caches ~60s, so a quicker reload reuses the last fetch
-const STABLE_SYMBOLS = new Set(["usdt", "usdc", "dai", "busd", "tusd", "usdp", "fdusd", "pyusd", "usde", "usdd", "frax", "gusd", "lusd", "eurc", "eurs", "usds", "rlusd", "usd0", "usdy"]);
-const WRAPPED_PREFIXES = ["wrapped ", "bridged ", "staked ", "liquid staked "];
-let TYPE_MAP = {}, liveBusy = false;
+/* ---------- Data: refreshed every hour by GitHub Actions (screener.py). The page never calls CoinGecko. ---------- */
+const UPDATE_EVERY_MIN = 60;
 
-const clamp = (x, lo = 0, hi = 1) => Math.max(lo, Math.min(hi, x));
-const num = (v) => (v == null || isNaN(+v) ? null : +v);
-const daysSince = (iso) => (iso ? Math.floor((Date.now() - new Date(iso).getTime()) / 864e5) : null);
-const r1 = (x) => Math.round(x * 10) / 10;
-
-function scoreRow(c) {
-  const topN = DEFAULTS.top_n || 1000, maxRise = DEFAULTS.max_rise_pct || 2000, b = {};
-  b.market_cap = 20 * clamp(1 - (c.rank - 1) / topN);
-  b.liquidity = 20 * clamp((c.liquidity_ratio || 0) / 0.10);
-  const d = -(c.from_ath_pct || 0);
-  b.ath_distance = d >= 50 && d <= 85 ? 15 : (d >= 30 && d < 50) || (d > 85 && d <= 95) ? 10 : d >= 10 && d < 30 ? 5 : 2;
-  b.momentum_30d = c.change_30d != null ? 15 * clamp((c.change_30d + 20) / 50) : 5;
-  b.historical_upside = 15 * clamp(1 - c.max_rise_pct / maxRise);
-  b.stability = c.change_24h != null ? 10 * (1 - clamp(Math.abs(c.change_24h) / 20)) : 5;
-  const complete = c.change_24h != null && c.change_7d != null && c.change_30d != null;
-  b.data_quality = 3 * clamp((c.history_days || 0) / 730) + (complete ? 2 : 0);
-  for (const k in b) b[k] = r1(b[k]);
-  return [Math.round(Object.values(b).reduce((s, v) => s + v, 0)), b];
-}
-
-function tokenType(coin) {
-  if (TYPE_MAP[coin.id]) return TYPE_MAP[coin.id];
-  if (STABLE_SYMBOLS.has((coin.symbol || "").toLowerCase())) return "stablecoins";
-  const n = (coin.name || "").toLowerCase();
-  return WRAPPED_PREFIXES.some((p) => n.startsWith(p)) ? "wrapped-tokens" : null;
-}
-
-function buildRow(coin, i) {
-  const price = num(coin.current_price), ath = num(coin.ath), atl = num(coin.atl);
-  const mcap = num(coin.market_cap), vol = num(coin.total_volume);
-  const maxRise = ath && atl > 0 ? (ath / atl - 1) * 100 : null;
-  const fromAth = price != null && ath ? (price / ath - 1) * 100 : null;
-  const ages = [daysSince(coin.ath_date), daysSince(coin.atl_date)].filter((x) => x != null);
-  const r = {
-    id: coin.id, symbol: (coin.symbol || "").toUpperCase(), name: coin.name, image: coin.image,
-    rank: coin.market_cap_rank || i + 1, price, market_cap: mcap, volume_24h: vol,
-    ath, ath_date: (coin.ath_date || "").slice(0, 10), atl, atl_date: (coin.atl_date || "").slice(0, 10),
-    max_rise_pct: maxRise != null ? Math.round(maxRise * 100) / 100 : null,
-    from_ath_pct: fromAth != null ? Math.round(fromAth * 100) / 100 : null,
-    liquidity_ratio: vol && mcap ? Math.round((vol / mcap) * 1e4) / 1e4 : null,
-    change_24h: num(coin.price_change_percentage_24h_in_currency),
-    change_7d: num(coin.price_change_percentage_7d_in_currency),
-    change_30d: num(coin.price_change_percentage_30d_in_currency),
-    history_days: ages.length ? Math.max(...ages) : null,
-    token_type: tokenType(coin),
-  };
-  r.young = r.history_days != null && r.history_days < 365;
-  [r.score, r.score_breakdown] = maxRise != null && fromAth != null ? scoreRow(r) : [0, {}];
-  return r;
-}
-
-const wait = (ms) => new Promise((res) => setTimeout(res, ms));
-async function fetchPage(page) {
-  const url = `${API}?vs_currency=${DATA.meta.currency || "inr"}&order=market_cap_desc&per_page=250&page=${page}&price_change_percentage=24h,7d,30d&sparkline=false`;
-  for (let attempt = 1; attempt <= 3; attempt++) {
-    const res = await fetch(url).catch(() => null);
-    if (res && res.ok) return res.json();
-    if (attempt < 3) {
-      setStatus("busy", `Getting live prices… server busy, trying again in ${15 * attempt} sec`);
-      await wait(15000 * attempt);
-    }
-  }
-  throw new Error("CoinGecko did not respond");
-}
-
-function setStatus(state, html, withButton = false) {
-  $("dot").className = "dot " + (state === "live" ? "on" : state === "busy" ? "busy" : "");
+function setStatus(state, html) {
+  $("dot").className = "dot " + (state === "fresh" ? "on" : state === "stale" ? "busy" : "");
   $("liveText").innerHTML = html;
-  const old = $("refreshBtn"); if (old) old.remove();
-  if (withButton) {
-    const b = document.createElement("button");
-    b.className = "btn"; b.id = "refreshBtn"; b.type = "button"; b.textContent = "↻ Refresh prices";
-    b.onclick = () => liveRefresh(true);
-    $("live").appendChild(b);
-  }
 }
 const timeStr = (iso) => new Date(iso).toLocaleString("en-IN", { day: "numeric", month: "short", hour: "numeric", minute: "2-digit" });
-
-function applyLive(raw, fetchedAt) {
-  DATA.coins = raw.slice(0, DEFAULTS.top_n || 1000).map(buildRow);
-  DATA.meta.generated_at = fetchedAt;
-  render(false);
-  setStatus("live", `Live prices · <b>${timeStr(fetchedAt)}</b>`, true);
+function agoStr(min) {
+  if (min < 1) return "just now";
+  if (min < 60) return `${min} min ago`;
+  const h = Math.floor(min / 60);
+  return h < 24 ? `${h} hr ${min % 60} min ago` : `${Math.floor(h / 24)} day${h >= 48 ? "s" : ""} ago`;
+}
+function showFreshness() {
+  if (!DATA) return;
+  const at = DATA.meta.generated_at, min = Math.floor((Date.now() - new Date(at).getTime()) / 60000);
+  const fresh = min <= UPDATE_EVERY_MIN + 30;
+  setStatus(fresh ? "fresh" : "stale", `Prices updated <b>${agoStr(min)}</b> · ${timeStr(at)}` +
+    (fresh ? ` · updates every hour` : ` · next update is on its way`));
+  return min;
 }
 
-async function liveRefresh(force = false) {
-  if (liveBusy) return;
-  try {
-    const cached = JSON.parse(localStorage.getItem(LIVE_KEY) || "null");
-    if (!force && cached && Date.now() - new Date(cached.at).getTime() < LIVE_REUSE_MS) {
-      applyLive(cached.raw, cached.at);
-      return;
-    }
-  } catch (e) { /* storage unavailable: just fetch */ }
-
-  liveBusy = true;
-  const savedAt = DATA.meta.generated_at;
-  try {
-    const pages = Math.ceil((DEFAULTS.top_n || 1000) / 250), raw = [];
-    for (let p = 1; p <= pages; p++) {
-      setStatus("busy", `Getting live prices… ${p} of ${pages}`);
-      raw.push(...(await fetchPage(p)));
-      if (p < pages) await wait(1200);
-    }
-    const at = new Date().toISOString();
-    try { localStorage.setItem(LIVE_KEY, JSON.stringify({ at, raw })); } catch (e) { /* ignore */ }
-    applyLive(raw, at);
-  } catch (e) {
-    setStatus("", `Live prices not available right now. Showing prices from <b>${timeStr(savedAt)}</b>`, true);
-  } finally {
-    liveBusy = false;
-  }
+async function loadData() {
+  const res = await fetch("data/coins.json?t=" + Date.now(), { cache: "no-store" });
+  if (!res.ok) throw new Error("HTTP " + res.status);
+  return res.json();
 }
 
 async function init() {
   try {
-    const res = await fetch("data/coins.json", { cache: "no-store" });
-    if (!res.ok) throw new Error("HTTP " + res.status);
-    DATA = await res.json();
+    DATA = await loadData();
   } catch (e) {
-    setStatus("", "Could not load the coin list. Please refresh the page.", false);
+    setStatus("", "Could not load the coin list. Please refresh the page.");
     return;
   }
   DEFAULTS = DATA.meta.defaults || {};
-  DATA.coins.forEach((c) => { if (c.token_type) TYPE_MAP[c.id] = c.token_type; });
-  setStatus("", `Saved prices · <b>${timeStr(DATA.meta.generated_at)}</b>`);
+  showFreshness();
   renderChanges(DATA.changes);
-  resetDefaults();               // show saved daily data instantly
-  liveRefresh();                 // then replace it with live prices
+  resetDefaults();
+  // While the page stays open: keep the "updated X min ago" text current, and pick up the next hourly file.
+  setInterval(async () => {
+    const min = showFreshness();
+    if (min > UPDATE_EVERY_MIN + 5) {
+      try {
+        const next = await loadData();
+        if (next.meta.generated_at !== DATA.meta.generated_at) {
+          DATA = next; DEFAULTS = DATA.meta.defaults || {};
+          renderChanges(DATA.changes); render(false); showFreshness();
+        }
+      } catch (e) { /* try again next minute */ }
+    }
+  }, 60 * 1000);
 }
 
 /* ---------- Events ---------- */
