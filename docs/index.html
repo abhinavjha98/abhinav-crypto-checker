@@ -3,20 +3,22 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#d97706">
 <title>Crypto Watchlist Screener</title>
-<meta name="description" content="Top 1000 coins by market cap, filtered by price ≤ ₹500 and max historical rise ≤ 2000%, ranked by watch score.">
+<meta name="description" content="Top 1000 coins, filtered by price up to ₹500 and biggest-ever jump up to 2000%, ranked by watch score.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap">
 <style>
-/* Layout: trading-desk screener — filter funnel on top, controls bar, dense sortable table, detail drawer. */
+/* Layout: phone-first. Summary funnel → two big filters → coin cards (table on wide screens) → tap for plain-language detail sheet. */
 :root {
   --bg: #f3f5f8;
   --panel: #ffffff;
   --fg: #141a24;
   --muted: #5b6577;
   --line: #dde2ea;
-  --accent: #d97706;         /* saffron */
+  --accent: #d97706;
+  --accent-ink: #ffffff;
   --accent-soft: #fdf1df;
   --good: #15803d;
   --good-soft: #e3f4e8;
@@ -24,6 +26,7 @@
   --warn-soft: #fbf3d6;
   --bad: #b91c1c;
   --bad-soft: #fbe5e5;
+  --scrim: rgba(10, 14, 20, 0.45);
   --display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
   --body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
   --mono: "JetBrains Mono", ui-monospace, Consolas, monospace;
@@ -31,220 +34,356 @@
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #0e131b; --panel: #151c27; --fg: #e6eaf1; --muted: #8f9bb0; --line: #263142;
-    --accent: #f59e0b; --accent-soft: #33260f;
+    --bg: #0e131b; --panel: #151c27; --fg: #e6eaf1; --muted: #93a0b5; --line: #263142;
+    --accent: #f59e0b; --accent-ink: #1a1205; --accent-soft: #33260f;
     --good: #4ade80; --good-soft: #12301f; --warn: #facc15; --warn-soft: #2f2a0f;
-    --bad: #f87171; --bad-soft: #3a1717;
+    --bad: #f87171; --bad-soft: #3a1717; --scrim: rgba(0, 0, 0, 0.6);
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
-  --bg: #0e131b; --panel: #151c27; --fg: #e6eaf1; --muted: #8f9bb0; --line: #263142;
-  --accent: #f59e0b; --accent-soft: #33260f;
+  --bg: #0e131b; --panel: #151c27; --fg: #e6eaf1; --muted: #93a0b5; --line: #263142;
+  --accent: #f59e0b; --accent-ink: #1a1205; --accent-soft: #33260f;
   --good: #4ade80; --good-soft: #12301f; --warn: #facc15; --warn-soft: #2f2a0f;
-  --bad: #f87171; --bad-soft: #3a1717;
+  --bad: #f87171; --bad-soft: #3a1717; --scrim: rgba(0, 0, 0, 0.6);
   color-scheme: dark;
 }
 * { box-sizing: border-box; }
+[hidden] { display: none !important; }
 html, body { margin: 0; }
 body {
   background: var(--bg); color: var(--fg);
-  font: 14px/1.5 var(--body);
+  font: 15px/1.5 var(--body);
   padding: 0 16px;
-  padding-block: 24px 48px;
+  padding-block: calc(16px + env(safe-area-inset-top, 0px)) calc(40px + env(safe-area-inset-bottom, 0px));
+  -webkit-text-size-adjust: 100%;
 }
-.wrap { max-width: 1400px; margin: 0 auto; display: grid; gap: 20px; }
+body.locked { overflow: hidden; }
+.wrap { max-width: 1400px; margin: 0 auto; display: grid; gap: 16px; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+a { color: var(--accent); }
 
-header { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 12px; }
-h1 { font: 800 clamp(26px, 4vw, 38px)/1.05 var(--display); margin: 0; letter-spacing: -0.02em; text-wrap: balance; }
+/* Header */
+header { display: grid; gap: 12px; }
+.top { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 10px; }
+h1 { font: 800 clamp(24px, 6vw, 38px)/1.05 var(--display); margin: 0; letter-spacing: -0.02em; text-wrap: balance; }
 h1 em { font-style: normal; color: var(--accent); }
-.sub { color: var(--muted); margin: 6px 0 0; max-width: 70ch; }
-.updated { font: 12px var(--mono); color: var(--muted); text-align: right; }
-.updated b { color: var(--fg); font-weight: 600; }
+.sub { color: var(--muted); margin: 0; max-width: 70ch; }
+.live { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; font-size: 13px; color: var(--muted); }
+.dot { width: 9px; height: 9px; border-radius: 50%; background: var(--muted); flex: none; }
+.dot.on { background: var(--good); box-shadow: 0 0 0 4px var(--good-soft); }
+.dot.busy { background: var(--warn); }
+.live b { color: var(--fg); font-weight: 600; }
 
-/* Funnel */
-.funnel { display: flex; flex-wrap: wrap; align-items: stretch; gap: 0; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
-.step { flex: 1 1 130px; padding: 14px 16px; border-right: 1px solid var(--line); min-width: 0; }
-.step:last-child { border-right: 0; background: var(--accent-soft); }
-.step .lbl { font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); }
-.step .val { font: 600 24px/1.2 var(--mono); font-variant-numeric: tabular-nums; }
+/* Buttons */
+.btn { min-height: 42px; padding: 8px 16px; border-radius: 10px; border: 1px solid var(--line); background: var(--panel); color: var(--fg); font: 500 14px var(--body); cursor: pointer; display: inline-flex; align-items: center; justify-content: center; gap: 6px; }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); font-weight: 600; }
+.btn:hover { filter: brightness(1.04); }
+.btn:disabled { opacity: 0.6; cursor: default; }
+
+/* Summary / funnel */
+.summary { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
+.result { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; padding: 16px; background: var(--accent-soft); }
+.result .big { font: 800 44px/1 var(--display); color: var(--accent); font-variant-numeric: tabular-nums; }
+.result .txt { font-size: 15px; }
+.result .txt b { display: block; font-size: 17px; }
+.steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
+.step { padding: 12px 16px; border-top: 1px solid var(--line); border-right: 1px solid var(--line); display: flex; justify-content: space-between; align-items: baseline; gap: 10px; min-width: 0; }
+.step .lbl { font-size: 13px; color: var(--muted); }
+.step .val { font: 600 18px var(--mono); font-variant-numeric: tabular-nums; }
 .step .val.minus { color: var(--bad); }
-.step:last-child .val { color: var(--accent); font-size: 30px; }
 
 /* Changes */
-.changes { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; font-size: 13px; }
-.changes .tag { font: 600 11px var(--mono); text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); margin-right: 4px; }
-.chip { border: 1px solid var(--line); background: var(--panel); border-radius: 999px; padding: 2px 10px; cursor: pointer; color: var(--fg); font: inherit; }
+.changes { display: flex; gap: 8px; align-items: center; overflow-x: auto; padding-bottom: 4px; font-size: 13px; scrollbar-width: thin; }
+.changes .tag { font: 600 11px var(--body); text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); white-space: nowrap; }
+.chip { flex: none; border: 1px solid var(--line); background: var(--panel); border-radius: 999px; padding: 6px 12px; cursor: pointer; color: var(--fg); font: 500 13px var(--body); white-space: nowrap; }
 .chip.in { border-color: var(--good); color: var(--good); }
 .chip.out { border-color: var(--bad); color: var(--bad); }
 
-/* Controls */
-.controls { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 14px 18px; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 16px; }
-.ctl { display: grid; gap: 4px; min-width: 0; }
-.ctl label, .ctl .lbl { font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); display: flex; justify-content: space-between; gap: 8px; }
-.ctl output { font: 600 12px var(--mono); color: var(--fg); text-transform: none; letter-spacing: 0; }
-input[type=number], input[type=search], select {
-  width: 100%; padding: 8px 10px; border-radius: 6px; border: 1px solid var(--line);
-  background: var(--bg); color: var(--fg); font: 13px var(--body);
+/* Filters */
+.filters { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 16px; display: grid; gap: 14px; }
+.main-filters { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; }
+.field { display: grid; gap: 6px; min-width: 0; }
+.field > label, .field > .lbl { font-weight: 600; font-size: 14px; }
+.hint { font-size: 12.5px; color: var(--muted); margin: 0; }
+.inbox { display: flex; align-items: center; border: 1px solid var(--line); border-radius: 10px; background: var(--bg); overflow: hidden; }
+.inbox span { padding: 0 12px; color: var(--muted); font: 600 15px var(--mono); }
+.inbox input { flex: 1; min-width: 0; border: 0; background: transparent; color: var(--fg); padding: 11px 12px 11px 0; font: 600 17px var(--mono); }
+.inbox input:focus { outline: none; }
+.inbox:focus-within { border-color: var(--accent); }
+.presets { display: flex; gap: 6px; flex-wrap: wrap; }
+.presets button { border: 1px solid var(--line); background: var(--panel); color: var(--fg); border-radius: 999px; padding: 5px 12px; font: 500 13px var(--body); cursor: pointer; min-height: 34px; }
+.presets button.on { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); }
+input[type=search], select {
+  width: 100%; min-height: 44px; padding: 10px 12px; border-radius: 10px; border: 1px solid var(--line);
+  background: var(--bg); color: var(--fg); font: 15px var(--body);
 }
-input[type=range] { width: 100%; accent-color: var(--accent); }
-.checks { display: grid; gap: 6px; font-size: 13px; }
-.checks label { display: flex; gap: 8px; align-items: center; text-transform: none; letter-spacing: 0; color: var(--fg); font-size: 13px; }
-.checks input { accent-color: var(--accent); }
-.btns { display: flex; gap: 8px; align-items: end; flex-wrap: wrap; }
-button.btn { padding: 8px 14px; border-radius: 6px; border: 1px solid var(--line); background: var(--panel); color: var(--fg); font: 500 13px var(--body); cursor: pointer; }
-button.btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
-button.btn:hover { filter: brightness(1.05); }
-:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+input[type=range] { width: 100%; accent-color: var(--accent); min-height: 30px; }
+details.more { border-top: 1px solid var(--line); padding-top: 12px; }
+details.more summary { cursor: pointer; font-weight: 600; color: var(--accent); min-height: 32px; display: flex; align-items: center; list-style: none; }
+details.more summary::-webkit-details-marker { display: none; }
+details.more summary::before { content: "+"; display: inline-block; width: 20px; font: 600 18px var(--mono); }
+details.more[open] summary::before { content: "−"; }
+.more-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; padding-top: 12px; }
+.check { display: flex; gap: 10px; align-items: center; min-height: 40px; font-size: 14px; cursor: pointer; }
+.check input { width: 20px; height: 20px; accent-color: var(--accent); flex: none; }
+.filter-actions { display: flex; gap: 8px; flex-wrap: wrap; }
 
-/* Table */
-.tablebox { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; overflow-x: auto; }
-.resultbar { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; padding: 12px 16px; border-bottom: 1px solid var(--line); font-size: 13px; color: var(--muted); }
-.resultbar b { color: var(--fg); }
-table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; min-width: 1100px; }
-th, td { padding: 9px 12px; text-align: right; white-space: nowrap; border-bottom: 1px solid var(--line); }
-th { position: sticky; top: 0; background: var(--panel); font: 600 11px var(--body); text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); cursor: pointer; user-select: none; }
+/* List header */
+.listhead { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 10px; }
+.listhead h2 { font: 800 22px/1.1 var(--display); margin: 0; }
+.listhead .count { color: var(--muted); font-size: 14px; }
+.sortbox { display: flex; align-items: center; gap: 8px; font-size: 14px; color: var(--muted); }
+.sortbox select { width: auto; min-height: 40px; padding: 6px 10px; }
+
+/* Cards (phones & tablets) */
+.cards { display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 14px; display: grid; gap: 10px; cursor: pointer; text-align: left; font: inherit; color: inherit; width: 100%; }
+.card:hover { border-color: var(--accent); }
+.card.rejected { opacity: 0.6; }
+.card .row1 { display: flex; align-items: center; gap: 10px; min-width: 0; }
+.card .row1 img { width: 34px; height: 34px; border-radius: 50%; flex: none; }
+.card .who { flex: 1; min-width: 0; }
+.card .nm { font-weight: 600; font-size: 16px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display: block; }
+.card .sym { color: var(--muted); font: 12px var(--mono); }
+.card .row2 { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+.card .price { font: 600 22px var(--mono); font-variant-numeric: tabular-nums; }
+.card .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; border-top: 1px solid var(--line); padding-top: 10px; }
+.card .stats div { display: grid; gap: 2px; min-width: 0; }
+.card .stats span { font-size: 11.5px; color: var(--muted); }
+.card .stats b { font: 600 14px var(--mono); font-variant-numeric: tabular-nums; }
+
+/* Table (wide screens only) */
+.tablebox { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; overflow-x: auto; display: none; }
+table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+th, td { padding: 10px 12px; text-align: right; white-space: nowrap; border-bottom: 1px solid var(--line); }
+th { position: sticky; top: 0; background: var(--panel); font: 600 12px var(--body); color: var(--muted); cursor: pointer; user-select: none; vertical-align: bottom; }
+th small { display: block; font-weight: 400; font-size: 11px; }
 th:hover { color: var(--fg); }
 th.sorted { color: var(--accent); }
 th.l, td.l { text-align: left; }
-td { font: 13px var(--mono); }
+td { font: 13.5px var(--mono); }
 td.l { font-family: var(--body); }
 tbody tr { cursor: pointer; }
 tbody tr:hover { background: var(--accent-soft); }
 tbody tr.rejected { opacity: 0.55; }
 .coin { display: flex; align-items: center; gap: 10px; }
-.coin img { width: 22px; height: 22px; border-radius: 50%; }
+.coin img { width: 24px; height: 24px; border-radius: 50%; }
 .coin .nm { font-weight: 600; }
 .coin .sym { color: var(--muted); font: 12px var(--mono); }
+@media (min-width: 1100px) {
+  .tablebox { display: block; }
+  .cards, .sortbox, .morebtn { display: none !important; }
+}
+
 .new { font: 600 10px var(--mono); color: var(--good); border: 1px solid var(--good); border-radius: 4px; padding: 0 4px; margin-left: 4px; }
 .up { color: var(--good); } .down { color: var(--bad); }
-.pill { display: inline-block; font: 600 11px var(--body); padding: 2px 9px; border-radius: 999px; }
+.pill { display: inline-block; font: 600 12px var(--body); padding: 4px 10px; border-radius: 999px; white-space: nowrap; }
 .pill.s { background: var(--good-soft); color: var(--good); }
-.pill.w { background: var(--good-soft); color: var(--good); opacity: 0.85; }
+.pill.w { background: var(--good-soft); color: var(--good); }
 .pill.m { background: var(--warn-soft); color: var(--warn); }
 .pill.x { background: var(--bad-soft); color: var(--bad); }
 .pill.r { background: var(--bg); color: var(--muted); border: 1px solid var(--line); }
 .score { display: inline-flex; align-items: center; gap: 8px; }
-.bar { width: 48px; height: 6px; background: var(--line); border-radius: 3px; overflow: hidden; }
+.bar { width: 52px; height: 6px; background: var(--line); border-radius: 3px; overflow: hidden; }
 .bar i { display: block; height: 100%; background: var(--accent); }
-.empty { padding: 40px; text-align: center; color: var(--muted); }
+.empty { padding: 32px 16px; text-align: center; color: var(--muted); background: var(--panel); border: 1px dashed var(--line); border-radius: 14px; }
+.morebtn { justify-self: center; }
 
-/* Drawer */
-.scrim { position: fixed; inset: 0; background: rgba(0,0,0,0.35); z-index: 5; }
-aside.drawer { position: fixed; top: 0; right: 0; bottom: 0; width: min(420px, 100%); background: var(--panel); border-left: 1px solid var(--line); z-index: 6; overflow-y: auto; padding: 24px 20px; padding-top: calc(24px + env(safe-area-inset-top, 0px)); display: grid; gap: 18px; align-content: start; }
-.drawer h2 { font: 800 26px/1.1 var(--display); margin: 0; display: flex; gap: 10px; align-items: center; }
-.drawer h2 img { width: 32px; height: 32px; border-radius: 50%; }
-.kv { display: grid; grid-template-columns: 1fr auto; gap: 6px 12px; font-size: 13px; }
+/* Guide */
+details.guide { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 4px 16px; }
+details.guide summary { cursor: pointer; font-weight: 600; min-height: 48px; display: flex; align-items: center; }
+.guide-body { display: grid; gap: 12px; padding-bottom: 16px; max-width: 75ch; }
+.guide-body p { margin: 0; }
+.glossary { display: grid; grid-template-columns: max-content 1fr; gap: 8px 14px; margin: 0; }
+.glossary dt { font-weight: 600; }
+.glossary dd { margin: 0; color: var(--muted); }
+.hi { background: var(--accent-soft); border-radius: 10px; padding: 12px 14px; }
+
+/* Detail sheet */
+.scrim { position: fixed; inset: 0; background: var(--scrim); z-index: 5; }
+aside.sheet { position: fixed; z-index: 6; background: var(--panel); overflow-y: auto; display: grid; gap: 16px; align-content: start;
+  left: 0; right: 0; bottom: 0; max-height: 88vh; border-radius: 18px 18px 0 0; border-top: 1px solid var(--line);
+  padding: 8px 18px calc(24px + env(safe-area-inset-bottom, 0px)); }
+.grip { width: 44px; height: 5px; border-radius: 3px; background: var(--line); justify-self: center; }
+@media (min-width: 760px) {
+  aside.sheet { left: auto; top: 0; max-height: none; width: 440px; border-radius: 0; border-top: 0; border-left: 1px solid var(--line); padding: calc(20px + env(safe-area-inset-top, 0px)) 22px 24px; }
+  .grip { display: none; }
+}
+.sheet-head { display: flex; align-items: center; gap: 12px; }
+.sheet-head img { width: 40px; height: 40px; border-radius: 50%; }
+.sheet h2 { font: 800 24px/1.1 var(--display); margin: 0; flex: 1; min-width: 0; }
+.sheet h2 small { display: block; font: 13px var(--mono); color: var(--muted); margin-top: 4px; }
+.closebtn { width: 44px; height: 44px; border-radius: 50%; border: 1px solid var(--line); background: var(--bg); color: var(--fg); font-size: 22px; line-height: 1; cursor: pointer; flex: none; }
+.plain { font-size: 15.5px; line-height: 1.6; margin: 0; background: var(--bg); border-radius: 12px; padding: 12px 14px; }
+.kv { display: grid; grid-template-columns: 1fr auto; gap: 8px 12px; font-size: 14px; margin: 0; }
 .kv dt { color: var(--muted); }
 .kv dd { margin: 0; text-align: right; font-family: var(--mono); }
-.sect { font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); border-top: 1px solid var(--line); padding-top: 14px; }
-.bd { display: grid; grid-template-columns: 130px 1fr 52px; gap: 6px 10px; align-items: center; font-size: 13px; }
+.sect { font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); border-top: 1px solid var(--line); padding-top: 14px; }
+.bd { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr) 48px; gap: 8px 10px; align-items: center; font-size: 13.5px; }
 .bd .track { height: 8px; background: var(--line); border-radius: 4px; overflow: hidden; }
 .bd .track i { display: block; height: 100%; background: var(--accent); }
 .bd span:last-child { font-family: var(--mono); text-align: right; }
-.close { justify-self: end; }
-.drawer a { color: var(--accent); }
 
-footer { color: var(--muted); font-size: 12px; max-width: 90ch; }
-footer code { font-family: var(--mono); }
-@media (prefers-reduced-motion: no-preference) { aside.drawer { animation: slide 0.18s ease-out; } }
-@keyframes slide { from { transform: translateX(30px); opacity: 0.6; } }
+footer { color: var(--muted); font-size: 12.5px; max-width: 90ch; }
+@media (prefers-reduced-motion: no-preference) {
+  aside.sheet { animation: rise 0.2s ease-out; }
+  @media (min-width: 760px) { aside.sheet { animation-name: slide; } }
+}
+@keyframes rise { from { transform: translateY(40px); opacity: 0.6; } }
+@keyframes slide { from { transform: translateX(40px); opacity: 0.6; } }
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
-    <div>
+    <div class="top">
       <h1>Crypto Watchlist <em>Screener</em></h1>
-      <p class="sub">Top 1000 coins by market cap. Coins priced above ₹500, or that have already risen more than 2000% from their all-time low to all-time high, are cut. The rest are ranked by watch score.</p>
+      <div class="live" id="live"><span class="dot" id="dot"></span><span id="liveText">Loading…</span></div>
     </div>
-    <div class="updated" id="updated">Loading data…</div>
+    <p class="sub">From the top 1000 coins, we remove coins that cost more than ₹500 and coins that have already jumped more than 2000%. What's left is your watchlist, best score first.</p>
   </header>
 
-  <section class="funnel" id="funnel" aria-label="Filter funnel"></section>
+  <section class="summary" aria-label="Summary">
+    <div class="result">
+      <span class="big" id="bigCount">–</span>
+      <span class="txt"><b>coins in your watchlist</b><span id="bigSub">out of the top 1000</span></span>
+    </div>
+    <div class="steps" id="steps"></div>
+  </section>
+
   <section class="changes" id="changes" hidden></section>
 
-  <section class="controls" aria-label="Filters">
-    <div class="ctl">
-      <label for="maxPrice">Max price (₹) <output id="maxPriceOut"></output></label>
-      <input type="number" id="maxPrice" min="0" step="any" value="500">
-    </div>
-    <div class="ctl">
-      <label for="maxRise">Max ATL→ATH rise (%) <output id="maxRiseOut"></output></label>
-      <input type="number" id="maxRise" min="0" step="100" value="2000">
-    </div>
-    <div class="ctl">
-      <label for="minVol">Min 24h volume</label>
-      <select id="minVol">
-        <option value="0">No minimum</option>
-        <option value="1000000">₹10 lakh</option>
-        <option value="10000000" selected>₹1 crore</option>
-        <option value="100000000">₹10 crore</option>
-        <option value="1000000000">₹100 crore</option>
-      </select>
-    </div>
-    <div class="ctl">
-      <label for="minScore">Min watch score <output id="minScoreOut">0</output></label>
-      <input type="range" id="minScore" min="0" max="100" step="5" value="0">
-    </div>
-    <div class="ctl">
-      <label for="search">Search coin</label>
-      <input type="search" id="search" placeholder="Name or symbol">
-    </div>
-    <div class="ctl">
-      <span class="lbl">Options</span>
-      <div class="checks">
-        <label><input type="checkbox" id="exType" checked> Hide stablecoins &amp; wrapped tokens</label>
-        <label><input type="checkbox" id="showRejected"> Show removed coins too</label>
+  <section class="filters" aria-label="Filters">
+    <div class="main-filters">
+      <div class="field">
+        <label for="maxPrice">Price up to</label>
+        <div class="inbox"><span>₹</span><input type="number" id="maxPrice" inputmode="decimal" min="0" step="any" value="500"></div>
+        <div class="presets" data-for="maxPrice">
+          <button type="button" data-v="100">₹100</button><button type="button" data-v="500">₹500</button><button type="button" data-v="1000">₹1,000</button><button type="button" data-v="">Any</button>
+        </div>
+      </div>
+      <div class="field">
+        <label for="maxRise">Biggest jump ever, up to</label>
+        <div class="inbox"><input type="number" id="maxRise" inputmode="numeric" min="0" step="100" value="2000" style="padding-left:12px"><span>%</span></div>
+        <div class="presets" data-for="maxRise">
+          <button type="button" data-v="1000">1000%</button><button type="button" data-v="2000">2000%</button><button type="button" data-v="5000">5000%</button><button type="button" data-v="">Any</button>
+        </div>
+      </div>
+      <div class="field">
+        <label for="search">Find a coin</label>
+        <input type="search" id="search" placeholder="Type a name, e.g. Sui" autocomplete="off">
+        <p class="hint">Searches the list below.</p>
       </div>
     </div>
-    <div class="ctl btns">
-      <button class="btn" id="reset" type="button">Reset to defaults</button>
-      <button class="btn primary" id="csv" type="button">Download CSV</button>
+
+    <details class="more" id="moreBox">
+      <summary>More filters</summary>
+      <div class="more-grid">
+        <div class="field">
+          <label for="minVol">Minimum trading per day</label>
+          <select id="minVol">
+            <option value="0">No minimum</option>
+            <option value="1000000">₹10 lakh</option>
+            <option value="10000000" selected>₹1 crore (default)</option>
+            <option value="100000000">₹10 crore</option>
+            <option value="1000000000">₹100 crore</option>
+          </select>
+          <p class="hint">Removes coins that very few people trade.</p>
+        </div>
+        <div class="field">
+          <label for="minScore">Minimum score: <span id="minScoreOut">0</span></label>
+          <input type="range" id="minScore" min="0" max="100" step="5" value="0">
+          <p class="hint">65+ shows only Watch and Strong Watch coins.</p>
+        </div>
+        <div class="field">
+          <span class="lbl">Options</span>
+          <label class="check"><input type="checkbox" id="exType" checked> Hide stablecoins and wrapped coins</label>
+          <label class="check"><input type="checkbox" id="showRejected"> Also show removed coins (greyed out)</label>
+        </div>
+      </div>
+    </details>
+
+    <div class="filter-actions">
+      <button class="btn" id="reset" type="button">Reset to ₹500 / 2000%</button>
+      <button class="btn" id="csv" type="button">Download list for Excel</button>
     </div>
   </section>
 
+  <section class="listhead">
+    <div><h2>Your watchlist</h2><span class="count" id="countText"></span></div>
+    <label class="sortbox">Sort by
+      <select id="sortSel">
+        <option value="score:-1">Best score</option>
+        <option value="price:1">Lowest price</option>
+        <option value="from_ath_pct:1">Furthest below its peak</option>
+        <option value="change_30d:-1">Best last 30 days</option>
+        <option value="max_rise_pct:1">Smallest jump ever</option>
+        <option value="rank:1">Biggest coins first</option>
+      </select>
+    </label>
+  </section>
+
+  <section class="cards" id="cards" aria-label="Coins"></section>
+  <button class="btn morebtn" id="moreCards" type="button" hidden>Show more coins</button>
+
   <section class="tablebox">
-    <div class="resultbar"><span id="resultText"></span><span>Click a coin for details · click a column to sort</span></div>
     <table>
       <thead><tr id="thead"></tr></thead>
       <tbody id="tbody"></tbody>
     </table>
-    <div class="empty" id="empty" hidden>No coins match these filters. Try raising the max price or max rise.</div>
   </section>
+  <div class="empty" id="empty" hidden>No coins match. Try a higher price or a bigger jump, or tap "Reset".</div>
+
+  <details class="guide" id="guide">
+    <summary>How to read this page / Yeh page kaise padhein</summary>
+    <div class="guide-body">
+      <p class="hi"><b>Hinglish:</b> Top 1000 coin mein se jo coin ₹500 se mehenga hai, ya jo apne sabse kam price se sabse upar tak 2000% se zyada chadh chuka hai, woh hata diye jaate hain. Baaki coins ki list yahan hai, sabse achhe score wale upar. Kisi bhi coin par tap karo, poori detail aa jayegi. Page kholte hi live price aata hai.</p>
+      <dl class="glossary">
+        <dt>Price</dt><dd>What one coin costs right now, in rupees.</dd>
+        <dt>Biggest jump ever</dt><dd>How much the coin went up from its lowest price ever to its highest price ever. 2000% means it went up about 21 times.</dd>
+        <dt>Below its peak</dt><dd>How far today's price is under its highest price ever. −70% means it is 70% cheaper than its peak.</dd>
+        <dt>Last 30 days</dt><dd>How much the price went up or down in the last month.</dd>
+        <dt>Score (0–100)</dt><dd>Higher is better to watch. It looks at coin size, how much it is traded, how far below its peak it is, recent trend and price calmness.</dd>
+        <dt>Strong Watch / Watch</dt><dd>Score 80+ / 65–79. Most interesting.</dd>
+        <dt>Monitor / Weak</dt><dd>Score 50–64 / below 50.</dd>
+      </dl>
+      <p><b>This is not financial advice.</b> The score only sorts coins. It does not predict prices. A low price does not mean a coin is cheap. Always research before investing.</p>
+    </div>
+  </details>
 
   <footer>
-    <p><b>How it works.</b> Max rise = (ATH ÷ ATL − 1) × 100, using CoinGecko all-time high and low in INR. Watch score (0–100) combines market-cap rank (20), liquidity (20), distance from ATH (15), 30-day momentum (15), how little the coin has risen historically (15), 24h price stability (10) and data quality (5). Prices load live from <a href="https://www.coingecko.com" target="_blank" rel="noopener">CoinGecko</a> every time the page opens. If CoinGecko is busy, the page shows the saved daily snapshot instead. The "new since" list compares daily snapshots.</p>
-    <p><b>Not financial advice.</b> This is a screening and ranking tool. It does not predict prices. Low token price does not mean a coin is cheap; check market cap, supply and the project itself before investing.</p>
+    Prices load live from <a href="https://www.coingecko.com" target="_blank" rel="noopener">CoinGecko</a> every time you open this page. If CoinGecko is busy, the page shows the last saved daily data.
   </footer>
 </div>
 
 <div class="scrim" id="scrim" hidden></div>
-<aside class="drawer" id="drawer" hidden aria-label="Coin details"></aside>
+<aside class="sheet" id="sheet" hidden aria-label="Coin details" role="dialog" aria-modal="true"></aside>
 
 <script>
 const COLS = [
   { k: "rank", t: "#" },
   { k: "name", t: "Coin", l: true },
   { k: "price", t: "Price" },
-  { k: "max_rise_pct", t: "Max rise" },
-  { k: "from_ath_pct", t: "From ATH" },
-  { k: "change_24h", t: "24h" },
-  { k: "change_7d", t: "7d" },
-  { k: "change_30d", t: "30d" },
-  { k: "volume_24h", t: "Volume 24h" },
-  { k: "market_cap", t: "Market cap" },
+  { k: "max_rise_pct", t: "Biggest jump", s: "lowest → highest" },
+  { k: "from_ath_pct", t: "Below peak", s: "vs highest ever" },
+  { k: "change_24h", t: "24 hours" },
+  { k: "change_7d", t: "7 days" },
+  { k: "change_30d", t: "30 days" },
+  { k: "volume_24h", t: "Traded today" },
+  { k: "market_cap", t: "Coin size", s: "market cap" },
   { k: "score", t: "Score" },
   { k: "status", t: "Status", l: true },
 ];
 const BREAKDOWN = {
-  market_cap: ["Market-cap rank", 20], liquidity: ["Liquidity", 20], ath_distance: ["Distance from ATH", 15],
-  momentum_30d: ["30d momentum", 15], historical_upside: ["Low historical rise", 15],
-  stability: ["24h stability", 10], data_quality: ["Data quality", 5],
+  market_cap: ["Coin size (rank)", 20], liquidity: ["How much it is traded", 20], ath_distance: ["Distance below peak", 15],
+  momentum_30d: ["Last 30 days trend", 15], historical_upside: ["Small jump so far", 15],
+  stability: ["Calm price today", 10], data_quality: ["Enough price history", 5],
 };
+const PAGE_SIZE = 30;
 const $ = (id) => document.getElementById(id);
 let DATA = null, DEFAULTS = {}, NEW_IDS = new Set();
-let sortKey = "score", sortDir = -1;
+let sortKey = "score", sortDir = -1, shown = PAGE_SIZE, lastFocus = null;
 
 const nfIN = new Intl.NumberFormat("en-IN", { maximumFractionDigits: 2 });
 function fmtPrice(v) {
@@ -286,42 +425,48 @@ function settings() {
 }
 
 function reasonFor(c, s) {
-  if (c.price == null || c.market_cap == null || c.max_rise_pct == null) return "Missing data";
-  if (c.price > s.maxPrice) return "Price too high";
-  if (c.max_rise_pct > s.maxRise) return "Max rise too high";
-  if ((c.volume_24h || 0) < s.minVol) return "Low volume";
+  if (c.price == null || c.market_cap == null || c.max_rise_pct == null) return "No data";
+  if (c.price > s.maxPrice) return "Too expensive";
+  if (c.max_rise_pct > s.maxRise) return "Already jumped a lot";
+  if ((c.volume_24h || 0) < s.minVol) return "Rarely traded";
   if (s.exType && c.token_type) return "Stablecoin / wrapped";
-  if (c.score < s.minScore) return "Score below min";
+  if (c.score < s.minScore) return "Low score";
   return null;
 }
 
-function render() {
+function syncPresets() {
+  document.querySelectorAll(".presets").forEach((p) => {
+    const v = $(p.dataset.for).value;
+    p.querySelectorAll("button").forEach((b) => b.classList.toggle("on", b.dataset.v === v));
+  });
+}
+
+let ROWS = [];
+function render(resetPaging = true) {
+  if (!DATA) return;
+  if (resetPaging) shown = PAGE_SIZE;
   const s = settings();
-  $("maxPriceOut").textContent = isFinite(s.maxPrice) ? "₹" + nfIN.format(s.maxPrice) : "any";
-  $("maxRiseOut").textContent = isFinite(s.maxRise) ? nfIN.format(s.maxRise) + "%" : "any";
   $("minScoreOut").textContent = s.minScore;
+  syncPresets();
 
   const all = DATA.coins.map((c) => ({ ...c, _reason: reasonFor(c, s) }));
-
-  // Funnel (sequential cuts)
-  const counts = { total: all.length };
-  ["Missing data", "Price too high", "Max rise too high", "Low volume", "Stablecoin / wrapped", "Score below min"]
-    .forEach((r) => (counts[r] = all.filter((c) => c._reason === r).length));
   const kept = all.filter((c) => !c._reason);
-  const steps = [
-    ["Top coins fetched", counts.total, false],
-    ["Price > ₹" + (isFinite(s.maxPrice) ? nfIN.format(s.maxPrice) : "∞"), counts["Price too high"], true],
-    ["Rise > " + (isFinite(s.maxRise) ? nfIN.format(s.maxRise) : "∞") + "%", counts["Max rise too high"], true],
-    ["Low volume", counts["Low volume"], true],
-    ["Stable / wrapped", counts["Stablecoin / wrapped"], true],
-  ];
-  if (s.minScore > 0) steps.push(["Score < " + s.minScore, counts["Score below min"], true]);
-  if (counts["Missing data"]) steps.splice(1, 0, ["Missing data", counts["Missing data"], true]);
-  steps.push(["Final watchlist", kept.length, false]);
-  $("funnel").innerHTML = steps.map(([l, v, m]) =>
-    `<div class="step"><div class="lbl">${esc(l)}</div><div class="val ${m && v ? "minus" : ""}">${m && v ? "−" : ""}${nfIN.format(v)}</div></div>`).join("");
+  const count = (r) => all.filter((c) => c._reason === r).length;
 
-  // Table rows
+  $("bigCount").textContent = nfIN.format(kept.length);
+  $("bigSub").textContent = `out of the top ${nfIN.format(all.length)} coins`;
+  const steps = [
+    ["Coins checked", all.length, false],
+    [`Cost more than ${isFinite(s.maxPrice) ? "₹" + nfIN.format(s.maxPrice) : "any price"}`, count("Too expensive"), true],
+    [`Jumped more than ${isFinite(s.maxRise) ? nfIN.format(s.maxRise) + "%" : "any"}`, count("Already jumped a lot"), true],
+    ["Rarely traded", count("Rarely traded"), true],
+    ["Stablecoins / wrapped", count("Stablecoin / wrapped"), true],
+  ];
+  if (s.minScore > 0) steps.push([`Score below ${s.minScore}`, count("Low score"), true]);
+  if (count("No data")) steps.push(["No price data", count("No data"), true]);
+  $("steps").innerHTML = steps.map(([l, v, m]) =>
+    `<div class="step"><span class="lbl">${esc(l)}</span><span class="val ${m && v ? "minus" : ""}">${m && v ? "−" : ""}${nfIN.format(v)}</span></div>`).join("");
+
   let rows = s.showRejected ? all : kept;
   if (s.q) rows = rows.filter((c) => c.name.toLowerCase().includes(s.q) || c.symbol.toLowerCase().includes(s.q));
   rows.sort((a, b) => {
@@ -330,10 +475,36 @@ function render() {
     if (x == null) return 1; if (y == null) return -1;
     return (typeof x === "string" ? x.localeCompare(y) : x - y) * sortDir;
   });
+  if (s.showRejected) rows.sort((a, b) => (a._reason ? 1 : 0) - (b._reason ? 1 : 0));
+  ROWS = rows;
 
+  $("countText").textContent = s.q || s.showRejected ? ` · showing ${nfIN.format(rows.length)}` : "";
+  $("empty").hidden = rows.length > 0;
+  $("sortSel").value = `${sortKey}:${sortDir}`;
+  if (!$("sortSel").value) $("sortSel").selectedIndex = -1;
+
+  // Cards
+  const vis = rows.slice(0, shown);
+  $("cards").innerHTML = vis.map((c) => {
+    const [st, sc] = c._reason ? [c._reason, "r"] : statusFor(c.score);
+    return `<button type="button" class="card ${c._reason ? "rejected" : ""}" data-id="${esc(c.id)}">
+      <div class="row1">${c.image ? `<img src="${esc(c.image)}" alt="" loading="lazy">` : ""}
+        <span class="who"><span class="nm">${esc(c.name)}${NEW_IDS.has(c.id) ? '<span class="new">NEW</span>' : ""}</span><span class="sym">${esc(c.symbol)} · #${c.rank}</span></span>
+        <span class="pill ${sc}">${esc(st)}</span></div>
+      <div class="row2"><span class="price">${fmtPrice(c.price)}</span>
+        <span class="score">Score <b>${c.score}</b><span class="bar"><i style="width:${c.score}%"></i></span></span></div>
+      <div class="stats">
+        <div><span>Biggest jump</span><b>${fmtPct(c.max_rise_pct, false)}</b></div>
+        <div><span>Below peak</span><b class="${cls(c.from_ath_pct)}">${fmtPct(c.from_ath_pct)}</b></div>
+        <div><span>Last 30 days</span><b class="${cls(c.change_30d)}">${fmtPct(c.change_30d)}</b></div>
+      </div></button>`;
+  }).join("");
+  $("moreCards").hidden = rows.length <= shown;
+  $("moreCards").textContent = `Show more coins (${nfIN.format(rows.length - shown)} more)`;
+
+  // Table
   $("thead").innerHTML = COLS.map((c) =>
-    `<th class="${c.l ? "l" : ""} ${sortKey === c.k ? "sorted" : ""}" data-k="${c.k}" scope="col">${c.t}${sortKey === c.k ? (sortDir > 0 ? " ↑" : " ↓") : ""}</th>`).join("");
-
+    `<th class="${c.l ? "l" : ""} ${sortKey === c.k ? "sorted" : ""}" data-k="${c.k}" scope="col">${c.t}${sortKey === c.k ? (sortDir > 0 ? " ↑" : " ↓") : ""}${c.s ? `<small>${c.s}</small>` : ""}</th>`).join("");
   $("tbody").innerHTML = rows.map((c) => {
     const [st, sc] = c._reason ? [c._reason, "r"] : statusFor(c.score);
     return `<tr data-id="${esc(c.id)}" class="${c._reason ? "rejected" : ""}">
@@ -351,10 +522,17 @@ function render() {
       <td class="l"><span class="pill ${sc}">${esc(st)}</span></td>
     </tr>`;
   }).join("");
-  $("empty").hidden = rows.length > 0;
-  $("resultText").innerHTML = `<b>${nfIN.format(kept.length)}</b> of ${nfIN.format(all.length)} coins in watchlist` +
-    (rows.length !== kept.length ? ` · showing ${nfIN.format(rows.length)}` : "");
-  window._rows = rows;
+}
+
+function plainSummary(c, reason) {
+  const name = esc(c.name);
+  let t = `${name} costs <b>${fmtPrice(c.price)}</b> today. `;
+  if (c.atl != null && c.ath != null)
+    t += `Its lowest price ever was ${fmtPrice(c.atl)} and its highest was ${fmtPrice(c.ath)}, a jump of <b>${fmtPct(c.max_rise_pct, false)}</b>. `;
+  if (c.from_ath_pct != null) t += `Right now it is <b>${Math.abs(Math.round(c.from_ath_pct))}% below</b> its highest price. `;
+  if (c.change_30d != null) t += `In the last 30 days it went ${c.change_30d >= 0 ? "up" : "down"} ${fmtPct(Math.abs(c.change_30d), false)}.`;
+  if (reason) t += `<br><br>It is <b>not in your watchlist</b>: ${esc(reason.toLowerCase())}.`;
+  return t;
 }
 
 function openCoin(id) {
@@ -364,45 +542,61 @@ function openCoin(id) {
   const [st, sc] = reason ? [reason, "r"] : statusFor(c.score);
   const bd = Object.entries(BREAKDOWN).map(([k, [label, max]]) => {
     const v = c.score_breakdown?.[k] ?? 0;
-    return `<span>${label}</span><span class="track"><i style="width:${(v / max) * 100}%"></i></span><span>${v}/${max}</span>`;
+    return `<span>${label}</span><span class="track"><i style="width:${(v / max) * 100}%"></i></span><span>${Math.round(v)}/${max}</span>`;
   }).join("");
-  $("drawer").innerHTML = `
-    <button class="btn close" id="closeBtn" type="button">Close</button>
-    <h2>${c.image ? `<img src="${esc(c.image)}" alt="">` : ""}${esc(c.name)}</h2>
-    <div><span class="pill ${sc}">${esc(st)}</span> <span style="font-family:var(--mono)">${esc(c.symbol)} · Rank #${c.rank}</span></div>
+  lastFocus = document.activeElement;
+  $("sheet").innerHTML = `
+    <div class="grip"></div>
+    <div class="sheet-head">
+      ${c.image ? `<img src="${esc(c.image)}" alt="">` : ""}
+      <h2>${esc(c.name)}<small>${esc(c.symbol)} · Rank #${c.rank}</small></h2>
+      <button class="closebtn" id="closeBtn" type="button" aria-label="Close">×</button>
+    </div>
+    <div><span class="pill ${sc}">${esc(st)}</span> &nbsp;<b>Score ${c.score}/100</b></div>
+    <p class="plain">${plainSummary(c, reason)}</p>
     <dl class="kv">
-      <dt>Current price</dt><dd>${fmtPrice(c.price)}</dd>
-      <dt>All-time high</dt><dd>${fmtPrice(c.ath)} <small>(${esc(c.ath_date)})</small></dd>
-      <dt>All-time low</dt><dd>${fmtPrice(c.atl)} <small>(${esc(c.atl_date)})</small></dd>
-      <dt>Max rise ATL→ATH</dt><dd>${fmtPct(c.max_rise_pct, false)}</dd>
-      <dt>Below ATH</dt><dd class="${cls(c.from_ath_pct)}">${fmtPct(c.from_ath_pct)}</dd>
-      <dt>24h / 7d / 30d</dt><dd><span class="${cls(c.change_24h)}">${fmtPct(c.change_24h)}</span> / <span class="${cls(c.change_7d)}">${fmtPct(c.change_7d)}</span> / <span class="${cls(c.change_30d)}">${fmtPct(c.change_30d)}</span></dd>
-      <dt>24h volume</dt><dd>${fmtBig(c.volume_24h)}</dd>
-      <dt>Market cap</dt><dd>${fmtBig(c.market_cap)}</dd>
-      <dt>Volume ÷ market cap</dt><dd>${c.liquidity_ratio != null ? (c.liquidity_ratio * 100).toFixed(2) + "%" : "–"}</dd>
-      ${c.token_type ? `<dt>Token type</dt><dd>${esc(c.token_type)}</dd>` : ""}
-      ${c.young ? `<dt>Note</dt><dd>Less than 1 year of price history</dd>` : ""}
+      <dt>Price now</dt><dd>${fmtPrice(c.price)}</dd>
+      <dt>Highest ever</dt><dd>${fmtPrice(c.ath)} <small>${esc(c.ath_date)}</small></dd>
+      <dt>Lowest ever</dt><dd>${fmtPrice(c.atl)} <small>${esc(c.atl_date)}</small></dd>
+      <dt>Biggest jump ever</dt><dd>${fmtPct(c.max_rise_pct, false)}</dd>
+      <dt>Below its peak</dt><dd class="${cls(c.from_ath_pct)}">${fmtPct(c.from_ath_pct)}</dd>
+      <dt>Last 24 hours</dt><dd class="${cls(c.change_24h)}">${fmtPct(c.change_24h)}</dd>
+      <dt>Last 7 days</dt><dd class="${cls(c.change_7d)}">${fmtPct(c.change_7d)}</dd>
+      <dt>Last 30 days</dt><dd class="${cls(c.change_30d)}">${fmtPct(c.change_30d)}</dd>
+      <dt>Traded today</dt><dd>${fmtBig(c.volume_24h)}</dd>
+      <dt>Coin size (market cap)</dt><dd>${fmtBig(c.market_cap)}</dd>
+      ${c.token_type ? `<dt>Type</dt><dd>${esc(c.token_type.replace(/-/g, " "))}</dd>` : ""}
+      ${c.young ? `<dt>Note</dt><dd>New coin, under 1 year of history</dd>` : ""}
     </dl>
-    <div class="sect">Watch score ${c.score}/100</div>
+    <div class="sect">Why this score</div>
     <div class="bd">${bd}</div>
-    <a href="https://www.coingecko.com/en/coins/${encodeURIComponent(c.id)}" target="_blank" rel="noopener">View on CoinGecko ↗</a>`;
-  $("drawer").hidden = false; $("scrim").hidden = false;
-  $("closeBtn").focus();
+    <a class="btn" href="https://www.coingecko.com/en/coins/${encodeURIComponent(c.id)}" target="_blank" rel="noopener">Open on CoinGecko ↗</a>`;
+  $("sheet").hidden = false; $("scrim").hidden = false;
+  $("sheet").scrollTop = 0;
+  document.body.classList.add("locked");
   $("closeBtn").onclick = closeCoin;
+  $("closeBtn").focus();
 }
-function closeCoin() { $("drawer").hidden = true; $("scrim").hidden = true; }
+function closeCoin() {
+  if ($("sheet").hidden) return;
+  $("sheet").hidden = true; $("scrim").hidden = true;
+  document.body.classList.remove("locked");
+  if (lastFocus && lastFocus.focus) lastFocus.focus();
+}
 
 function downloadCsv() {
-  const cols = ["rank", "name", "symbol", "price", "ath", "atl", "max_rise_pct", "from_ath_pct", "change_24h", "change_7d", "change_30d", "volume_24h", "market_cap", "score"];
-  const lines = [cols.concat("status").join(",")];
-  for (const c of window._rows || []) {
+  const cols = [["rank", "Rank"], ["name", "Coin"], ["symbol", "Symbol"], ["price", "Price (INR)"], ["ath", "Highest ever"], ["atl", "Lowest ever"],
+    ["max_rise_pct", "Biggest jump %"], ["from_ath_pct", "Below peak %"], ["change_24h", "24h %"], ["change_7d", "7d %"], ["change_30d", "30d %"],
+    ["volume_24h", "Traded today (INR)"], ["market_cap", "Market cap (INR)"], ["score", "Score"]];
+  const lines = [cols.map((c) => c[1]).concat("Status").join(",")];
+  for (const c of ROWS) {
     const st = c._reason || statusFor(c.score)[0];
-    lines.push(cols.map((k) => { const v = c[k] ?? ""; return typeof v === "string" ? `"${v.replace(/"/g, '""')}"` : v; }).concat(`"${st}"`).join(","));
+    lines.push(cols.map(([k]) => { const v = c[k] ?? ""; return typeof v === "string" ? `"${v.replace(/"/g, '""')}"` : v; }).concat(`"${st}"`).join(","));
   }
   const blob = new Blob(["﻿" + lines.join("\n")], { type: "text/csv" });
   const a = document.createElement("a");
   a.href = URL.createObjectURL(blob);
-  a.download = `crypto-watchlist-${(DATA.meta.generated_at || "").slice(0, 10)}.csv`;
+  a.download = `crypto-watchlist-${new Date().toISOString().slice(0, 10)}.csv`;
   a.click();
 }
 
@@ -420,10 +614,10 @@ function resetDefaults() {
 function renderChanges(ch) {
   if (!ch || !ch.compared_to || (!ch.entered.length && !ch.left.length)) return;
   NEW_IDS = new Set(ch.entered.map((e) => e.id));
-  const chips = (list, k) => list.slice(0, 12).map((e) => `<button class="chip ${k}" data-id="${esc(e.id)}" type="button">${esc(e.name)}</button>`).join("");
+  const chips = (list, k) => list.slice(0, 15).map((e) => `<button class="chip ${k}" data-id="${esc(e.id)}" type="button">${esc(e.name)}</button>`).join("");
   $("changes").innerHTML =
-    (ch.entered.length ? `<span class="tag">New since ${esc(ch.compared_to)}</span>${chips(ch.entered, "in")}` : "") +
-    (ch.left.length ? `<span class="tag" style="margin-left:12px">Dropped</span>${chips(ch.left, "out")}` : "");
+    (ch.entered.length ? `<span class="tag">New today</span>${chips(ch.entered, "in")}` : "") +
+    (ch.left.length ? `<span class="tag" style="margin-left:10px">Left the list</span>${chips(ch.left, "out")}` : "");
   $("changes").hidden = false;
 }
 
@@ -493,26 +687,31 @@ async function fetchPage(page) {
     const res = await fetch(url).catch(() => null);
     if (res && res.ok) return res.json();
     if (attempt < 3) {
-      setStatus(`Fetching live prices… CoinGecko is busy, retrying in ${15 * attempt}s`);
+      setStatus("busy", `Getting live prices… server busy, trying again in ${15 * attempt} sec`);
       await wait(15000 * attempt);
     }
   }
   throw new Error("CoinGecko did not respond");
 }
 
-function setStatus(html) { $("updated").innerHTML = html; }
-function showTime(iso, label) {
-  const d = new Date(iso);
-  setStatus(`${label}<br><b>${d.toLocaleString("en-IN", { dateStyle: "medium", timeStyle: "short" })}</b>
-    <br><button class="btn" id="refreshBtn" type="button" style="margin-top:6px">Refresh prices</button>`);
-  $("refreshBtn").onclick = () => liveRefresh(true);
+function setStatus(state, html, withButton = false) {
+  $("dot").className = "dot " + (state === "live" ? "on" : state === "busy" ? "busy" : "");
+  $("liveText").innerHTML = html;
+  const old = $("refreshBtn"); if (old) old.remove();
+  if (withButton) {
+    const b = document.createElement("button");
+    b.className = "btn"; b.id = "refreshBtn"; b.type = "button"; b.textContent = "↻ Refresh prices";
+    b.onclick = () => liveRefresh(true);
+    $("live").appendChild(b);
+  }
 }
+const timeStr = (iso) => new Date(iso).toLocaleString("en-IN", { day: "numeric", month: "short", hour: "numeric", minute: "2-digit" });
 
 function applyLive(raw, fetchedAt) {
   DATA.coins = raw.slice(0, DEFAULTS.top_n || 1000).map(buildRow);
   DATA.meta.generated_at = fetchedAt;
-  render();
-  showTime(fetchedAt, "Live prices · fetched");
+  render(false);
+  setStatus("live", `Live prices · <b>${timeStr(fetchedAt)}</b>`, true);
 }
 
 async function liveRefresh(force = false) {
@@ -530,7 +729,7 @@ async function liveRefresh(force = false) {
   try {
     const pages = Math.ceil((DEFAULTS.top_n || 1000) / 250), raw = [];
     for (let p = 1; p <= pages; p++) {
-      setStatus(`Fetching live prices… ${p}/${pages}`);
+      setStatus("busy", `Getting live prices… ${p} of ${pages}`);
       raw.push(...(await fetchPage(p)));
       if (p < pages) await wait(1200);
     }
@@ -538,7 +737,7 @@ async function liveRefresh(force = false) {
     try { localStorage.setItem(LIVE_KEY, JSON.stringify({ at, raw })); } catch (e) { /* ignore */ }
     applyLive(raw, at);
   } catch (e) {
-    showTime(savedAt, "Live update failed (CoinGecko rate limit). Showing saved data from");
+    setStatus("", `Live prices not available right now. Showing prices from <b>${timeStr(savedAt)}</b>`, true);
   } finally {
     liveBusy = false;
   }
@@ -550,25 +749,36 @@ async function init() {
     if (!res.ok) throw new Error("HTTP " + res.status);
     DATA = await res.json();
   } catch (e) {
-    $("updated").textContent = "Could not load data/coins.json. Run screener.py first, then serve the docs folder.";
+    setStatus("", "Could not load the coin list. Please refresh the page.", false);
     return;
   }
   DEFAULTS = DATA.meta.defaults || {};
   DATA.coins.forEach((c) => { if (c.token_type) TYPE_MAP[c.id] = c.token_type; });
+  setStatus("", `Saved prices · <b>${timeStr(DATA.meta.generated_at)}</b>`);
   renderChanges(DATA.changes);
   resetDefaults();               // show saved daily data instantly
   liveRefresh();                 // then replace it with live prices
 }
 
+/* ---------- Events ---------- */
 ["maxPrice", "maxRise", "minVol", "minScore", "search", "exType", "showRejected"].forEach((id) =>
-  $(id).addEventListener("input", render));
+  $(id).addEventListener("input", () => render()));
+document.querySelectorAll(".presets").forEach((p) => p.addEventListener("click", (e) => {
+  const b = e.target.closest("button"); if (!b) return;
+  $(p.dataset.for).value = b.dataset.v; render();
+}));
+$("sortSel").addEventListener("change", () => {
+  const [k, d] = $("sortSel").value.split(":"); sortKey = k; sortDir = +d; render();
+});
 $("thead").addEventListener("click", (e) => {
   const k = e.target.closest("th")?.dataset.k; if (!k) return;
-  if (sortKey === k) sortDir = -sortDir; else { sortKey = k; sortDir = ["name", "rank"].includes(k) ? 1 : -1; }
+  if (sortKey === k) sortDir = -sortDir; else { sortKey = k; sortDir = ["name", "rank", "price", "max_rise_pct"].includes(k) ? 1 : -1; }
   render();
 });
 $("tbody").addEventListener("click", (e) => { const id = e.target.closest("tr")?.dataset.id; if (id) openCoin(id); });
+$("cards").addEventListener("click", (e) => { const id = e.target.closest(".card")?.dataset.id; if (id) openCoin(id); });
 $("changes").addEventListener("click", (e) => { const id = e.target.closest(".chip")?.dataset.id; if (id) openCoin(id); });
+$("moreCards").addEventListener("click", () => { shown += PAGE_SIZE * 2; render(false); });
 $("scrim").addEventListener("click", closeCoin);
 document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeCoin(); });
 $("reset").addEventListener("click", resetDefaults);
