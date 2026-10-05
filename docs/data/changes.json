@@ -4,7 +4,27 @@
     {
       "id": "cluster-protocol",
       "name": "Cluster Protocol",
-      "score": 50
+      "score": 59
+    },
+    {
+      "id": "agent-cat",
+      "name": "Agent Cat",
+      "score": 52
+    },
+    {
+      "id": "kaio",
+      "name": "KAIO",
+      "score": 49
+    },
+    {
+      "id": "idlemine",
+      "name": "IdleMine",
+      "score": 46
+    },
+    {
+      "id": "hood-inu",
+      "name": "Hood Inu",
+      "score": 44
     },
     {
       "id": "safecoin",
@@ -19,14 +39,34 @@
       "reason": "low volume"
     },
     {
+      "id": "meme-horse",
+      "name": "MEME HORSE",
+      "reason": "low volume"
+    },
+    {
+      "id": "paradex",
+      "name": "Paradex",
+      "reason": "low volume"
+    },
+    {
+      "id": "pipedog",
+      "name": "pipedog",
+      "reason": "dropped out of top N"
+    },
+    {
       "id": "super-iguana",
       "name": "super-iguana",
       "reason": "dropped out of top N"
     },
     {
-      "id": "tensorcash",
-      "name": "TensorCash",
-      "reason": "price too high"
+      "id": "usdu",
+      "name": "USDu",
+      "reason": "low volume"
+    },
+    {
+      "id": "yzy",
+      "name": "YZY",
+      "reason": "low volume"
     }
   ]
 }
