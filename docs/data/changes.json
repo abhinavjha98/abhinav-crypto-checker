@@ -1,5 +1,32 @@
 {
-  "compared_to": null,
-  "entered": [],
-  "left": []
+  "compared_to": "2026-10-04",
+  "entered": [
+    {
+      "id": "cluster-protocol",
+      "name": "Cluster Protocol",
+      "score": 50
+    },
+    {
+      "id": "safecoin",
+      "name": "SAFEbit",
+      "score": 37
+    }
+  ],
+  "left": [
+    {
+      "id": "atoshi",
+      "name": "Atoshi",
+      "reason": "low volume"
+    },
+    {
+      "id": "super-iguana",
+      "name": "super-iguana",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "tensorcash",
+      "name": "TensorCash",
+      "reason": "price too high"
+    }
+  ]
 }
