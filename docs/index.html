@@ -552,7 +552,9 @@ function toggleStar(id) {
   setMember(l, id, on);
   const c = DATA.coins.find((x) => x.id === id);
   toast(`${c ? c.name : "Coin"} ${on ? "added to" : "removed from"} "${l.name}"`);
-  render(false);
+  if (VIEW !== "screener" || CARD_CTX.tgt !== l) return render(false);
+  document.querySelectorAll(`[data-star="${CSS.escape(id)}"]`).forEach((b) => { b.outerHTML = starBtn(c, l); });
+  renderViews();
 }
 function renameList() {
   const l = activeList(); if (!l) return;
@@ -603,7 +605,40 @@ function starBtn(c, l) {
   return `<button type="button" class="star ${on ? "on" : ""}" data-star="${esc(c.id)}" aria-pressed="${on}" aria-label="${esc(label)}" title="${esc(label)}">${on ? "★" : "☆"}</button>`;
 }
 
-let ROWS = [];
+let ROWS = [], CARD_CTX = {};
+const WIDE = matchMedia("(min-width: 1100px)");
+function cardHtml(c) {
+  const { list, tgt } = CARD_CTX;
+  const dim = (c) => !list && c._reason;
+  const [st, sc] = c._reason ? [c._reason, "r"] : statusFor(c.score);
+  return `<div class="cardwrap"><button type="button" class="card ${dim(c) ? "rejected" : ""}" data-id="${esc(c.id)}">
+      <div class="row1">${c.image ? `<img src="${esc(c.image)}" alt="" loading="lazy">` : ""}
+        <span class="who"><span class="nm">${esc(c.name)}${NEW_IDS.has(c.id) ? '<span class="new">NEW</span>' : ""}</span><span class="sym">${esc(c.symbol)} · #${c.rank}</span></span>
+        <span class="pill ${sc}">${esc(st)}</span></div>
+      <div class="row2"><span class="price">${fmtPrice(c.price)}</span>
+        <span class="score">Score <b>${c.score}</b><span class="bar"><i style="width:${c.score}%"></i></span></span></div>
+      <div class="moves">
+        <div class="${cls(c.change_24h)}"><span>24 hours</span><b>${fmtPct(c.change_24h)}</b></div>
+        <div class="${cls(c.change_7d)}"><span>7 days</span><b>${fmtPct(c.change_7d)}</b></div>
+        <div class="${cls(c.change_30d)}"><span>30 days</span><b>${fmtPct(c.change_30d)}</b></div>
+      </div>
+      <div class="stats">
+        <div><span>Biggest jump</span><b>${fmtPct(c.max_rise_pct, false)}${isPartial(c) ? ' <span title="Older price history missing">⚠</span>' : ""}</b></div>
+        <div><span>Start price</span><b title="${esc(startNote(c))}">${fmtPrice(c.start_price)}${c.start_basis === "binance_listing" ? "*" : ""}</b><span>${c.start_date ? monthYr(c.start_date) : ""}</span></div>
+        <div><span>Since start</span><b class="${cls(c.since_start_pct)}">${fmtPct(c.since_start_pct)}</b></div>
+      </div></button>${starBtn(c, tgt)}</div>`;
+}
+function updateMoreBtn() {
+  $("moreCards").hidden = ROWS.length <= shown;
+  $("moreCards").textContent = `Show more coins (${nfIN.format(ROWS.length - shown)} more)`;
+}
+function showMoreCards() {
+  const from = shown;
+  shown += PAGE_SIZE * 2;
+  $("cards").insertAdjacentHTML("beforeend", ROWS.slice(from, shown).map(cardHtml).join(""));
+  updateMoreBtn();
+}
+
 function render(resetPaging = true) {
   if (!DATA) return;
   if (resetPaging) shown = PAGE_SIZE;
@@ -661,31 +696,13 @@ function render(resetPaging = true) {
   $("sortSel").value = `${sortKey}:${sortDir}`;
   if (!$("sortSel").value) $("sortSel").selectedIndex = -1;
 
-  // Cards
-  const vis = rows.slice(0, shown);
-  $("cards").innerHTML = vis.map((c) => {
-    const [st, sc] = c._reason ? [c._reason, "r"] : statusFor(c.score);
-    return `<div class="cardwrap"><button type="button" class="card ${dim(c) ? "rejected" : ""}" data-id="${esc(c.id)}">
-      <div class="row1">${c.image ? `<img src="${esc(c.image)}" alt="" loading="lazy">` : ""}
-        <span class="who"><span class="nm">${esc(c.name)}${NEW_IDS.has(c.id) ? '<span class="new">NEW</span>' : ""}</span><span class="sym">${esc(c.symbol)} · #${c.rank}</span></span>
-        <span class="pill ${sc}">${esc(st)}</span></div>
-      <div class="row2"><span class="price">${fmtPrice(c.price)}</span>
-        <span class="score">Score <b>${c.score}</b><span class="bar"><i style="width:${c.score}%"></i></span></span></div>
-      <div class="moves">
-        <div class="${cls(c.change_24h)}"><span>24 hours</span><b>${fmtPct(c.change_24h)}</b></div>
-        <div class="${cls(c.change_7d)}"><span>7 days</span><b>${fmtPct(c.change_7d)}</b></div>
-        <div class="${cls(c.change_30d)}"><span>30 days</span><b>${fmtPct(c.change_30d)}</b></div>
-      </div>
-      <div class="stats">
-        <div><span>Biggest jump</span><b>${fmtPct(c.max_rise_pct, false)}${isPartial(c) ? ' <span title="Older price history missing">⚠</span>' : ""}</b></div>
-        <div><span>Start price</span><b title="${esc(startNote(c))}">${fmtPrice(c.start_price)}${c.start_basis === "binance_listing" ? "*" : ""}</b><span>${c.start_date ? monthYr(c.start_date) : ""}</span></div>
-        <div><span>Since start</span><b class="${cls(c.since_start_pct)}">${fmtPct(c.since_start_pct)}</b></div>
-      </div></button>${starBtn(c, tgt)}</div>`;
-  }).join("");
-  $("moreCards").hidden = rows.length <= shown;
-  $("moreCards").textContent = `Show more coins (${nfIN.format(rows.length - shown)} more)`;
+  // Cards (only the first `shown`; "Show more" appends the rest)
+  CARD_CTX = { list, tgt };
+  $("cards").innerHTML = rows.slice(0, shown).map(cardHtml).join("");
+  updateMoreBtn();
 
-  // Table
+  // Table: only built on wide screens, where it is visible (up to 1000 rows is slow on phones)
+  if (!WIDE.matches) { $("tbody").innerHTML = ""; return; }
   $("thead").innerHTML = `<th scope="col" title="My list">★</th>` + COLS.map((c) =>
     `<th class="${c.l ? "l" : ""} ${sortKey === c.k ? "sorted" : ""}" data-k="${c.k}" scope="col">${c.t}${sortKey === c.k ? (sortDir > 0 ? " ↑" : " ↓") : ""}${c.s ? `<small>${c.s}</small>` : ""}</th>`).join("");
   $("tbody").innerHTML = rows.map((c) => {
@@ -896,8 +913,10 @@ async function init() {
 }
 
 /* ---------- Events ---------- */
+let renderTimer = null;
+function renderSoon() { clearTimeout(renderTimer); renderTimer = setTimeout(() => render(), 150); }
 ["maxPrice", "maxRise", "minVol", "minScore", "search", "exType", "showRejected", "exLimited"].forEach((id) =>
-  $(id).addEventListener("input", () => render()));
+  $(id).addEventListener("input", renderSoon));
 document.querySelectorAll(".presets").forEach((p) => p.addEventListener("click", (e) => {
   const b = e.target.closest("button"); if (!b) return;
   $(p.dataset.for).value = b.dataset.v; render();
@@ -927,7 +946,8 @@ $("renameList").addEventListener("click", renameList);
 $("shareList").addEventListener("click", shareList);
 $("deleteList").addEventListener("click", deleteList);
 $("changes").addEventListener("click", (e) => { const id = e.target.closest(".chip")?.dataset.id; if (id) openCoin(id); });
-$("moreCards").addEventListener("click", () => { shown += PAGE_SIZE * 2; render(false); });
+$("moreCards").addEventListener("click", showMoreCards);
+WIDE.addEventListener("change", () => { if (WIDE.matches) render(false); });
 $("scrim").addEventListener("click", closeCoin);
 document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeCoin(); });
 $("reset").addEventListener("click", resetDefaults);
