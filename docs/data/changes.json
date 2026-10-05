@@ -7,9 +7,9 @@
       "score": 67
     },
     {
-      "id": "auki-labs",
-      "name": "Auki",
-      "score": 66
+      "id": "dimo",
+      "name": "DIMO",
+      "score": 64
     },
     {
       "id": "kaio",
@@ -17,14 +17,14 @@
       "score": 63
     },
     {
-      "id": "dimo",
-      "name": "DIMO",
-      "score": 63
-    },
-    {
       "id": "cluster-protocol",
       "name": "Cluster Protocol",
-      "score": 56
+      "score": 62
+    },
+    {
+      "id": "auki-labs",
+      "name": "Auki",
+      "score": 60
     },
     {
       "id": "radicle",
@@ -42,6 +42,11 @@
       "score": 54
     },
     {
+      "id": "coin98",
+      "name": "Coin98",
+      "score": 53
+    },
+    {
       "id": "bitdca",
       "name": "BitDCA",
       "score": 49
@@ -52,13 +57,13 @@
       "score": 46
     },
     {
-      "id": "medibloc",
-      "name": "Medibloc",
-      "score": 46
-    },
-    {
       "id": "deapcoin",
       "name": "DEAPCOIN",
+      "score": 43
+    },
+    {
+      "id": "super-inu-force",
+      "name": "Super Inu Force",
       "score": 43
     },
     {
@@ -67,14 +72,9 @@
       "score": 42
     },
     {
-      "id": "hood-inu",
-      "name": "Hood Inu",
-      "score": 41
-    },
-    {
       "id": "the-index",
       "name": "The Index",
-      "score": 36
+      "score": 37
     },
     {
       "id": "freysa-ai",
@@ -124,8 +124,18 @@
       "reason": "max rise too high"
     },
     {
+      "id": "dkargo",
+      "name": "dKargo",
+      "reason": "low volume"
+    },
+    {
       "id": "flying-tulip",
       "name": "Flying Tulip",
+      "reason": "low volume"
+    },
+    {
+      "id": "gamebuild",
+      "name": "GameBuild",
       "reason": "low volume"
     },
     {
@@ -137,6 +147,11 @@
       "id": "lab",
       "name": "LAB",
       "reason": "max rise too high"
+    },
+    {
+      "id": "meet48",
+      "name": "MEET48",
+      "reason": "low volume"
     },
     {
       "id": "meme-horse",
