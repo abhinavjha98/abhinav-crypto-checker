@@ -127,6 +127,15 @@ h1 em { font-style: normal; color: var(--accent-text); text-shadow: var(--glow);
 td .star { width: 32px; height: 32px; font-size: 16px; }
 .mylists { display: grid; gap: 2px; }
 .mylists .btn { justify-self: start; margin-top: 6px; }
+.picker { position: fixed; z-index: 6; background: var(--panel); left: 0; right: 0; bottom: 0; max-height: 80vh; overflow-y: auto;
+  border-radius: 18px 18px 0 0; border-top: 1px solid var(--line); padding: 8px 18px calc(20px + env(safe-area-inset-bottom, 0px)); display: grid; gap: 12px; }
+.picker h3 { font: 800 20px/1.2 var(--display); margin: 0; }
+.picker .check .n { margin-left: auto; font: 600 12px var(--mono); color: var(--muted); }
+.pick-actions { display: flex; gap: 8px; justify-content: flex-end; flex-wrap: wrap; }
+@media (min-width: 760px) {
+  .picker { left: 50%; right: auto; bottom: auto; top: 50%; transform: translate(-50%, -50%); width: 380px; border-radius: 16px; border: 1px solid var(--line); padding: 20px 22px; }
+  .picker .grip { display: none; }
+}
 .toast { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(20px + env(safe-area-inset-bottom, 0px)); z-index: 7; background: var(--fg); color: var(--bg); padding: 10px 18px; border-radius: 999px; font-size: 14px; font-weight: 600; max-width: calc(100vw - 32px); text-align: center; box-shadow: 0 6px 24px rgba(0, 0, 0, 0.3); }
 
 /* Filters */
@@ -397,7 +406,7 @@ footer { color: var(--muted); font-size: 12.5px; max-width: 90ch; }
         <dt>Score (0–100)</dt><dd>Higher is better to watch. It looks at coin size, how much it is traded, how far below its peak it is, recent trend and price calmness.</dd>
         <dt>Strong Watch / Watch</dt><dd>Score 80+ / 65–79. Most interesting.</dd>
         <dt>Monitor / Weak</dt><dd>Score 50–64 / below 50.</dd>
-        <dt>My lists</dt><dd>Tap ☆ on any coin to save it to your own list. Make as many lists as you like with "+ New list". Lists are saved in this browser only. Use "Copy link" to open a list on another phone or computer.</dd>
+        <dt>My lists</dt><dd>Tap ☆ on any coin to save it to your own list. If you have more than one list, ☆ asks which list(s) to put it in. Make as many lists as you like with "+ New list". Lists are saved in this browser only. Use "Copy link" to open a list on another phone or computer.</dd>
       </dl>
       <p><b>This is not financial advice.</b> The score only sorts coins. It does not predict prices. A low price does not mean a coin is cheap. Always research before investing.</p>
     </div>
@@ -410,6 +419,7 @@ footer { color: var(--muted); font-size: 12.5px; max-width: 90ch; }
 
 <div class="scrim" id="scrim" hidden></div>
 <aside class="sheet" id="sheet" hidden aria-label="Coin details" role="dialog" aria-modal="true"></aside>
+<div class="picker" id="picker" hidden role="dialog" aria-modal="true" aria-labelledby="pickTitle"></div>
 <div class="toast" id="toast" role="status" hidden></div>
 
 <script>
@@ -553,7 +563,10 @@ function setMember(l, id, on) {
   TARGET = l.id;
   saveLists();
 }
+// With several lists, the screener's ☆ asks which list(s) the coin goes in
+const asksWhichList = () => VIEW === "screener" && LISTS.length > 1;
 function toggleStar(id) {
+  if (asksWhichList()) return openPicker(id);
   let l = targetList();
   if (!l) l = createList("My watchlist");
   const on = !l.ids.includes(id);
@@ -607,10 +620,55 @@ function toast(msg) {
   clearTimeout(toastTimer); toastTimer = setTimeout(() => { $("toast").hidden = true; }, 2600);
 }
 function starBtn(c, l) {
-  const on = !!l && l.ids.includes(c.id);
+  const multi = asksWhichList();
+  const on = multi ? LISTS.some((x) => x.ids.includes(c.id)) : !!l && l.ids.includes(c.id);
   const where = l ? `"${l.name}"` : "a new list";
-  const label = `${on ? "Remove" : "Add"} ${c.name} ${on ? "from" : "to"} ${where}`;
+  const label = multi ? `Choose lists for ${c.name}` : `${on ? "Remove" : "Add"} ${c.name} ${on ? "from" : "to"} ${where}`;
   return `<button type="button" class="star ${on ? "on" : ""}" data-star="${esc(c.id)}" aria-pressed="${on}" aria-label="${esc(label)}" title="${esc(label)}">${on ? "★" : "☆"}</button>`;
+}
+
+function refreshStar(id) {
+  const c = DATA.coins.find((x) => x.id === id);
+  if (c) document.querySelectorAll(`[data-star="${CSS.escape(id)}"]`).forEach((b) => { b.outerHTML = starBtn(c, CARD_CTX.tgt); });
+  renderViews();
+}
+let PICK_ID = null;
+function openPicker(id) {
+  PICK_ID = id;
+  drawPicker();
+  $("picker").hidden = false; $("scrim").hidden = false;
+  document.body.classList.add("locked");
+  $("picker").querySelector("input")?.focus();
+}
+function drawPicker() {
+  const c = DATA.coins.find((x) => x.id === PICK_ID);
+  $("picker").innerHTML = `<div class="grip"></div>
+    <h3 id="pickTitle">Add ${esc(c ? c.name : "coin")} to…</h3>
+    <div class="mylists">${LISTS.map((l) =>
+      `<label class="check"><input type="checkbox" data-pick="${esc(l.id)}" ${l.ids.includes(PICK_ID) ? "checked" : ""}> ${esc(l.name)}<span class="n">${l.ids.length}</span></label>`).join("")}</div>
+    <div class="pick-actions"><button class="btn" id="pickNew" type="button">+ New list</button><button class="btn primary" id="pickDone" type="button">Done</button></div>`;
+  $("picker").querySelectorAll("input[data-pick]").forEach((box) => box.addEventListener("change", () => {
+    const l = LISTS.find((x) => x.id === box.dataset.pick); if (!l) return;
+    setMember(l, PICK_ID, box.checked);
+    toast(`${c ? c.name : "Coin"} ${box.checked ? "added to" : "removed from"} "${l.name}"`);
+    refreshStar(PICK_ID);
+    box.parentElement.querySelector(".n").textContent = l.ids.length;
+  }));
+  $("pickNew").onclick = () => {
+    const name = askName("Name your new list", nextListName());
+    if (!name) return;
+    const l = createList(name); setMember(l, PICK_ID, true);
+    toast(`${c ? c.name : "Coin"} added to "${l.name}"`);
+    refreshStar(PICK_ID); drawPicker();
+  };
+  $("pickDone").onclick = closePicker;
+}
+function closePicker() {
+  if ($("picker").hidden) return;
+  $("picker").hidden = true; $("scrim").hidden = true;
+  document.body.classList.remove("locked");
+  // The star was redrawn while the picker was open: focus the new one
+  document.querySelector(`[data-star="${CSS.escape(PICK_ID)}"]`)?.focus();
 }
 
 let ROWS = [], CARD_CTX = {};
@@ -957,8 +1015,8 @@ $("deleteList").addEventListener("click", deleteList);
 $("changes").addEventListener("click", (e) => { const id = e.target.closest(".chip")?.dataset.id; if (id) openCoin(id); });
 $("moreCards").addEventListener("click", showMoreCards);
 WIDE.addEventListener("change", () => { if (WIDE.matches) render(false); });
-$("scrim").addEventListener("click", closeCoin);
-document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeCoin(); });
+$("scrim").addEventListener("click", () => { closePicker(); closeCoin(); });
+document.addEventListener("keydown", (e) => { if (e.key === "Escape") { closePicker(); closeCoin(); } });
 $("reset").addEventListener("click", resetDefaults);
 $("csv").addEventListener("click", downloadCsv);
 init();
