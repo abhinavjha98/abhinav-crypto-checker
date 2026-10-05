@@ -386,6 +386,7 @@ footer { color: var(--muted); font-size: 12.5px; max-width: 90ch; }
       <dl class="glossary">
         <dt>Price</dt><dd>What one coin costs right now, in rupees.</dd>
         <dt>Biggest jump ever</dt><dd>The biggest rise that really happened: from a low price up to a later high price. 2000% means it went up about 21 times. ⚠ means older price history was not available, so an earlier, bigger jump may be missing.</dd>
+        <dt>Start price</dt><dd>The first price the coin traded at, with the month. * means it is the first price on Binance; the coin traded somewhere else before that. "–" means it is not available (older coins that are not on Binance).</dd>
         <dt>Below its peak</dt><dd>How far today's price is under its highest price ever. −70% means it is 70% cheaper than its peak.</dd>
         <dt>Last 30 days</dt><dd>How much the price went up or down in the last month.</dd>
         <dt>Score (0–100)</dt><dd>Higher is better to watch. It looks at coin size, how much it is traded, how far below its peak it is, recent trend and price calmness.</dd>
@@ -411,6 +412,7 @@ const COLS = [
   { k: "rank", t: "#" },
   { k: "name", t: "Coin", l: true },
   { k: "price", t: "Price" },
+  { k: "start_price", t: "Start price", s: "first trade" },
   { k: "max_rise_pct", t: "Biggest jump", s: "lowest → highest" },
   { k: "from_ath_pct", t: "Below peak", s: "vs highest ever" },
   { k: "change_24h", t: "24 hours" },
@@ -471,6 +473,12 @@ function settings() {
   };
 }
 
+function startNote(c) {
+  if (c.start_price == null) return "Not available: the coin isn't on Binance and is over a year old";
+  return c.start_basis === "binance_listing"
+    ? `First price on Binance, ${monthYr(c.start_date)}. It traded elsewhere before that`
+    : `First traded price, ${monthYr(c.start_date)}`;
+}
 const isPartial = (c) => c.rise_basis === "limited" || c.rise_basis === "pending";
 const monthYr = (d) => (d ? new Date(d + "T00:00:00Z").toLocaleDateString("en-IN", { month: "short", year: "numeric", timeZone: "UTC" }) : "");
 
@@ -669,7 +677,7 @@ function render(resetPaging = true) {
       </div>
       <div class="stats">
         <div><span>Biggest jump</span><b>${fmtPct(c.max_rise_pct, false)}${isPartial(c) ? ' <span title="Older price history missing">⚠</span>' : ""}</b></div>
-        <div><span>Below peak</span><b class="${cls(c.from_ath_pct)}">${fmtPct(c.from_ath_pct)}</b></div>
+        <div><span>Start price</span><b title="${esc(startNote(c))}">${fmtPrice(c.start_price)}${c.start_basis === "binance_listing" ? "*" : ""}</b><span>${c.start_date ? monthYr(c.start_date) : ""}</span></div>
         <div><span>Traded today</span><b>${fmtBig(c.volume_24h)}</b></div>
       </div></button>${starBtn(c, tgt)}</div>`;
   }).join("");
@@ -686,6 +694,7 @@ function render(resetPaging = true) {
       <td>${c.rank}</td>
       <td class="l"><div class="coin">${c.image ? `<img src="${esc(c.image)}" alt="" loading="lazy">` : ""}<span class="nm">${esc(c.name)}</span><span class="sym">${esc(c.symbol)}</span>${NEW_IDS.has(c.id) ? '<span class="new">NEW</span>' : ""}</div></td>
       <td>${fmtPrice(c.price)}</td>
+      <td title="${esc(startNote(c))}">${fmtPrice(c.start_price)}${c.start_basis === "binance_listing" ? "*" : ""}</td>
       <td>${fmtPct(c.max_rise_pct, false)}</td>
       <td class="${cls(c.from_ath_pct)}">${fmtPct(c.from_ath_pct)}</td>
       <td class="${cls(c.change_24h)}">${fmtPct(c.change_24h)}</td>
@@ -710,6 +719,8 @@ function riseNote(c) {
 function plainSummary(c, reason) {
   const name = esc(c.name);
   let t = `${name} costs <b>${fmtPrice(c.price)}</b> today. `;
+  if (c.start_price != null)
+    t += `${c.start_basis === "binance_listing" ? "On Binance it started" : "It started"} at <b>${fmtPrice(c.start_price)}</b> (${monthYr(c.start_date)}), so it is ${c.since_start_pct >= 0 ? "up" : "down"} ${fmtPct(Math.abs(c.since_start_pct), false)} since then. `;
   if (c.max_rise_pct != null && c.rise_low != null && c.rise_high != null)
     t += `Its biggest rise was <b>${fmtPct(c.max_rise_pct, false)}</b>: it went from ${fmtPrice(c.rise_low)} (${monthYr(c.rise_low_date)}) up to ${fmtPrice(c.rise_high)} (${monthYr(c.rise_high_date)}). `;
   if (c.from_ath_pct != null) t += `Right now it is <b>${Math.abs(Math.round(c.from_ath_pct))}% below</b> its highest price. `;
@@ -743,6 +754,9 @@ function openCoin(id) {
     <p class="plain">${plainSummary(c, reason)}</p>
     <dl class="kv">
       <dt>Price now</dt><dd>${fmtPrice(c.price)}</dd>
+      <dt>Start price</dt><dd>${fmtPrice(c.start_price)} <small>${esc(c.start_date || "")}</small></dd>
+      <dt>About the start price</dt><dd style="font-family:var(--body);text-align:right;max-width:24ch">${esc(startNote(c))}</dd>
+      ${c.since_start_pct != null ? `<dt>Since start</dt><dd class="${cls(c.since_start_pct)}">${fmtPct(c.since_start_pct)}</dd>` : ""}
       <dt>Highest ever</dt><dd>${fmtPrice(c.ath)} <small>${esc(c.ath_date)}</small></dd>
       <dt>Lowest ever</dt><dd>${fmtPrice(c.atl)} <small>${esc(c.atl_date)}</small></dd>
       <dt>Biggest jump ever</dt><dd>${fmtPct(c.max_rise_pct, false)}${isPartial(c) ? " ⚠" : ""}</dd>
@@ -785,7 +799,7 @@ function closeCoin() {
 }
 
 function downloadCsv() {
-  const cols = [["rank", "Rank"], ["name", "Coin"], ["symbol", "Symbol"], ["price", "Price (INR)"], ["ath", "Highest ever"], ["atl", "Lowest ever"],
+  const cols = [["rank", "Rank"], ["name", "Coin"], ["symbol", "Symbol"], ["price", "Price (INR)"], ["start_price", "Start price (INR)"], ["start_date", "Start date"], ["ath", "Highest ever"], ["atl", "Lowest ever"],
     ["max_rise_pct", "Biggest jump %"], ["from_ath_pct", "Below peak %"], ["change_24h", "24h %"], ["change_7d", "7d %"], ["change_30d", "30d %"],
     ["volume_24h", "Traded today (INR)"], ["market_cap", "Market cap (INR)"], ["score", "Score"]];
   const lines = [cols.map((c) => c[1]).concat("Status").join(",")];

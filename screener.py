@@ -159,7 +159,7 @@ def run_up(points, st):
 def binance_history(symbol):
     points, start = [], 0
     while True:
-        batch = http_json(f"{BINANCE_API}/klines?symbol={symbol}&interval=1d&startTime={start}&limit=1000")
+        batch = http_json(f"{BINANCE_API}/klines?symbol={urllib.parse.quote(symbol)}&interval=1d&startTime={start}&limit=1000")
         points += [(ms_to_date(k[0]), float(k[3]), float(k[2])) for k in batch]
         if start == 0 and batch:
             # Listing-day open and low are often fake prints far below the real price; trust only the close
@@ -177,7 +177,28 @@ def coingecko_history(coin_id, cfg):
     return [(ms_to_date(ms), p, p) for ms, p in data.get("prices", []) if p]
 
 
-def compute_rises(raw, cfg):
+def tether_price(raw):
+    return next((num(c.get("current_price")) for c in raw if c["id"] == "tether"), None)
+
+
+def binance_pairs(raw):
+    """coin_id -> Binance USDT pair, only where it is the same coin (price within 5%)."""
+    usdt = tether_price(raw)
+    try:
+        binance_prices = {t["symbol"]: float(t["price"]) for t in http_json(f"{BINANCE_API}/ticker/price")}
+    except Exception as e:
+        print(f"  ! Binance not reachable ({e}); using CoinGecko only")
+        return {}
+    pairs = {}
+    for c in raw:
+        sym = (c.get("symbol") or "").upper() + "USDT"
+        bp, price = binance_prices.get(sym), num(c.get("current_price"))
+        if bp and usdt and price and abs(bp * usdt / price - 1) < 0.05:
+            pairs[c["id"]] = sym
+    return pairs
+
+
+def compute_rises(raw, cfg, pairs):
     """coin_id -> {rise_pct, low, low_date, high, high_date, basis, since}. Prices in vs_currency."""
     try:
         cache = json.loads(RISE_CACHE.read_text(encoding="utf-8"))
@@ -185,13 +206,7 @@ def compute_rises(raw, cfg):
         cache = {}
 
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    usdt = next((num(c.get("current_price")) for c in raw if c["id"] == "tether"), None)
-
-    try:
-        binance_prices = {t["symbol"]: float(t["price"]) for t in http_json(f"{BINANCE_API}/ticker/price")}
-    except Exception as e:
-        print(f"  ! Binance not reachable ({e}); using CoinGecko history only")
-        binance_prices = {}
+    usdt = tether_price(raw)
 
     # Coins that need history, most relevant first (affordable coins, then by rank)
     need = [c for c in raw
@@ -200,15 +215,8 @@ def compute_rises(raw, cfg):
     budget = cfg.get("history_fetches_per_run", 150)
     fetched = {"binance": 0, "coingecko": 0}
 
-    def binance_symbol(c):
-        """Binance USDT pair for this coin, only if it is the same coin (price within 5%)."""
-        sym = (c.get("symbol") or "").upper() + "USDT"
-        bp, price = binance_prices.get(sym), num(c.get("current_price"))
-        return sym if bp and usdt and price and abs(bp * usdt / price - 1) < 0.05 else None
-
     # Download Binance histories in parallel (each request is slow, Binance allows plenty per minute)
-    todo = {c["id"]: binance_symbol(c) for c in need if c["id"] not in cache}
-    todo = {cid: sym for cid, sym in todo.items() if sym}
+    todo = {c["id"]: pairs[c["id"]] for c in need if c["id"] not in cache and c["id"] in pairs}
     binance_pts = {}
     if todo:
         def grab(item):
@@ -297,6 +305,109 @@ def compute_rises(raw, cfg):
 
 
 # --------------------------------------------------------------------------- #
+# Start price (first price the coin ever traded at)
+# --------------------------------------------------------------------------- #
+# A start price never changes, so each coin is looked up once and kept in cache/start_cache.json.
+#  * On Binance: close of its first daily candle, converted from USD at that day's exchange rate.
+#    If the coin traded elsewhere before Binance listed it, this is its Binance listing price.
+#  * Not on Binance but under a year old: its first CoinGecko daily price (the free plan's
+#    365 days cover its whole life).
+#  * Older coins not on Binance: unknown (full history needs a paid CoinGecko plan).
+
+START_CACHE = ROOT / "cache" / "start_cache.json"
+FX_API = "https://api.frankfurter.app"
+START_RECHECK_DAYS = 30
+
+
+def fx_rates(ccy, since):
+    """Sorted [(date, units of ccy per USD)] from `since` onward (working days only)."""
+    if ccy == "usd":
+        return [(since, 1.0)]
+    data = http_json(f"{FX_API}/{since}..?from=USD&to={ccy.upper()}")
+    return sorted((d, r[ccy.upper()]) for d, r in data.get("rates", {}).items())
+
+
+def rate_on(rates, day):
+    """Rate on `day`, or the last one before it (no rates on weekends / holidays)."""
+    best = rates[0][1] if rates else None
+    for d, r in rates:
+        if d > day:
+            break
+        best = r
+    return best
+
+
+def binance_first_close(symbol):
+    k = http_json(f"{BINANCE_API}/klines?symbol={urllib.parse.quote(symbol)}&interval=1d&startTime=0&limit=1")
+    # Listing-day open and low are often fake prints; trust only the close
+    return (ms_to_date(k[0][0]), float(k[0][4])) if k else None
+
+
+def compute_starts(raw, cfg, pairs):
+    """coin_id -> {"price", "date", "src"} for every coin whose start price is known."""
+    try:
+        cache = json.loads(START_CACHE.read_text(encoding="utf-8"))
+    except (FileNotFoundError, ValueError):
+        cache = {}
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    have = lambda cid: bool(cache.get(cid, {}).get("price"))
+
+    # Binance: one cheap request per coin, in parallel
+    todo = {c["id"]: pairs[c["id"]] for c in raw if c["id"] in pairs and not have(c["id"])}
+    added = 0
+    if todo:
+        def grab(item):
+            try:
+                return item[0], binance_first_close(item[1])
+            except Exception as e:
+                print(f"  ! Binance start price failed for {item[1]}: {e}")
+                return item[0], None
+        with ThreadPoolExecutor(max_workers=8) as pool:
+            firsts = {cid: v for cid, v in pool.map(grab, todo.items()) if v}
+        try:
+            rates = fx_rates(cfg["vs_currency"], min(d for d, _ in firsts.values())) if firsts else []
+        except Exception as e:
+            print(f"  ! exchange rates not reachable ({e}); Binance start prices wait for the next run")
+            rates = []
+        for cid, (d, usd) in firsts.items():
+            r = rate_on(rates, d)
+            if r:
+                cache[cid] = {"price": usd * r, "usd": usd, "date": d, "src": "binance"}
+                added += 1
+
+    # CoinGecko: only coins that may be under a year old (ATH and ATL both within the last year)
+    def maybe_young(c):
+        ages = [days_since(c.get(k)) for k in ("ath_date", "atl_date")]
+        return all(a is not None and a < 365 for a in ages)
+
+    def due(cid):
+        checked = cache.get(cid, {}).get("checked")
+        return not checked or (days_since(checked) or 0) >= START_RECHECK_DAYS
+
+    need = [c for c in raw if not have(c["id"]) and c["id"] not in pairs and maybe_young(c) and due(c["id"])]
+    need.sort(key=lambda c: ((num(c.get("current_price")) or 1e18) > cfg["max_price"], c.get("market_cap_rank") or 1e9))
+    budget, fetched = cfg.get("start_fetches_per_run", 60), 0
+    for c in need[:budget]:
+        try:
+            pts = coingecko_history(c["id"], cfg)
+        except Exception as e:
+            print(f"  ! start price failed for {c['id']}: {e}")
+            continue
+        fetched += 1
+        if pts and len(pts) < 360:      # history shorter than the 365-day window: the first point is the start
+            cache[c["id"]] = {"price": pts[0][1], "date": pts[0][0], "src": "coingecko"}
+        else:
+            cache[c["id"]] = {"checked": today}
+
+    known = {cid: v for cid, v in cache.items() if v.get("price")}
+    print(f"  start prices: {sum(1 for c in raw if c['id'] in known)} of {len(raw)} known "
+          f"(new from Binance {added}, CoinGecko checked {fetched}, {max(0, len(need) - budget)} left for later runs)")
+    START_CACHE.parent.mkdir(parents=True, exist_ok=True)
+    START_CACHE.write_text(json.dumps(cache, separators=(",", ":"), sort_keys=True), encoding="utf-8")
+    return known
+
+
+# --------------------------------------------------------------------------- #
 # Metrics, filters, score
 # --------------------------------------------------------------------------- #
 def num(v):
@@ -311,6 +422,8 @@ def days_since(iso):
         return None
     try:
         dt = datetime.fromisoformat(iso.replace("Z", "+00:00"))
+        if dt.tzinfo is None:           # plain "YYYY-MM-DD"
+            dt = dt.replace(tzinfo=timezone.utc)
         return (datetime.now(timezone.utc) - dt).days
     except ValueError:
         return None
@@ -383,7 +496,7 @@ def status_for(score):
     return "Weak"
 
 
-def build_rows(raw, excluded, rises, cfg):
+def build_rows(raw, excluded, rises, starts, cfg):
     rows = []
     for i, coin in enumerate(raw, start=1):
         price, ath, atl = num(coin.get("current_price")), num(coin.get("ath")), num(coin.get("atl"))
@@ -394,6 +507,11 @@ def build_rows(raw, excluded, rises, cfg):
         max_rise = rise["rise_pct"] if rise else None
         from_ath = ((price / ath) - 1) * 100 if price is not None and ath else None
         ath_age, atl_age = days_since(coin.get("ath_date")), days_since(coin.get("atl_date"))
+        start = starts.get(coin["id"])
+        first_seen = min(d for d in ((coin.get("ath_date") or "")[:10], (coin.get("atl_date") or "")[:10], "9999") if d)
+        # Binance's first day is the true start only if CoinGecko saw no trading (ATH / ATL) before it
+        start_basis = None if not start else (
+            "binance_listing" if start["src"] == "binance" and first_seen < start["date"] else "launch")
         history_days = max([a for a in (ath_age, atl_age) if a is not None], default=None)
 
         r = {
@@ -417,6 +535,10 @@ def build_rows(raw, excluded, rises, cfg):
             "rise_basis": rise["basis"] if rise else None,
             "rise_since": rise["since"] if rise else None,
             "from_ath_pct": round(from_ath, 2) if from_ath is not None else None,
+            "start_price": start["price"] if start else None,
+            "start_date": start["date"] if start else None,
+            "start_basis": start_basis,
+            "since_start_pct": round((price / start["price"] - 1) * 100, 2) if start and price is not None else None,
             "liquidity_ratio": round(vol / mcap, 4) if vol and mcap else None,
             "change_24h": num(coin.get("price_change_percentage_24h_in_currency")),
             "change_7d": num(coin.get("price_change_percentage_7d_in_currency")),
@@ -455,7 +577,7 @@ def build_rows(raw, excluded, rises, cfg):
 # --------------------------------------------------------------------------- #
 # Output
 # --------------------------------------------------------------------------- #
-CSV_COLUMNS = ["rank", "name", "symbol", "price", "ath", "ath_date", "atl", "atl_date",
+CSV_COLUMNS = ["rank", "name", "symbol", "price", "start_price", "start_date", "ath", "ath_date", "atl", "atl_date",
                "max_rise_pct", "from_ath_pct", "change_24h", "change_7d", "change_30d",
                "volume_24h", "market_cap", "liquidity_ratio", "score", "status"]
 
@@ -531,9 +653,13 @@ def main():
     excluded = fetch_excluded_ids(cfg)
 
     print("Working out each coin's biggest real rise ...")
-    rises = compute_rises(raw, cfg)
+    pairs = binance_pairs(raw)
+    rises = compute_rises(raw, cfg, pairs)
 
-    rows = build_rows(raw, excluded, rises, cfg)
+    print("Looking up start prices ...")
+    starts = compute_starts(raw, cfg, pairs)
+
+    rows = build_rows(raw, excluded, rises, starts, cfg)
     watchlist, funnel, changes = write_outputs(rows, cfg, generated_at)
 
     print("\nFunnel:")

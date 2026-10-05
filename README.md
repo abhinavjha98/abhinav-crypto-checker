@@ -35,6 +35,18 @@ The simple formula ATH ÷ ATL is only correct when the all-time low came *before
 
 Each coin's history is downloaded once and stored in `cache/rise_cache.json`. Every later run only adds the newest prices, so runs stay fast. The dashboard has a "Hide coins whose older price history is missing" option under More filters.
 
+## Start price
+
+The start price is the first price a coin ever traded at. It never changes, so each coin is looked up once and kept in `cache/start_cache.json`.
+
+| Case | Source | Shown as |
+|---|---|---|
+| Coin trades on Binance | Close of its first daily candle on Binance, converted from USD at that day's rate ([Frankfurter](https://frankfurter.dev), free) | Price + month. A `*` means the coin traded elsewhere before Binance listed it, so this is its Binance listing price |
+| Not on Binance, under 1 year old | First daily price on CoinGecko (the free plan's 365 days cover its whole life) | Price + month |
+| Not on Binance, over 1 year old | Full history needs a paid CoinGecko plan | – |
+
+Coins under a year old are checked up to `start_fetches_per_run` (60) per run, so new coins fill in over a few runs. On phones the coin card shows the start price where "Below peak" used to be. "Below peak" is still in the table and the detail panel.
+
 ## Watch score (0–100)
 
 | Factor | Points | Idea |
@@ -75,6 +87,7 @@ docs/data/changes.json              coins that entered / left since the previous
 docs/data/history/YYYY-MM-DD.json   daily snapshots (last 90 days)
 .github/workflows/update-watchlist.yml   auto-update every 3 hours
 cache/rise_cache.json               stored price-history results per coin
+cache/start_cache.json              stored start price per coin
 ```
 
 ## Run it locally
