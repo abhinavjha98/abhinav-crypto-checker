@@ -2,46 +2,146 @@
   "compared_to": "2026-10-04",
   "entered": [
     {
-      "id": "cluster-protocol",
-      "name": "Cluster Protocol",
-      "score": 59
-    },
-    {
-      "id": "agent-cat",
-      "name": "Agent Cat",
-      "score": 52
+      "id": "beldex",
+      "name": "Beldex",
+      "score": 67
     },
     {
       "id": "kaio",
       "name": "KAIO",
-      "score": 49
+      "score": 64
+    },
+    {
+      "id": "dimo",
+      "name": "DIMO",
+      "score": 63
+    },
+    {
+      "id": "radicle",
+      "name": "Radworks",
+      "score": 57
+    },
+    {
+      "id": "mindwavedao",
+      "name": "MindWaveDAO",
+      "score": 56
+    },
+    {
+      "id": "agent-cat",
+      "name": "Agent Cat",
+      "score": 54
+    },
+    {
+      "id": "gama-token",
+      "name": "Gama Token",
+      "score": 53
+    },
+    {
+      "id": "coin98",
+      "name": "Coin98",
+      "score": 52
+    },
+    {
+      "id": "bitdca",
+      "name": "BitDCA",
+      "score": 50
+    },
+    {
+      "id": "medibloc",
+      "name": "Medibloc",
+      "score": 46
     },
     {
       "id": "idlemine",
       "name": "IdleMine",
-      "score": 46
+      "score": 45
+    },
+    {
+      "id": "deapcoin",
+      "name": "DEAPCOIN",
+      "score": 43
+    },
+    {
+      "id": "umia",
+      "name": "Umia",
+      "score": 41
+    },
+    {
+      "id": "freysa-ai",
+      "name": "Freysa AI",
+      "score": 40
     },
     {
       "id": "hood-inu",
       "name": "Hood Inu",
-      "score": 44
+      "score": 39
     },
     {
-      "id": "safecoin",
-      "name": "SAFEbit",
-      "score": 37
+      "id": "the-index",
+      "name": "The Index",
+      "score": 34
     }
   ],
   "left": [
+    {
+      "id": "3jane-usd3",
+      "name": "3Jane USD3",
+      "reason": "low volume"
+    },
     {
       "id": "atoshi",
       "name": "Atoshi",
       "reason": "low volume"
     },
     {
+      "id": "babycashcat",
+      "name": "babycashcat",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "bas",
+      "name": "BNB Attestation Service",
+      "reason": "max rise too high"
+    },
+    {
+      "id": "boner-coin",
+      "name": "Boner Coin",
+      "reason": "max rise too high"
+    },
+    {
+      "id": "btse-token",
+      "name": "BTSE Token",
+      "reason": "max rise too high"
+    },
+    {
+      "id": "hivemapper",
+      "name": "hivemapper",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "lab",
+      "name": "LAB",
+      "reason": "max rise too high"
+    },
+    {
       "id": "meme-horse",
       "name": "MEME HORSE",
       "reason": "low volume"
+    },
+    {
+      "id": "metya",
+      "name": "MetYa",
+      "reason": "low volume"
+    },
+    {
+      "id": "nesa",
+      "name": "Nesa",
+      "reason": "max rise too high"
+    },
+    {
+      "id": "openserv",
+      "name": "openserv",
+      "reason": "dropped out of top N"
     },
     {
       "id": "paradex",
@@ -54,8 +154,23 @@
       "reason": "dropped out of top N"
     },
     {
+      "id": "ravedao",
+      "name": "RaveDAO",
+      "reason": "max rise too high"
+    },
+    {
+      "id": "safecoin",
+      "name": "SAFEbit",
+      "reason": "low volume"
+    },
+    {
       "id": "super-iguana",
       "name": "super-iguana",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "ubik",
+      "name": "ubik",
       "reason": "dropped out of top N"
     },
     {
