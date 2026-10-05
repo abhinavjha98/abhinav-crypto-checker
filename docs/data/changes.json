@@ -9,11 +9,6 @@
     {
       "id": "dimo",
       "name": "DIMO",
-      "score": 64
-    },
-    {
-      "id": "kaio",
-      "name": "KAIO",
       "score": 63
     },
     {
@@ -24,12 +19,12 @@
     {
       "id": "auki-labs",
       "name": "Auki",
-      "score": 60
+      "score": 61
     },
     {
       "id": "radicle",
       "name": "Radworks",
-      "score": 56
+      "score": 57
     },
     {
       "id": "mindwavedao",
@@ -39,6 +34,11 @@
     {
       "id": "gama-token",
       "name": "Gama Token",
+      "score": 54
+    },
+    {
+      "id": "kaio",
+      "name": "KAIO",
       "score": 54
     },
     {
@@ -57,6 +57,11 @@
       "score": 46
     },
     {
+      "id": "umia",
+      "name": "Umia",
+      "score": 43
+    },
+    {
       "id": "deapcoin",
       "name": "DEAPCOIN",
       "score": 43
@@ -64,11 +69,6 @@
     {
       "id": "super-inu-force",
       "name": "Super Inu Force",
-      "score": 43
-    },
-    {
-      "id": "umia",
-      "name": "Umia",
       "score": 42
     },
     {
@@ -124,11 +124,6 @@
       "reason": "max rise too high"
     },
     {
-      "id": "dkargo",
-      "name": "dKargo",
-      "reason": "low volume"
-    },
-    {
       "id": "flying-tulip",
       "name": "Flying Tulip",
       "reason": "low volume"
@@ -147,11 +142,6 @@
       "id": "lab",
       "name": "LAB",
       "reason": "max rise too high"
-    },
-    {
-      "id": "meet48",
-      "name": "MEET48",
-      "reason": "low volume"
     },
     {
       "id": "meme-horse",
