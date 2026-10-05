@@ -43,9 +43,10 @@ The start price is the first price a coin ever traded at. It never changes, so e
 |---|---|---|
 | Coin trades on Binance | Close of its first daily candle on Binance, converted from USD at that day's rate ([Frankfurter](https://frankfurter.dev), free) | Price + month. A `*` means the coin traded elsewhere before Binance listed it, so this is its Binance listing price |
 | Not on Binance, under 1 year old | First daily price on CoinGecko (the free plan's 365 days cover its whole life) | Price + month |
-| Not on Binance, over 1 year old | Full history needs a paid CoinGecko plan | – |
+| Not on Binance, over 1 year old, on Gate.io | Close of its first daily candle on Gate.io, converted the same way | Price + month, `*` if it traded elsewhere first |
+| None of the above | Full history needs a paid CoinGecko plan | – |
 
-Coins under a year old are checked up to `start_fetches_per_run` (60) per run, so new coins fill in over a few runs. On phones the coin card shows the start price where "Below peak" used to be. "Below peak" is still in the table and the detail panel.
+Coins under a year old are checked on CoinGecko up to `start_fetches_per_run` (100) per run, so new coins fill in over a few runs. On phones the coin card shows the start price where "Below peak" used to be. "Below peak" is still in the table and the detail panel.
 
 ## Watch score (0–100)
 
