@@ -10,9 +10,9 @@ Picks a watchlist out of the **top 1000 cryptocurrencies** (by market cap) using
 
 Stablecoins, wrapped/bridged tokens and coins with very low 24h volume are removed too. The remaining coins are ranked by a 0–100 **watch score**.
 
-A GitHub Actions job fetches fresh data from CoinGecko **every 3 hours** and saves it to the repo. The dashboard (free on GitHub Pages) shows that saved data and says how many minutes old it is. The page itself never calls CoinGecko.
+A GitHub Actions job fetches fresh data from CoinGecko **every hour** and saves it to the repo. The dashboard (free on GitHub Pages) shows that saved data and says how many minutes old it is. The page itself never calls CoinGecko.
 
-> **Hinglish summary:** Top 1000 coin ki list CoinGecko se aati hai. Jo coin ₹500 se mehenga hai, ya jo apne lowest (ATL) se highest (ATH) tak 2000% se zyada chadh chuka hai, woh cut ho jaata hai. Baaki coins ki watchlist banti hai, score ke hisaab se sorted. Website par sliders se ₹500 / 2000% badal sakte ho. Data har 3 ghante mein apne aap update hota hai.
+> **Hinglish summary:** Top 1000 coin ki list CoinGecko se aati hai. Jo coin ₹500 se mehenga hai, ya jo apne lowest (ATL) se highest (ATH) tak 2000% se zyada chadh chuka hai, woh cut ho jaata hai. Baaki coins ki watchlist banti hai, score ke hisaab se sorted. Website par sliders se ₹500 / 2000% badal sakte ho. Data har ghante apne aap update hota hai.
 
 ## How "biggest jump" is calculated
 
@@ -86,9 +86,10 @@ docs/data/coins.json                all 1000 coins with metrics (dashboard reads
 docs/data/watchlist.csv             final watchlist, opens in Excel
 docs/data/changes.json              coins that entered / left since the previous day
 docs/data/history/YYYY-MM-DD.json   daily snapshots (last 90 days)
-.github/workflows/update-watchlist.yml   auto-update every 3 hours
+.github/workflows/update-watchlist.yml   auto-update every hour
 cache/rise_cache.json               stored price-history results per coin
 cache/start_cache.json              stored start price per coin
+cache/excluded.json                 stablecoin / wrapped-token ids, refreshed once a day
 ```
 
 ## Run it locally
@@ -110,7 +111,7 @@ Open http://localhost:8000. A full run takes about 2–4 minutes because the fre
 4. Recommended: get a free CoinGecko Demo API key at https://www.coingecko.com/en/api/pricing and add it under **Settings → Secrets and variables → Actions** as `COINGECKO_API_KEY`. Without a key the public API often rate-limits GitHub's servers.
 5. **Actions → Update watchlist → Run workflow** to run it the first time.
 
-The site will be at `https://<username>.github.io/<repo-name>/`. After that the workflow runs every 3 hours (at minute 7) and commits fresh data. GitHub sometimes starts scheduled runs a few minutes late.
+The site will be at `https://<username>.github.io/<repo-name>/`. After that the workflow runs every hour (at minute 7) and commits fresh data. The stablecoin / wrapped-token lists are fetched once a day (`cache/excluded.json`) to stay well inside the free CoinGecko limit. GitHub sometimes starts scheduled runs a few minutes late.
 
 ## Changing the rules
 

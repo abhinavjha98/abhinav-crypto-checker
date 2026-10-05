@@ -105,15 +105,34 @@ def fetch_markets(cfg, category=None, max_coins=None):
     return coins[:max_coins]
 
 
+EXCLUDED_CACHE = ROOT / "cache" / "excluded.json"
+
+
 def fetch_excluded_ids(cfg):
-    """coin_id -> category slug, for stablecoins / wrapped tokens etc."""
-    excluded = {}
+    """coin_id -> category slug, for stablecoins / wrapped tokens etc.
+
+    These lists barely change, so they are fetched once a day (cache/excluded.json)
+    to keep hourly runs inside the free CoinGecko monthly call limit."""
+    try:
+        cached = json.loads(EXCLUDED_CACHE.read_text(encoding="utf-8"))
+        if (days_since(cached["fetched_at"]) or 0) < 1 and cached.get("categories") == cfg.get("exclude_categories", []):
+            print(f"  using today's saved lists ({len(cached['ids'])} coins)")
+            return cached["ids"]
+    except (FileNotFoundError, ValueError, KeyError):
+        pass
+    excluded, complete = {}, True
     for cat in cfg.get("exclude_categories", []):
         try:
             for c in fetch_markets(cfg, category=cat, max_coins=500):
                 excluded.setdefault(c["id"], cat)
         except Exception as e:  # keep going; name/symbol fallback still applies
             print(f"  ! could not fetch category {cat}: {e}")
+            complete = False
+    if complete:
+        EXCLUDED_CACHE.parent.mkdir(parents=True, exist_ok=True)
+        EXCLUDED_CACHE.write_text(json.dumps({"fetched_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+                                              "categories": cfg.get("exclude_categories", []), "ids": excluded},
+                                             separators=(",", ":"), sort_keys=True), encoding="utf-8")
     return excluded
 
 

@@ -357,6 +357,10 @@ footer { color: var(--muted); font-size: 12.5px; max-width: 90ch; }
         <option value="from_ath_pct:1">Furthest below its peak</option>
         <option value="change_30d:-1">Best last 30 days</option>
         <option value="max_rise_pct:1">Smallest jump ever</option>
+        <option value="since_start_pct:-1">Most up since start</option>
+        <option value="since_start_pct:1">Most down since start</option>
+        <option value="start_price:1">Lowest start price</option>
+        <option value="start_price:-1">Highest start price</option>
         <option value="rank:1">Biggest coins first</option>
       </select>
     </label>
@@ -382,7 +386,7 @@ footer { color: var(--muted); font-size: 12.5px; max-width: 90ch; }
   <details class="guide" id="guide">
     <summary>How to read this page / Yeh page kaise padhein</summary>
     <div class="guide-body">
-      <p class="hi"><b>Hinglish:</b> Top 1000 coin mein se jo coin ₹500 se mehenga hai, ya jo kabhi bhi neeche se upar 2000% se zyada chadh chuka hai, woh hata diye jaate hain. Baaki coins ki list yahan hai, sabse achhe score wale upar. Kisi bhi coin par tap karo, poori detail aa jayegi. Price har 3 ghante mein apne aap update hota hai.</p>
+      <p class="hi"><b>Hinglish:</b> Top 1000 coin mein se jo coin ₹500 se mehenga hai, ya jo kabhi bhi neeche se upar 2000% se zyada chadh chuka hai, woh hata diye jaate hain. Baaki coins ki list yahan hai, sabse achhe score wale upar. Kisi bhi coin par tap karo, poori detail aa jayegi. Price har ghante apne aap update hota hai.</p>
       <dl class="glossary">
         <dt>Price</dt><dd>What one coin costs right now, in rupees.</dd>
         <dt>Biggest jump ever</dt><dd>The biggest rise that really happened: from a low price up to a later high price. 2000% means it went up about 21 times. ⚠ means older price history was not available, so an earlier, bigger jump may be missing.</dd>
@@ -400,7 +404,7 @@ footer { color: var(--muted); font-size: 12.5px; max-width: 90ch; }
   </details>
 
   <footer>
-    Data from <a href="https://www.coingecko.com" target="_blank" rel="noopener">CoinGecko</a>, refreshed automatically every 3 hours. Price history from CoinGecko and Binance. "New today" compares with yesterday's list.
+    Data from <a href="https://www.coingecko.com" target="_blank" rel="noopener">CoinGecko</a>, refreshed automatically every hour. Price history from CoinGecko, Binance and Gate.io. "New today" compares with yesterday's list.
   </footer>
 </div>
 
@@ -414,6 +418,7 @@ const COLS = [
   { k: "name", t: "Coin", l: true },
   { k: "price", t: "Price" },
   { k: "start_price", t: "Start price", s: "first trade" },
+  { k: "since_start_pct", t: "Since start", s: "vs start price" },
   { k: "max_rise_pct", t: "Biggest jump", s: "lowest → highest" },
   { k: "from_ath_pct", t: "Below peak", s: "vs highest ever" },
   { k: "change_24h", t: "24 hours" },
@@ -716,6 +721,7 @@ function render(resetPaging = true) {
       <td class="l"><div class="coin">${c.image ? `<img src="${esc(c.image)}" alt="" loading="lazy">` : ""}<span class="nm">${esc(c.name)}</span><span class="sym">${esc(c.symbol)}</span>${NEW_IDS.has(c.id) ? '<span class="new">NEW</span>' : ""}</div></td>
       <td>${fmtPrice(c.price)}</td>
       <td title="${esc(startNote(c))}">${fmtPrice(c.start_price)}${isListing(c) ? "*" : ""}</td>
+      <td class="${cls(c.since_start_pct)}">${fmtPct(c.since_start_pct)}</td>
       <td>${fmtPct(c.max_rise_pct, false)}</td>
       <td class="${cls(c.from_ath_pct)}">${fmtPct(c.from_ath_pct)}</td>
       <td class="${cls(c.change_24h)}">${fmtPct(c.change_24h)}</td>
@@ -859,7 +865,7 @@ function renderChanges(ch) {
 }
 
 /* ---------- Data: refreshed every hour by GitHub Actions (screener.py). The page never calls CoinGecko. ---------- */
-const UPDATE_EVERY_MIN = 180;
+const UPDATE_EVERY_MIN = 60;
 
 function setStatus(state, html) {
   $("dot").className = "dot " + (state === "fresh" ? "on" : state === "stale" ? "busy" : "");
@@ -877,7 +883,7 @@ function showFreshness() {
   const at = DATA.meta.generated_at, min = Math.floor((Date.now() - new Date(at).getTime()) / 60000);
   const fresh = min <= UPDATE_EVERY_MIN + 30;
   setStatus(fresh ? "fresh" : "stale", `Prices updated <b>${agoStr(min)}</b> · ${timeStr(at)}` +
-    (fresh ? ` · updates every 3 hours` : ` · next update is on its way`));
+    (fresh ? ` · updates every hour` : ` · next update is on its way`));
   return min;
 }
 
@@ -929,7 +935,7 @@ $("sortSel").addEventListener("change", () => {
 });
 $("thead").addEventListener("click", (e) => {
   const k = e.target.closest("th")?.dataset.k; if (!k) return;
-  if (sortKey === k) sortDir = -sortDir; else { sortKey = k; sortDir = ["name", "rank", "price", "max_rise_pct"].includes(k) ? 1 : -1; }
+  if (sortKey === k) sortDir = -sortDir; else { sortKey = k; sortDir = ["name", "rank", "price", "start_price", "max_rise_pct"].includes(k) ? 1 : -1; }
   render();
 });
 function onListClick(e, sel) {
