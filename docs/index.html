@@ -399,7 +399,7 @@ footer { color: var(--muted); font-size: 12.5px; max-width: 90ch; }
       <dl class="glossary">
         <dt>Price</dt><dd>What one coin costs right now, in rupees.</dd>
         <dt>Biggest jump ever</dt><dd>The biggest rise that really happened: from a low price up to a later high price. 2000% means it went up about 21 times. ⚠ means older price history was not available, so an earlier, bigger jump may be missing.</dd>
-        <dt>Start price</dt><dd>The first price the coin traded at, with the month. * means it is the first price on Binance or Gate.io; the coin traded somewhere else before that. "–" means it is not available yet.</dd>
+        <dt>Start price</dt><dd>The first price the coin traded at, with the month. * means it is not the coin's very first price: either its first price on Binance / Gate.io (it traded elsewhere before), or the earliest price we could find for free.</dd>
         <dt>Since start</dt><dd>How much the price has gone up or down since the start price. +200% means it is 3 times its start price; −80% means it is worth a fifth of it.</dd>
         <dt>Below its peak</dt><dd>How far today's price is under its highest price ever. −70% means it is 70% cheaper than its peak.</dd>
         <dt>Last 30 days</dt><dd>How much the price went up or down in the last month.</dd>
@@ -491,9 +491,13 @@ function settings() {
 
 // "binance_listing" is the older name for "listing" (data written before Gate.io was added)
 const isListing = (c) => c.start_basis === "listing" || c.start_basis === "binance_listing";
+const isEarliest = (c) => c.start_basis === "earliest";
+// * = not the coin's very first price (a later exchange listing, or the earliest price we have)
+const starMark = (c) => (isListing(c) || isEarliest(c) ? "*" : "");
 const exName = (c) => (c.start_src === "gate" ? "Gate.io" : "Binance");
 function startNote(c) {
-  if (c.start_price == null) return "Not available: the coin isn't on Binance and is over a year old";
+  if (c.start_price == null) return "Not available";
+  if (isEarliest(c)) return `Earliest price we have, ${monthYr(c.start_date)}. Its first trading price isn't available for free`;
   return isListing(c)
     ? `First price on ${exName(c)}, ${monthYr(c.start_date)}. It traded elsewhere before that`
     : `First traded price, ${monthYr(c.start_date)}`;
@@ -690,7 +694,7 @@ function cardHtml(c) {
       </div>
       <div class="stats">
         <div><span>Biggest jump</span><b>${fmtPct(c.max_rise_pct, false)}${isPartial(c) ? ' <span title="Older price history missing">⚠</span>' : ""}</b></div>
-        <div><span>Start price</span><b title="${esc(startNote(c))}">${fmtPrice(c.start_price)}${isListing(c) ? "*" : ""}</b><span>${c.start_date ? monthYr(c.start_date) : ""}</span></div>
+        <div><span>Start price</span><b title="${esc(startNote(c))}">${fmtPrice(c.start_price)}${starMark(c)}</b><span>${c.start_date ? monthYr(c.start_date) : ""}</span></div>
         <div><span>Since start</span><b class="${cls(c.since_start_pct)}">${fmtPct(c.since_start_pct)}</b></div>
       </div></button>${starBtn(c, tgt)}</div>`;
 }
@@ -778,7 +782,7 @@ function render(resetPaging = true) {
       <td>${c.rank}</td>
       <td class="l"><div class="coin">${c.image ? `<img src="${esc(c.image)}" alt="" loading="lazy">` : ""}<span class="nm">${esc(c.name)}</span><span class="sym">${esc(c.symbol)}</span>${NEW_IDS.has(c.id) ? '<span class="new">NEW</span>' : ""}</div></td>
       <td>${fmtPrice(c.price)}</td>
-      <td title="${esc(startNote(c))}">${fmtPrice(c.start_price)}${isListing(c) ? "*" : ""}</td>
+      <td title="${esc(startNote(c))}">${fmtPrice(c.start_price)}${starMark(c)}</td>
       <td class="${cls(c.since_start_pct)}">${fmtPct(c.since_start_pct)}</td>
       <td>${fmtPct(c.max_rise_pct, false)}</td>
       <td class="${cls(c.from_ath_pct)}">${fmtPct(c.from_ath_pct)}</td>
@@ -805,7 +809,7 @@ function plainSummary(c, reason) {
   const name = esc(c.name);
   let t = `${name} costs <b>${fmtPrice(c.price)}</b> today. `;
   if (c.start_price != null)
-    t += `${isListing(c) ? `On ${exName(c)} it started` : "It started"} at <b>${fmtPrice(c.start_price)}</b> (${monthYr(c.start_date)}), so it is ${c.since_start_pct >= 0 ? "up" : "down"} ${fmtPct(Math.abs(c.since_start_pct), false)} since then. `;
+    t += `${isEarliest(c) ? "The earliest price we have is" : isListing(c) ? `On ${exName(c)} it started at` : "It started at"} <b>${fmtPrice(c.start_price)}</b> (${monthYr(c.start_date)}), so it is ${c.since_start_pct >= 0 ? "up" : "down"} ${fmtPct(Math.abs(c.since_start_pct), false)} since then. `;
   if (c.max_rise_pct != null && c.rise_low != null && c.rise_high != null)
     t += `Its biggest rise was <b>${fmtPct(c.max_rise_pct, false)}</b>: it went from ${fmtPrice(c.rise_low)} (${monthYr(c.rise_low_date)}) up to ${fmtPrice(c.rise_high)} (${monthYr(c.rise_high_date)}). `;
   if (c.from_ath_pct != null) t += `Right now it is <b>${Math.abs(Math.round(c.from_ath_pct))}% below</b> its highest price. `;

@@ -332,7 +332,8 @@ def compute_rises(raw, cfg, pairs):
 #  * Not on Binance but under a year old: its first CoinGecko daily price (the free plan's
 #    365 days cover its whole life).
 #  * Older coins not on Binance: close of the first daily candle on Gate.io, converted the same way.
-#  * Anything else: unknown (full history needs a paid CoinGecko plan).
+#  * Anything else: the earliest price we know ("earliest"): CoinGecko's price 365 days ago, or the
+#    ATH / ATL if that is older. The true first price would need a paid CoinGecko plan.
 
 START_CACHE = ROOT / "cache" / "start_cache.json"
 FX_API = "https://api.frankfurter.app"
@@ -399,13 +400,15 @@ def gate_first_close(pair):
 
 
 def compute_starts(raw, cfg, pairs):
-    """coin_id -> {"price", "date", "src"} for every coin whose start price is known."""
+    """coin_id -> {"price", "date", "src"[, "earliest"]} for every coin with a start price."""
     try:
         cache = json.loads(START_CACHE.read_text(encoding="utf-8"))
     except (FileNotFoundError, ValueError):
         cache = {}
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    have = lambda cid: bool(cache.get(cid, {}).get("price"))
+    # A real first price (exchange listing / launch). "earliest" entries are only a stand-in
+    # and are replaced if an exchange later gives an older price.
+    have = lambda cid: bool(cache.get(cid, {}).get("price")) and not cache[cid].get("earliest")
 
     def maybe_young(c):
         """ATH and ATL both within the last year: the coin may be under a year old."""
@@ -417,7 +420,7 @@ def compute_starts(raw, cfg, pairs):
     todo = {c["id"]: ("binance", lambda sym=pairs[c["id"]]: binance_first_close(sym))
             for c in raw if c["id"] in pairs and not have(c["id"])}
     rest = [c for c in raw if not have(c["id"]) and c["id"] not in pairs
-            and (not maybe_young(c) or cache.get(c["id"], {}).get("checked"))]
+            and (not maybe_young(c) or c["id"] in cache)]
     if rest:
         for cid, pair in gate_pairs(rest, pairs).items():
             todo[cid] = ("gate", lambda pair=pair: gate_first_close(pair))
@@ -439,14 +442,21 @@ def compute_starts(raw, cfg, pairs):
             rates = []
         for cid, src, (d, usd) in firsts:
             r = rate_on(rates, d)
+            old = cache.get(cid, {})
+            if old.get("earliest") and old.get("date", "9999") <= d:
+                continue                # the stand-in is older than this listing: keep it
             if r:
                 cache[cid] = {"price": usd * r, "usd": usd, "date": d, "src": src}
                 added[src] += 1
 
-    # CoinGecko: only coins that may be under a year old
+    # CoinGecko 365 days: young coins get their launch price, older ones the price a year ago
+    # (only worth it when ATH and ATL are both within the year; otherwise they are older)
     def due(cid):
-        checked = cache.get(cid, {}).get("checked")
-        return not checked or (days_since(checked) or 0) >= START_RECHECK_DAYS
+        e = cache.get(cid, {})
+        if e.get("price"):
+            return False
+        # "checked" without "empty" is the old format (history existed but was not kept): fetch again
+        return not e.get("checked") or not e.get("empty") or (days_since(e["checked"]) or 0) >= START_RECHECK_DAYS
 
     need = [c for c in raw if not have(c["id"]) and c["id"] not in pairs and maybe_young(c) and due(c["id"])]
     need.sort(key=lambda c: ((num(c.get("current_price")) or 1e18) > cfg["max_price"], c.get("market_cap_rank") or 1e9))
@@ -460,11 +470,14 @@ def compute_starts(raw, cfg, pairs):
         fetched += 1
         if pts and len(pts) < 360:      # history shorter than the 365-day window: the first point is the start
             cache[c["id"]] = {"price": pts[0][1], "date": pts[0][0], "src": "coingecko"}
+        elif pts:                       # older than a year: keep the oldest price we got as a stand-in
+            cache[c["id"]] = {"price": pts[0][1], "date": pts[0][0], "src": "coingecko", "earliest": True}
         else:
-            cache[c["id"]] = {"checked": today}
+            cache[c["id"]] = {"checked": today, "empty": True}
 
     known = {cid: v for cid, v in cache.items() if v.get("price")}
-    print(f"  start prices: {sum(1 for c in raw if c['id'] in known)} of {len(raw)} known "
+    print(f"  start prices: {sum(1 for c in raw if have(c['id']))} of {len(raw)} first prices, "
+          f"{sum(1 for c in raw if c['id'] in known and not have(c['id']))} earliest-known stand-ins "
           f"(new from Binance {added['binance']}, Gate {added['gate']}, CoinGecko checked {fetched}, {max(0, len(need) - budget)} left for later runs)")
     START_CACHE.parent.mkdir(parents=True, exist_ok=True)
     START_CACHE.write_text(json.dumps(cache, separators=(",", ":"), sort_keys=True), encoding="utf-8")
@@ -572,9 +585,18 @@ def build_rows(raw, excluded, rises, starts, cfg):
         from_ath = ((price / ath) - 1) * 100 if price is not None and ath else None
         ath_age, atl_age = days_since(coin.get("ath_date")), days_since(coin.get("atl_date"))
         start = starts.get(coin["id"])
+        if not start or start.get("earliest"):
+            # No first price: use the oldest price we know (CoinGecko's year-old price, ATH or ATL)
+            pts = [(start["date"], start["price"], start["src"])] if start else []
+            pts += [((coin.get(k) or "")[:10], v, "ath_atl") for k, v in (("ath_date", ath), ("atl_date", atl))
+                    if coin.get(k) and v]
+            start = None
+            if pts:
+                d, v, src = min(pts)
+                start = {"price": v, "date": d, "src": src, "earliest": True}
         first_seen = min(d for d in ((coin.get("ath_date") or "")[:10], (coin.get("atl_date") or "")[:10], "9999") if d)
         # An exchange's first day is the true start only if CoinGecko saw no trading (ATH / ATL) before it
-        start_basis = None if not start else (
+        start_basis = None if not start else "earliest" if start.get("earliest") else (
             "listing" if start["src"] != "coingecko" and first_seen < start["date"] else "launch")
         history_days = max([a for a in (ath_age, atl_age) if a is not None], default=None)
 

@@ -37,14 +37,14 @@ Each coin's history is downloaded once and stored in `cache/rise_cache.json`. Ev
 
 ## Start price
 
-The start price is the first price a coin ever traded at. It never changes, so each coin is looked up once and kept in `cache/start_cache.json`.
+The start price is the first price a coin ever traded at. Every coin gets one: when the true first price is not available for free, the earliest known price is shown instead, marked `*`. It never changes, so each coin is looked up once and kept in `cache/start_cache.json`.
 
 | Case | Source | Shown as |
 |---|---|---|
 | Coin trades on Binance | Close of its first daily candle on Binance, converted from USD at that day's rate ([Frankfurter](https://frankfurter.dev), free) | Price + month. A `*` means the coin traded elsewhere before Binance listed it, so this is its Binance listing price |
 | Not on Binance, under 1 year old | First daily price on CoinGecko (the free plan's 365 days cover its whole life) | Price + month |
 | Not on Binance, over 1 year old, on Gate.io | Close of its first daily candle on Gate.io, converted the same way | Price + month, `*` if it traded elsewhere first |
-| None of the above | Full history needs a paid CoinGecko plan | – |
+| None of the above | The earliest price we know: CoinGecko's price 365 days ago, or the all-time high / low if that is older (the true first price needs a paid CoinGecko plan) | Price + month with `*` |
 
 Coins under a year old are checked on CoinGecko up to `start_fetches_per_run` (100) per run, so new coins fill in over a few runs. On phones the coin card shows the start price where "Below peak" used to be. "Below peak" is still in the table and the detail panel.
 
