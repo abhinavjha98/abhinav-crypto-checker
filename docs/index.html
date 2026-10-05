@@ -108,6 +108,27 @@ h1 em { font-style: normal; color: var(--accent-text); text-shadow: var(--glow);
 .chip.in { border-color: var(--good); color: var(--good); }
 .chip.out { border-color: var(--bad); color: var(--bad); }
 
+/* My lists */
+.views { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.views .tag { font: 700 10.5px var(--mono); text-transform: uppercase; letter-spacing: 0.14em; color: var(--muted); white-space: nowrap; }
+.chip.on { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); font-weight: 700; }
+.chip.add { border-style: dashed; color: var(--accent-text); }
+.chip .n { font: 600 11.5px var(--mono); opacity: 0.75; margin-left: 4px; }
+.listtools { display: flex; gap: 8px; flex-wrap: wrap; }
+.listtools .btn { min-height: 36px; padding: 6px 14px; font-size: 13px; }
+.listtools .btn.danger { color: var(--bad); }
+.cardwrap { position: relative; }
+.cardwrap .card { height: 100%; }
+.card .row1 { padding-right: 46px; }
+.star { width: 40px; height: 40px; border-radius: 50%; border: 1px solid var(--line); background: var(--panel-2); color: var(--muted); font-size: 19px; line-height: 1; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; padding: 0; }
+.star:hover { border-color: var(--accent); color: var(--accent-text); }
+.star.on { color: var(--accent-text); border-color: var(--accent); background: var(--accent-soft); }
+.cardwrap > .star { position: absolute; top: 11px; right: 11px; }
+td .star { width: 32px; height: 32px; font-size: 16px; }
+.mylists { display: grid; gap: 2px; }
+.mylists .btn { justify-self: start; margin-top: 6px; }
+.toast { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(20px + env(safe-area-inset-bottom, 0px)); z-index: 7; background: var(--fg); color: var(--bg); padding: 10px 18px; border-radius: 999px; font-size: 14px; font-weight: 600; max-width: calc(100vw - 32px); text-align: center; box-shadow: 0 6px 24px rgba(0, 0, 0, 0.3); }
+
 /* Filters */
 .filters { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 16px; display: grid; gap: 14px; }
 .main-filters { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; }
@@ -325,8 +346,10 @@ footer { color: var(--muted); font-size: 12.5px; max-width: 90ch; }
     </div>
   </section>
 
+  <section class="views" id="views" aria-label="Choose a list"></section>
+
   <section class="listhead">
-    <div><h2>Your watchlist</h2><span class="count" id="countText"></span></div>
+    <div><h2 id="listTitle">Your watchlist</h2><span class="count" id="countText"></span></div>
     <label class="sortbox">Sort by
       <select id="sortSel">
         <option value="score:-1">Best score</option>
@@ -338,6 +361,12 @@ footer { color: var(--muted); font-size: 12.5px; max-width: 90ch; }
       </select>
     </label>
   </section>
+  <div class="listtools" id="listTools" hidden>
+    <p class="hint" style="flex-basis:100%">This is your own list. The filters above don't remove coins from it. The status shows whether a coin would pass them.</p>
+    <button class="btn" id="renameList" type="button">Rename</button>
+    <button class="btn" id="shareList" type="button">Copy link to open on another device</button>
+    <button class="btn danger" id="deleteList" type="button">Delete list</button>
+  </div>
 
   <section class="cards" id="cards" aria-label="Coins"></section>
   <button class="btn morebtn" id="moreCards" type="button" hidden>Show more coins</button>
@@ -348,7 +377,7 @@ footer { color: var(--muted); font-size: 12.5px; max-width: 90ch; }
       <tbody id="tbody"></tbody>
     </table>
   </section>
-  <div class="empty" id="empty" hidden>No coins match. Try a higher price or a bigger jump, or tap "Reset".</div>
+  <div class="empty" id="empty" hidden></div>
 
   <details class="guide" id="guide">
     <summary>How to read this page / Yeh page kaise padhein</summary>
@@ -362,6 +391,7 @@ footer { color: var(--muted); font-size: 12.5px; max-width: 90ch; }
         <dt>Score (0–100)</dt><dd>Higher is better to watch. It looks at coin size, how much it is traded, how far below its peak it is, recent trend and price calmness.</dd>
         <dt>Strong Watch / Watch</dt><dd>Score 80+ / 65–79. Most interesting.</dd>
         <dt>Monitor / Weak</dt><dd>Score 50–64 / below 50.</dd>
+        <dt>My lists</dt><dd>Tap ☆ on any coin to save it to your own list. Make as many lists as you like with "+ New list". Lists are saved in this browser only. Use "Copy link" to open a list on another phone or computer.</dd>
       </dl>
       <p><b>This is not financial advice.</b> The score only sorts coins. It does not predict prices. A low price does not mean a coin is cheap. Always research before investing.</p>
     </div>
@@ -374,6 +404,7 @@ footer { color: var(--muted); font-size: 12.5px; max-width: 90ch; }
 
 <div class="scrim" id="scrim" hidden></div>
 <aside class="sheet" id="sheet" hidden aria-label="Coin details" role="dialog" aria-modal="true"></aside>
+<div class="toast" id="toast" role="status" hidden></div>
 
 <script>
 const COLS = [
@@ -461,6 +492,108 @@ function syncPresets() {
   });
 }
 
+/* ---------- My lists: the user's own watchlists, saved in this browser (the site has no server). ---------- */
+const LS_KEY = "cw.lists.v1";
+let LISTS = [], VIEW = "screener", TARGET = null;
+function loadLists() {
+  try {
+    const d = JSON.parse(localStorage.getItem(LS_KEY) || "null");
+    if (d && Array.isArray(d.lists)) {
+      LISTS = d.lists.filter((l) => l && l.id && typeof l.name === "string" && Array.isArray(l.ids));
+      VIEW = d.view || "screener"; TARGET = d.target || null;
+    }
+  } catch (e) { /* storage blocked: lists live only until the page closes */ }
+  if (!LISTS.some((l) => l.id === VIEW)) VIEW = "screener";
+}
+function saveLists() {
+  try { localStorage.setItem(LS_KEY, JSON.stringify({ lists: LISTS, view: VIEW, target: TARGET })); }
+  catch (e) { toast("Could not save on this device. Lists will be lost when you close the page."); }
+}
+const activeList = () => LISTS.find((l) => l.id === VIEW) || null;
+// The list that ☆ adds to: the open list, else the last one used, else the first.
+const targetList = () => activeList() || LISTS.find((l) => l.id === TARGET) || LISTS[0] || null;
+function createList(name) {
+  const l = { id: "l" + Date.now().toString(36) + Math.random().toString(36).slice(2, 6), name: name.trim().slice(0, 60), ids: [] };
+  LISTS.push(l);
+  return l;
+}
+function askName(msg, def) {
+  const n = prompt(msg, def);
+  return n && n.trim() ? n.trim() : null;
+}
+const nextListName = () => (LISTS.length ? `My list ${LISTS.length + 1}` : "My watchlist");
+function newList() {
+  const name = askName("Name your new list", nextListName());
+  if (!name) return;
+  const l = createList(name);
+  VIEW = l.id; TARGET = l.id; saveLists(); render();
+  toast(`"${l.name}" created. Go to Screener watchlist and tap ☆ to add coins.`);
+}
+function setMember(l, id, on) {
+  const has = l.ids.includes(id);
+  if (on && !has) l.ids.push(id);
+  if (!on && has) l.ids = l.ids.filter((x) => x !== id);
+  TARGET = l.id;
+  saveLists();
+}
+function toggleStar(id) {
+  let l = targetList();
+  if (!l) l = createList("My watchlist");
+  const on = !l.ids.includes(id);
+  setMember(l, id, on);
+  const c = DATA.coins.find((x) => x.id === id);
+  toast(`${c ? c.name : "Coin"} ${on ? "added to" : "removed from"} "${l.name}"`);
+  render(false);
+}
+function renameList() {
+  const l = activeList(); if (!l) return;
+  const name = askName("New name for this list", l.name);
+  if (!name) return;
+  l.name = name.slice(0, 60); saveLists(); render(false);
+}
+function deleteList() {
+  const l = activeList(); if (!l) return;
+  if (!confirm(`Delete "${l.name}" and its ${l.ids.length} coins? This cannot be undone.`)) return;
+  LISTS = LISTS.filter((x) => x !== l);
+  VIEW = "screener"; if (TARGET === l.id) TARGET = null;
+  saveLists(); render();
+}
+function shareList() {
+  const l = activeList(); if (!l) return;
+  const url = location.href.split("#")[0] + "#" + new URLSearchParams({ list: l.name, coins: l.ids.join(",") });
+  const fallback = () => prompt("Copy this link and open it on the other device:", url);
+  if (navigator.clipboard) navigator.clipboard.writeText(url).then(() => toast("Link copied. Open it on another device to get this list there."), fallback);
+  else fallback();
+}
+function importFromLink() {
+  const h = new URLSearchParams(location.hash.slice(1));
+  if (!h.has("coins")) return;
+  history.replaceState(null, "", location.pathname + location.search);
+  const ids = [...new Set(h.get("coins").split(",").map((x) => x.trim()).filter(Boolean))].slice(0, 2000);
+  const name = (h.get("list") || "").trim() || "Shared list";
+  if (!ids.length || !confirm(`Add the list "${name}" (${ids.length} coins) to this device?`)) return;
+  const l = createList(name); l.ids = ids;
+  VIEW = l.id; TARGET = l.id; saveLists();
+}
+function renderViews() {
+  const chip = (id, label, n) =>
+    `<button type="button" class="chip ${VIEW === id ? "on" : ""}" data-view="${esc(id)}" aria-pressed="${VIEW === id}">${label}${n != null ? `<span class="n">${n}</span>` : ""}</button>`;
+  $("views").innerHTML = `<span class="tag">Show</span>` + chip("screener", "Screener watchlist") +
+    LISTS.map((l) => chip(l.id, "★ " + esc(l.name), l.ids.length)).join("") +
+    `<button type="button" class="chip add" data-act="new">+ New list</button>`;
+}
+let toastTimer = null;
+function toast(msg) {
+  $("toast").textContent = msg; $("toast").hidden = false;
+  clearTimeout(toastTimer); toastTimer = setTimeout(() => { $("toast").hidden = true; }, 2600);
+}
+function starBtn(c, l) {
+  const on = !!l && l.ids.includes(c.id);
+  const where = l ? `"${l.name}"` : "a new list";
+  const label = `${on ? "Remove" : "Add"} ${c.name} ${on ? "from" : "to"} ${where}`;
+  return `<button type="button" class="star ${on ? "on" : ""}" data-star="${esc(c.id)}" aria-pressed="${on}" aria-label="${esc(label)}" title="${esc(label)}">${on ? "★" : "☆"}</button>`;
+}
+
 let ROWS = [];
 function render(resetPaging = true) {
   if (!DATA) return;
@@ -488,7 +621,14 @@ function render(resetPaging = true) {
   $("steps").innerHTML = steps.map(([l, v, m]) =>
     `<div class="step"><span class="lbl">${esc(l)}</span><span class="val ${m && v ? "minus" : ""}">${m && v ? "−" : ""}${nfIN.format(v)}</span></div>`).join("");
 
-  let rows = s.showRejected ? all : kept;
+  renderViews();
+  const list = activeList(), tgt = targetList();
+  let rows, missing = 0;
+  if (list) {
+    const byId = new Map(all.map((c) => [c.id, c]));
+    rows = list.ids.map((id) => byId.get(id)).filter(Boolean);
+    missing = list.ids.length - rows.length;
+  } else rows = s.showRejected ? all : kept;
   if (s.q) rows = rows.filter((c) => c.name.toLowerCase().includes(s.q) || c.symbol.toLowerCase().includes(s.q));
   rows.sort((a, b) => {
     let x = a[sortKey], y = b[sortKey];
@@ -496,11 +636,19 @@ function render(resetPaging = true) {
     if (x == null) return 1; if (y == null) return -1;
     return (typeof x === "string" ? x.localeCompare(y) : x - y) * sortDir;
   });
-  if (s.showRejected) rows.sort((a, b) => (a._reason ? 1 : 0) - (b._reason ? 1 : 0));
+  if (!list && s.showRejected) rows.sort((a, b) => (a._reason ? 1 : 0) - (b._reason ? 1 : 0));
   ROWS = rows;
 
-  $("countText").textContent = s.q || s.showRejected ? ` · showing ${nfIN.format(rows.length)}` : "";
+  $("listTitle").textContent = list ? list.name : "Your watchlist";
+  $("listTools").hidden = !list;
+  $("countText").textContent = list
+    ? ` · ${nfIN.format(rows.length)} coin${rows.length === 1 ? "" : "s"}` + (missing ? ` · ${missing} no longer in the top ${nfIN.format(all.length)}` : "")
+    : s.q || s.showRejected ? ` · showing ${nfIN.format(rows.length)}` : "";
   $("empty").hidden = rows.length > 0;
+  $("empty").textContent = list
+    ? (list.ids.length && s.q ? "No coin in this list matches your search." : 'This list is empty. Go to "Screener watchlist" and tap ☆ on any coin to add it here.')
+    : 'No coins match. Try a higher price or a bigger jump, or tap "Reset".';
+  const dim = (c) => !list && c._reason;
   $("sortSel").value = `${sortKey}:${sortDir}`;
   if (!$("sortSel").value) $("sortSel").selectedIndex = -1;
 
@@ -508,7 +656,7 @@ function render(resetPaging = true) {
   const vis = rows.slice(0, shown);
   $("cards").innerHTML = vis.map((c) => {
     const [st, sc] = c._reason ? [c._reason, "r"] : statusFor(c.score);
-    return `<button type="button" class="card ${c._reason ? "rejected" : ""}" data-id="${esc(c.id)}">
+    return `<div class="cardwrap"><button type="button" class="card ${dim(c) ? "rejected" : ""}" data-id="${esc(c.id)}">
       <div class="row1">${c.image ? `<img src="${esc(c.image)}" alt="" loading="lazy">` : ""}
         <span class="who"><span class="nm">${esc(c.name)}${NEW_IDS.has(c.id) ? '<span class="new">NEW</span>' : ""}</span><span class="sym">${esc(c.symbol)} · #${c.rank}</span></span>
         <span class="pill ${sc}">${esc(st)}</span></div>
@@ -523,17 +671,18 @@ function render(resetPaging = true) {
         <div><span>Biggest jump</span><b>${fmtPct(c.max_rise_pct, false)}${isPartial(c) ? ' <span title="Older price history missing">⚠</span>' : ""}</b></div>
         <div><span>Below peak</span><b class="${cls(c.from_ath_pct)}">${fmtPct(c.from_ath_pct)}</b></div>
         <div><span>Traded today</span><b>${fmtBig(c.volume_24h)}</b></div>
-      </div></button>`;
+      </div></button>${starBtn(c, tgt)}</div>`;
   }).join("");
   $("moreCards").hidden = rows.length <= shown;
   $("moreCards").textContent = `Show more coins (${nfIN.format(rows.length - shown)} more)`;
 
   // Table
-  $("thead").innerHTML = COLS.map((c) =>
+  $("thead").innerHTML = `<th scope="col" title="My list">★</th>` + COLS.map((c) =>
     `<th class="${c.l ? "l" : ""} ${sortKey === c.k ? "sorted" : ""}" data-k="${c.k}" scope="col">${c.t}${sortKey === c.k ? (sortDir > 0 ? " ↑" : " ↓") : ""}${c.s ? `<small>${c.s}</small>` : ""}</th>`).join("");
   $("tbody").innerHTML = rows.map((c) => {
     const [st, sc] = c._reason ? [c._reason, "r"] : statusFor(c.score);
-    return `<tr data-id="${esc(c.id)}" class="${c._reason ? "rejected" : ""}">
+    return `<tr data-id="${esc(c.id)}" class="${dim(c) ? "rejected" : ""}">
+      <td>${starBtn(c, tgt)}</td>
       <td>${c.rank}</td>
       <td class="l"><div class="coin">${c.image ? `<img src="${esc(c.image)}" alt="" loading="lazy">` : ""}<span class="nm">${esc(c.name)}</span><span class="sym">${esc(c.symbol)}</span>${NEW_IDS.has(c.id) ? '<span class="new">NEW</span>' : ""}</div></td>
       <td>${fmtPrice(c.price)}</td>
@@ -578,7 +727,11 @@ function openCoin(id) {
     const v = c.score_breakdown?.[k] ?? 0;
     return `<span>${label}</span><span class="track"><i style="width:${(v / max) * 100}%"></i></span><span>${Math.round(v)}/${max}</span>`;
   }).join("");
-  lastFocus = document.activeElement;
+  if ($("sheet").hidden) lastFocus = document.activeElement;
+  const mine = `<div class="sect">My lists</div><div class="mylists">` +
+    LISTS.map((l) => `<label class="check"><input type="checkbox" data-list="${esc(l.id)}" ${l.ids.includes(c.id) ? "checked" : ""}> ${esc(l.name)}</label>`).join("") +
+    (LISTS.length ? "" : `<p class="hint">You have no lists yet.</p>`) +
+    `<button class="btn" id="sheetNewList" type="button">+ Add to a new list</button></div>`;
   $("sheet").innerHTML = `
     <div class="grip"></div>
     <div class="sheet-head">
@@ -605,11 +758,23 @@ function openCoin(id) {
     </dl>
     <div class="sect">Why this score</div>
     <div class="bd">${bd}</div>
+    ${mine}
     <a class="btn" href="https://www.coingecko.com/en/coins/${encodeURIComponent(c.id)}" target="_blank" rel="noopener">Open on CoinGecko ↗</a>`;
   $("sheet").hidden = false; $("scrim").hidden = false;
   $("sheet").scrollTop = 0;
   document.body.classList.add("locked");
   $("closeBtn").onclick = closeCoin;
+  $("sheet").querySelectorAll("input[data-list]").forEach((box) => box.addEventListener("change", () => {
+    const l = LISTS.find((x) => x.id === box.dataset.list);
+    if (l) { setMember(l, c.id, box.checked); render(false); }
+  }));
+  $("sheetNewList").onclick = () => {
+    const name = askName("Name your new list", nextListName());
+    if (!name) return;
+    const l = createList(name); setMember(l, c.id, true); render(false);
+    toast(`${c.name} added to "${l.name}"`);
+    openCoin(c.id);
+  };
   $("closeBtn").focus();
 }
 function closeCoin() {
@@ -631,7 +796,9 @@ function downloadCsv() {
   const blob = new Blob(["﻿" + lines.join("\n")], { type: "text/csv" });
   const a = document.createElement("a");
   a.href = URL.createObjectURL(blob);
-  a.download = `crypto-watchlist-${new Date().toISOString().slice(0, 10)}.csv`;
+  const list = activeList();
+  const tag = (list && list.name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")) || (list ? "my-list" : "crypto-watchlist");
+  a.download = `${tag}-${new Date().toISOString().slice(0, 10)}.csv`;
   a.click();
 }
 
@@ -693,6 +860,8 @@ async function init() {
     return;
   }
   DEFAULTS = DATA.meta.defaults || {};
+  loadLists();
+  importFromLink();
   showFreshness();
   renderChanges(DATA.changes);
   resetDefaults();
@@ -726,8 +895,22 @@ $("thead").addEventListener("click", (e) => {
   if (sortKey === k) sortDir = -sortDir; else { sortKey = k; sortDir = ["name", "rank", "price", "max_rise_pct"].includes(k) ? 1 : -1; }
   render();
 });
-$("tbody").addEventListener("click", (e) => { const id = e.target.closest("tr")?.dataset.id; if (id) openCoin(id); });
-$("cards").addEventListener("click", (e) => { const id = e.target.closest(".card")?.dataset.id; if (id) openCoin(id); });
+function onListClick(e, sel) {
+  const star = e.target.closest("[data-star]")?.dataset.star;
+  if (star) return toggleStar(star);
+  const id = e.target.closest(sel)?.dataset.id; if (id) openCoin(id);
+}
+$("tbody").addEventListener("click", (e) => onListClick(e, "tr"));
+$("cards").addEventListener("click", (e) => onListClick(e, ".card"));
+$("views").addEventListener("click", (e) => {
+  const b = e.target.closest("button"); if (!b) return;
+  if (b.dataset.act === "new") return newList();
+  VIEW = b.dataset.view; if (VIEW !== "screener") TARGET = VIEW;
+  saveLists(); render();
+});
+$("renameList").addEventListener("click", renameList);
+$("shareList").addEventListener("click", shareList);
+$("deleteList").addEventListener("click", deleteList);
 $("changes").addEventListener("click", (e) => { const id = e.target.closest(".chip")?.dataset.id; if (id) openCoin(id); });
 $("moreCards").addEventListener("click", () => { shown += PAGE_SIZE * 2; render(false); });
 $("scrim").addEventListener("click", closeCoin);

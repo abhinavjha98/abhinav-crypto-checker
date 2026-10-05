@@ -51,6 +51,18 @@ Each coin's history is downloaded once and stored in `cache/rise_cache.json`. Ev
 
 This score is a ranking heuristic. It is **not** a buy signal or a price prediction.
 
+## My lists (your own watchlists)
+
+The screener watchlist above stays as it is. Next to it, anyone can build their own lists:
+
+- Tap ☆ on any coin card or table row to add it to a list. If no list exists yet, "My watchlist" is created automatically.
+- "+ New list" makes another list, for example "Long term". Open a list and use Rename or Delete list to manage it.
+- In a coin's detail panel, tick which lists the coin belongs to.
+- The filters don't remove coins from your own lists. The status pill still shows whether a coin would pass them.
+- "Download list for Excel" exports whichever list is open.
+
+Lists are saved in the browser (`localStorage`) because the site has no server. They stay on that one browser and device. To move a list to another phone or computer, open it and tap "Copy link to open on another device". Opening that link adds the list there.
+
 ## Project layout
 
 ```
