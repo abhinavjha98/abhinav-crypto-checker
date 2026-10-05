@@ -365,7 +365,7 @@ def binance_first_close(symbol):
 
 
 def gate_pairs(raw, skip):
-    """coin_id -> (Gate USDT pair, listing timestamp) for coins not in `skip`, same coin only (price within 5%)."""
+    """coin_id -> Gate USDT pair for coins not in `skip`, same coin only (price within 5%)."""
     usdt = tether_price(raw)
     try:
         listed = {p["id"]: p for p in http_json(f"{GATE_API}/spot/currency_pairs")}
@@ -379,18 +379,23 @@ def gate_pairs(raw, skip):
         info, gp, price = listed.get(pair), last.get(pair), num(c.get("current_price"))
         if c["id"] in skip or not (info and gp and usdt and price) or abs(gp * usdt / price - 1) >= 0.05:
             continue
-        starts = [int(info.get(k) or 0) for k in ("buy_start", "sell_start")]
-        out[c["id"]] = (pair, min([t for t in starts if t > 0], default=0))
+        out[c["id"]] = pair
     return out
 
 
-def gate_first_close(pair, listed_ts):
-    # At most 1000 daily candles per request: look from the listing time (or 2013, before Gate existed)
-    start = listed_ts or 1356998400
-    k = http_json(f"{GATE_API}/spot/candlesticks?currency_pair={urllib.parse.quote(pair)}"
-                  f"&interval=1d&from={start}&to={start + 999 * 86400}")
+def gate_first_close(pair):
+    # At most 1000 daily candles per request. Take the latest 1000; while a page is full, older
+    # candles may exist, so step back 1000 days at a time. (Gate's listing dates are unreliable.)
+    url = f"{GATE_API}/spot/candlesticks?currency_pair={urllib.parse.quote(pair)}&interval=1d"
+    k = http_json(url + "&limit=1000")
+    first = k[0] if k else None
+    while k and len(k) >= 1000:
+        end = int(k[0][0]) - 86400
+        k = http_json(url + f"&from={end - 999 * 86400}&to={end}")
+        if k:
+            first = k[0]
     # [time, quote volume, close, high, low, open, ...]; trust only the close, as on Binance
-    return (ms_to_date(int(k[0][0]) * 1000), float(k[0][2])) if k else None
+    return (ms_to_date(int(first[0]) * 1000), float(first[2])) if first else None
 
 
 def compute_starts(raw, cfg, pairs):
@@ -407,14 +412,15 @@ def compute_starts(raw, cfg, pairs):
         ages = [days_since(c.get(k)) for k in ("ath_date", "atl_date")]
         return all(a is not None and a < 365 for a in ages)
 
-    # Exchanges: one cheap request per coin, in parallel. Gate only for older coins:
-    # for young ones CoinGecko below gives the true launch price, not a later listing.
+    # Exchanges: cheap requests, in parallel. Gate only for older coins (incl. ones CoinGecko
+    # found to be over a year old): for young ones CoinGecko gives the true launch price.
     todo = {c["id"]: ("binance", lambda sym=pairs[c["id"]]: binance_first_close(sym))
             for c in raw if c["id"] in pairs and not have(c["id"])}
-    rest = [c for c in raw if not have(c["id"]) and c["id"] not in pairs and not maybe_young(c)]
+    rest = [c for c in raw if not have(c["id"]) and c["id"] not in pairs
+            and (not maybe_young(c) or cache.get(c["id"], {}).get("checked"))]
     if rest:
-        for cid, (pair, ts) in gate_pairs(rest, pairs).items():
-            todo[cid] = ("gate", lambda pair=pair, ts=ts: gate_first_close(pair, ts))
+        for cid, pair in gate_pairs(rest, pairs).items():
+            todo[cid] = ("gate", lambda pair=pair: gate_first_close(pair))
     added = {"binance": 0, "gate": 0}
     if todo:
         def grab(item):
