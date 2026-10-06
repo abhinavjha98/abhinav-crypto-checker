@@ -1,217 +1,42 @@
 {
-  "compared_to": "2026-10-04",
+  "compared_to": "2026-10-05",
   "entered": [
     {
-      "id": "beldex",
-      "name": "Beldex",
-      "score": 67
-    },
-    {
-      "id": "dimo",
-      "name": "DIMO",
-      "score": 63
-    },
-    {
-      "id": "cluster-protocol",
-      "name": "Cluster Protocol",
-      "score": 62
-    },
-    {
-      "id": "auki-labs",
-      "name": "Auki",
-      "score": 61
-    },
-    {
-      "id": "radicle",
-      "name": "Radworks",
-      "score": 57
-    },
-    {
-      "id": "mindwavedao",
-      "name": "MindWaveDAO",
+      "id": "synfutures",
+      "name": "SynFutures",
       "score": 56
-    },
-    {
-      "id": "gama-token",
-      "name": "Gama Token",
-      "score": 54
-    },
-    {
-      "id": "kaio",
-      "name": "KAIO",
-      "score": 54
-    },
-    {
-      "id": "coin98",
-      "name": "Coin98",
-      "score": 53
-    },
-    {
-      "id": "bitdca",
-      "name": "BitDCA",
-      "score": 49
-    },
-    {
-      "id": "idlemine",
-      "name": "IdleMine",
-      "score": 46
-    },
-    {
-      "id": "umia",
-      "name": "Umia",
-      "score": 43
-    },
-    {
-      "id": "deapcoin",
-      "name": "DEAPCOIN",
-      "score": 43
-    },
-    {
-      "id": "super-inu-force",
-      "name": "Super Inu Force",
-      "score": 42
-    },
-    {
-      "id": "the-index",
-      "name": "The Index",
-      "score": 37
-    },
-    {
-      "id": "freysa-ai",
-      "name": "Freysa AI",
-      "score": 36
-    },
-    {
-      "id": "chainflip",
-      "name": "Chainflip",
-      "score": 35
-    }
-  ],
-  "left": [
-    {
-      "id": "3jane-usd3",
-      "name": "3Jane USD3",
-      "reason": "low volume"
-    },
-    {
-      "id": "atoshi",
-      "name": "Atoshi",
-      "reason": "low volume"
-    },
-    {
-      "id": "babycashcat",
-      "name": "babycashcat",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "bas",
-      "name": "BNB Attestation Service",
-      "reason": "max rise too high"
-    },
-    {
-      "id": "block-street",
-      "name": "Block Street",
-      "reason": "max rise too high"
-    },
-    {
-      "id": "boner-coin",
-      "name": "Boner Coin",
-      "reason": "max rise too high"
-    },
-    {
-      "id": "btse-token",
-      "name": "BTSE Token",
-      "reason": "max rise too high"
-    },
-    {
-      "id": "flying-tulip",
-      "name": "Flying Tulip",
-      "reason": "low volume"
     },
     {
       "id": "gamebuild",
       "name": "GameBuild",
-      "reason": "low volume"
+      "score": 54
     },
     {
-      "id": "hivemapper",
-      "name": "hivemapper",
+      "id": "medibloc",
+      "name": "Medibloc",
+      "score": 46
+    },
+    {
+      "id": "infinity-gaming",
+      "name": "Infinity Gaming",
+      "score": 38
+    },
+    {
+      "id": "songbird",
+      "name": "Songbird",
+      "score": 32
+    }
+  ],
+  "left": [
+    {
+      "id": "cluster-protocol",
+      "name": "cluster-protocol",
       "reason": "dropped out of top N"
     },
     {
-      "id": "lab",
-      "name": "LAB",
-      "reason": "max rise too high"
-    },
-    {
-      "id": "meme-horse",
-      "name": "MEME HORSE",
-      "reason": "low volume"
-    },
-    {
-      "id": "metya",
-      "name": "MetYa",
-      "reason": "low volume"
-    },
-    {
-      "id": "nesa",
-      "name": "Nesa",
-      "reason": "max rise too high"
-    },
-    {
-      "id": "openserv",
-      "name": "openserv",
+      "id": "coin98",
+      "name": "coin98",
       "reason": "dropped out of top N"
-    },
-    {
-      "id": "paradex",
-      "name": "Paradex",
-      "reason": "low volume"
-    },
-    {
-      "id": "pipedog",
-      "name": "pipedog",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "power-protocol",
-      "name": "Power Protocol",
-      "reason": "max rise too high"
-    },
-    {
-      "id": "ravedao",
-      "name": "RaveDAO",
-      "reason": "max rise too high"
-    },
-    {
-      "id": "river",
-      "name": "River",
-      "reason": "max rise too high"
-    },
-    {
-      "id": "safecoin",
-      "name": "SAFEbit",
-      "reason": "low volume"
-    },
-    {
-      "id": "super-iguana",
-      "name": "super-iguana",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "ubik",
-      "name": "ubik",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "usdu",
-      "name": "USDu",
-      "reason": "low volume"
-    },
-    {
-      "id": "yzy",
-      "name": "YZY",
-      "reason": "low volume"
     }
   ]
 }
