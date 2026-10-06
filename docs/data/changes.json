@@ -12,24 +12,19 @@
       "score": 55
     },
     {
-      "id": "synfutures",
-      "name": "SynFutures",
-      "score": 54
+      "id": "3jane-usd3",
+      "name": "3Jane USD3",
+      "score": 50
     },
     {
       "id": "credible-finance",
       "name": "Credible Finance",
-      "score": 47
-    },
-    {
-      "id": "medibloc",
-      "name": "Medibloc",
-      "score": 46
+      "score": 45
     },
     {
       "id": "infinity-gaming",
       "name": "Infinity Gaming",
-      "score": 43
+      "score": 44
     }
   ],
   "left": [
@@ -41,6 +36,11 @@
     {
       "id": "cluster-protocol",
       "name": "cluster-protocol",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "kaio",
+      "name": "kaio",
       "reason": "dropped out of top N"
     }
   ]
