@@ -7,9 +7,9 @@
       "score": 56
     },
     {
-      "id": "gamebuild",
-      "name": "GameBuild",
-      "score": 55
+      "id": "natix-network",
+      "name": "NATIX Network",
+      "score": 51
     },
     {
       "id": "3jane-usd3",
@@ -17,14 +17,19 @@
       "score": 50
     },
     {
+      "id": "medibloc",
+      "name": "Medibloc",
+      "score": 46
+    },
+    {
       "id": "credible-finance",
       "name": "Credible Finance",
-      "score": 45
+      "score": 43
     },
     {
       "id": "infinity-gaming",
       "name": "Infinity Gaming",
-      "score": 44
+      "score": 43
     }
   ],
   "left": [
@@ -34,13 +39,28 @@
       "reason": "low volume"
     },
     {
+      "id": "chainflip",
+      "name": "Chainflip",
+      "reason": "low volume"
+    },
+    {
       "id": "cluster-protocol",
       "name": "cluster-protocol",
       "reason": "dropped out of top N"
     },
     {
+      "id": "delysium",
+      "name": "delysium",
+      "reason": "dropped out of top N"
+    },
+    {
       "id": "kaio",
       "name": "kaio",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "wojak-5",
+      "name": "wojak-5",
       "reason": "dropped out of top N"
     }
   ]
