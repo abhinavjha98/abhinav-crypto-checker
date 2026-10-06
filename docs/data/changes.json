@@ -2,14 +2,24 @@
   "compared_to": "2026-10-05",
   "entered": [
     {
-      "id": "synfutures",
-      "name": "SynFutures",
+      "id": "flying-tulip",
+      "name": "Flying Tulip",
       "score": 56
     },
     {
       "id": "gamebuild",
       "name": "GameBuild",
+      "score": 55
+    },
+    {
+      "id": "synfutures",
+      "name": "SynFutures",
       "score": 54
+    },
+    {
+      "id": "credible-finance",
+      "name": "Credible Finance",
+      "score": 47
     },
     {
       "id": "medibloc",
@@ -19,23 +29,18 @@
     {
       "id": "infinity-gaming",
       "name": "Infinity Gaming",
-      "score": 38
-    },
-    {
-      "id": "songbird",
-      "name": "Songbird",
-      "score": 32
+      "score": 43
     }
   ],
   "left": [
     {
-      "id": "cluster-protocol",
-      "name": "cluster-protocol",
-      "reason": "dropped out of top N"
+      "id": "auki-labs",
+      "name": "Auki",
+      "reason": "low volume"
     },
     {
-      "id": "coin98",
-      "name": "coin98",
+      "id": "cluster-protocol",
+      "name": "cluster-protocol",
       "reason": "dropped out of top N"
     }
   ]
