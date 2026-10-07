@@ -1,66 +1,46 @@
 {
-  "compared_to": "2026-10-05",
+  "compared_to": "2026-10-06",
   "entered": [
     {
-      "id": "flying-tulip",
-      "name": "Flying Tulip",
-      "score": 56
+      "id": "wojak-5",
+      "name": "wojak",
+      "score": 57
     },
     {
-      "id": "natix-network",
-      "name": "NATIX Network",
-      "score": 51
+      "id": "gamebuild",
+      "name": "GameBuild",
+      "score": 55
     },
     {
-      "id": "3jane-usd3",
-      "name": "3Jane USD3",
+      "id": "fake-world-assets",
+      "name": "Fake World Assets",
       "score": 50
     },
     {
-      "id": "medibloc",
-      "name": "Medibloc",
-      "score": 46
-    },
-    {
-      "id": "credible-finance",
-      "name": "Credible Finance",
-      "score": 43
-    },
-    {
-      "id": "infinity-gaming",
-      "name": "Infinity Gaming",
-      "score": 43
+      "id": "tx",
+      "name": "tx",
+      "score": 38
     }
   ],
   "left": [
     {
-      "id": "auki-labs",
-      "name": "Auki",
-      "reason": "low volume"
-    },
-    {
-      "id": "chainflip",
-      "name": "Chainflip",
-      "reason": "low volume"
-    },
-    {
-      "id": "cluster-protocol",
-      "name": "cluster-protocol",
+      "id": "epic-chain",
+      "name": "epic-chain",
       "reason": "dropped out of top N"
     },
     {
-      "id": "delysium",
-      "name": "delysium",
+      "id": "natix-network",
+      "name": "natix-network",
       "reason": "dropped out of top N"
     },
     {
-      "id": "kaio",
-      "name": "kaio",
+      "id": "sentismai",
+      "name": "sentismai",
       "reason": "dropped out of top N"
     },
     {
-      "id": "wojak-5",
-      "name": "wojak-5",
+      "id": "super-inu-force",
+      "name": "super-inu-force",
       "reason": "dropped out of top N"
     }
   ]
