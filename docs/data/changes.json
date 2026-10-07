@@ -2,24 +2,1304 @@
   "compared_to": "2026-10-06",
   "entered": [
     {
-      "id": "gitcoin",
-      "name": "Gitcoin",
+      "id": "near",
+      "name": "NEAR Protocol",
+      "score": 84
+    },
+    {
+      "id": "render-token",
+      "name": "Render",
+      "score": 81
+    },
+    {
+      "id": "raydium",
+      "name": "Raydium",
+      "score": 79
+    },
+    {
+      "id": "injective-protocol",
+      "name": "Injective",
+      "score": 79
+    },
+    {
+      "id": "pepe",
+      "name": "Pepe",
+      "score": 76
+    },
+    {
+      "id": "aerodrome-finance",
+      "name": "Aerodrome Finance",
+      "score": 76
+    },
+    {
+      "id": "mubarak",
+      "name": "Mubarak",
+      "score": 75
+    },
+    {
+      "id": "uniswap",
+      "name": "Uniswap",
+      "score": 75
+    },
+    {
+      "id": "ondo-finance",
+      "name": "Ondo",
+      "score": 75
+    },
+    {
+      "id": "basic-attention-token",
+      "name": "Basic Attention",
+      "score": 74
+    },
+    {
+      "id": "pendle",
+      "name": "Pendle",
+      "score": 73
+    },
+    {
+      "id": "fetch-ai",
+      "name": "Artificial Superintelligence Alliance",
+      "score": 73
+    },
+    {
+      "id": "blockstack",
+      "name": "Stacks",
+      "score": 72
+    },
+    {
+      "id": "dogecoin",
+      "name": "Dogecoin",
+      "score": 71
+    },
+    {
+      "id": "gmx",
+      "name": "GMX",
+      "score": 71
+    },
+    {
+      "id": "stonk-3",
+      "name": "STONK",
+      "score": 71
+    },
+    {
+      "id": "bedrock-token",
+      "name": "Bedrock",
+      "score": 71
+    },
+    {
+      "id": "virtual-protocol",
+      "name": "Virtuals Protocol",
+      "score": 71
+    },
+    {
+      "id": "rif-token",
+      "name": "Rootstock Infrastructure Framework",
+      "score": 70
+    },
+    {
+      "id": "definitive",
+      "name": "Definitive",
+      "score": 68
+    },
+    {
+      "id": "arweave",
+      "name": "Arweave",
+      "score": 68
+    },
+    {
+      "id": "bonk",
+      "name": "Bonk",
+      "score": 67
+    },
+    {
+      "id": "cardano",
+      "name": "Cardano",
+      "score": 67
+    },
+    {
+      "id": "ethereum-name-service",
+      "name": "Ethereum Name Service",
+      "score": 66
+    },
+    {
+      "id": "axie-infinity",
+      "name": "Axie Infinity",
+      "score": 66
+    },
+    {
+      "id": "decentraland",
+      "name": "Decentraland",
+      "score": 66
+    },
+    {
+      "id": "dogwifcoin",
+      "name": "dogwifhat",
+      "score": 65
+    },
+    {
+      "id": "thorchain",
+      "name": "THORChain",
+      "score": 65
+    },
+    {
+      "id": "xtcom-token",
+      "name": "XT.com",
+      "score": 64
+    },
+    {
+      "id": "pancakeswap-token",
+      "name": "PancakeSwap",
+      "score": 64
+    },
+    {
+      "id": "superfarm",
+      "name": "SuperVerse",
+      "score": 64
+    },
+    {
+      "id": "iexec-rlc",
+      "name": "iExec RLC",
+      "score": 64
+    },
+    {
+      "id": "lcx",
+      "name": "LCX",
+      "score": 64
+    },
+    {
+      "id": "pons",
+      "name": "Pons",
+      "score": 63
+    },
+    {
+      "id": "aster-2",
+      "name": "Aster",
+      "score": 63
+    },
+    {
+      "id": "nesa",
+      "name": "Nesa",
+      "score": 63
+    },
+    {
+      "id": "mx-token",
+      "name": "MX",
+      "score": 63
+    },
+    {
+      "id": "comedian",
+      "name": "Comedian",
+      "score": 63
+    },
+    {
+      "id": "orbio-so",
+      "name": "Orbio.so",
+      "score": 63
+    },
+    {
+      "id": "floki",
+      "name": "FLOKI",
+      "score": 63
+    },
+    {
+      "id": "wink",
+      "name": "WINkLink",
+      "score": 62
+    },
+    {
+      "id": "hedera-hashgraph",
+      "name": "Hedera",
+      "score": 62
+    },
+    {
+      "id": "meta-2-2",
+      "name": "MetaDAO",
+      "score": 62
+    },
+    {
+      "id": "fx-usd-saving",
+      "name": "f(x) USD Saving",
+      "score": 62
+    },
+    {
+      "id": "deep",
+      "name": "DeepBook",
+      "score": 62
+    },
+    {
+      "id": "vethor-token",
+      "name": "VeThor",
+      "score": 61
+    },
+    {
+      "id": "synapse-2",
+      "name": "Synapse",
+      "score": 61
+    },
+    {
+      "id": "lisk",
+      "name": "Lisk",
+      "score": 61
+    },
+    {
+      "id": "artificial-inu-3",
+      "name": "Artificial Inu",
+      "score": 61
+    },
+    {
+      "id": "chiliz",
+      "name": "Chiliz",
+      "score": 60
+    },
+    {
+      "id": "gala",
+      "name": "GALA",
+      "score": 60
+    },
+    {
+      "id": "zencash",
+      "name": "Horizen",
+      "score": 60
+    },
+    {
+      "id": "xdce-crowd-sale",
+      "name": "XDC Network",
+      "score": 60
+    },
+    {
+      "id": "ripple",
+      "name": "XRP",
+      "score": 60
+    },
+    {
+      "id": "ark",
+      "name": "ARK",
+      "score": 60
+    },
+    {
+      "id": "kucoin-shares",
+      "name": "KuCoin",
+      "score": 60
+    },
+    {
+      "id": "fartcoin",
+      "name": "Fartcoin",
+      "score": 60
+    },
+    {
+      "id": "velodrome-finance",
+      "name": "Velodrome Finance",
+      "score": 60
+    },
+    {
+      "id": "useless-3",
+      "name": "Useless Coin",
+      "score": 60
+    },
+    {
+      "id": "ethereum-classic",
+      "name": "Ethereum Classic",
+      "score": 60
+    },
+    {
+      "id": "akedo",
+      "name": "Akedo",
+      "score": 59
+    },
+    {
+      "id": "harmony",
+      "name": "Harmony",
+      "score": 59
+    },
+    {
+      "id": "non-playable-coin",
+      "name": "Non-Playable Coin",
+      "score": 59
+    },
+    {
+      "id": "stellar",
+      "name": "Stellar",
+      "score": 59
+    },
+    {
+      "id": "kava",
+      "name": "Kava",
+      "score": 59
+    },
+    {
+      "id": "the-sandbox",
+      "name": "The Sandbox",
+      "score": 59
+    },
+    {
+      "id": "talus",
+      "name": "Talus",
+      "score": 59
+    },
+    {
+      "id": "rhea-2",
+      "name": "RHEA",
+      "score": 59
+    },
+    {
+      "id": "bankercoin-2",
+      "name": "BankrCoin",
+      "score": 59
+    },
+    {
+      "id": "tornado-cash",
+      "name": "Tornado Cash",
+      "score": 58
+    },
+    {
+      "id": "turbo",
+      "name": "Turbo",
+      "score": 58
+    },
+    {
+      "id": "0x",
+      "name": "0x Protocol",
+      "score": 58
+    },
+    {
+      "id": "livepeer",
+      "name": "Livepeer",
+      "score": 58
+    },
+    {
+      "id": "stronghold-token",
+      "name": "Stronghold",
+      "score": 58
+    },
+    {
+      "id": "dolphin-2",
+      "name": "Dolphin",
+      "score": 58
+    },
+    {
+      "id": "cea-industries-bstocks-tokenized-stock",
+      "name": "CEA Industries (bStocks Tokenized Stock)",
+      "score": 58
+    },
+    {
+      "id": "prometeus",
+      "name": "Prom",
+      "score": 57
+    },
+    {
+      "id": "hivemapper",
+      "name": "Hivemapper",
+      "score": 57
+    },
+    {
+      "id": "cosmos",
+      "name": "Cosmos Hub",
+      "score": 57
+    },
+    {
+      "id": "nkyc-token",
+      "name": "NKYC Token",
+      "score": 57
+    },
+    {
+      "id": "kaspa",
+      "name": "Kaspa",
+      "score": 57
+    },
+    {
+      "id": "polkadot",
+      "name": "Polkadot",
+      "score": 57
+    },
+    {
+      "id": "the-graph",
+      "name": "The Graph",
+      "score": 56
+    },
+    {
+      "id": "the-black-bull",
+      "name": "The Black Bull",
+      "score": 56
+    },
+    {
+      "id": "just",
+      "name": "JUST",
+      "score": 56
+    },
+    {
+      "id": "origintrail",
+      "name": "OriginTrail",
+      "score": 56
+    },
+    {
+      "id": "siacoin",
+      "name": "Siacoin",
+      "score": 56
+    },
+    {
+      "id": "derive",
+      "name": "Derive",
+      "score": 56
+    },
+    {
+      "id": "cash-cat",
+      "name": "Cash Cat",
+      "score": 55
+    },
+    {
+      "id": "moo-deng",
+      "name": "Moo Deng",
+      "score": 55
+    },
+    {
+      "id": "xyo-network",
+      "name": "XYO Network",
+      "score": 55
+    },
+    {
+      "id": "enjincoin",
+      "name": "Enjin Coin",
+      "score": 55
+    },
+    {
+      "id": "algorand",
+      "name": "Algorand",
+      "score": 55
+    },
+    {
+      "id": "funfair",
+      "name": "FUNToken",
+      "score": 55
+    },
+    {
+      "id": "cortex-2",
+      "name": "Cortex",
+      "score": 55
+    },
+    {
+      "id": "gm-3",
+      "name": "gm",
+      "score": 55
+    },
+    {
+      "id": "unipoly",
+      "name": "Unipoly",
+      "score": 55
+    },
+    {
+      "id": "trust-wallet-token",
+      "name": "Trust Wallet",
+      "score": 55
+    },
+    {
+      "id": "constitutiondao",
+      "name": "ConstitutionDAO",
+      "score": 55
+    },
+    {
+      "id": "adi-token",
+      "name": "ADI",
+      "score": 54
+    },
+    {
+      "id": "zksync",
+      "name": "ZKsync",
+      "score": 54
+    },
+    {
+      "id": "nexo",
+      "name": "NEXO",
+      "score": 54
+    },
+    {
+      "id": "magic",
+      "name": "Treasure",
+      "score": 54
+    },
+    {
+      "id": "ardor",
+      "name": "Ardor",
+      "score": 54
+    },
+    {
+      "id": "bitget-token",
+      "name": "Bitget Token",
+      "score": 54
+    },
+    {
+      "id": "ninja-squad",
+      "name": "Ninja Squad Token",
+      "score": 54
+    },
+    {
+      "id": "zelcash",
+      "name": "Flux",
+      "score": 54
+    },
+    {
+      "id": "unibase",
+      "name": "Unibase",
+      "score": 54
+    },
+    {
+      "id": "dexe",
+      "name": "DeXe",
+      "score": 53
+    },
+    {
+      "id": "snek",
+      "name": "Snek",
+      "score": 53
+    },
+    {
+      "id": "chromaway",
+      "name": "Chromia",
+      "score": 53
+    },
+    {
+      "id": "celer-network",
+      "name": "Celer Network",
+      "score": 53
+    },
+    {
+      "id": "band-protocol",
+      "name": "Band",
+      "score": 53
+    },
+    {
+      "id": "shiba-inu",
+      "name": "Shiba Inu",
       "score": 52
     },
     {
-      "id": "fake-world-assets",
-      "name": "Fake World Assets",
+      "id": "memecore",
+      "name": "MemeCore",
+      "score": 52
+    },
+    {
+      "id": "btse-token",
+      "name": "BTSE Token",
+      "score": 52
+    },
+    {
+      "id": "baby-doge-coin",
+      "name": "Baby Doge Coin",
+      "score": 52
+    },
+    {
+      "id": "book-of-meme",
+      "name": "BOOK OF MEME",
+      "score": 52
+    },
+    {
+      "id": "stp-network",
+      "name": "AWE Network",
+      "score": 52
+    },
+    {
+      "id": "banana-for-scale-2",
+      "name": "Banana For Scale",
+      "score": 52
+    },
+    {
+      "id": "ankr",
+      "name": "Ankr Network",
+      "score": 52
+    },
+    {
+      "id": "bitway",
+      "name": "Bitway",
+      "score": 51
+    },
+    {
+      "id": "civic",
+      "name": "Civic",
+      "score": 51
+    },
+    {
+      "id": "jasmycoin",
+      "name": "JasmyCoin",
+      "score": 51
+    },
+    {
+      "id": "iotex",
+      "name": "IoTeX",
+      "score": 51
+    },
+    {
+      "id": "arpa",
+      "name": "ARPA",
+      "score": 51
+    },
+    {
+      "id": "golem",
+      "name": "Golem",
+      "score": 51
+    },
+    {
+      "id": "crypto-com-chain",
+      "name": "Cronos",
+      "score": 51
+    },
+    {
+      "id": "kusama",
+      "name": "Kusama",
       "score": 50
+    },
+    {
+      "id": "mog-coin",
+      "name": "Mog Coin",
+      "score": 50
+    },
+    {
+      "id": "iota",
+      "name": "IOTA",
+      "score": 50
+    },
+    {
+      "id": "cartesi",
+      "name": "Cartesi",
+      "score": 50
+    },
+    {
+      "id": "proprietary-trading-network",
+      "name": "Vanta Network",
+      "score": 50
+    },
+    {
+      "id": "reserve-rights-token",
+      "name": "Reserve Rights",
+      "score": 49
+    },
+    {
+      "id": "jelly-my-jelly",
+      "name": "Jelly-My-Jelly",
+      "score": 49
+    },
+    {
+      "id": "ix-swap",
+      "name": "IXS",
+      "score": 49
+    },
+    {
+      "id": "dusk-network",
+      "name": "DUSK",
+      "score": 49
+    },
+    {
+      "id": "skale",
+      "name": "SKALE",
+      "score": 49
+    },
+    {
+      "id": "audius",
+      "name": "Audius",
+      "score": 49
     },
     {
       "id": "gamebuild",
       "name": "GameBuild",
-      "score": 50
+      "score": 49
+    },
+    {
+      "id": "tagger",
+      "name": "TAGGER",
+      "score": 48
+    },
+    {
+      "id": "tron",
+      "name": "TRON",
+      "score": 48
+    },
+    {
+      "id": "railgun",
+      "name": "Railgun",
+      "score": 48
+    },
+    {
+      "id": "uma",
+      "name": "UMA",
+      "score": 48
+    },
+    {
+      "id": "nosana",
+      "name": "Nosana",
+      "score": 48
+    },
+    {
+      "id": "arcblock",
+      "name": "Arcblock",
+      "score": 48
+    },
+    {
+      "id": "cheems-token",
+      "name": "Cheems Token",
+      "score": 48
+    },
+    {
+      "id": "tutorial",
+      "name": "Tutorial",
+      "score": 47
+    },
+    {
+      "id": "templar",
+      "name": "\u03c4emplar",
+      "score": 47
+    },
+    {
+      "id": "zilliqa",
+      "name": "Zilliqa",
+      "score": 47
+    },
+    {
+      "id": "peanut-the-squirrel",
+      "name": "Peanut the Squirrel",
+      "score": 47
+    },
+    {
+      "id": "based-brett",
+      "name": "Brett",
+      "score": 47
+    },
+    {
+      "id": "leo-token",
+      "name": "LEO Token",
+      "score": 47
+    },
+    {
+      "id": "havven",
+      "name": "Synthetix",
+      "score": 47
+    },
+    {
+      "id": "sushi",
+      "name": "Sushi",
+      "score": 47
+    },
+    {
+      "id": "rollbit-coin",
+      "name": "Rollbit Coin",
+      "score": 46
+    },
+    {
+      "id": "holotoken",
+      "name": "Holo",
+      "score": 46
+    },
+    {
+      "id": "toshi",
+      "name": "Toshi",
+      "score": 46
+    },
+    {
+      "id": "dogelon-mars",
+      "name": "Dogelon Mars",
+      "score": 46
+    },
+    {
+      "id": "neet",
+      "name": "Not in Employment, Education, or Training",
+      "score": 46
+    },
+    {
+      "id": "stepn",
+      "name": "GMT",
+      "score": 46
+    },
+    {
+      "id": "theta-token",
+      "name": "Theta Network",
+      "score": 45
+    },
+    {
+      "id": "helium",
+      "name": "Helium",
+      "score": 45
+    },
+    {
+      "id": "iostoken",
+      "name": "IOST",
+      "score": 45
+    },
+    {
+      "id": "popcat",
+      "name": "Popcat",
+      "score": 45
+    },
+    {
+      "id": "terra-luna-2",
+      "name": "Terra",
+      "score": 45
+    },
+    {
+      "id": "anvil",
+      "name": "Anvil",
+      "score": 45
+    },
+    {
+      "id": "joe",
+      "name": "JOE",
+      "score": 45
+    },
+    {
+      "id": "velvet",
+      "name": "Velvet",
+      "score": 45
+    },
+    {
+      "id": "neiro-3",
+      "name": "Neiro",
+      "score": 45
+    },
+    {
+      "id": "bitcast",
+      "name": "Bitcast",
+      "score": 45
+    },
+    {
+      "id": "swftcoin",
+      "name": "SWFTCOIN",
+      "score": 44
+    },
+    {
+      "id": "neo",
+      "name": "NEO",
+      "score": 44
+    },
+    {
+      "id": "lorenzo-protocol",
+      "name": "Lorenzo Protocol",
+      "score": 44
+    },
+    {
+      "id": "coti",
+      "name": "COTI",
+      "score": 44
+    },
+    {
+      "id": "degen-base",
+      "name": "Degen",
+      "score": 44
+    },
+    {
+      "id": "bianrensheng",
+      "name": "\u5e01\u5b89\u4eba\u751f (BinanceLife)",
+      "score": 44
+    },
+    {
+      "id": "zano",
+      "name": "Zano",
+      "score": 44
+    },
+    {
+      "id": "vechain",
+      "name": "VeChain",
+      "score": 44
+    },
+    {
+      "id": "inu-wif-sword",
+      "name": "inu wif sword",
+      "score": 44
+    },
+    {
+      "id": "frenpet",
+      "name": "Fren Pet",
+      "score": 43
+    },
+    {
+      "id": "graphite-protocol",
+      "name": "Graphite Protocol",
+      "score": 43
+    },
+    {
+      "id": "swissborg",
+      "name": "SwissBorg",
+      "score": 43
+    },
+    {
+      "id": "orbs",
+      "name": "Orbs",
+      "score": 43
+    },
+    {
+      "id": "messier",
+      "name": "MESSIER",
+      "score": 43
+    },
+    {
+      "id": "lab",
+      "name": "LAB",
+      "score": 43
+    },
+    {
+      "id": "escoin-token",
+      "name": "Escoin",
+      "score": 43
+    },
+    {
+      "id": "redteam",
+      "name": "RedTeam",
+      "score": 43
+    },
+    {
+      "id": "lobster-2",
+      "name": "\u9f99\u867e (Lobster)",
+      "score": 43
+    },
+    {
+      "id": "chainopera-ai",
+      "name": "ChainOpera AI",
+      "score": 42
+    },
+    {
+      "id": "humanity",
+      "name": "Humanity",
+      "score": 42
+    },
+    {
+      "id": "qtum",
+      "name": "Qtum",
+      "score": 42
+    },
+    {
+      "id": "ravencoin",
+      "name": "Ravencoin",
+      "score": 42
+    },
+    {
+      "id": "bancor",
+      "name": "Bancor Network",
+      "score": 42
+    },
+    {
+      "id": "river",
+      "name": "River",
+      "score": 41
+    },
+    {
+      "id": "ecomi",
+      "name": "ECOMI",
+      "score": 41
+    },
+    {
+      "id": "skyai",
+      "name": "SkyAI",
+      "score": 41
+    },
+    {
+      "id": "troll-2",
+      "name": "TROLL",
+      "score": 41
+    },
+    {
+      "id": "little-john",
+      "name": "Little John",
+      "score": 41
+    },
+    {
+      "id": "apex-token-2",
+      "name": "APEX",
+      "score": 40
+    },
+    {
+      "id": "request-network",
+      "name": "Request",
+      "score": 40
+    },
+    {
+      "id": "zerebro",
+      "name": "Zerebro",
+      "score": 40
+    },
+    {
+      "id": "conflux-token",
+      "name": "Conflux",
+      "score": 40
+    },
+    {
+      "id": "audiera",
+      "name": "Audiera",
+      "score": 40
+    },
+    {
+      "id": "metal",
+      "name": "Metal DAO",
+      "score": 40
+    },
+    {
+      "id": "meme-horse",
+      "name": "MEME HORSE",
+      "score": 40
+    },
+    {
+      "id": "hippius",
+      "name": "Hippius",
+      "score": 39
+    },
+    {
+      "id": "vin-2",
+      "name": "VulgarTycoon",
+      "score": 39
+    },
+    {
+      "id": "iota-2",
+      "name": "iota",
+      "score": 39
+    },
+    {
+      "id": "bas",
+      "name": "BNB Attestation Service",
+      "score": 39
+    },
+    {
+      "id": "utya",
+      "name": "Utya",
+      "score": 39
+    },
+    {
+      "id": "nova-3",
+      "name": "NOVA",
+      "score": 39
+    },
+    {
+      "id": "block-street",
+      "name": "Block Street",
+      "score": 38
+    },
+    {
+      "id": "verge",
+      "name": "Verge",
+      "score": 38
+    },
+    {
+      "id": "ocean-protocol",
+      "name": "Ocean Protocol",
+      "score": 38
+    },
+    {
+      "id": "pippin",
+      "name": "pippin",
+      "score": 38
+    },
+    {
+      "id": "constellation-labs",
+      "name": "Constellation",
+      "score": 38
+    },
+    {
+      "id": "apyusd",
+      "name": "apyUSD",
+      "score": 38
+    },
+    {
+      "id": "gigachad-2",
+      "name": "Gigachad",
+      "score": 38
+    },
+    {
+      "id": "boner-coin",
+      "name": "Boner Coin",
+      "score": 38
+    },
+    {
+      "id": "zylo-ecosystem",
+      "name": "Zylo Ecosystem",
+      "score": 38
+    },
+    {
+      "id": "solv-protocol",
+      "name": "Solv Protocol",
+      "score": 37
+    },
+    {
+      "id": "waves",
+      "name": "Waves",
+      "score": 37
+    },
+    {
+      "id": "wiki-cat",
+      "name": "Wiki Cat",
+      "score": 37
+    },
+    {
+      "id": "venus",
+      "name": "Venus",
+      "score": 37
+    },
+    {
+      "id": "power-protocol",
+      "name": "Power Protocol",
+      "score": 37
+    },
+    {
+      "id": "wemix-token",
+      "name": "WEMIX",
+      "score": 37
+    },
+    {
+      "id": "rekt-4",
+      "name": "Rekt",
+      "score": 37
+    },
+    {
+      "id": "moolah",
+      "name": "Moolah",
+      "score": 36
+    },
+    {
+      "id": "pharaoh-liquid-staking-token",
+      "name": "Pharaoh Liquid Staking Token",
+      "score": 36
+    },
+    {
+      "id": "propy",
+      "name": "Propy",
+      "score": 36
+    },
+    {
+      "id": "bitmart-token",
+      "name": "BitMart",
+      "score": 36
+    },
+    {
+      "id": "rocket-pool",
+      "name": "Rocket Pool",
+      "score": 36
+    },
+    {
+      "id": "hunt-token",
+      "name": "Hunt",
+      "score": 35
+    },
+    {
+      "id": "tensorcash",
+      "name": "TensorCash",
+      "score": 35
+    },
+    {
+      "id": "elrond-erd-2",
+      "name": "MultiversX",
+      "score": 35
+    },
+    {
+      "id": "adshares",
+      "name": "Adshares",
+      "score": 35
+    },
+    {
+      "id": "hive",
+      "name": "Hive",
+      "score": 35
+    },
+    {
+      "id": "bora",
+      "name": "BORA",
+      "score": 34
+    },
+    {
+      "id": "pirate-chain",
+      "name": "Pirate Chain",
+      "score": 34
+    },
+    {
+      "id": "bulla-3",
+      "name": "BULLA",
+      "score": 34
+    },
+    {
+      "id": "sats-ordinals",
+      "name": "SATS (Ordinals)",
+      "score": 34
+    },
+    {
+      "id": "theta-fuel",
+      "name": "Theta Fuel",
+      "score": 34
+    },
+    {
+      "id": "ergo",
+      "name": "Ergo",
+      "score": 34
+    },
+    {
+      "id": "ong",
+      "name": "Ontology Gas",
+      "score": 33
+    },
+    {
+      "id": "across-protocol",
+      "name": "Across Protocol",
+      "score": 33
+    },
+    {
+      "id": "digibyte",
+      "name": "DigiByte",
+      "score": 33
     },
     {
       "id": "tx",
       "name": "tx",
       "score": 32
+    },
+    {
+      "id": "bitkub-coin",
+      "name": "KUB Coin",
+      "score": 31
+    },
+    {
+      "id": "xphere",
+      "name": "Xphere",
+      "score": 31
+    },
+    {
+      "id": "polyswarm",
+      "name": "PolySwarm",
+      "score": 30
+    },
+    {
+      "id": "newton-project",
+      "name": "AB",
+      "score": 30
+    },
+    {
+      "id": "chex-token",
+      "name": "Chintai",
+      "score": 30
+    },
+    {
+      "id": "keeta",
+      "name": "Keeta",
+      "score": 30
+    },
+    {
+      "id": "nano",
+      "name": "Nano",
+      "score": 29
+    },
+    {
+      "id": "memetoon",
+      "name": "MEMETOON",
+      "score": 29
+    },
+    {
+      "id": "playnance",
+      "name": "Playnance",
+      "score": 28
+    },
+    {
+      "id": "ravedao",
+      "name": "RaveDAO",
+      "score": 26
+    },
+    {
+      "id": "zcoin",
+      "name": "Firo",
+      "score": 26
+    },
+    {
+      "id": "siren-2",
+      "name": "Siren",
+      "score": 21
     }
   ],
   "left": [
@@ -29,8 +1309,8 @@
       "reason": "low volume"
     },
     {
-      "id": "coin98",
-      "name": "coin98",
+      "id": "dimo",
+      "name": "dimo",
       "reason": "dropped out of top N"
     },
     {
@@ -39,8 +1319,18 @@
       "reason": "dropped out of top N"
     },
     {
+      "id": "holoworld",
+      "name": "holoworld",
+      "reason": "dropped out of top N"
+    },
+    {
       "id": "natix-network",
       "name": "natix-network",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "standard",
+      "name": "standard",
       "reason": "dropped out of top N"
     },
     {
