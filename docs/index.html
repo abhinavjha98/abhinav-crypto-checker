@@ -506,6 +506,7 @@ const isPartial = (c) => c.rise_basis === "limited" || c.rise_basis === "pending
 const monthYr = (d) => (d ? new Date(d + "T00:00:00Z").toLocaleDateString("en-IN", { month: "short", year: "numeric", timeZone: "UTC" }) : "");
 
 function reasonFor(c, s) {
+  if (c.outside) return "Outside top 1000";
   if (c.price == null || c.market_cap == null || c.max_rise_pct == null) return "No data";
   if (c.price > s.maxPrice) return "Too expensive";
   if (c.max_rise_pct > s.maxRise) return "Already jumped a lot";
@@ -575,7 +576,7 @@ function toggleStar(id) {
   if (!l) l = createList("My watchlist");
   const on = !l.ids.includes(id);
   setMember(l, id, on);
-  const c = DATA.coins.find((x) => x.id === id);
+  const c = coinById(id);
   toast(`${c ? c.name : "Coin"} ${on ? "added to" : "removed from"} "${l.name}"`);
   if (VIEW !== "screener" || CARD_CTX.tgt !== l) return render(false);
   document.querySelectorAll(`[data-star="${CSS.escape(id)}"]`).forEach((b) => { b.outerHTML = starBtn(c, l); });
@@ -632,7 +633,7 @@ function starBtn(c, l) {
 }
 
 function refreshStar(id) {
-  const c = DATA.coins.find((x) => x.id === id);
+  const c = coinById(id);
   if (c) document.querySelectorAll(`[data-star="${CSS.escape(id)}"]`).forEach((b) => { b.outerHTML = starBtn(c, CARD_CTX.tgt); });
   renderViews();
 }
@@ -645,7 +646,7 @@ function openPicker(id) {
   $("picker").querySelector("input")?.focus();
 }
 function drawPicker() {
-  const c = DATA.coins.find((x) => x.id === PICK_ID);
+  const c = coinById(PICK_ID);
   $("picker").innerHTML = `<div class="grip"></div>
     <h3 id="pickTitle">Add ${esc(c ? c.name : "coin")} to…</h3>
     <div class="mylists">${LISTS.map((l) =>
@@ -740,6 +741,7 @@ function render(resetPaging = true) {
   let rows, missing = 0;
   if (list) {
     const byId = new Map(all.map((c) => [c.id, c]));
+    for (const c of EXTRA) if (!byId.has(c.id)) byId.set(c.id, { ...c, _reason: reasonFor(c, s) });
     rows = list.ids.map((id) => byId.get(id)).filter(Boolean);
     missing = list.ids.length - rows.length;
   } else rows = s.showRejected ? all : kept;
@@ -756,7 +758,7 @@ function render(resetPaging = true) {
   $("listTitle").textContent = list ? list.name : "Your watchlist";
   $("listTools").hidden = !list;
   $("countText").textContent = list
-    ? ` · ${nfIN.format(rows.length)} coin${rows.length === 1 ? "" : "s"}` + (missing ? ` · ${missing} no longer in the top ${nfIN.format(all.length)}` : "")
+    ? ` · ${nfIN.format(rows.length)} coin${rows.length === 1 ? "" : "s"}` + (missing ? ` · ${missing} outside the top ${nfIN.format(all.length)}: ${LIVE_AT ? "not found on CoinGecko right now" : "shown when live prices load"}` : "")
     : s.q || s.showRejected ? ` · showing ${nfIN.format(rows.length)}` : "";
   $("empty").hidden = rows.length > 0;
   $("empty").textContent = list
@@ -819,7 +821,7 @@ function plainSummary(c, reason) {
 }
 
 function openCoin(id) {
-  const c = DATA.coins.find((x) => x.id === id);
+  const c = coinById(id);
   if (!c) return;
   const reason = reasonFor(c, settings());
   const [st, sc] = reason ? [reason, "r"] : statusFor(c.score);
@@ -858,6 +860,7 @@ function openCoin(id) {
       <dt>Coin size (market cap)</dt><dd>${fmtBig(c.market_cap)}</dd>
       ${c.token_type ? `<dt>Type</dt><dd>${esc(c.token_type.replace(/-/g, " "))}</dd>` : ""}
       ${c.young ? `<dt>Note</dt><dd>New coin, under 1 year of history</dd>` : ""}
+      ${c.outside ? `<dt>Note</dt><dd style="font-family:var(--body);text-align:right;max-width:24ch">Outside the top 1000 now. Live price; biggest jump and start price come from its highest and lowest prices</dd>` : ""}
     </dl>
     <div class="sect">Why this score</div>
     <div class="bd">${bd}</div>
@@ -935,6 +938,51 @@ function renderChanges(ch) {
 const UPDATE_EVERY_MIN = 60;
 const LIVE_EVERY_MIN = 5;
 let LIVE = null, LIVE_AT = 0, LIVE_TRIED = 0, LIVE_BUSY = false;
+// Coins in the user's own lists that are not in the top 1000: fetched live by id so lists show every coin
+let EXTRA = [];
+const coinById = (id) => DATA.coins.find((x) => x.id === id) || EXTRA.find((x) => x.id === id);
+
+const MARKETS = () => "https://api.coingecko.com/api/v3/coins/markets?vs_currency=" + (DATA.meta.currency || "inr") +
+  "&price_change_percentage=24h,7d,30d&per_page=250";
+
+// A coin outside the top 1000 has no saved history: build what we can from its live data.
+// Biggest jump: exact when the lowest price came before the highest, else the rise from the low to
+// today (marked ⚠). Start price: the earliest of ATH / ATL (marked *), like the screener's stand-in.
+function extraCoin(m) {
+  const d = (x) => (x || "").slice(0, 10);
+  const c = { id: m.id, symbol: (m.symbol || "").toUpperCase(), name: m.name, image: m.image, rank: m.market_cap_rank || 9999,
+    ath: m.ath, ath_date: d(m.ath_date), atl: m.atl, atl_date: d(m.atl_date), token_type: null, outside: true };
+  if (c.ath && c.atl) {
+    const exact = c.atl_date <= c.ath_date;
+    c.rise_basis = exact ? "exact" : "pending";
+    c.rise_low = c.atl; c.rise_low_date = c.atl_date;
+    c.rise_high = exact ? c.ath : m.current_price; c.rise_high_date = exact ? c.ath_date : d(new Date().toISOString());
+    c.max_rise_pct = Math.max(0, (c.rise_high / c.atl - 1) * 100);
+    [c.start_date, c.start_price] = c.ath_date <= c.atl_date ? [c.ath_date, c.ath] : [c.atl_date, c.atl];
+    c.start_basis = "earliest";
+  }
+  return c;
+}
+
+// Keeps the last good result if CoinGecko is busy; the minute timer retries it on its own
+let EXTRA_FAILED = false, EXTRA_LIVE = [];
+async function refreshExtras(redraw = true) {
+  try {
+    EXTRA_LIVE = await fetchExtras();
+    EXTRA = EXTRA_LIVE.map(extraCoin);
+    EXTRA_FAILED = false;
+  } catch (e) { EXTRA_FAILED = true; }
+  if (redraw) { applyLive(); render(false); }
+}
+
+async function fetchExtras() {
+  const top = new Set(DATA.coins.map((c) => c.id));
+  const ids = [...new Set(LISTS.flatMap((l) => l.ids))].filter((id) => !top.has(id)).slice(0, 250);
+  if (!ids.length) return [];
+  const res = await fetch(MARKETS() + "&ids=" + encodeURIComponent(ids.join(",")), { cache: "no-store" });
+  if (!res.ok) throw new Error("HTTP " + res.status);
+  return res.json();
+}
 
 async function fetchLive() {
   const pages = Math.ceil((DEFAULTS.top_n || 1000) / 250), out = [];
@@ -977,9 +1025,9 @@ function scoreOf(c) {
 
 function applyLive() {
   if (!LIVE || !DATA) return;
-  const byId = new Map(LIVE.map((m) => [m.id, m]));
+  const byId = new Map(LIVE.concat(EXTRA_LIVE).map((m) => [m.id, m]));
   const today = new Date().toISOString().slice(0, 10);
-  for (const c of DATA.coins) {
+  for (const c of DATA.coins.concat(EXTRA)) {
     const m = byId.get(c.id);
     if (!m || m.current_price == null) continue;
     c.price = m.current_price;
@@ -1012,6 +1060,8 @@ async function refreshLive(force = false) {
   if (!LIVE_AT) setStatus("stale", "Getting live prices…");
   try {
     LIVE = await fetchLive(); LIVE_AT = Date.now();
+    await new Promise((r) => setTimeout(r, 2500));   // the free limit is tight: space out the list lookup
+    await refreshExtras(false);
     applyLive(); render(false);
   } catch (e) { /* CoinGecko busy: keep what we have, try again in 2 minutes */ }
   LIVE_BUSY = false;
@@ -1064,6 +1114,7 @@ async function init() {
   // While the page stays open: live prices every few minutes, and the next file from GitHub Actions.
   setInterval(async () => {
     const min = showFreshness();
+    if (EXTRA_FAILED && !LIVE_BUSY && !document.hidden) refreshExtras();
     refreshLive();
     if (min > UPDATE_EVERY_MIN + 5) {
       try {
