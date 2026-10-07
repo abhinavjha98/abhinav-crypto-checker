@@ -2,14 +2,9 @@
   "compared_to": "2026-10-06",
   "entered": [
     {
-      "id": "wojak-5",
-      "name": "wojak",
-      "score": 57
-    },
-    {
-      "id": "gamebuild",
-      "name": "GameBuild",
-      "score": 55
+      "id": "gitcoin",
+      "name": "Gitcoin",
+      "score": 52
     },
     {
       "id": "fake-world-assets",
@@ -17,12 +12,27 @@
       "score": 50
     },
     {
+      "id": "gamebuild",
+      "name": "GameBuild",
+      "score": 50
+    },
+    {
       "id": "tx",
       "name": "tx",
-      "score": 38
+      "score": 32
     }
   ],
   "left": [
+    {
+      "id": "bitdca",
+      "name": "BitDCA",
+      "reason": "low volume"
+    },
+    {
+      "id": "coin98",
+      "name": "coin98",
+      "reason": "dropped out of top N"
+    },
     {
       "id": "epic-chain",
       "name": "epic-chain",
@@ -34,13 +44,13 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "sentismai",
-      "name": "sentismai",
+      "id": "super-inu-force",
+      "name": "super-inu-force",
       "reason": "dropped out of top N"
     },
     {
-      "id": "super-inu-force",
-      "name": "super-inu-force",
+      "id": "the-index",
+      "name": "the-index",
       "reason": "dropped out of top N"
     }
   ]
