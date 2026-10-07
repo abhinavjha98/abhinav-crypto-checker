@@ -12,8 +12,8 @@ applies the hard filters, scores the survivors and writes:
 
 Rules (defaults in config.json):
   1. market_cap_rank <= 1000
-  2. current price <= Rs 500
-  3. biggest real rise <= 2000 %  (a low followed by a LATER high; see compute_rises)
+  2. current price <= max_price (Rs 1000)
+  3. biggest real rise <= max_rise_pct (null = any; a low followed by a LATER high; see compute_rises)
   4. 24h volume >= min_volume_24h
   5. not a stablecoin / wrapped / bridged / liquid-staking token
 
@@ -548,7 +548,7 @@ def opportunity_score(c, cfg):
     b["momentum_30d"] = 15 * clamp((m30 + 20) / 50) if m30 is not None else 5
 
     # Historical upside condition (15): the less it has ever risen, the better
-    b["historical_upside"] = 15 * clamp(1 - c["max_rise_pct"] / cfg["max_rise_pct"])
+    b["historical_upside"] = 15 * clamp(1 - c["max_rise_pct"] / cfg.get("score_rise_scale", 2000))
 
     # Price stability (10): calm 24h move is better
     m24 = c["change_24h"]
@@ -642,7 +642,7 @@ def build_rows(raw, excluded, rises, starts, cfg):
             reason = "outside top N"
         elif price > cfg["max_price"]:
             reason = "price too high"
-        elif max_rise > cfg["max_rise_pct"]:
+        elif cfg["max_rise_pct"] is not None and max_rise > cfg["max_rise_pct"]:     # null = any jump
             reason = "max rise too high"
         elif (vol or 0) < cfg["min_volume_24h"]:
             reason = "low volume"
@@ -702,7 +702,7 @@ def write_outputs(rows, cfg, generated_at):
     meta = {
         "generated_at": generated_at,
         "currency": cfg["vs_currency"],
-        "defaults": {k: cfg[k] for k in ("top_n", "max_price", "max_rise_pct", "min_volume_24h")},
+        "defaults": {k: cfg.get(k) for k in ("top_n", "max_price", "max_rise_pct", "min_volume_24h", "score_rise_scale")},
         "funnel": funnel,
     }
 

@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#0b0b0d">
 <title>Crypto Watchlist Screener</title>
-<meta name="description" content="Top 1000 coins, filtered by price up to ₹500 and biggest-ever jump up to 2000%, ranked by watch score.">
+<meta name="description" content="Top 1000 coins with live prices, filtered by price and biggest-ever jump, ranked by watch score.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600;700&display=swap">
@@ -285,7 +285,7 @@ footer { color: var(--muted); font-size: 12.5px; max-width: 90ch; }
       <h1>Crypto Watchlist <em>Screener</em></h1>
       <div class="live" id="live"><span class="dot" id="dot"></span><span id="liveText">Loading…</span></div>
     </div>
-    <p class="sub">From the top 1000 coins, we remove coins that cost more than ₹500 and coins that have already jumped more than 2000% at some point. What's left is your watchlist, best score first.</p>
+    <p class="sub">The top 1000 coins with live prices. We start by removing coins that cost more than ₹1,000. Use "Biggest jump" below to also remove coins that have already jumped a lot. Best score first.</p>
   </header>
 
   <section class="summary" aria-label="Summary">
@@ -350,7 +350,7 @@ footer { color: var(--muted); font-size: 12.5px; max-width: 90ch; }
     </details>
 
     <div class="filter-actions">
-      <button class="btn" id="reset" type="button">Reset to ₹500 / 2000%</button>
+      <button class="btn" id="reset" type="button">Reset to ₹1,000 / any jump</button>
       <button class="btn primary" id="csv" type="button">Download list for Excel</button>
     </div>
   </section>
@@ -395,7 +395,7 @@ footer { color: var(--muted); font-size: 12.5px; max-width: 90ch; }
   <details class="guide" id="guide">
     <summary>How to read this page / Yeh page kaise padhein</summary>
     <div class="guide-body">
-      <p class="hi"><b>Hinglish:</b> Top 1000 coin mein se jo coin ₹500 se mehenga hai, ya jo kabhi bhi neeche se upar 2000% se zyada chadh chuka hai, woh hata diye jaate hain. Baaki coins ki list yahan hai, sabse achhe score wale upar. Kisi bhi coin par tap karo, poori detail aa jayegi. Price har ghante apne aap update hota hai.</p>
+      <p class="hi"><b>Hinglish:</b> Top 1000 coin mein se jo coin ₹1,000 se mehenga hai, woh hata diye jaate hain. "Biggest jump" mein limit daal kar woh coin bhi hata sakte ho jo pehle hi bahut chadh chuke hain (jaise 2000%). Baaki coins ki list yahan hai, sabse achhe score wale upar. Kisi bhi coin par tap karo, poori detail aa jayegi. Price live hai: page kholte hi aur har 5 minute mein naya price aata hai.</p>
       <dl class="glossary">
         <dt>Price</dt><dd>What one coin costs right now, in rupees.</dd>
         <dt>Biggest jump ever</dt><dd>The biggest rise that really happened: from a low price up to a later high price. 2000% means it went up about 21 times. ⚠ means older price history was not available, so an earlier, bigger jump may be missing.</dd>
@@ -413,7 +413,7 @@ footer { color: var(--muted); font-size: 12.5px; max-width: 90ch; }
   </details>
 
   <footer>
-    Data from <a href="https://www.coingecko.com" target="_blank" rel="noopener">CoinGecko</a>, refreshed automatically every hour. Price history from CoinGecko, Binance and Gate.io. "New today" compares with yesterday's list.
+    Data from <a href="https://www.coingecko.com" target="_blank" rel="noopener">CoinGecko</a>. Prices are live (refreshed every 5 minutes while the page is open); price history and start prices are rebuilt automatically every hour or so. Price history from CoinGecko, Binance and Gate.io. "New today" compares with yesterday's list.
   </footer>
 </div>
 
@@ -724,8 +724,8 @@ function render(resetPaging = true) {
   $("bigSub").textContent = `out of the top ${nfIN.format(all.length)} coins`;
   const steps = [
     ["Coins checked", all.length, false],
-    [`Cost more than ${isFinite(s.maxPrice) ? "₹" + nfIN.format(s.maxPrice) : "any price"}`, count("Too expensive"), true],
-    [`Jumped more than ${isFinite(s.maxRise) ? nfIN.format(s.maxRise) + "%" : "any"}`, count("Already jumped a lot"), true],
+    ...(isFinite(s.maxPrice) ? [[`Cost more than ₹${nfIN.format(s.maxPrice)}`, count("Too expensive"), true]] : []),
+    ...(isFinite(s.maxRise) ? [[`Jumped more than ${nfIN.format(s.maxRise)}%`, count("Already jumped a lot"), true]] : []),
     ["Rarely traded", count("Rarely traded"), true],
     ["Stablecoins / wrapped", count("Stablecoin / wrapped"), true],
   ];
@@ -905,9 +905,10 @@ function downloadCsv() {
   a.click();
 }
 
+const START_FILTERS = { maxPrice: "1000", maxRise: "" };   // "" = Any
 function resetDefaults() {
-  $("maxPrice").value = DEFAULTS.max_price ?? 500;
-  $("maxRise").value = DEFAULTS.max_rise_pct ?? 2000;
+  $("maxPrice").value = START_FILTERS.maxPrice;
+  $("maxRise").value = START_FILTERS.maxRise;
   $("minVol").value = String(DEFAULTS.min_volume_24h ?? 10000000);
   if (![...$("minVol").options].some((o) => o.value === $("minVol").value)) $("minVol").value = "10000000";
   $("minScore").value = 0; $("search").value = "";
@@ -926,8 +927,96 @@ function renderChanges(ch) {
   $("changes").hidden = false;
 }
 
-/* ---------- Data: refreshed every hour by GitHub Actions (screener.py). The page never calls CoinGecko. ---------- */
+/* ---------- Data ----------
+   data/coins.json is rebuilt by GitHub Actions (screener.py): price history, biggest jump, start prices.
+   GitHub often runs that job hours late, so the page also fetches live prices straight from
+   CoinGecko (free, no key) on open and every few minutes, and recomputes everything that
+   depends on price, including the score. */
 const UPDATE_EVERY_MIN = 60;
+const LIVE_EVERY_MIN = 5;
+let LIVE = null, LIVE_AT = 0, LIVE_TRIED = 0, LIVE_BUSY = false;
+
+async function fetchLive() {
+  const pages = Math.ceil((DEFAULTS.top_n || 1000) / 250), out = [];
+  for (let p = 1; p <= pages; p++) {
+    if (p > 1) await new Promise((r) => setTimeout(r, 1500));   // stay under the free rate limit
+    const res = await fetch("https://api.coingecko.com/api/v3/coins/markets?vs_currency=" + (DATA.meta.currency || "inr") +
+      `&order=market_cap_desc&per_page=250&page=${p}&price_change_percentage=24h,7d,30d`, { cache: "no-store" });
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    out.push(...(await res.json()));
+  }
+  return out;
+}
+
+const clamp01 = (x) => Math.max(0, Math.min(1, x));
+const daysAgo = (d) => (d ? Math.floor((Date.now() - new Date(d + "T00:00:00Z").getTime()) / 86400000) : null);
+// Python's round(): halves go to the even number (82.5 -> 82), so scores match the screener's
+const roundEven = (x) => { const r = Math.round(x); return Math.abs(x - Math.trunc(x)) === 0.5 && r % 2 ? r - 1 : r; };
+// Python 3.12+ sum() adds floats with Neumaier compensation; do the same so .5 edges round alike
+function fsum(xs) {
+  let s = 0, c = 0;
+  for (const x of xs) { const t = s + x; c += Math.abs(s) >= Math.abs(x) ? (s - t) + x : (x - t) + s; s = t; }
+  return s + c;
+}
+// Same formula as opportunity_score() in screener.py
+function scoreOf(c) {
+  if (c.max_rise_pct == null || c.from_ath_pct == null) return [0, {}];
+  const b = {};
+  b.market_cap = 20 * clamp01(1 - (c.rank - 1) / (DEFAULTS.top_n || 1000));
+  b.liquidity = 20 * clamp01((c.liquidity_ratio || 0) / 0.10);
+  const d = -(c.from_ath_pct || 0);
+  b.ath_distance = d >= 50 && d <= 85 ? 15 : (d >= 30 && d < 50) || (d > 85 && d <= 95) ? 10 : d >= 10 && d < 30 ? 5 : 2;
+  b.momentum_30d = c.change_30d != null ? 15 * clamp01((c.change_30d + 20) / 50) : 5;
+  b.historical_upside = 15 * clamp01(1 - c.max_rise_pct / (DEFAULTS.score_rise_scale || 2000));
+  b.stability = c.change_24h != null ? 10 * (1 - clamp01(Math.abs(c.change_24h) / 20)) : 5;
+  const complete = [c.change_24h, c.change_7d, c.change_30d].every((v) => v != null);
+  b.data_quality = 3 * clamp01((c.history_days || 0) / 730) + (complete ? 2 : 0);
+  for (const k in b) b[k] = roundEven(b[k] * 10) / 10;
+  return [roundEven(fsum(Object.values(b))), b];
+}
+
+function applyLive() {
+  if (!LIVE || !DATA) return;
+  const byId = new Map(LIVE.map((m) => [m.id, m]));
+  const today = new Date().toISOString().slice(0, 10);
+  for (const c of DATA.coins) {
+    const m = byId.get(c.id);
+    if (!m || m.current_price == null) continue;
+    c.price = m.current_price;
+    c.market_cap = m.market_cap ?? c.market_cap;
+    c.volume_24h = m.total_volume ?? c.volume_24h;
+    c.rank = m.market_cap_rank || c.rank;
+    c.change_24h = m.price_change_percentage_24h_in_currency ?? null;
+    c.change_7d = m.price_change_percentage_7d_in_currency ?? null;
+    c.change_30d = m.price_change_percentage_30d_in_currency ?? null;
+    if (m.ath) { c.ath = m.ath; c.ath_date = (m.ath_date || "").slice(0, 10); }
+    if (m.atl) { c.atl = m.atl; c.atl_date = (m.atl_date || "").slice(0, 10); }
+    c.from_ath_pct = c.ath ? (c.price / c.ath - 1) * 100 : null;
+    c.liquidity_ratio = c.volume_24h && c.market_cap ? c.volume_24h / c.market_cap : null;
+    if (c.start_price) c.since_start_pct = (c.price / c.start_price - 1) * 100;
+    // A price above the old jump's top makes the biggest jump bigger (from the same low)
+    if (c.rise_low && c.max_rise_pct != null && c.price > (c.rise_high || 0)) {
+      c.rise_high = c.price; c.rise_high_date = today;
+      c.max_rise_pct = Math.max(c.max_rise_pct, (c.price / c.rise_low - 1) * 100);
+    }
+    c.history_days = Math.max(daysAgo(c.ath_date) ?? 0, daysAgo(c.atl_date) ?? 0) || c.history_days;
+    [c.score, c.score_breakdown] = scoreOf(c);
+  }
+}
+
+async function refreshLive(force = false) {
+  if (!DATA || LIVE_BUSY || document.hidden) return;
+  const since = Date.now() - Math.max(LIVE_AT, LIVE_TRIED);
+  if (!force && since < (LIVE_AT >= LIVE_TRIED ? LIVE_EVERY_MIN : 2) * 60000) return;
+  LIVE_BUSY = true; LIVE_TRIED = Date.now();
+  if (!LIVE_AT) setStatus("stale", "Getting live prices…");
+  try {
+    LIVE = await fetchLive(); LIVE_AT = Date.now();
+    applyLive(); render(false);
+  } catch (e) { /* CoinGecko busy: keep what we have, try again in 2 minutes */ }
+  LIVE_BUSY = false;
+  showFreshness();
+}
 
 function setStatus(state, html) {
   $("dot").className = "dot " + (state === "fresh" ? "on" : state === "stale" ? "busy" : "");
@@ -943,9 +1032,13 @@ function agoStr(min) {
 function showFreshness() {
   if (!DATA) return;
   const at = DATA.meta.generated_at, min = Math.floor((Date.now() - new Date(at).getTime()) / 60000);
-  const fresh = min <= UPDATE_EVERY_MIN + 30;
-  setStatus(fresh ? "fresh" : "stale", `Prices updated <b>${agoStr(min)}</b> · ${timeStr(at)}` +
-    (fresh ? ` · updates every hour` : ` · next update is on its way`));
+  if (LIVE_AT && !LIVE_BUSY) {
+    const lm = Math.floor((Date.now() - LIVE_AT) / 60000);
+    setStatus(lm <= LIVE_EVERY_MIN + 5 ? "fresh" : "stale",
+      `Live prices · updated <b>${agoStr(lm)}</b> · ${timeStr(new Date(LIVE_AT).toISOString())} · refreshes every ${LIVE_EVERY_MIN} min`);
+  } else if (!LIVE_BUSY) {
+    setStatus("stale", `Prices from <b>${agoStr(min)}</b> · ${timeStr(at)} · live prices not reachable right now, trying again`);
+  }
   return min;
 }
 
@@ -965,22 +1058,26 @@ async function init() {
   DEFAULTS = DATA.meta.defaults || {};
   loadLists();
   importFromLink();
-  showFreshness();
   renderChanges(DATA.changes);
   resetDefaults();
-  // While the page stays open: keep the "updated X min ago" text current, and pick up the next hourly file.
+  refreshLive(true);
+  // While the page stays open: live prices every few minutes, and the next file from GitHub Actions.
   setInterval(async () => {
     const min = showFreshness();
+    refreshLive();
     if (min > UPDATE_EVERY_MIN + 5) {
       try {
         const next = await loadData();
         if (next.meta.generated_at !== DATA.meta.generated_at) {
           DATA = next; DEFAULTS = DATA.meta.defaults || {};
+          applyLive();            // keep live prices on top of the new file
           renderChanges(DATA.changes); render(false); showFreshness();
         }
       } catch (e) { /* try again next minute */ }
     }
   }, 60 * 1000);
+  // Coming back to the tab (phone unlocked, app switched): refresh at once if prices are old
+  document.addEventListener("visibilitychange", () => { if (!document.hidden) refreshLive(); });
 }
 
 /* ---------- Events ---------- */

@@ -2,8 +2,9 @@
   "vs_currency": "inr",
   "top_n": 1000,
 
-  "max_price": 500,
-  "max_rise_pct": 2000,
+  "max_price": 1000,
+  "max_rise_pct": null,
+  "score_rise_scale": 2000,
   "min_volume_24h": 10000000,
 
   "exclude_categories": [

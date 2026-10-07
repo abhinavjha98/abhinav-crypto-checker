@@ -5,14 +5,14 @@ Picks a watchlist out of the **top 1000 cryptocurrencies** (by market cap) using
 | Rule | Default |
 |---|---|
 | Market-cap rank | ≤ 1000 |
-| Current price | ≤ ₹500 |
-| Biggest jump that ever happened (low → later high) | ≤ 2000% |
+| Current price | ≤ ₹1,000 |
+| Biggest jump that ever happened (low → later high) | Any (set a limit such as 2000% on the site) |
 
 Stablecoins, wrapped/bridged tokens and coins with very low 24h volume are removed too. The remaining coins are ranked by a 0–100 **watch score**.
 
-A GitHub Actions job fetches fresh data from CoinGecko **every hour** and saves it to the repo. The dashboard (free on GitHub Pages) shows that saved data and says how many minutes old it is. The page itself never calls CoinGecko.
+A GitHub Actions job rebuilds the data (price history, biggest jump, start prices) about **every hour** and saves it to the repo. GitHub often starts scheduled jobs hours late, so the dashboard also fetches **live prices** from CoinGecko in the browser (free, no key) when it opens and every 5 minutes, and recomputes the changes, "below peak", "since start" and the score from them. If CoinGecko is busy it shows the saved data and tries again.
 
-> **Hinglish summary:** Top 1000 coin ki list CoinGecko se aati hai. Jo coin ₹500 se mehenga hai, ya jo apne lowest (ATL) se highest (ATH) tak 2000% se zyada chadh chuka hai, woh cut ho jaata hai. Baaki coins ki watchlist banti hai, score ke hisaab se sorted. Website par sliders se ₹500 / 2000% badal sakte ho. Data har ghante apne aap update hota hai.
+> **Hinglish summary:** Top 1000 coin ki list CoinGecko se aati hai. Jo coin ₹1,000 se mehenga hai, woh cut ho jaata hai. "Biggest jump" mein limit (jaise 2000%) daal kar bahut chadh chuke coin bhi hata sakte ho. Baaki coins ki watchlist banti hai, score ke hisaab se sorted. Price live hai: page kholte hi aur har 5 minute mein naya price aur naya score.
 
 ## How "biggest jump" is calculated
 
@@ -80,7 +80,7 @@ Lists are saved in the browser (`localStorage`) because the site has no server. 
 
 ```
 screener.py                         fetches data, filters, scores, writes output (Python stdlib only)
-config.json                         default rules (₹500, 2000%, min volume, excluded categories)
+config.json                         default rules (₹1,000, any jump, min volume, excluded categories)
 docs/index.html                     dashboard (GitHub Pages)
 docs/data/coins.json                all 1000 coins with metrics (dashboard reads this)
 docs/data/watchlist.csv             final watchlist, opens in Excel
