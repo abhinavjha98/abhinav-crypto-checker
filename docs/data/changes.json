@@ -2,81 +2,116 @@
   "compared_to": "2026-10-07",
   "entered": [
     {
+      "id": "avalanche-2",
+      "name": "Avalanche",
+      "score": 73
+    },
+    {
       "id": "yzy",
       "name": "YZY",
       "score": 60
     },
     {
-      "id": "score",
-      "name": "Score",
-      "score": 53
+      "id": "standard",
+      "name": "STANDARD",
+      "score": 59
     },
     {
-      "id": "orochi-network",
-      "name": "Orochi Network",
-      "score": 52
+      "id": "sharex-2",
+      "name": "ShareX",
+      "score": 59
+    },
+    {
+      "id": "spell-token",
+      "name": "Spell",
+      "score": 54
     },
     {
       "id": "quantum-resistant-ledger",
       "name": "Quantum Resistant Ledger",
+      "score": 51
+    },
+    {
+      "id": "hood-sword-inu",
+      "name": "Hood Sword Inu",
       "score": 50
     },
     {
-      "id": "hookr-fun",
-      "name": "Hookr.fun",
-      "score": 48
-    },
-    {
-      "id": "zip-coin",
-      "name": "Zip coin",
-      "score": 47
-    },
-    {
-      "id": "claus-2",
-      "name": "claus",
-      "score": 45
+      "id": "score",
+      "name": "Score",
+      "score": 49
     },
     {
       "id": "origin-protocol",
       "name": "Origin Token",
-      "score": 41
+      "score": 48
     },
     {
-      "id": "astronaut-2",
-      "name": "astronaut",
-      "score": 41
+      "id": "efficientfrontier",
+      "name": "EfficientFrontier",
+      "score": 48
+    },
+    {
+      "id": "qanplatform",
+      "name": "QANplatform",
+      "score": 47
+    },
+    {
+      "id": "hookr-fun",
+      "name": "Hookr.fun",
+      "score": 45
+    },
+    {
+      "id": "token-pocket",
+      "name": "TokenPocket Token",
+      "score": 43
     },
     {
       "id": "agoras-currency-of-tau",
       "name": "Agoras: Tau Net",
+      "score": 42
+    },
+    {
+      "id": "re-protocol-reusde",
+      "name": "Re Protocol reUSDe",
       "score": 40
+    },
+    {
+      "id": "osaka-protocol",
+      "name": "Osaka Protocol",
+      "score": 39
     },
     {
       "id": "super-intelligent-identity",
       "name": "Super Intelligent Identity",
-      "score": 40
+      "score": 38
     },
     {
       "id": "pharaoh-liquid-staking-token",
       "name": "Pharaoh Liquid Staking Token",
-      "score": 36
+      "score": 37
     },
     {
       "id": "chainflip",
       "name": "Chainflip",
-      "score": 35
+      "score": 36
+    },
+    {
+      "id": "tiger-alpha",
+      "name": "Tiger Alpha",
+      "score": 26
     }
   ],
   "left": [
     {
-      "id": "coin98",
-      "name": "coin98",
+      "id": "4-2",
+      "name": "4-2",
       "reason": "dropped out of top N"
     },
     {
-      "id": "concordium",
-      "name": "Concordium",
-      "reason": "low volume"
+      "id": "coin98",
+      "name": "coin98",
+      "reason": "dropped out of top N"
     },
     {
       "id": "dimo",
@@ -84,14 +119,24 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "griffain",
-      "name": "griffain",
+      "id": "fake-world-assets",
+      "name": "fake-world-assets",
       "reason": "dropped out of top N"
     },
     {
-      "id": "hunt-token",
-      "name": "Hunt",
+      "id": "flying-tulip",
+      "name": "Flying Tulip",
       "reason": "low volume"
+    },
+    {
+      "id": "fx-usd-saving",
+      "name": "f(x) USD Saving",
+      "reason": "low volume"
+    },
+    {
+      "id": "goatseus-maximus",
+      "name": "goatseus-maximus",
+      "reason": "dropped out of top N"
     },
     {
       "id": "inu-wif-sword",
@@ -99,8 +144,38 @@
       "reason": "dropped out of top N"
     },
     {
+      "id": "iota-2",
+      "name": "iota",
+      "reason": "low volume"
+    },
+    {
+      "id": "janction",
+      "name": "janction",
+      "reason": "dropped out of top N"
+    },
+    {
       "id": "loaded-lions",
       "name": "Loaded Lions",
+      "reason": "low volume"
+    },
+    {
+      "id": "marsmi",
+      "name": "marsmi",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "moonbirds",
+      "name": "moonbirds",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "ninja-squad",
+      "name": "ninja-squad",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "playnance",
+      "name": "Playnance",
       "reason": "low volume"
     }
   ]
