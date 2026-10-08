@@ -7,9 +7,14 @@
       "score": 60
     },
     {
-      "id": "standard",
-      "name": "STANDARD",
-      "score": 55
+      "id": "score",
+      "name": "Score",
+      "score": 53
+    },
+    {
+      "id": "orochi-network",
+      "name": "Orochi Network",
+      "score": 52
     },
     {
       "id": "quantum-resistant-ledger",
@@ -17,40 +22,60 @@
       "score": 50
     },
     {
-      "id": "verified-emeralds",
-      "name": "Verified Emeralds",
-      "score": 44
-    },
-    {
       "id": "hookr-fun",
       "name": "Hookr.fun",
-      "score": 44
+      "score": 48
     },
     {
-      "id": "vin-2",
-      "name": "VulgarTycoon",
+      "id": "zip-coin",
+      "name": "Zip coin",
+      "score": 47
+    },
+    {
+      "id": "claus-2",
+      "name": "claus",
+      "score": 45
+    },
+    {
+      "id": "origin-protocol",
+      "name": "Origin Token",
       "score": 41
+    },
+    {
+      "id": "astronaut-2",
+      "name": "astronaut",
+      "score": 41
+    },
+    {
+      "id": "agoras-currency-of-tau",
+      "name": "Agoras: Tau Net",
+      "score": 40
+    },
+    {
+      "id": "super-intelligent-identity",
+      "name": "Super Intelligent Identity",
+      "score": 40
     },
     {
       "id": "pharaoh-liquid-staking-token",
       "name": "Pharaoh Liquid Staking Token",
       "score": 36
+    },
+    {
+      "id": "chainflip",
+      "name": "Chainflip",
+      "score": 35
     }
   ],
   "left": [
     {
-      "id": "3jane-usd3",
-      "name": "3Jane USD3",
-      "reason": "low volume"
+      "id": "coin98",
+      "name": "coin98",
+      "reason": "dropped out of top N"
     },
     {
-      "id": "across-protocol",
-      "name": "Across Protocol",
-      "reason": "low volume"
-    },
-    {
-      "id": "bora",
-      "name": "BORA",
+      "id": "concordium",
+      "name": "Concordium",
       "reason": "low volume"
     },
     {
@@ -64,23 +89,18 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "leo-token",
-      "name": "LEO Token",
+      "id": "hunt-token",
+      "name": "Hunt",
       "reason": "low volume"
+    },
+    {
+      "id": "inu-wif-sword",
+      "name": "inu-wif-sword",
+      "reason": "dropped out of top N"
     },
     {
       "id": "loaded-lions",
       "name": "Loaded Lions",
-      "reason": "low volume"
-    },
-    {
-      "id": "moonbirds",
-      "name": "moonbirds",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "pocket-network",
-      "name": "Pocket Network",
       "reason": "low volume"
     }
   ]
