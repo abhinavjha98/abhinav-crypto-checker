@@ -4,27 +4,47 @@
     {
       "id": "avalanche-2",
       "name": "Avalanche",
-      "score": 73
+      "score": 75
     },
     {
       "id": "yzy",
       "name": "YZY",
-      "score": 60
-    },
-    {
-      "id": "standard",
-      "name": "STANDARD",
       "score": 59
     },
     {
       "id": "sharex-2",
       "name": "ShareX",
-      "score": 59
+      "score": 57
     },
     {
-      "id": "spell-token",
-      "name": "Spell",
+      "id": "delysium",
+      "name": "Delysium",
+      "score": 56
+    },
+    {
+      "id": "hood-sword-inu",
+      "name": "Hood Sword Inu",
+      "score": 55
+    },
+    {
+      "id": "standard",
+      "name": "STANDARD",
       "score": 54
+    },
+    {
+      "id": "gitcoin",
+      "name": "Gitcoin",
+      "score": 53
+    },
+    {
+      "id": "efficientfrontier",
+      "name": "EfficientFrontier",
+      "score": 52
+    },
+    {
+      "id": "kaio",
+      "name": "KAIO",
+      "score": 52
     },
     {
       "id": "quantum-resistant-ledger",
@@ -32,8 +52,13 @@
       "score": 51
     },
     {
-      "id": "hood-sword-inu",
-      "name": "Hood Sword Inu",
+      "id": "elephant-money",
+      "name": "Elephant Money",
+      "score": 50
+    },
+    {
+      "id": "origin-protocol",
+      "name": "Origin Token",
       "score": 50
     },
     {
@@ -42,14 +67,9 @@
       "score": 49
     },
     {
-      "id": "origin-protocol",
-      "name": "Origin Token",
-      "score": 48
-    },
-    {
-      "id": "efficientfrontier",
-      "name": "EfficientFrontier",
-      "score": 48
+      "id": "hookr-fun",
+      "name": "Hookr.fun",
+      "score": 47
     },
     {
       "id": "qanplatform",
@@ -57,29 +77,44 @@
       "score": 47
     },
     {
-      "id": "hookr-fun",
-      "name": "Hookr.fun",
-      "score": 45
+      "id": "vvs-finance",
+      "name": "VVS Finance",
+      "score": 44
     },
     {
       "id": "token-pocket",
       "name": "TokenPocket Token",
-      "score": 43
+      "score": 44
     },
     {
       "id": "agoras-currency-of-tau",
       "name": "Agoras: Tau Net",
-      "score": 42
+      "score": 43
     },
     {
       "id": "re-protocol-reusde",
       "name": "Re Protocol reUSDe",
-      "score": 40
+      "score": 41
+    },
+    {
+      "id": "zip-coin",
+      "name": "Zip coin",
+      "score": 41
+    },
+    {
+      "id": "pharaoh-liquid-staking-token",
+      "name": "Pharaoh Liquid Staking Token",
+      "score": 39
+    },
+    {
+      "id": "vin-2",
+      "name": "VulgarTycoon",
+      "score": 39
     },
     {
       "id": "osaka-protocol",
       "name": "Osaka Protocol",
-      "score": 39
+      "score": 38
     },
     {
       "id": "super-intelligent-identity",
@@ -87,19 +122,19 @@
       "score": 38
     },
     {
-      "id": "pharaoh-liquid-staking-token",
-      "name": "Pharaoh Liquid Staking Token",
+      "id": "chainflip",
+      "name": "Chainflip",
       "score": 37
     },
     {
-      "id": "chainflip",
-      "name": "Chainflip",
+      "id": "octra",
+      "name": "Octra",
       "score": 36
     },
     {
       "id": "tiger-alpha",
       "name": "Tiger Alpha",
-      "score": 26
+      "score": 30
     }
   ],
   "left": [
@@ -149,11 +184,6 @@
       "reason": "low volume"
     },
     {
-      "id": "janction",
-      "name": "janction",
-      "reason": "dropped out of top N"
-    },
-    {
       "id": "loaded-lions",
       "name": "Loaded Lions",
       "reason": "low volume"
@@ -169,6 +199,11 @@
       "reason": "dropped out of top N"
     },
     {
+      "id": "my-neighbor-alice",
+      "name": "my-neighbor-alice",
+      "reason": "dropped out of top N"
+    },
+    {
       "id": "ninja-squad",
       "name": "ninja-squad",
       "reason": "dropped out of top N"
@@ -176,6 +211,16 @@
     {
       "id": "playnance",
       "name": "Playnance",
+      "reason": "low volume"
+    },
+    {
+      "id": "sapien-2",
+      "name": "sapien-2",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "tornado-cash",
+      "name": "Tornado Cash",
       "reason": "low volume"
     }
   ]
