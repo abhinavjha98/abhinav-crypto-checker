@@ -2,51 +2,61 @@
   "compared_to": "2026-10-08",
   "entered": [
     {
-      "id": "tornado-cash",
-      "name": "Tornado Cash",
+      "id": "my-neighbor-alice",
+      "name": "My Neighbor Alice",
+      "score": 58
+    },
+    {
+      "id": "sapien-2",
+      "name": "Sapien",
       "score": 56
     },
     {
       "id": "natix-network",
       "name": "NATIX Network",
+      "score": 55
+    },
+    {
+      "id": "4-2",
+      "name": "4",
       "score": 51
     },
     {
-      "id": "openserv",
-      "name": "OpenServ",
-      "score": 48
+      "id": "paradex",
+      "name": "Paradex",
+      "score": 46
     },
     {
-      "id": "verified-emeralds",
-      "name": "Verified Emeralds",
-      "score": 43
-    },
-    {
-      "id": "dmt-nat",
-      "name": "DMT-NAT",
-      "score": 41
+      "id": "tornado-cash",
+      "name": "Tornado Cash",
+      "score": 44
     },
     {
       "id": "obligate-trade-finance-yield",
       "name": "Obligate Trade Finance Yield",
-      "score": 34
+      "score": 41
+    },
+    {
+      "id": "openserv",
+      "name": "OpenServ",
+      "score": 40
+    },
+    {
+      "id": "chex-token",
+      "name": "Chintai",
+      "score": 26
     }
   ],
   "left": [
-    {
-      "id": "a-hunters-dream",
-      "name": "a-hunters-dream",
-      "reason": "dropped out of top N"
-    },
     {
       "id": "agoras-currency-of-tau",
       "name": "Agoras: Tau Net",
       "reason": "low volume"
     },
     {
-      "id": "avalanche-2",
-      "name": "Avalanche",
-      "reason": "price too high"
+      "id": "bc-token",
+      "name": "BCGame Coin",
+      "reason": "low volume"
     },
     {
       "id": "chainflip",
@@ -64,18 +74,63 @@
       "reason": "dropped out of top N"
     },
     {
+      "id": "escoin-token",
+      "name": "Escoin",
+      "reason": "low volume"
+    },
+    {
+      "id": "gitcoin",
+      "name": "gitcoin",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "hunt-token",
+      "name": "Hunt",
+      "reason": "low volume"
+    },
+    {
+      "id": "messier",
+      "name": "MESSIER",
+      "reason": "low volume"
+    },
+    {
       "id": "metamui",
       "name": "metamui",
       "reason": "dropped out of top N"
     },
     {
-      "id": "tiger-alpha",
-      "name": "Tiger Alpha",
-      "reason": "price too high"
+      "id": "nova-3",
+      "name": "NOVA",
+      "reason": "low volume"
+    },
+    {
+      "id": "ocean-protocol",
+      "name": "Ocean Protocol",
+      "reason": "low volume"
+    },
+    {
+      "id": "qanplatform",
+      "name": "QANplatform",
+      "reason": "low volume"
+    },
+    {
+      "id": "super-intelligent-identity",
+      "name": "super-intelligent-identity",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "token-pocket",
+      "name": "TokenPocket Token",
+      "reason": "low volume"
     },
     {
       "id": "vin-2",
       "name": "VulgarTycoon",
+      "reason": "low volume"
+    },
+    {
+      "id": "vvs-finance",
+      "name": "VVS Finance",
       "reason": "low volume"
     },
     {
