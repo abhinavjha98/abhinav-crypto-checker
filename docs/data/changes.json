@@ -2,35 +2,60 @@
   "compared_to": "2026-10-08",
   "entered": [
     {
-      "id": "my-neighbor-alice",
-      "name": "My Neighbor Alice",
-      "score": 57
-    },
-    {
       "id": "tornado-cash",
       "name": "Tornado Cash",
       "score": 56
     },
     {
-      "id": "wojak-5",
-      "name": "wojak",
-      "score": 54
+      "id": "natix-network",
+      "name": "NATIX Network",
+      "score": 51
     },
     {
-      "id": "dimo",
-      "name": "DIMO",
-      "score": 38
+      "id": "openserv",
+      "name": "OpenServ",
+      "score": 48
     },
     {
-      "id": "elysia",
-      "name": "ELYSIA",
-      "score": 30
+      "id": "verified-emeralds",
+      "name": "Verified Emeralds",
+      "score": 43
+    },
+    {
+      "id": "dmt-nat",
+      "name": "DMT-NAT",
+      "score": 41
+    },
+    {
+      "id": "obligate-trade-finance-yield",
+      "name": "Obligate Trade Finance Yield",
+      "score": 34
     }
   ],
   "left": [
     {
-      "id": "across-protocol",
-      "name": "Across Protocol",
+      "id": "a-hunters-dream",
+      "name": "a-hunters-dream",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "agoras-currency-of-tau",
+      "name": "Agoras: Tau Net",
+      "reason": "low volume"
+    },
+    {
+      "id": "avalanche-2",
+      "name": "Avalanche",
+      "reason": "price too high"
+    },
+    {
+      "id": "chainflip",
+      "name": "Chainflip",
+      "reason": "low volume"
+    },
+    {
+      "id": "credible-finance",
+      "name": "Credible Finance",
       "reason": "low volume"
     },
     {
@@ -44,13 +69,13 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "ocean-protocol",
-      "name": "Ocean Protocol",
-      "reason": "low volume"
+      "id": "tiger-alpha",
+      "name": "Tiger Alpha",
+      "reason": "price too high"
     },
     {
-      "id": "tokamak-network",
-      "name": "Tokamak Network",
+      "id": "vin-2",
+      "name": "VulgarTycoon",
       "reason": "low volume"
     },
     {
@@ -62,11 +87,6 @@
       "id": "zip-coin",
       "name": "zip-coin",
       "reason": "dropped out of top N"
-    },
-    {
-      "id": "zylo-ecosystem",
-      "name": "Zylo Ecosystem",
-      "reason": "low volume"
     }
   ]
 }
