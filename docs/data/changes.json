@@ -4,12 +4,7 @@
     {
       "id": "my-neighbor-alice",
       "name": "My Neighbor Alice",
-      "score": 58
-    },
-    {
-      "id": "sapien-2",
-      "name": "Sapien",
-      "score": 56
+      "score": 59
     },
     {
       "id": "natix-network",
@@ -17,19 +12,39 @@
       "score": 55
     },
     {
-      "id": "4-2",
-      "name": "4",
-      "score": 51
+      "id": "sapien-2",
+      "name": "Sapien",
+      "score": 55
     },
     {
-      "id": "paradex",
-      "name": "Paradex",
-      "score": 46
+      "id": "orochi-network",
+      "name": "Orochi Network",
+      "score": 54
+    },
+    {
+      "id": "hoodpork",
+      "name": "HoodPork",
+      "score": 53
+    },
+    {
+      "id": "4-2",
+      "name": "4",
+      "score": 52
+    },
+    {
+      "id": "coin98",
+      "name": "Coin98",
+      "score": 52
     },
     {
       "id": "tornado-cash",
       "name": "Tornado Cash",
-      "score": 44
+      "score": 46
+    },
+    {
+      "id": "paradex",
+      "name": "Paradex",
+      "score": 42
     },
     {
       "id": "obligate-trade-finance-yield",
@@ -37,17 +52,22 @@
       "score": 41
     },
     {
-      "id": "openserv",
-      "name": "OpenServ",
-      "score": 40
-    },
-    {
       "id": "chex-token",
       "name": "Chintai",
-      "score": 26
+      "score": 25
     }
   ],
   "left": [
+    {
+      "id": "a-hunters-dream",
+      "name": "a-hunters-dream",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "across-protocol",
+      "name": "Across Protocol",
+      "reason": "low volume"
+    },
     {
       "id": "agoras-currency-of-tau",
       "name": "Agoras: Tau Net",
@@ -59,14 +79,14 @@
       "reason": "low volume"
     },
     {
-      "id": "chainflip",
-      "name": "Chainflip",
+      "id": "bitkub-coin",
+      "name": "KUB Coin",
       "reason": "low volume"
     },
     {
       "id": "credible-finance",
-      "name": "Credible Finance",
-      "reason": "low volume"
+      "name": "credible-finance",
+      "reason": "dropped out of top N"
     },
     {
       "id": "delysium",
@@ -79,9 +99,9 @@
       "reason": "low volume"
     },
     {
-      "id": "gitcoin",
-      "name": "gitcoin",
-      "reason": "dropped out of top N"
+      "id": "goldfish-gold",
+      "name": "Goldfish Gold",
+      "reason": "low volume"
     },
     {
       "id": "hunt-token",
@@ -89,8 +109,13 @@
       "reason": "low volume"
     },
     {
-      "id": "messier",
-      "name": "MESSIER",
+      "id": "kaio",
+      "name": "kaio",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "medibloc",
+      "name": "Medibloc",
       "reason": "low volume"
     },
     {
@@ -109,9 +134,29 @@
       "reason": "low volume"
     },
     {
+      "id": "octra",
+      "name": "Octra",
+      "reason": "low volume"
+    },
+    {
+      "id": "pharaoh-liquid-staking-token",
+      "name": "Pharaoh Liquid Staking Token",
+      "reason": "low volume"
+    },
+    {
+      "id": "pocket-network",
+      "name": "Pocket Network",
+      "reason": "low volume"
+    },
+    {
       "id": "qanplatform",
       "name": "QANplatform",
       "reason": "low volume"
+    },
+    {
+      "id": "standard",
+      "name": "standard",
+      "reason": "dropped out of top N"
     },
     {
       "id": "super-intelligent-identity",
@@ -136,6 +181,11 @@
     {
       "id": "yzy",
       "name": "YZY",
+      "reason": "low volume"
+    },
+    {
+      "id": "zcoin",
+      "name": "Firo",
       "reason": "low volume"
     },
     {
