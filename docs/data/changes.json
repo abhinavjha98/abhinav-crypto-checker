@@ -1,226 +1,71 @@
 {
-  "compared_to": "2026-10-07",
+  "compared_to": "2026-10-08",
   "entered": [
     {
-      "id": "avalanche-2",
-      "name": "Avalanche",
-      "score": 75
-    },
-    {
-      "id": "yzy",
-      "name": "YZY",
-      "score": 59
-    },
-    {
-      "id": "sharex-2",
-      "name": "ShareX",
+      "id": "my-neighbor-alice",
+      "name": "My Neighbor Alice",
       "score": 57
     },
     {
-      "id": "delysium",
-      "name": "Delysium",
+      "id": "tornado-cash",
+      "name": "Tornado Cash",
       "score": 56
     },
     {
-      "id": "hood-sword-inu",
-      "name": "Hood Sword Inu",
-      "score": 55
-    },
-    {
-      "id": "standard",
-      "name": "STANDARD",
+      "id": "wojak-5",
+      "name": "wojak",
       "score": 54
     },
     {
-      "id": "gitcoin",
-      "name": "Gitcoin",
-      "score": 53
-    },
-    {
-      "id": "efficientfrontier",
-      "name": "EfficientFrontier",
-      "score": 52
-    },
-    {
-      "id": "kaio",
-      "name": "KAIO",
-      "score": 52
-    },
-    {
-      "id": "quantum-resistant-ledger",
-      "name": "Quantum Resistant Ledger",
-      "score": 51
-    },
-    {
-      "id": "elephant-money",
-      "name": "Elephant Money",
-      "score": 50
-    },
-    {
-      "id": "origin-protocol",
-      "name": "Origin Token",
-      "score": 50
-    },
-    {
-      "id": "score",
-      "name": "Score",
-      "score": 49
-    },
-    {
-      "id": "hookr-fun",
-      "name": "Hookr.fun",
-      "score": 47
-    },
-    {
-      "id": "qanplatform",
-      "name": "QANplatform",
-      "score": 47
-    },
-    {
-      "id": "vvs-finance",
-      "name": "VVS Finance",
-      "score": 44
-    },
-    {
-      "id": "token-pocket",
-      "name": "TokenPocket Token",
-      "score": 44
-    },
-    {
-      "id": "agoras-currency-of-tau",
-      "name": "Agoras: Tau Net",
-      "score": 43
-    },
-    {
-      "id": "re-protocol-reusde",
-      "name": "Re Protocol reUSDe",
-      "score": 41
-    },
-    {
-      "id": "zip-coin",
-      "name": "Zip coin",
-      "score": 41
-    },
-    {
-      "id": "pharaoh-liquid-staking-token",
-      "name": "Pharaoh Liquid Staking Token",
-      "score": 39
-    },
-    {
-      "id": "vin-2",
-      "name": "VulgarTycoon",
-      "score": 39
-    },
-    {
-      "id": "osaka-protocol",
-      "name": "Osaka Protocol",
+      "id": "dimo",
+      "name": "DIMO",
       "score": 38
     },
     {
-      "id": "super-intelligent-identity",
-      "name": "Super Intelligent Identity",
-      "score": 38
-    },
-    {
-      "id": "chainflip",
-      "name": "Chainflip",
-      "score": 37
-    },
-    {
-      "id": "octra",
-      "name": "Octra",
-      "score": 36
-    },
-    {
-      "id": "tiger-alpha",
-      "name": "Tiger Alpha",
+      "id": "elysia",
+      "name": "ELYSIA",
       "score": 30
     }
   ],
   "left": [
     {
-      "id": "4-2",
-      "name": "4-2",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "coin98",
-      "name": "coin98",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "dimo",
-      "name": "dimo",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "fake-world-assets",
-      "name": "fake-world-assets",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "flying-tulip",
-      "name": "Flying Tulip",
+      "id": "across-protocol",
+      "name": "Across Protocol",
       "reason": "low volume"
     },
     {
-      "id": "fx-usd-saving",
-      "name": "f(x) USD Saving",
+      "id": "delysium",
+      "name": "delysium",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "metamui",
+      "name": "metamui",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "ocean-protocol",
+      "name": "Ocean Protocol",
       "reason": "low volume"
     },
     {
-      "id": "goatseus-maximus",
-      "name": "goatseus-maximus",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "inu-wif-sword",
-      "name": "inu-wif-sword",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "iota-2",
-      "name": "iota",
+      "id": "tokamak-network",
+      "name": "Tokamak Network",
       "reason": "low volume"
     },
     {
-      "id": "loaded-lions",
-      "name": "Loaded Lions",
+      "id": "yzy",
+      "name": "YZY",
       "reason": "low volume"
     },
     {
-      "id": "marsmi",
-      "name": "marsmi",
+      "id": "zip-coin",
+      "name": "zip-coin",
       "reason": "dropped out of top N"
     },
     {
-      "id": "moonbirds",
-      "name": "moonbirds",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "my-neighbor-alice",
-      "name": "my-neighbor-alice",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "ninja-squad",
-      "name": "ninja-squad",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "playnance",
-      "name": "Playnance",
-      "reason": "low volume"
-    },
-    {
-      "id": "sapien-2",
-      "name": "sapien-2",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "tornado-cash",
-      "name": "Tornado Cash",
+      "id": "zylo-ecosystem",
+      "name": "Zylo Ecosystem",
       "reason": "low volume"
     }
   ]
