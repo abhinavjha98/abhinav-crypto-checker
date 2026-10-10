@@ -1,197 +1,67 @@
 {
-  "compared_to": "2026-10-08",
+  "compared_to": "2026-10-09",
   "entered": [
     {
-      "id": "my-neighbor-alice",
-      "name": "My Neighbor Alice",
-      "score": 59
+      "id": "kaio",
+      "name": "KAIO",
+      "score": 64
     },
     {
-      "id": "natix-network",
-      "name": "NATIX Network",
-      "score": 55
+      "id": "moonbirds",
+      "name": "Moonbirds",
+      "score": 56
     },
     {
-      "id": "sapien-2",
-      "name": "Sapien",
-      "score": 55
-    },
-    {
-      "id": "orochi-network",
-      "name": "Orochi Network",
-      "score": 54
-    },
-    {
-      "id": "hoodpork",
-      "name": "HoodPork",
-      "score": 53
-    },
-    {
-      "id": "4-2",
-      "name": "4",
-      "score": 52
-    },
-    {
-      "id": "coin98",
-      "name": "Coin98",
-      "score": 52
-    },
-    {
-      "id": "tornado-cash",
-      "name": "Tornado Cash",
-      "score": 46
-    },
-    {
-      "id": "paradex",
-      "name": "Paradex",
-      "score": 42
-    },
-    {
-      "id": "obligate-trade-finance-yield",
-      "name": "Obligate Trade Finance Yield",
-      "score": 41
-    },
-    {
-      "id": "chex-token",
-      "name": "Chintai",
-      "score": 25
-    }
-  ],
-  "left": [
-    {
-      "id": "a-hunters-dream",
-      "name": "a-hunters-dream",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "across-protocol",
-      "name": "Across Protocol",
-      "reason": "low volume"
-    },
-    {
-      "id": "agoras-currency-of-tau",
-      "name": "Agoras: Tau Net",
-      "reason": "low volume"
-    },
-    {
-      "id": "bc-token",
-      "name": "BCGame Coin",
-      "reason": "low volume"
-    },
-    {
-      "id": "bitkub-coin",
-      "name": "KUB Coin",
-      "reason": "low volume"
-    },
-    {
-      "id": "credible-finance",
-      "name": "credible-finance",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "delysium",
-      "name": "delysium",
-      "reason": "dropped out of top N"
+      "id": "openserv",
+      "name": "OpenServ",
+      "score": 44
     },
     {
       "id": "escoin-token",
       "name": "Escoin",
-      "reason": "low volume"
+      "score": 43
     },
     {
-      "id": "goldfish-gold",
-      "name": "Goldfish Gold",
-      "reason": "low volume"
+      "id": "across-protocol",
+      "name": "Across Protocol",
+      "score": 31
     },
     {
-      "id": "hunt-token",
-      "name": "Hunt",
-      "reason": "low volume"
-    },
+      "id": "bitkub-coin",
+      "name": "KUB Coin",
+      "score": 30
+    }
+  ],
+  "left": [
     {
-      "id": "kaio",
-      "name": "kaio",
+      "id": "4-2",
+      "name": "4-2",
       "reason": "dropped out of top N"
     },
     {
-      "id": "medibloc",
-      "name": "Medibloc",
+      "id": "elephant-money",
+      "name": "Elephant Money",
       "reason": "low volume"
     },
     {
-      "id": "metamui",
-      "name": "metamui",
+      "id": "frenpet",
+      "name": "Fren Pet",
+      "reason": "low volume"
+    },
+    {
+      "id": "gitcoin",
+      "name": "gitcoin",
       "reason": "dropped out of top N"
     },
     {
-      "id": "nova-3",
-      "name": "NOVA",
+      "id": "ix-swap",
+      "name": "IXS",
       "reason": "low volume"
     },
     {
-      "id": "ocean-protocol",
-      "name": "Ocean Protocol",
+      "id": "leo-token",
+      "name": "LEO Token",
       "reason": "low volume"
-    },
-    {
-      "id": "octra",
-      "name": "Octra",
-      "reason": "low volume"
-    },
-    {
-      "id": "pharaoh-liquid-staking-token",
-      "name": "Pharaoh Liquid Staking Token",
-      "reason": "low volume"
-    },
-    {
-      "id": "pocket-network",
-      "name": "Pocket Network",
-      "reason": "low volume"
-    },
-    {
-      "id": "qanplatform",
-      "name": "QANplatform",
-      "reason": "low volume"
-    },
-    {
-      "id": "standard",
-      "name": "standard",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "super-intelligent-identity",
-      "name": "super-intelligent-identity",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "token-pocket",
-      "name": "TokenPocket Token",
-      "reason": "low volume"
-    },
-    {
-      "id": "vin-2",
-      "name": "VulgarTycoon",
-      "reason": "low volume"
-    },
-    {
-      "id": "vvs-finance",
-      "name": "VVS Finance",
-      "reason": "low volume"
-    },
-    {
-      "id": "yzy",
-      "name": "YZY",
-      "reason": "low volume"
-    },
-    {
-      "id": "zcoin",
-      "name": "Firo",
-      "reason": "low volume"
-    },
-    {
-      "id": "zip-coin",
-      "name": "zip-coin",
-      "reason": "dropped out of top N"
     }
   ]
 }
