@@ -4,17 +4,22 @@
     {
       "id": "kaio",
       "name": "KAIO",
-      "score": 64
+      "score": 69
     },
     {
       "id": "moonbirds",
       "name": "Moonbirds",
-      "score": 56
+      "score": 58
     },
     {
-      "id": "openserv",
-      "name": "OpenServ",
-      "score": 44
+      "id": "metamui",
+      "name": "MetaMUI",
+      "score": 49
+    },
+    {
+      "id": "dual",
+      "name": "Dual",
+      "score": 48
     },
     {
       "id": "escoin-token",
@@ -22,14 +27,19 @@
       "score": 43
     },
     {
-      "id": "across-protocol",
-      "name": "Across Protocol",
-      "score": 31
+      "id": "pocket-network",
+      "name": "Pocket Network",
+      "score": 42
     },
     {
       "id": "bitkub-coin",
       "name": "KUB Coin",
       "score": 30
+    },
+    {
+      "id": "zcoin",
+      "name": "Firo",
+      "score": 28
     }
   ],
   "left": [
@@ -37,6 +47,16 @@
       "id": "4-2",
       "name": "4-2",
       "reason": "dropped out of top N"
+    },
+    {
+      "id": "avalanche-2",
+      "name": "Avalanche",
+      "reason": "price too high"
+    },
+    {
+      "id": "efficientfrontier",
+      "name": "EfficientFrontier",
+      "reason": "price too high"
     },
     {
       "id": "elephant-money",
@@ -52,16 +72,6 @@
       "id": "gitcoin",
       "name": "gitcoin",
       "reason": "dropped out of top N"
-    },
-    {
-      "id": "ix-swap",
-      "name": "IXS",
-      "reason": "low volume"
-    },
-    {
-      "id": "leo-token",
-      "name": "LEO Token",
-      "reason": "low volume"
     }
   ]
 }
