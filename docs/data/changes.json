@@ -4,17 +4,22 @@
     {
       "id": "kaio",
       "name": "KAIO",
-      "score": 67
+      "score": 64
     },
     {
       "id": "superform",
       "name": "Superform",
+      "score": 62
+    },
+    {
+      "id": "nexst",
+      "name": "NEXST",
       "score": 57
     },
     {
       "id": "moonbirds",
       "name": "Moonbirds",
-      "score": 53
+      "score": 54
     },
     {
       "id": "a-hunters-dream",
@@ -22,48 +27,63 @@
       "score": 51
     },
     {
-      "id": "nexst",
-      "name": "NEXST",
+      "id": "medibloc",
+      "name": "Medibloc",
       "score": 50
-    },
-    {
-      "id": "agoras-currency-of-tau",
-      "name": "Agoras: Tau Net",
-      "score": 49
     },
     {
       "id": "dual",
       "name": "Dual",
+      "score": 50
+    },
+    {
+      "id": "ekubo-protocol",
+      "name": "Ekubo Protocol",
+      "score": 49
+    },
+    {
+      "id": "metamui",
+      "name": "MetaMUI",
       "score": 48
     },
     {
-      "id": "swarm-engine",
-      "name": "SWARM ENGINE",
-      "score": 47
-    },
-    {
-      "id": "openserv",
-      "name": "OpenServ",
-      "score": 44
+      "id": "moviebloc",
+      "name": "MovieBloc",
+      "score": 45
     },
     {
       "id": "escoin-token",
       "name": "Escoin",
-      "score": 43
+      "score": 44
     },
     {
       "id": "pocket-network",
       "name": "Pocket Network",
-      "score": 40
+      "score": 41
+    },
+    {
+      "id": "swarm-engine",
+      "name": "SWARM ENGINE",
+      "score": 39
     },
     {
       "id": "pharaoh-liquid-staking-token",
       "name": "Pharaoh Liquid Staking Token",
+      "score": 35
+    },
+    {
+      "id": "across-protocol",
+      "name": "Across Protocol",
       "score": 34
     },
     {
       "id": "bitkub-coin",
       "name": "KUB Coin",
+      "score": 32
+    },
+    {
+      "id": "mass-vehicle-ledger",
+      "name": "MVL",
       "score": 32
     },
     {
@@ -79,14 +99,29 @@
       "reason": "dropped out of top N"
     },
     {
+      "id": "adshares",
+      "name": "Adshares",
+      "reason": "low volume"
+    },
+    {
       "id": "avalanche-2",
       "name": "Avalanche",
       "reason": "price too high"
     },
     {
+      "id": "chainflip",
+      "name": "Chainflip",
+      "reason": "low volume"
+    },
+    {
       "id": "chex-token",
       "name": "chex-token",
       "reason": "dropped out of top N"
+    },
+    {
+      "id": "cortex-2",
+      "name": "Cortex",
+      "reason": "low volume"
     },
     {
       "id": "deapcoin",
@@ -114,8 +149,23 @@
       "reason": "low volume"
     },
     {
+      "id": "gitcoin",
+      "name": "gitcoin",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "idlemine",
+      "name": "IdleMine",
+      "reason": "low volume"
+    },
+    {
       "id": "ix-swap",
       "name": "IXS",
+      "reason": "low volume"
+    },
+    {
+      "id": "leo-token",
+      "name": "LEO Token",
       "reason": "low volume"
     },
     {
@@ -129,23 +179,18 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "orochi-network",
-      "name": "orochi-network",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "quantum-resistant-ledger",
-      "name": "Quantum Resistant Ledger",
+      "id": "obligate-trade-finance-yield",
+      "name": "Obligate Trade Finance Yield",
       "reason": "low volume"
     },
     {
-      "id": "re-protocol-reusde",
-      "name": "Re Protocol reUSDe",
+      "id": "umia",
+      "name": "Umia",
       "reason": "low volume"
     },
     {
-      "id": "tokamak-network",
-      "name": "Tokamak Network",
+      "id": "wiki-cat",
+      "name": "Wiki Cat",
       "reason": "low volume"
     }
   ]
