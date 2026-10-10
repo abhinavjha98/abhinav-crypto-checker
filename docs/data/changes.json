@@ -4,22 +4,47 @@
     {
       "id": "kaio",
       "name": "KAIO",
-      "score": 69
+      "score": 67
+    },
+    {
+      "id": "superform",
+      "name": "Superform",
+      "score": 57
     },
     {
       "id": "moonbirds",
       "name": "Moonbirds",
-      "score": 58
+      "score": 53
     },
     {
-      "id": "metamui",
-      "name": "MetaMUI",
+      "id": "a-hunters-dream",
+      "name": "A Hunters Dream",
+      "score": 51
+    },
+    {
+      "id": "nexst",
+      "name": "NEXST",
+      "score": 50
+    },
+    {
+      "id": "agoras-currency-of-tau",
+      "name": "Agoras: Tau Net",
       "score": 49
     },
     {
       "id": "dual",
       "name": "Dual",
       "score": 48
+    },
+    {
+      "id": "swarm-engine",
+      "name": "SWARM ENGINE",
+      "score": 47
+    },
+    {
+      "id": "openserv",
+      "name": "OpenServ",
+      "score": 44
     },
     {
       "id": "escoin-token",
@@ -29,17 +54,22 @@
     {
       "id": "pocket-network",
       "name": "Pocket Network",
-      "score": 42
+      "score": 40
+    },
+    {
+      "id": "pharaoh-liquid-staking-token",
+      "name": "Pharaoh Liquid Staking Token",
+      "score": 34
     },
     {
       "id": "bitkub-coin",
       "name": "KUB Coin",
-      "score": 30
+      "score": 32
     },
     {
       "id": "zcoin",
       "name": "Firo",
-      "score": 28
+      "score": 30
     }
   ],
   "left": [
@@ -52,6 +82,16 @@
       "id": "avalanche-2",
       "name": "Avalanche",
       "reason": "price too high"
+    },
+    {
+      "id": "chex-token",
+      "name": "chex-token",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "deapcoin",
+      "name": "DEAPCOIN",
+      "reason": "low volume"
     },
     {
       "id": "efficientfrontier",
@@ -69,9 +109,44 @@
       "reason": "low volume"
     },
     {
-      "id": "gitcoin",
-      "name": "gitcoin",
+      "id": "gama-token",
+      "name": "Gama Token",
+      "reason": "low volume"
+    },
+    {
+      "id": "ix-swap",
+      "name": "IXS",
+      "reason": "low volume"
+    },
+    {
+      "id": "mey-network",
+      "name": "Mey Network",
+      "reason": "low volume"
+    },
+    {
+      "id": "natix-network",
+      "name": "natix-network",
       "reason": "dropped out of top N"
+    },
+    {
+      "id": "orochi-network",
+      "name": "orochi-network",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "quantum-resistant-ledger",
+      "name": "Quantum Resistant Ledger",
+      "reason": "low volume"
+    },
+    {
+      "id": "re-protocol-reusde",
+      "name": "Re Protocol reUSDe",
+      "reason": "low volume"
+    },
+    {
+      "id": "tokamak-network",
+      "name": "Tokamak Network",
+      "reason": "low volume"
     }
   ]
 }
