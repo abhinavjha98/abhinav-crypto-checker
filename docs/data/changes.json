@@ -2,9 +2,9 @@
   "compared_to": "2026-10-10",
   "entered": [
     {
-      "id": "bunker-mode",
-      "name": "Bunker Mode",
-      "score": 55
+      "id": "ao-computer",
+      "name": "ao Computer",
+      "score": 58
     },
     {
       "id": "proprietary-trading-network",
@@ -12,14 +12,24 @@
       "score": 54
     },
     {
-      "id": "quantum-inu",
-      "name": "Quantum Inu",
-      "score": 45
+      "id": "bunker-mode",
+      "name": "Bunker Mode",
+      "score": 49
     },
     {
       "id": "ai-factory",
       "name": "OpenRoboto",
-      "score": 42
+      "score": 43
+    },
+    {
+      "id": "frenpet",
+      "name": "Fren Pet",
+      "score": 43
+    },
+    {
+      "id": "cat-wif-hood",
+      "name": "cat wif hood",
+      "score": 43
     },
     {
       "id": "hunt-token",
@@ -27,9 +37,14 @@
       "score": 41
     },
     {
-      "id": "public-meme-token",
-      "name": "Public Masterpiece Token",
-      "score": 40
+      "id": "cargox",
+      "name": "CargoX",
+      "score": 39
+    },
+    {
+      "id": "gradients",
+      "name": "Gradients",
+      "score": 38
     },
     {
       "id": "wiki-cat",
@@ -37,41 +52,46 @@
       "score": 38
     },
     {
-      "id": "gradients",
-      "name": "Gradients",
+      "id": "public-meme-token",
+      "name": "Public Masterpiece Token",
       "score": 37
+    },
+    {
+      "id": "adshares",
+      "name": "Adshares",
+      "score": 34
     },
     {
       "id": "tau-fa",
       "name": "TAU FA",
-      "score": 28
+      "score": 34
+    },
+    {
+      "id": "nano",
+      "name": "Nano",
+      "score": 34
     }
   ],
   "left": [
-    {
-      "id": "across-protocol",
-      "name": "Across Protocol",
-      "reason": "low volume"
-    },
     {
       "id": "arcblock",
       "name": "Arcblock",
       "reason": "low volume"
     },
     {
-      "id": "bitkub-coin",
-      "name": "KUB Coin",
-      "reason": "low volume"
-    },
-    {
-      "id": "escoin-token",
-      "name": "Escoin",
-      "reason": "low volume"
-    },
-    {
-      "id": "messier",
-      "name": "messier",
+      "id": "griffain",
+      "name": "griffain",
       "reason": "dropped out of top N"
+    },
+    {
+      "id": "hivemapper",
+      "name": "hivemapper",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "hoodpork",
+      "name": "HoodPork",
+      "reason": "low volume"
     },
     {
       "id": "osaka-protocol",
@@ -84,13 +104,18 @@
       "reason": "low volume"
     },
     {
+      "id": "quantum-resistant-ledger",
+      "name": "Quantum Resistant Ledger",
+      "reason": "low volume"
+    },
+    {
       "id": "re-protocol-reusde",
       "name": "Re Protocol reUSDe",
       "reason": "low volume"
     },
     {
-      "id": "sanctum-2",
-      "name": "Sanctum",
+      "id": "stargate-finance",
+      "name": "Stargate Finance",
       "reason": "low volume"
     },
     {
