@@ -1,237 +1,62 @@
 {
-  "compared_to": "2026-10-09",
+  "compared_to": "2026-10-10",
   "entered": [
-    {
-      "id": "kaio",
-      "name": "KAIO",
-      "score": 64
-    },
-    {
-      "id": "medibloc",
-      "name": "Medibloc",
-      "score": 61
-    },
-    {
-      "id": "superform",
-      "name": "Superform",
-      "score": 60
-    },
-    {
-      "id": "nexst",
-      "name": "NEXST",
-      "score": 56
-    },
-    {
-      "id": "moonbirds",
-      "name": "Moonbirds",
-      "score": 55
-    },
-    {
-      "id": "ekubo-protocol",
-      "name": "Ekubo Protocol",
-      "score": 53
-    },
-    {
-      "id": "a-hunters-dream",
-      "name": "A Hunters Dream",
-      "score": 51
-    },
-    {
-      "id": "goldfish-gold",
-      "name": "Goldfish Gold",
-      "score": 50
-    },
-    {
-      "id": "dual",
-      "name": "Dual",
-      "score": 49
-    },
-    {
-      "id": "metamui",
-      "name": "MetaMUI",
-      "score": 48
-    },
-    {
-      "id": "moviebloc",
-      "name": "MovieBloc",
-      "score": 45
-    },
-    {
-      "id": "escoin-token",
-      "name": "Escoin",
-      "score": 44
-    },
-    {
-      "id": "nova-3",
-      "name": "NOVA",
-      "score": 43
-    },
-    {
-      "id": "swarm-engine",
-      "name": "SWARM ENGINE",
-      "score": 41
-    },
-    {
-      "id": "pocket-network",
-      "name": "Pocket Network",
-      "score": 40
-    },
-    {
-      "id": "ocean-protocol",
-      "name": "Ocean Protocol",
-      "score": 38
-    },
-    {
-      "id": "verified-emeralds",
-      "name": "Verified Emeralds",
-      "score": 36
-    },
-    {
-      "id": "pharaoh-liquid-staking-token",
-      "name": "Pharaoh Liquid Staking Token",
-      "score": 35
-    },
-    {
-      "id": "rich-kids-of-tao",
-      "name": "Green Compute",
-      "score": 35
-    },
-    {
-      "id": "across-protocol",
-      "name": "Across Protocol",
-      "score": 34
-    },
-    {
-      "id": "bitkub-coin",
-      "name": "KUB Coin",
-      "score": 32
-    },
-    {
-      "id": "mass-vehicle-ledger",
-      "name": "MVL",
-      "score": 30
-    },
-    {
-      "id": "zcoin",
-      "name": "Firo",
-      "score": 30
-    }
-  ],
-  "left": [
-    {
-      "id": "4-2",
-      "name": "4-2",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "adshares",
-      "name": "Adshares",
-      "reason": "low volume"
-    },
-    {
-      "id": "anvil",
-      "name": "Anvil",
-      "reason": "low volume"
-    },
     {
       "id": "ao-computer",
       "name": "ao Computer",
-      "reason": "low volume"
+      "score": 58
     },
     {
-      "id": "avalanche-2",
-      "name": "Avalanche",
-      "reason": "price too high"
+      "id": "openserv",
+      "name": "OpenServ",
+      "score": 46
     },
     {
-      "id": "chainflip",
-      "name": "Chainflip",
-      "reason": "low volume"
+      "id": "public-meme-token",
+      "name": "Public Masterpiece Token",
+      "score": 40
     },
     {
-      "id": "chex-token",
-      "name": "chex-token",
-      "reason": "dropped out of top N"
+      "id": "ai-factory",
+      "name": "OpenRoboto",
+      "score": 40
     },
     {
-      "id": "cortex-2",
-      "name": "Cortex",
-      "reason": "low volume"
-    },
-    {
-      "id": "deapcoin",
-      "name": "DEAPCOIN",
-      "reason": "low volume"
-    },
-    {
-      "id": "efficientfrontier",
-      "name": "EfficientFrontier",
-      "reason": "price too high"
-    },
-    {
-      "id": "elephant-money",
-      "name": "Elephant Money",
-      "reason": "low volume"
-    },
-    {
-      "id": "frenpet",
-      "name": "Fren Pet",
-      "reason": "low volume"
-    },
-    {
-      "id": "gama-token",
-      "name": "Gama Token",
-      "reason": "low volume"
-    },
-    {
-      "id": "gitcoin",
-      "name": "gitcoin",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "idlemine",
-      "name": "IdleMine",
-      "reason": "low volume"
-    },
-    {
-      "id": "ix-swap",
-      "name": "IXS",
-      "reason": "low volume"
-    },
-    {
-      "id": "nano",
-      "name": "Nano",
-      "reason": "low volume"
-    },
-    {
-      "id": "natix-network",
-      "name": "natix-network",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "obligate-trade-finance-yield",
-      "name": "Obligate Trade Finance Yield",
-      "reason": "low volume"
-    },
-    {
-      "id": "proprietary-trading-network",
-      "name": "Vanta Network",
-      "reason": "low volume"
-    },
-    {
-      "id": "tiger-alpha",
-      "name": "Tiger Alpha",
-      "reason": "price too high"
-    },
-    {
-      "id": "umia",
-      "name": "Umia",
-      "reason": "low volume"
+      "id": "hunt-token",
+      "name": "Hunt",
+      "score": 39
     },
     {
       "id": "wiki-cat",
       "name": "Wiki Cat",
+      "score": 38
+    },
+    {
+      "id": "nano",
+      "name": "Nano",
+      "score": 34
+    }
+  ],
+  "left": [
+    {
+      "id": "arcblock",
+      "name": "Arcblock",
       "reason": "low volume"
+    },
+    {
+      "id": "hivemapper",
+      "name": "hivemapper",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "pocket-network",
+      "name": "Pocket Network",
+      "reason": "low volume"
+    },
+    {
+      "id": "superform",
+      "name": "superform",
+      "reason": "dropped out of top N"
     }
   ]
 }
