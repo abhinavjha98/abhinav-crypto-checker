@@ -2,61 +2,106 @@
   "compared_to": "2026-10-10",
   "entered": [
     {
-      "id": "ao-computer",
-      "name": "ao Computer",
-      "score": 58
+      "id": "avalanche-2",
+      "name": "Avalanche",
+      "score": 67
     },
     {
-      "id": "openserv",
-      "name": "OpenServ",
-      "score": 46
+      "id": "proprietary-trading-network",
+      "name": "Vanta Network",
+      "score": 54
     },
     {
-      "id": "public-meme-token",
-      "name": "Public Masterpiece Token",
-      "score": 40
+      "id": "bunker-mode",
+      "name": "Bunker Mode",
+      "score": 52
     },
     {
-      "id": "ai-factory",
-      "name": "OpenRoboto",
+      "id": "cortex-2",
+      "name": "Cortex",
+      "score": 52
+    },
+    {
+      "id": "quantum-inu",
+      "name": "Quantum Inu",
+      "score": 47
+    },
+    {
+      "id": "wiki-cat",
+      "name": "Wiki Cat",
       "score": 40
     },
     {
       "id": "hunt-token",
       "name": "Hunt",
-      "score": 39
+      "score": 40
     },
     {
-      "id": "wiki-cat",
-      "name": "Wiki Cat",
+      "id": "gradients",
+      "name": "Gradients",
       "score": 38
     },
     {
-      "id": "nano",
-      "name": "Nano",
-      "score": 34
+      "id": "public-meme-token",
+      "name": "Public Masterpiece Token",
+      "score": 38
+    },
+    {
+      "id": "playnance",
+      "name": "Playnance",
+      "score": 30
     }
   ],
   "left": [
+    {
+      "id": "a-hunters-dream",
+      "name": "a-hunters-dream",
+      "reason": "dropped out of top N"
+    },
     {
       "id": "arcblock",
       "name": "Arcblock",
       "reason": "low volume"
     },
     {
-      "id": "hivemapper",
-      "name": "hivemapper",
+      "id": "messier",
+      "name": "messier",
       "reason": "dropped out of top N"
     },
     {
-      "id": "pocket-network",
-      "name": "Pocket Network",
+      "id": "osaka-protocol",
+      "name": "Osaka Protocol",
+      "reason": "low volume"
+    },
+    {
+      "id": "pharaoh-liquid-staking-token",
+      "name": "Pharaoh Liquid Staking Token",
+      "reason": "low volume"
+    },
+    {
+      "id": "polyswarm",
+      "name": "PolySwarm",
+      "reason": "low volume"
+    },
+    {
+      "id": "re-protocol-reusde",
+      "name": "Re Protocol reUSDe",
+      "reason": "low volume"
+    },
+    {
+      "id": "rollbit-coin",
+      "name": "Rollbit Coin",
       "reason": "low volume"
     },
     {
       "id": "superform",
       "name": "superform",
       "reason": "dropped out of top N"
+    },
+    {
+      "id": "zcoin",
+      "name": "Firo",
+      "reason": "low volume"
     }
   ]
 }
