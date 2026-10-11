@@ -2,9 +2,9 @@
   "compared_to": "2026-10-10",
   "entered": [
     {
-      "id": "avalanche-2",
-      "name": "Avalanche",
-      "score": 67
+      "id": "bunker-mode",
+      "name": "Bunker Mode",
+      "score": 55
     },
     {
       "id": "proprietary-trading-network",
@@ -12,55 +12,60 @@
       "score": 54
     },
     {
-      "id": "bunker-mode",
-      "name": "Bunker Mode",
-      "score": 52
-    },
-    {
-      "id": "cortex-2",
-      "name": "Cortex",
-      "score": 52
-    },
-    {
       "id": "quantum-inu",
       "name": "Quantum Inu",
-      "score": 47
+      "score": 45
     },
     {
-      "id": "wiki-cat",
-      "name": "Wiki Cat",
-      "score": 40
+      "id": "ai-factory",
+      "name": "OpenRoboto",
+      "score": 42
     },
     {
       "id": "hunt-token",
       "name": "Hunt",
-      "score": 40
-    },
-    {
-      "id": "gradients",
-      "name": "Gradients",
-      "score": 38
+      "score": 41
     },
     {
       "id": "public-meme-token",
       "name": "Public Masterpiece Token",
+      "score": 40
+    },
+    {
+      "id": "wiki-cat",
+      "name": "Wiki Cat",
       "score": 38
     },
     {
-      "id": "playnance",
-      "name": "Playnance",
-      "score": 30
+      "id": "gradients",
+      "name": "Gradients",
+      "score": 37
+    },
+    {
+      "id": "tau-fa",
+      "name": "TAU FA",
+      "score": 28
     }
   ],
   "left": [
     {
-      "id": "a-hunters-dream",
-      "name": "a-hunters-dream",
-      "reason": "dropped out of top N"
+      "id": "across-protocol",
+      "name": "Across Protocol",
+      "reason": "low volume"
     },
     {
       "id": "arcblock",
       "name": "Arcblock",
+      "reason": "low volume"
+    },
+    {
+      "id": "bitkub-coin",
+      "name": "KUB Coin",
+      "reason": "low volume"
+    },
+    {
+      "id": "escoin-token",
+      "name": "Escoin",
       "reason": "low volume"
     },
     {
@@ -79,18 +84,13 @@
       "reason": "low volume"
     },
     {
-      "id": "polyswarm",
-      "name": "PolySwarm",
-      "reason": "low volume"
-    },
-    {
       "id": "re-protocol-reusde",
       "name": "Re Protocol reUSDe",
       "reason": "low volume"
     },
     {
-      "id": "rollbit-coin",
-      "name": "Rollbit Coin",
+      "id": "sanctum-2",
+      "name": "Sanctum",
       "reason": "low volume"
     },
     {
