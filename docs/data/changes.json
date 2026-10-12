@@ -2,29 +2,49 @@
   "compared_to": "2026-10-11",
   "entered": [
     {
-      "id": "chainbase",
-      "name": "Chainbase",
-      "score": 75
+      "id": "avalanche-2",
+      "name": "Avalanche",
+      "score": 72
     },
     {
       "id": "superform",
       "name": "Superform",
-      "score": 62
+      "score": 64
     },
     {
       "id": "standard",
       "name": "STANDARD",
-      "score": 54
+      "score": 56
+    },
+    {
+      "id": "gitcoin",
+      "name": "Gitcoin",
+      "score": 56
     },
     {
       "id": "flying-tulip",
       "name": "Flying Tulip",
-      "score": 54
+      "score": 56
     },
     {
-      "id": "kled-ai",
-      "name": "Kled AI",
-      "score": 50
+      "id": "concierge-io",
+      "name": "AVA (Travala)",
+      "score": 51
+    },
+    {
+      "id": "stargate-finance",
+      "name": "Stargate Finance",
+      "score": 49
+    },
+    {
+      "id": "bitdca",
+      "name": "BitDCA",
+      "score": 48
+    },
+    {
+      "id": "qanplatform",
+      "name": "QANplatform",
+      "score": 48
     },
     {
       "id": "arcblock",
@@ -34,48 +54,53 @@
     {
       "id": "idlemine",
       "name": "IdleMine",
-      "score": 48
+      "score": 45
     },
     {
       "id": "bitmind",
       "name": "BitMind",
-      "score": 46
+      "score": 45
     },
     {
-      "id": "stargate-finance",
-      "name": "Stargate Finance",
-      "score": 46
+      "id": "hoodpork",
+      "name": "HoodPork",
+      "score": 41
     },
     {
-      "id": "baton-3",
-      "name": "baton",
-      "score": 44
+      "id": "vin-2",
+      "name": "VulgarTycoon",
+      "score": 39
     },
     {
-      "id": "osaka-protocol",
-      "name": "Osaka Protocol",
-      "score": 35
+      "id": "loaded-lions",
+      "name": "Loaded Lions",
+      "score": 37
     },
     {
       "id": "songbird",
       "name": "Songbird",
-      "score": 35
+      "score": 36
+    },
+    {
+      "id": "telemoney",
+      "name": "TeleMoney",
+      "score": 32
     },
     {
       "id": "zcoin",
       "name": "Firo",
       "score": 32
-    },
-    {
-      "id": "clawpump-tech",
-      "name": "clawpump.tech",
-      "score": 29
     }
   ],
   "left": [
     {
-      "id": "across-protocol",
-      "name": "Across Protocol",
+      "id": "ai-factory",
+      "name": "ai-factory",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "cargox",
+      "name": "CargoX",
       "reason": "low volume"
     },
     {
@@ -84,38 +109,53 @@
       "reason": "dropped out of top N"
     },
     {
+      "id": "chump-coin",
+      "name": "chump-coin",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "frenpet",
+      "name": "Fren Pet",
+      "reason": "low volume"
+    },
+    {
       "id": "gradients",
       "name": "Gradients",
       "reason": "low volume"
     },
     {
-      "id": "kaio",
-      "name": "kaio",
+      "id": "mass-vehicle-ledger",
+      "name": "MVL",
+      "reason": "low volume"
+    },
+    {
+      "id": "moonbirds",
+      "name": "moonbirds",
       "reason": "dropped out of top N"
     },
     {
-      "id": "leo-token",
-      "name": "LEO Token",
+      "id": "moviebloc",
+      "name": "moviebloc",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "ocean-protocol",
+      "name": "Ocean Protocol",
       "reason": "low volume"
     },
     {
-      "id": "nano",
-      "name": "Nano",
+      "id": "sapien-2",
+      "name": "sapien-2",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "templar",
+      "name": "\u03c4emplar",
       "reason": "low volume"
     },
     {
-      "id": "pocket-network",
-      "name": "Pocket Network",
-      "reason": "low volume"
-    },
-    {
-      "id": "public-meme-token",
-      "name": "Public Masterpiece Token",
-      "reason": "low volume"
-    },
-    {
-      "id": "tensorcash",
-      "name": "TensorCash",
+      "id": "usdai",
+      "name": "USDai",
       "reason": "low volume"
     }
   ]
