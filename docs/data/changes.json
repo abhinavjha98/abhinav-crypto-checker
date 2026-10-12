@@ -2,32 +2,82 @@
   "compared_to": "2026-10-11",
   "entered": [
     {
+      "id": "chainbase",
+      "name": "Chainbase",
+      "score": 75
+    },
+    {
       "id": "superform",
       "name": "Superform",
-      "score": 61
+      "score": 62
     },
     {
       "id": "standard",
       "name": "STANDARD",
-      "score": 51
+      "score": 54
+    },
+    {
+      "id": "flying-tulip",
+      "name": "Flying Tulip",
+      "score": 54
+    },
+    {
+      "id": "kled-ai",
+      "name": "Kled AI",
+      "score": 50
     },
     {
       "id": "arcblock",
       "name": "Arcblock",
-      "score": 45
+      "score": 48
+    },
+    {
+      "id": "idlemine",
+      "name": "IdleMine",
+      "score": 48
+    },
+    {
+      "id": "bitmind",
+      "name": "BitMind",
+      "score": 46
+    },
+    {
+      "id": "stargate-finance",
+      "name": "Stargate Finance",
+      "score": 46
+    },
+    {
+      "id": "baton-3",
+      "name": "baton",
+      "score": 44
     },
     {
       "id": "osaka-protocol",
       "name": "Osaka Protocol",
-      "score": 34
+      "score": 35
+    },
+    {
+      "id": "songbird",
+      "name": "Songbird",
+      "score": 35
     },
     {
       "id": "zcoin",
       "name": "Firo",
       "score": 32
+    },
+    {
+      "id": "clawpump-tech",
+      "name": "clawpump.tech",
+      "score": 29
     }
   ],
   "left": [
+    {
+      "id": "across-protocol",
+      "name": "Across Protocol",
+      "reason": "low volume"
+    },
     {
       "id": "cat-wif-hood",
       "name": "cat-wif-hood",
@@ -39,8 +89,23 @@
       "reason": "low volume"
     },
     {
+      "id": "kaio",
+      "name": "kaio",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "leo-token",
+      "name": "LEO Token",
+      "reason": "low volume"
+    },
+    {
       "id": "nano",
       "name": "Nano",
+      "reason": "low volume"
+    },
+    {
+      "id": "pocket-network",
+      "name": "Pocket Network",
       "reason": "low volume"
     },
     {
@@ -51,11 +116,6 @@
     {
       "id": "tensorcash",
       "name": "TensorCash",
-      "reason": "low volume"
-    },
-    {
-      "id": "tornado-cash",
-      "name": "Tornado Cash",
       "reason": "low volume"
     }
   ]
