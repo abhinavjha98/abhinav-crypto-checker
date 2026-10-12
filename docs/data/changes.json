@@ -1,131 +1,61 @@
 {
-  "compared_to": "2026-10-10",
+  "compared_to": "2026-10-11",
   "entered": [
     {
-      "id": "ao-computer",
-      "name": "ao Computer",
-      "score": 58
+      "id": "superform",
+      "name": "Superform",
+      "score": 61
     },
     {
-      "id": "proprietary-trading-network",
-      "name": "Vanta Network",
-      "score": 54
+      "id": "standard",
+      "name": "STANDARD",
+      "score": 51
     },
-    {
-      "id": "bunker-mode",
-      "name": "Bunker Mode",
-      "score": 49
-    },
-    {
-      "id": "ai-factory",
-      "name": "OpenRoboto",
-      "score": 43
-    },
-    {
-      "id": "frenpet",
-      "name": "Fren Pet",
-      "score": 43
-    },
-    {
-      "id": "cat-wif-hood",
-      "name": "cat wif hood",
-      "score": 43
-    },
-    {
-      "id": "hunt-token",
-      "name": "Hunt",
-      "score": 41
-    },
-    {
-      "id": "cargox",
-      "name": "CargoX",
-      "score": 39
-    },
-    {
-      "id": "gradients",
-      "name": "Gradients",
-      "score": 38
-    },
-    {
-      "id": "wiki-cat",
-      "name": "Wiki Cat",
-      "score": 38
-    },
-    {
-      "id": "public-meme-token",
-      "name": "Public Masterpiece Token",
-      "score": 37
-    },
-    {
-      "id": "adshares",
-      "name": "Adshares",
-      "score": 34
-    },
-    {
-      "id": "tau-fa",
-      "name": "TAU FA",
-      "score": 34
-    },
-    {
-      "id": "nano",
-      "name": "Nano",
-      "score": 34
-    }
-  ],
-  "left": [
     {
       "id": "arcblock",
       "name": "Arcblock",
-      "reason": "low volume"
-    },
-    {
-      "id": "griffain",
-      "name": "griffain",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "hivemapper",
-      "name": "hivemapper",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "hoodpork",
-      "name": "HoodPork",
-      "reason": "low volume"
+      "score": 45
     },
     {
       "id": "osaka-protocol",
       "name": "Osaka Protocol",
-      "reason": "low volume"
-    },
-    {
-      "id": "pharaoh-liquid-staking-token",
-      "name": "Pharaoh Liquid Staking Token",
-      "reason": "low volume"
-    },
-    {
-      "id": "quantum-resistant-ledger",
-      "name": "Quantum Resistant Ledger",
-      "reason": "low volume"
-    },
-    {
-      "id": "re-protocol-reusde",
-      "name": "Re Protocol reUSDe",
-      "reason": "low volume"
-    },
-    {
-      "id": "stargate-finance",
-      "name": "Stargate Finance",
-      "reason": "low volume"
-    },
-    {
-      "id": "superform",
-      "name": "superform",
-      "reason": "dropped out of top N"
+      "score": 34
     },
     {
       "id": "zcoin",
       "name": "Firo",
+      "score": 32
+    }
+  ],
+  "left": [
+    {
+      "id": "cat-wif-hood",
+      "name": "cat-wif-hood",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "gradients",
+      "name": "Gradients",
+      "reason": "low volume"
+    },
+    {
+      "id": "nano",
+      "name": "Nano",
+      "reason": "low volume"
+    },
+    {
+      "id": "public-meme-token",
+      "name": "Public Masterpiece Token",
+      "reason": "low volume"
+    },
+    {
+      "id": "tensorcash",
+      "name": "TensorCash",
+      "reason": "low volume"
+    },
+    {
+      "id": "tornado-cash",
+      "name": "Tornado Cash",
       "reason": "low volume"
     }
   ]
