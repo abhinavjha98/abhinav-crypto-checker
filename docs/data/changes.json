@@ -2,19 +2,14 @@
   "compared_to": "2026-10-12",
   "entered": [
     {
-      "id": "sapien-2",
-      "name": "Sapien",
-      "score": 61
+      "id": "kled-ai",
+      "name": "Kled AI",
+      "score": 57
     },
     {
       "id": "quantum-resistant-ledger",
       "name": "Quantum Resistant Ledger",
-      "score": 59
-    },
-    {
-      "id": "cortex-2",
-      "name": "Cortex",
-      "score": 54
+      "score": 55
     },
     {
       "id": "usdai",
@@ -22,23 +17,38 @@
       "score": 54
     },
     {
-      "id": "identity-md-6900",
-      "name": "Identity.md 6900",
-      "score": 51
+      "id": "cortex-2",
+      "name": "Cortex",
+      "score": 53
     },
     {
-      "id": "iota-2",
-      "name": "iota",
+      "id": "gama-token",
+      "name": "Gama Token",
+      "score": 52
+    },
+    {
+      "id": "doge-pepe",
+      "name": "Doge Pepe",
       "score": 50
     },
     {
       "id": "wisp-2",
       "name": "Wisp",
-      "score": 49
+      "score": 48
+    },
+    {
+      "id": "usdu",
+      "name": "USDu",
+      "score": 48
     },
     {
       "id": "crawlerpad",
       "name": "Crawlerpad",
+      "score": 48
+    },
+    {
+      "id": "frenpet",
+      "name": "Fren Pet",
       "score": 48
     },
     {
@@ -47,19 +57,34 @@
       "score": 47
     },
     {
-      "id": "usdu",
-      "name": "USDu",
-      "score": 47
-    },
-    {
-      "id": "claudia-4",
-      "name": "Claudia",
+      "id": "vvs-finance",
+      "name": "VVS Finance",
       "score": 46
     },
     {
-      "id": "vvs-finance",
-      "name": "VVS Finance",
+      "id": "incentiv",
+      "name": "Incentiv",
+      "score": 46
+    },
+    {
+      "id": "deapcoin",
+      "name": "DEAPCOIN",
       "score": 45
+    },
+    {
+      "id": "umia",
+      "name": "Umia",
+      "score": 44
+    },
+    {
+      "id": "bc-token",
+      "name": "BCGame Coin",
+      "score": 44
+    },
+    {
+      "id": "iota-2",
+      "name": "iota",
+      "score": 44
     },
     {
       "id": "templar",
@@ -67,45 +92,80 @@
       "score": 43
     },
     {
+      "id": "chainflip",
+      "name": "Chainflip",
+      "score": 40
+    },
+    {
+      "id": "ix-swap",
+      "name": "IXS",
+      "score": 38
+    },
+    {
       "id": "ocean-protocol",
       "name": "Ocean Protocol",
       "score": 37
     },
     {
-      "id": "ix-swap",
-      "name": "IXS",
-      "score": 36
-    },
-    {
       "id": "haroldonsol",
       "name": "Harold",
       "score": 35
+    },
+    {
+      "id": "tiger-alpha",
+      "name": "Tiger Alpha",
+      "score": 31
     }
   ],
   "left": [
-    {
-      "id": "3jane-usd3",
-      "name": "3Jane USD3",
-      "reason": "low volume"
-    },
     {
       "id": "across-protocol",
       "name": "Across Protocol",
       "reason": "low volume"
     },
     {
-      "id": "arcblock",
-      "name": "Arcblock",
+      "id": "apriori",
+      "name": "apriori",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "concierge-io",
+      "name": "concierge-io",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "hoodpork",
+      "name": "hoodpork",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "hunt-token",
+      "name": "Hunt",
       "reason": "low volume"
     },
     {
-      "id": "ekubo-protocol",
-      "name": "ekubo-protocol",
+      "id": "leo-token",
+      "name": "LEO Token",
+      "reason": "low volume"
+    },
+    {
+      "id": "loaded-lions",
+      "name": "Loaded Lions",
+      "reason": "low volume"
+    },
+    {
+      "id": "my-neighbor-alice",
+      "name": "my-neighbor-alice",
       "reason": "dropped out of top N"
     },
     {
       "id": "paradex",
       "name": "Paradex",
+      "reason": "low volume"
+    },
+    {
+      "id": "qanplatform",
+      "name": "QANplatform",
       "reason": "low volume"
     },
     {
@@ -119,9 +179,29 @@
       "reason": "low volume"
     },
     {
+      "id": "sophon",
+      "name": "sophon",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "stargate-finance",
+      "name": "Stargate Finance",
+      "reason": "low volume"
+    },
+    {
       "id": "telemoney",
       "name": "telemoney",
       "reason": "dropped out of top N"
+    },
+    {
+      "id": "verified-emeralds",
+      "name": "Verified Emeralds",
+      "reason": "low volume"
+    },
+    {
+      "id": "vin-2",
+      "name": "VulgarTycoon",
+      "reason": "low volume"
     }
   ]
 }
