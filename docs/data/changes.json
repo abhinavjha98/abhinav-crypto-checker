@@ -2,9 +2,19 @@
   "compared_to": "2026-10-12",
   "entered": [
     {
+      "id": "sapien-2",
+      "name": "Sapien",
+      "score": 61
+    },
+    {
       "id": "quantum-resistant-ledger",
       "name": "Quantum Resistant Ledger",
-      "score": 58
+      "score": 59
+    },
+    {
+      "id": "cortex-2",
+      "name": "Cortex",
+      "score": 54
     },
     {
       "id": "usdai",
@@ -12,44 +22,64 @@
       "score": 54
     },
     {
+      "id": "identity-md-6900",
+      "name": "Identity.md 6900",
+      "score": 51
+    },
+    {
+      "id": "iota-2",
+      "name": "iota",
+      "score": 50
+    },
+    {
+      "id": "wisp-2",
+      "name": "Wisp",
+      "score": 49
+    },
+    {
+      "id": "crawlerpad",
+      "name": "Crawlerpad",
+      "score": 48
+    },
+    {
       "id": "everything",
       "name": "Everything",
+      "score": 47
+    },
+    {
+      "id": "usdu",
+      "name": "USDu",
+      "score": 47
+    },
+    {
+      "id": "claudia-4",
+      "name": "Claudia",
       "score": 46
     },
     {
-      "id": "cortex-2",
-      "name": "Cortex",
-      "score": 46
-    },
-    {
-      "id": "efficientfrontier",
-      "name": "EfficientFrontier",
+      "id": "vvs-finance",
+      "name": "VVS Finance",
       "score": 45
     },
     {
       "id": "templar",
       "name": "\u03c4emplar",
-      "score": 40
-    },
-    {
-      "id": "ix-swap",
-      "name": "IXS",
-      "score": 39
+      "score": 43
     },
     {
       "id": "ocean-protocol",
       "name": "Ocean Protocol",
+      "score": 37
+    },
+    {
+      "id": "ix-swap",
+      "name": "IXS",
+      "score": 36
+    },
+    {
+      "id": "haroldonsol",
+      "name": "Harold",
       "score": 35
-    },
-    {
-      "id": "tiger-alpha",
-      "name": "Tiger Alpha",
-      "score": 27
-    },
-    {
-      "id": "venom",
-      "name": "Venom",
-      "score": 26
     }
   ],
   "left": [
@@ -59,23 +89,18 @@
       "reason": "low volume"
     },
     {
-      "id": "ao-computer",
-      "name": "ao Computer",
+      "id": "across-protocol",
+      "name": "Across Protocol",
       "reason": "low volume"
     },
     {
-      "id": "concierge-io",
-      "name": "concierge-io",
-      "reason": "dropped out of top N"
+      "id": "arcblock",
+      "name": "Arcblock",
+      "reason": "low volume"
     },
     {
       "id": "ekubo-protocol",
       "name": "ekubo-protocol",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "my-neighbor-alice",
-      "name": "my-neighbor-alice",
       "reason": "dropped out of top N"
     },
     {
@@ -84,9 +109,14 @@
       "reason": "low volume"
     },
     {
-      "id": "pippin",
-      "name": "pippin",
+      "id": "sentismai",
+      "name": "sentismai",
       "reason": "dropped out of top N"
+    },
+    {
+      "id": "songbird",
+      "name": "Songbird",
+      "reason": "low volume"
     },
     {
       "id": "telemoney",
