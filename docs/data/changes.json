@@ -2,9 +2,9 @@
   "compared_to": "2026-10-12",
   "entered": [
     {
-      "id": "kled-ai",
-      "name": "Kled AI",
-      "score": 57
+      "id": "sapien-2",
+      "name": "Sapien",
+      "score": 60
     },
     {
       "id": "quantum-resistant-ledger",
@@ -12,8 +12,8 @@
       "score": 55
     },
     {
-      "id": "usdai",
-      "name": "USDai",
+      "id": "anvil",
+      "name": "Anvil",
       "score": 54
     },
     {
@@ -22,34 +22,29 @@
       "score": 53
     },
     {
+      "id": "usdai",
+      "name": "USDai",
+      "score": 53
+    },
+    {
+      "id": "gains-network",
+      "name": "Gains Network",
+      "score": 52
+    },
+    {
       "id": "gama-token",
       "name": "Gama Token",
       "score": 52
     },
     {
-      "id": "doge-pepe",
-      "name": "Doge Pepe",
-      "score": 50
-    },
-    {
       "id": "wisp-2",
       "name": "Wisp",
-      "score": 48
+      "score": 49
     },
     {
-      "id": "usdu",
-      "name": "USDu",
-      "score": 48
-    },
-    {
-      "id": "crawlerpad",
-      "name": "Crawlerpad",
-      "score": 48
-    },
-    {
-      "id": "frenpet",
-      "name": "Fren Pet",
-      "score": 48
+      "id": "incentiv",
+      "name": "Incentiv",
+      "score": 49
     },
     {
       "id": "everything",
@@ -57,29 +52,19 @@
       "score": 47
     },
     {
-      "id": "vvs-finance",
-      "name": "VVS Finance",
-      "score": 46
-    },
-    {
-      "id": "incentiv",
-      "name": "Incentiv",
-      "score": 46
+      "id": "usdu",
+      "name": "USDu",
+      "score": 47
     },
     {
       "id": "deapcoin",
       "name": "DEAPCOIN",
+      "score": 46
+    },
+    {
+      "id": "vvs-finance",
+      "name": "VVS Finance",
       "score": 45
-    },
-    {
-      "id": "umia",
-      "name": "Umia",
-      "score": 44
-    },
-    {
-      "id": "bc-token",
-      "name": "BCGame Coin",
-      "score": 44
     },
     {
       "id": "iota-2",
@@ -89,12 +74,37 @@
     {
       "id": "templar",
       "name": "\u03c4emplar",
+      "score": 44
+    },
+    {
+      "id": "bc-token",
+      "name": "BCGame Coin",
       "score": 43
     },
     {
-      "id": "chainflip",
-      "name": "Chainflip",
-      "score": 40
+      "id": "frenpet",
+      "name": "Fren Pet",
+      "score": 43
+    },
+    {
+      "id": "umia",
+      "name": "Umia",
+      "score": 43
+    },
+    {
+      "id": "crawlerpad",
+      "name": "Crawlerpad",
+      "score": 42
+    },
+    {
+      "id": "doge-pepe",
+      "name": "Doge Pepe",
+      "score": 42
+    },
+    {
+      "id": "stonkbroker",
+      "name": "StonkBroker",
+      "score": 38
     },
     {
       "id": "ix-swap",
@@ -102,46 +112,46 @@
       "score": 38
     },
     {
-      "id": "ocean-protocol",
-      "name": "Ocean Protocol",
-      "score": 37
+      "id": "chainflip",
+      "name": "Chainflip",
+      "score": 38
     },
     {
-      "id": "haroldonsol",
-      "name": "Harold",
-      "score": 35
+      "id": "ocean-protocol",
+      "name": "Ocean Protocol",
+      "score": 36
     },
     {
       "id": "tiger-alpha",
       "name": "Tiger Alpha",
-      "score": 31
+      "score": 28
     }
   ],
   "left": [
-    {
-      "id": "across-protocol",
-      "name": "Across Protocol",
-      "reason": "low volume"
-    },
     {
       "id": "apriori",
       "name": "apriori",
       "reason": "dropped out of top N"
     },
     {
-      "id": "concierge-io",
-      "name": "concierge-io",
+      "id": "bitmind",
+      "name": "BitMind",
+      "reason": "low volume"
+    },
+    {
+      "id": "bunker-mode",
+      "name": "bunker-mode",
       "reason": "dropped out of top N"
+    },
+    {
+      "id": "hastra-auto",
+      "name": "Hastra AUTO",
+      "reason": "low volume"
     },
     {
       "id": "hoodpork",
       "name": "hoodpork",
       "reason": "dropped out of top N"
-    },
-    {
-      "id": "hunt-token",
-      "name": "Hunt",
-      "reason": "low volume"
     },
     {
       "id": "leo-token",
@@ -161,6 +171,11 @@
     {
       "id": "paradex",
       "name": "Paradex",
+      "reason": "low volume"
+    },
+    {
+      "id": "public-meme-token",
+      "name": "Public Masterpiece Token",
       "reason": "low volume"
     },
     {
@@ -189,18 +204,23 @@
       "reason": "low volume"
     },
     {
+      "id": "super-inu-2",
+      "name": "super-inu-2",
+      "reason": "dropped out of top N"
+    },
+    {
       "id": "telemoney",
       "name": "telemoney",
       "reason": "dropped out of top N"
     },
     {
-      "id": "verified-emeralds",
-      "name": "Verified Emeralds",
+      "id": "vin-2",
+      "name": "VulgarTycoon",
       "reason": "low volume"
     },
     {
-      "id": "vin-2",
-      "name": "VulgarTycoon",
+      "id": "world-mobile-token",
+      "name": "World Mobile Token",
       "reason": "low volume"
     }
   ]
