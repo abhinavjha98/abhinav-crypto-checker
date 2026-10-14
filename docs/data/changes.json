@@ -7,29 +7,24 @@
       "score": 57
     },
     {
+      "id": "octra",
+      "name": "Octra",
+      "score": 51
+    },
+    {
       "id": "hastra-auto",
       "name": "Hastra AUTO",
       "score": 50
     },
     {
+      "id": "paradex",
+      "name": "Paradex",
+      "score": 50
+    },
+    {
       "id": "pumpcade",
       "name": "PUMPCADE",
-      "score": 49
-    },
-    {
-      "id": "octra",
-      "name": "Octra",
-      "score": 48
-    },
-    {
-      "id": "leo-token",
-      "name": "LEO Token",
-      "score": 48
-    },
-    {
-      "id": "astronaut-2",
-      "name": "astronaut",
-      "score": 47
+      "score": 50
     },
     {
       "id": "babycashcat",
@@ -37,14 +32,14 @@
       "score": 46
     },
     {
-      "id": "world-mobile-token",
-      "name": "World Mobile Token",
-      "score": 36
-    },
-    {
       "id": "tx",
       "name": "tx",
-      "score": 33
+      "score": 35
+    },
+    {
+      "id": "world-mobile-token",
+      "name": "World Mobile Token",
+      "score": 34
     },
     {
       "id": "clawpump-tech",
@@ -74,11 +69,6 @@
       "reason": "low volume"
     },
     {
-      "id": "bora",
-      "name": "BORA",
-      "reason": "low volume"
-    },
-    {
       "id": "chainflip",
       "name": "Chainflip",
       "reason": "low volume"
@@ -99,6 +89,16 @@
       "reason": "dropped out of top N"
     },
     {
+      "id": "ergo",
+      "name": "Ergo",
+      "reason": "low volume"
+    },
+    {
+      "id": "everything",
+      "name": "Everything",
+      "reason": "low volume"
+    },
+    {
       "id": "flying-tulip",
       "name": "Flying Tulip",
       "reason": "low volume"
@@ -109,13 +109,28 @@
       "reason": "low volume"
     },
     {
+      "id": "freysa-ai",
+      "name": "Freysa AI",
+      "reason": "low volume"
+    },
+    {
       "id": "gains-network",
       "name": "gains-network",
       "reason": "dropped out of top N"
     },
     {
+      "id": "goldfish-gold",
+      "name": "Goldfish Gold",
+      "reason": "low volume"
+    },
+    {
       "id": "hunt-token",
       "name": "Hunt",
+      "reason": "low volume"
+    },
+    {
+      "id": "iota-2",
+      "name": "iota",
       "reason": "low volume"
     },
     {
@@ -124,24 +139,14 @@
       "reason": "low volume"
     },
     {
-      "id": "messier",
-      "name": "messier",
-      "reason": "dropped out of top N"
-    },
-    {
       "id": "quantum-resistant-ledger",
       "name": "Quantum Resistant Ledger",
       "reason": "low volume"
     },
     {
-      "id": "sapien-2",
-      "name": "sapien-2",
+      "id": "stonkbroker",
+      "name": "stonkbroker",
       "reason": "dropped out of top N"
-    },
-    {
-      "id": "usdai",
-      "name": "USDai",
-      "reason": "low volume"
     },
     {
       "id": "usdu",
