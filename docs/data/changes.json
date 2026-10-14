@@ -2,14 +2,19 @@
   "compared_to": "2026-10-13",
   "entered": [
     {
-      "id": "ai-factory",
-      "name": "OpenRoboto",
+      "id": "qanplatform",
+      "name": "QANplatform",
       "score": 50
+    },
+    {
+      "id": "hastra-auto",
+      "name": "Hastra AUTO",
+      "score": 49
     },
     {
       "id": "leo-token",
       "name": "LEO Token",
-      "score": 48
+      "score": 47
     },
     {
       "id": "pumpcade",
@@ -19,7 +24,7 @@
     {
       "id": "octra",
       "name": "Octra",
-      "score": 47
+      "score": 46
     },
     {
       "id": "autonolas",
@@ -29,18 +34,33 @@
     {
       "id": "tx",
       "name": "tx",
-      "score": 31
+      "score": 34
+    },
+    {
+      "id": "world-mobile-token",
+      "name": "World Mobile Token",
+      "score": 34
     },
     {
       "id": "clawpump-tech",
       "name": "clawpump.tech",
-      "score": 23
+      "score": 24
     }
   ],
   "left": [
     {
       "id": "across-protocol",
       "name": "Across Protocol",
+      "reason": "low volume"
+    },
+    {
+      "id": "antfun",
+      "name": "antfun",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "anvil",
+      "name": "Anvil",
       "reason": "low volume"
     },
     {
@@ -56,6 +76,11 @@
     {
       "id": "crawlerpad",
       "name": "crawlerpad",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "doge-pepe",
+      "name": "doge-pepe",
       "reason": "dropped out of top N"
     },
     {
@@ -79,13 +104,33 @@
       "reason": "low volume"
     },
     {
+      "id": "gains-network",
+      "name": "gains-network",
+      "reason": "dropped out of top N"
+    },
+    {
       "id": "hunt-token",
       "name": "Hunt",
       "reason": "low volume"
     },
     {
-      "id": "ix-swap",
-      "name": "IXS",
+      "id": "messier",
+      "name": "messier",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "ocean-protocol",
+      "name": "Ocean Protocol",
+      "reason": "low volume"
+    },
+    {
+      "id": "peanut-the-squirrel",
+      "name": "peanut-the-squirrel",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "pocket-network",
+      "name": "Pocket Network",
       "reason": "low volume"
     },
     {
@@ -101,6 +146,11 @@
     {
       "id": "usdu",
       "name": "USDu",
+      "reason": "low volume"
+    },
+    {
+      "id": "vvs-finance",
+      "name": "VVS Finance",
       "reason": "low volume"
     },
     {
