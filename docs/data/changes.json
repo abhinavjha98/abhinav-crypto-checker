@@ -1,227 +1,92 @@
 {
-  "compared_to": "2026-10-12",
+  "compared_to": "2026-10-13",
   "entered": [
     {
-      "id": "sapien-2",
-      "name": "Sapien",
-      "score": 60
+      "id": "delysium",
+      "name": "Delysium",
+      "score": 57
     },
     {
-      "id": "quantum-resistant-ledger",
-      "name": "Quantum Resistant Ledger",
-      "score": 55
-    },
-    {
-      "id": "anvil",
-      "name": "Anvil",
-      "score": 54
-    },
-    {
-      "id": "cortex-2",
-      "name": "Cortex",
-      "score": 53
-    },
-    {
-      "id": "usdai",
-      "name": "USDai",
-      "score": 53
-    },
-    {
-      "id": "gains-network",
-      "name": "Gains Network",
-      "score": 52
-    },
-    {
-      "id": "gama-token",
-      "name": "Gama Token",
-      "score": 52
-    },
-    {
-      "id": "wisp-2",
-      "name": "Wisp",
-      "score": 49
-    },
-    {
-      "id": "incentiv",
-      "name": "Incentiv",
-      "score": 49
-    },
-    {
-      "id": "everything",
-      "name": "Everything",
-      "score": 47
-    },
-    {
-      "id": "usdu",
-      "name": "USDu",
-      "score": 47
-    },
-    {
-      "id": "deapcoin",
-      "name": "DEAPCOIN",
-      "score": 46
-    },
-    {
-      "id": "vvs-finance",
-      "name": "VVS Finance",
-      "score": 45
-    },
-    {
-      "id": "iota-2",
-      "name": "iota",
-      "score": 44
-    },
-    {
-      "id": "templar",
-      "name": "\u03c4emplar",
-      "score": 44
-    },
-    {
-      "id": "bc-token",
-      "name": "BCGame Coin",
-      "score": 43
-    },
-    {
-      "id": "frenpet",
-      "name": "Fren Pet",
-      "score": 43
-    },
-    {
-      "id": "umia",
-      "name": "Umia",
-      "score": 43
-    },
-    {
-      "id": "crawlerpad",
-      "name": "Crawlerpad",
-      "score": 42
-    },
-    {
-      "id": "doge-pepe",
-      "name": "Doge Pepe",
-      "score": 42
-    },
-    {
-      "id": "stonkbroker",
-      "name": "StonkBroker",
-      "score": 38
-    },
-    {
-      "id": "ix-swap",
-      "name": "IXS",
-      "score": 38
-    },
-    {
-      "id": "chainflip",
-      "name": "Chainflip",
-      "score": 38
-    },
-    {
-      "id": "ocean-protocol",
-      "name": "Ocean Protocol",
-      "score": 36
-    },
-    {
-      "id": "tiger-alpha",
-      "name": "Tiger Alpha",
-      "score": 28
-    }
-  ],
-  "left": [
-    {
-      "id": "apriori",
-      "name": "apriori",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "bitmind",
-      "name": "BitMind",
-      "reason": "low volume"
-    },
-    {
-      "id": "bunker-mode",
-      "name": "bunker-mode",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "hastra-auto",
-      "name": "Hastra AUTO",
-      "reason": "low volume"
-    },
-    {
-      "id": "hoodpork",
-      "name": "hoodpork",
-      "reason": "dropped out of top N"
+      "id": "pumpcade",
+      "name": "PUMPCADE",
+      "score": 50
     },
     {
       "id": "leo-token",
       "name": "LEO Token",
+      "score": 48
+    },
+    {
+      "id": "octra",
+      "name": "Octra",
+      "score": 47
+    },
+    {
+      "id": "bitmind",
+      "name": "BitMind",
+      "score": 43
+    }
+  ],
+  "left": [
+    {
+      "id": "across-protocol",
+      "name": "Across Protocol",
       "reason": "low volume"
     },
     {
-      "id": "loaded-lions",
-      "name": "Loaded Lions",
+      "id": "bora",
+      "name": "BORA",
       "reason": "low volume"
     },
     {
-      "id": "my-neighbor-alice",
-      "name": "my-neighbor-alice",
+      "id": "chainflip",
+      "name": "Chainflip",
+      "reason": "low volume"
+    },
+    {
+      "id": "dual",
+      "name": "Dual",
+      "reason": "low volume"
+    },
+    {
+      "id": "everything",
+      "name": "Everything",
+      "reason": "low volume"
+    },
+    {
+      "id": "flying-tulip",
+      "name": "Flying Tulip",
+      "reason": "low volume"
+    },
+    {
+      "id": "frenpet",
+      "name": "Fren Pet",
+      "reason": "low volume"
+    },
+    {
+      "id": "hunt-token",
+      "name": "Hunt",
+      "reason": "low volume"
+    },
+    {
+      "id": "ocean-protocol",
+      "name": "Ocean Protocol",
+      "reason": "low volume"
+    },
+    {
+      "id": "sanctum-2",
+      "name": "Sanctum",
+      "reason": "low volume"
+    },
+    {
+      "id": "stonkbroker",
+      "name": "stonkbroker",
       "reason": "dropped out of top N"
     },
     {
-      "id": "paradex",
-      "name": "Paradex",
-      "reason": "low volume"
-    },
-    {
-      "id": "public-meme-token",
-      "name": "Public Masterpiece Token",
-      "reason": "low volume"
-    },
-    {
-      "id": "qanplatform",
-      "name": "QANplatform",
-      "reason": "low volume"
-    },
-    {
-      "id": "sentismai",
-      "name": "sentismai",
+      "id": "wisp-2",
+      "name": "wisp-2",
       "reason": "dropped out of top N"
-    },
-    {
-      "id": "songbird",
-      "name": "Songbird",
-      "reason": "low volume"
-    },
-    {
-      "id": "sophon",
-      "name": "sophon",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "stargate-finance",
-      "name": "Stargate Finance",
-      "reason": "low volume"
-    },
-    {
-      "id": "super-inu-2",
-      "name": "super-inu-2",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "telemoney",
-      "name": "telemoney",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "vin-2",
-      "name": "VulgarTycoon",
-      "reason": "low volume"
-    },
-    {
-      "id": "world-mobile-token",
-      "name": "World Mobile Token",
-      "reason": "low volume"
     }
   ]
 }
