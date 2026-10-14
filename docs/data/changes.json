@@ -2,13 +2,8 @@
   "compared_to": "2026-10-13",
   "entered": [
     {
-      "id": "delysium",
-      "name": "Delysium",
-      "score": 57
-    },
-    {
-      "id": "pumpcade",
-      "name": "PUMPCADE",
+      "id": "ai-factory",
+      "name": "OpenRoboto",
       "score": 50
     },
     {
@@ -17,14 +12,29 @@
       "score": 48
     },
     {
+      "id": "pumpcade",
+      "name": "PUMPCADE",
+      "score": 47
+    },
+    {
       "id": "octra",
       "name": "Octra",
       "score": 47
     },
     {
-      "id": "bitmind",
-      "name": "BitMind",
-      "score": 43
+      "id": "autonolas",
+      "name": "Autonolas",
+      "score": 46
+    },
+    {
+      "id": "tx",
+      "name": "tx",
+      "score": 31
+    },
+    {
+      "id": "clawpump-tech",
+      "name": "clawpump.tech",
+      "score": 23
     }
   ],
   "left": [
@@ -34,8 +44,8 @@
       "reason": "low volume"
     },
     {
-      "id": "bora",
-      "name": "BORA",
+      "id": "ao-computer",
+      "name": "ao Computer",
       "reason": "low volume"
     },
     {
@@ -44,9 +54,14 @@
       "reason": "low volume"
     },
     {
-      "id": "dual",
-      "name": "Dual",
-      "reason": "low volume"
+      "id": "crawlerpad",
+      "name": "crawlerpad",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "ekubo-protocol",
+      "name": "ekubo-protocol",
+      "reason": "dropped out of top N"
     },
     {
       "id": "everything",
@@ -69,24 +84,34 @@
       "reason": "low volume"
     },
     {
-      "id": "ocean-protocol",
-      "name": "Ocean Protocol",
+      "id": "ix-swap",
+      "name": "IXS",
       "reason": "low volume"
     },
     {
-      "id": "sanctum-2",
-      "name": "Sanctum",
+      "id": "proprietary-trading-network",
+      "name": "Vanta Network",
       "reason": "low volume"
     },
     {
-      "id": "stonkbroker",
-      "name": "stonkbroker",
-      "reason": "dropped out of top N"
+      "id": "quantum-resistant-ledger",
+      "name": "Quantum Resistant Ledger",
+      "reason": "low volume"
+    },
+    {
+      "id": "usdu",
+      "name": "USDu",
+      "reason": "low volume"
     },
     {
       "id": "wisp-2",
       "name": "wisp-2",
       "reason": "dropped out of top N"
+    },
+    {
+      "id": "zcoin",
+      "name": "Firo",
+      "reason": "low volume"
     }
   ]
 }
