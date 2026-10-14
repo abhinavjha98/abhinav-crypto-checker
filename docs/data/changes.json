@@ -2,49 +2,54 @@
   "compared_to": "2026-10-13",
   "entered": [
     {
-      "id": "qanplatform",
-      "name": "QANplatform",
-      "score": 50
+      "id": "gatechain-token",
+      "name": "Gate",
+      "score": 57
     },
     {
       "id": "hastra-auto",
       "name": "Hastra AUTO",
-      "score": 49
-    },
-    {
-      "id": "leo-token",
-      "name": "LEO Token",
-      "score": 47
+      "score": 50
     },
     {
       "id": "pumpcade",
       "name": "PUMPCADE",
-      "score": 47
+      "score": 49
     },
     {
       "id": "octra",
       "name": "Octra",
-      "score": 46
+      "score": 48
     },
     {
-      "id": "autonolas",
-      "name": "Autonolas",
-      "score": 46
+      "id": "leo-token",
+      "name": "LEO Token",
+      "score": 48
     },
     {
-      "id": "tx",
-      "name": "tx",
-      "score": 34
+      "id": "astronaut-2",
+      "name": "astronaut",
+      "score": 47
+    },
+    {
+      "id": "babycashcat",
+      "name": "BabyCashCat",
+      "score": 46
     },
     {
       "id": "world-mobile-token",
       "name": "World Mobile Token",
-      "score": 34
+      "score": 36
+    },
+    {
+      "id": "tx",
+      "name": "tx",
+      "score": 33
     },
     {
       "id": "clawpump-tech",
       "name": "clawpump.tech",
-      "score": 24
+      "score": 26
     }
   ],
   "left": [
@@ -54,11 +59,6 @@
       "reason": "low volume"
     },
     {
-      "id": "antfun",
-      "name": "antfun",
-      "reason": "dropped out of top N"
-    },
-    {
       "id": "anvil",
       "name": "Anvil",
       "reason": "low volume"
@@ -66,6 +66,16 @@
     {
       "id": "ao-computer",
       "name": "ao Computer",
+      "reason": "low volume"
+    },
+    {
+      "id": "bc-token",
+      "name": "BCGame Coin",
+      "reason": "low volume"
+    },
+    {
+      "id": "bora",
+      "name": "BORA",
       "reason": "low volume"
     },
     {
@@ -89,11 +99,6 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "everything",
-      "name": "Everything",
-      "reason": "low volume"
-    },
-    {
       "id": "flying-tulip",
       "name": "Flying Tulip",
       "reason": "low volume"
@@ -114,33 +119,28 @@
       "reason": "low volume"
     },
     {
+      "id": "ix-swap",
+      "name": "IXS",
+      "reason": "low volume"
+    },
+    {
       "id": "messier",
       "name": "messier",
       "reason": "dropped out of top N"
     },
     {
-      "id": "ocean-protocol",
-      "name": "Ocean Protocol",
+      "id": "quantum-resistant-ledger",
+      "name": "Quantum Resistant Ledger",
       "reason": "low volume"
     },
     {
-      "id": "peanut-the-squirrel",
-      "name": "peanut-the-squirrel",
+      "id": "sapien-2",
+      "name": "sapien-2",
       "reason": "dropped out of top N"
     },
     {
-      "id": "pocket-network",
-      "name": "Pocket Network",
-      "reason": "low volume"
-    },
-    {
-      "id": "proprietary-trading-network",
-      "name": "Vanta Network",
-      "reason": "low volume"
-    },
-    {
-      "id": "quantum-resistant-ledger",
-      "name": "Quantum Resistant Ledger",
+      "id": "usdai",
+      "name": "USDai",
       "reason": "low volume"
     },
     {
