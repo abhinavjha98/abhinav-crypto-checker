@@ -4,17 +4,17 @@
     {
       "id": "puffer-finance",
       "name": "Puffer",
-      "score": 70
+      "score": 68
     },
     {
-      "id": "ao-computer",
-      "name": "ao Computer",
-      "score": 59
+      "id": "goatseus-maximus",
+      "name": "Goatseus Maximus",
+      "score": 57
     },
     {
-      "id": "bob-build-on-bitcoin",
-      "name": "BOB (Build on Bitcoin)",
-      "score": 55
+      "id": "anvil",
+      "name": "Anvil",
+      "score": 53
     },
     {
       "id": "goldfish-gold",
@@ -22,52 +22,57 @@
       "score": 52
     },
     {
-      "id": "leo-token",
-      "name": "LEO Token",
-      "score": 48
+      "id": "shopinx",
+      "name": "ShopinX",
+      "score": 46
     },
     {
       "id": "efficientfrontier",
       "name": "EfficientFrontier",
-      "score": 47
-    },
-    {
-      "id": "doge-pepe",
-      "name": "Doge Pepe",
       "score": 46
     },
     {
-      "id": "ix-swap",
-      "name": "IXS",
-      "score": 43
+      "id": "re-protocol-reusde",
+      "name": "Re Protocol reUSDe",
+      "score": 45
+    },
+    {
+      "id": "frenpet",
+      "name": "Fren Pet",
+      "score": 45
     },
     {
       "id": "loaded-lions",
       "name": "Loaded Lions",
-      "score": 39
-    },
-    {
-      "id": "freysa-ai",
-      "name": "Freysa AI",
-      "score": 34
+      "score": 40
     },
     {
       "id": "dmt-nat",
       "name": "DMT-NAT",
-      "score": 33
-    },
-    {
-      "id": "ergo",
-      "name": "Ergo",
-      "score": 33
+      "score": 34
     },
     {
       "id": "hunt-token",
       "name": "Hunt",
-      "score": 30
+      "score": 32
+    },
+    {
+      "id": "freysa-ai",
+      "name": "Freysa AI",
+      "score": 26
     }
   ],
   "left": [
+    {
+      "id": "anime",
+      "name": "anime",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "arcblock",
+      "name": "Arcblock",
+      "reason": "low volume"
+    },
     {
       "id": "bitdca",
       "name": "BitDCA",
@@ -94,8 +99,8 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "power-protocol",
-      "name": "power-protocol",
+      "id": "nockchain",
+      "name": "nockchain",
       "reason": "dropped out of top N"
     },
     {
@@ -109,8 +114,8 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "tokamak-network",
-      "name": "Tokamak Network",
+      "id": "unipoly",
+      "name": "Unipoly",
       "reason": "low volume"
     },
     {
