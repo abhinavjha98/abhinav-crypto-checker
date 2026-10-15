@@ -7,14 +7,24 @@
       "score": 68
     },
     {
-      "id": "auki-labs",
-      "name": "Auki",
+      "id": "zzz-2",
+      "name": "ZZZ",
       "score": 57
     },
     {
       "id": "super-inu-2",
       "name": "Super Inu",
-      "score": 56
+      "score": 57
+    },
+    {
+      "id": "sword-inu",
+      "name": "Sword Inu",
+      "score": 54
+    },
+    {
+      "id": "frenpet",
+      "name": "Fren Pet",
+      "score": 52
     },
     {
       "id": "goldfish-gold",
@@ -22,14 +32,9 @@
       "score": 52
     },
     {
-      "id": "frenpet",
-      "name": "Fren Pet",
-      "score": 51
-    },
-    {
       "id": "anvil",
       "name": "Anvil",
-      "score": 50
+      "score": 51
     },
     {
       "id": "leo-token",
@@ -37,18 +42,23 @@
       "score": 49
     },
     {
-      "id": "sword-inu",
-      "name": "Sword Inu",
-      "score": 46
+      "id": "ekubo-protocol",
+      "name": "Ekubo Protocol",
+      "score": 49
     },
     {
       "id": "re-protocol-reusde",
       "name": "Re Protocol reUSDe",
-      "score": 45
+      "score": 46
     },
     {
       "id": "stargate-finance",
       "name": "Stargate Finance",
+      "score": 44
+    },
+    {
+      "id": "altai-the-tiger",
+      "name": "Altai the Tiger",
       "score": 43
     },
     {
@@ -57,24 +67,14 @@
       "score": 42
     },
     {
-      "id": "altai-the-tiger",
-      "name": "Altai the Tiger",
-      "score": 42
-    },
-    {
       "id": "ignition-2",
       "name": "IGNITION",
-      "score": 42
+      "score": 40
     },
     {
       "id": "ix-swap",
       "name": "IXS",
-      "score": 41
-    },
-    {
-      "id": "no-crying-in-the-casino",
-      "name": "no crying in the casino",
-      "score": 41
+      "score": 40
     },
     {
       "id": "vin-2",
@@ -87,19 +87,24 @@
       "score": 39
     },
     {
-      "id": "epic-cash",
-      "name": "Epic Private Internet Cash",
+      "id": "ai-factory",
+      "name": "OpenRoboto",
       "score": 38
     },
     {
       "id": "hunt-token",
       "name": "Hunt",
-      "score": 34
+      "score": 36
     },
     {
       "id": "freysa-ai",
       "name": "Freysa AI",
-      "score": 32
+      "score": 35
+    },
+    {
+      "id": "ergo",
+      "name": "Ergo",
+      "score": 35
     }
   ],
   "left": [
@@ -171,6 +176,11 @@
     {
       "id": "tornado-cash",
       "name": "Tornado Cash",
+      "reason": "low volume"
+    },
+    {
+      "id": "verified-emeralds",
+      "name": "Verified Emeralds",
       "reason": "low volume"
     }
   ]
