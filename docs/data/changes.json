@@ -7,14 +7,14 @@
       "score": 68
     },
     {
-      "id": "goatseus-maximus",
-      "name": "Goatseus Maximus",
+      "id": "auki-labs",
+      "name": "Auki",
       "score": 57
     },
     {
-      "id": "anvil",
-      "name": "Anvil",
-      "score": 53
+      "id": "super-inu-2",
+      "name": "Super Inu",
+      "score": 56
     },
     {
       "id": "goldfish-gold",
@@ -22,13 +22,23 @@
       "score": 52
     },
     {
-      "id": "shopinx",
-      "name": "ShopinX",
-      "score": 46
+      "id": "frenpet",
+      "name": "Fren Pet",
+      "score": 51
     },
     {
-      "id": "efficientfrontier",
-      "name": "EfficientFrontier",
+      "id": "anvil",
+      "name": "Anvil",
+      "score": 50
+    },
+    {
+      "id": "leo-token",
+      "name": "LEO Token",
+      "score": 49
+    },
+    {
+      "id": "sword-inu",
+      "name": "Sword Inu",
       "score": 46
     },
     {
@@ -37,40 +47,75 @@
       "score": 45
     },
     {
-      "id": "frenpet",
-      "name": "Fren Pet",
-      "score": 45
+      "id": "stargate-finance",
+      "name": "Stargate Finance",
+      "score": 43
     },
     {
       "id": "loaded-lions",
       "name": "Loaded Lions",
-      "score": 40
+      "score": 42
     },
     {
-      "id": "dmt-nat",
-      "name": "DMT-NAT",
-      "score": 34
+      "id": "altai-the-tiger",
+      "name": "Altai the Tiger",
+      "score": 42
+    },
+    {
+      "id": "ignition-2",
+      "name": "IGNITION",
+      "score": 42
+    },
+    {
+      "id": "ix-swap",
+      "name": "IXS",
+      "score": 41
+    },
+    {
+      "id": "no-crying-in-the-casino",
+      "name": "no crying in the casino",
+      "score": 41
+    },
+    {
+      "id": "vin-2",
+      "name": "VulgarTycoon",
+      "score": 39
+    },
+    {
+      "id": "streamoors",
+      "name": "streamoors",
+      "score": 39
+    },
+    {
+      "id": "epic-cash",
+      "name": "Epic Private Internet Cash",
+      "score": 38
     },
     {
       "id": "hunt-token",
       "name": "Hunt",
-      "score": 32
+      "score": 34
     },
     {
       "id": "freysa-ai",
       "name": "Freysa AI",
-      "score": 26
+      "score": 32
     }
   ],
   "left": [
     {
-      "id": "anime",
-      "name": "anime",
-      "reason": "dropped out of top N"
+      "id": "ai-powered-finance",
+      "name": "AI Powered Finance",
+      "reason": "low volume"
     },
     {
       "id": "arcblock",
       "name": "Arcblock",
+      "reason": "low volume"
+    },
+    {
+      "id": "babycashcat",
+      "name": "BabyCashCat",
       "reason": "low volume"
     },
     {
@@ -84,8 +129,8 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "coin98",
-      "name": "coin98",
+      "id": "enso",
+      "name": "enso",
       "reason": "dropped out of top N"
     },
     {
@@ -94,13 +139,23 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "messier",
-      "name": "messier",
+      "id": "nexst",
+      "name": "nexst",
       "reason": "dropped out of top N"
     },
     {
-      "id": "nockchain",
-      "name": "nockchain",
+      "id": "nova-3",
+      "name": "NOVA",
+      "reason": "low volume"
+    },
+    {
+      "id": "octra",
+      "name": "Octra",
+      "reason": "low volume"
+    },
+    {
+      "id": "paradex",
+      "name": "paradex",
       "reason": "dropped out of top N"
     },
     {
@@ -114,13 +169,8 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "unipoly",
-      "name": "Unipoly",
-      "reason": "low volume"
-    },
-    {
-      "id": "wiki-cat",
-      "name": "Wiki Cat",
+      "id": "tornado-cash",
+      "name": "Tornado Cash",
       "reason": "low volume"
     }
   ]
