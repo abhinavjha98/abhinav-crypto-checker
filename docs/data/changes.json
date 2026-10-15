@@ -2,6 +2,21 @@
   "compared_to": "2026-10-14",
   "entered": [
     {
+      "id": "puffer-finance",
+      "name": "Puffer",
+      "score": 70
+    },
+    {
+      "id": "ao-computer",
+      "name": "ao Computer",
+      "score": 59
+    },
+    {
+      "id": "bob-build-on-bitcoin",
+      "name": "BOB (Build on Bitcoin)",
+      "score": 55
+    },
+    {
       "id": "goldfish-gold",
       "name": "Goldfish Gold",
       "score": 52
@@ -12,9 +27,24 @@
       "score": 48
     },
     {
+      "id": "efficientfrontier",
+      "name": "EfficientFrontier",
+      "score": 47
+    },
+    {
+      "id": "doge-pepe",
+      "name": "Doge Pepe",
+      "score": 46
+    },
+    {
       "id": "ix-swap",
       "name": "IXS",
-      "score": 42
+      "score": 43
+    },
+    {
+      "id": "loaded-lions",
+      "name": "Loaded Lions",
+      "score": 39
     },
     {
       "id": "freysa-ai",
@@ -22,10 +52,71 @@
       "score": 34
     },
     {
+      "id": "dmt-nat",
+      "name": "DMT-NAT",
+      "score": 33
+    },
+    {
       "id": "ergo",
       "name": "Ergo",
+      "score": 33
+    },
+    {
+      "id": "hunt-token",
+      "name": "Hunt",
       "score": 30
     }
   ],
-  "left": []
+  "left": [
+    {
+      "id": "bitdca",
+      "name": "BitDCA",
+      "reason": "low volume"
+    },
+    {
+      "id": "clawpump-tech",
+      "name": "clawpump-tech",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "coin98",
+      "name": "coin98",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "joe",
+      "name": "joe",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "messier",
+      "name": "messier",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "power-protocol",
+      "name": "power-protocol",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "robo-token-2",
+      "name": "robo-token-2",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "sapien-2",
+      "name": "sapien-2",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "tokamak-network",
+      "name": "Tokamak Network",
+      "reason": "low volume"
+    },
+    {
+      "id": "wiki-cat",
+      "name": "Wiki Cat",
+      "reason": "low volume"
+    }
+  ]
 }
