@@ -1,172 +1,31 @@
 {
-  "compared_to": "2026-10-13",
+  "compared_to": "2026-10-14",
   "entered": [
-    {
-      "id": "gatechain-token",
-      "name": "Gate",
-      "score": 57
-    },
-    {
-      "id": "octra",
-      "name": "Octra",
-      "score": 51
-    },
-    {
-      "id": "hastra-auto",
-      "name": "Hastra AUTO",
-      "score": 50
-    },
-    {
-      "id": "paradex",
-      "name": "Paradex",
-      "score": 50
-    },
-    {
-      "id": "pumpcade",
-      "name": "PUMPCADE",
-      "score": 50
-    },
-    {
-      "id": "babycashcat",
-      "name": "BabyCashCat",
-      "score": 46
-    },
-    {
-      "id": "tx",
-      "name": "tx",
-      "score": 35
-    },
-    {
-      "id": "world-mobile-token",
-      "name": "World Mobile Token",
-      "score": 34
-    },
-    {
-      "id": "clawpump-tech",
-      "name": "clawpump.tech",
-      "score": 26
-    }
-  ],
-  "left": [
-    {
-      "id": "across-protocol",
-      "name": "Across Protocol",
-      "reason": "low volume"
-    },
-    {
-      "id": "anvil",
-      "name": "Anvil",
-      "reason": "low volume"
-    },
-    {
-      "id": "ao-computer",
-      "name": "ao Computer",
-      "reason": "low volume"
-    },
-    {
-      "id": "bc-token",
-      "name": "BCGame Coin",
-      "reason": "low volume"
-    },
-    {
-      "id": "chainflip",
-      "name": "Chainflip",
-      "reason": "low volume"
-    },
-    {
-      "id": "crawlerpad",
-      "name": "crawlerpad",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "doge-pepe",
-      "name": "doge-pepe",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "ekubo-protocol",
-      "name": "ekubo-protocol",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "ergo",
-      "name": "Ergo",
-      "reason": "low volume"
-    },
-    {
-      "id": "everything",
-      "name": "Everything",
-      "reason": "low volume"
-    },
-    {
-      "id": "flying-tulip",
-      "name": "Flying Tulip",
-      "reason": "low volume"
-    },
-    {
-      "id": "frenpet",
-      "name": "Fren Pet",
-      "reason": "low volume"
-    },
-    {
-      "id": "freysa-ai",
-      "name": "Freysa AI",
-      "reason": "low volume"
-    },
-    {
-      "id": "gains-network",
-      "name": "gains-network",
-      "reason": "dropped out of top N"
-    },
     {
       "id": "goldfish-gold",
       "name": "Goldfish Gold",
-      "reason": "low volume"
+      "score": 52
     },
     {
-      "id": "hunt-token",
-      "name": "Hunt",
-      "reason": "low volume"
-    },
-    {
-      "id": "iota-2",
-      "name": "iota",
-      "reason": "low volume"
+      "id": "leo-token",
+      "name": "LEO Token",
+      "score": 48
     },
     {
       "id": "ix-swap",
       "name": "IXS",
-      "reason": "low volume"
+      "score": 42
     },
     {
-      "id": "quantum-resistant-ledger",
-      "name": "Quantum Resistant Ledger",
-      "reason": "low volume"
+      "id": "freysa-ai",
+      "name": "Freysa AI",
+      "score": 34
     },
     {
-      "id": "stonkbroker",
-      "name": "stonkbroker",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "usdu",
-      "name": "USDu",
-      "reason": "low volume"
-    },
-    {
-      "id": "vvs-finance",
-      "name": "VVS Finance",
-      "reason": "low volume"
-    },
-    {
-      "id": "wisp-2",
-      "name": "wisp-2",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "zcoin",
-      "name": "Firo",
-      "reason": "low volume"
+      "id": "ergo",
+      "name": "Ergo",
+      "score": 30
     }
-  ]
+  ],
+  "left": []
 }
