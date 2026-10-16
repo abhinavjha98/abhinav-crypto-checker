@@ -2,19 +2,14 @@
   "compared_to": "2026-10-15",
   "entered": [
     {
+      "id": "neosoul",
+      "name": "NeoSoul",
+      "score": 54
+    },
+    {
       "id": "tornado-cash",
       "name": "Tornado Cash",
-      "score": 50
-    },
-    {
-      "id": "hivemapper",
-      "name": "Hivemapper",
-      "score": 50
-    },
-    {
-      "id": "dacity-coin",
-      "name": "Dacity Coin",
-      "score": 50
+      "score": 52
     },
     {
       "id": "doge-pepe",
@@ -24,38 +19,68 @@
     {
       "id": "ai-powered-finance",
       "name": "AI Powered Finance",
+      "score": 47
+    },
+    {
+      "id": "hoodpork",
+      "name": "HoodPork",
       "score": 46
     },
     {
-      "id": "nova-3",
-      "name": "NOVA",
+      "id": "autonolas",
+      "name": "Autonolas",
+      "score": 46
+    },
+    {
+      "id": "dacity-coin",
+      "name": "Dacity Coin",
+      "score": 46
+    },
+    {
+      "id": "iota-2",
+      "name": "iota",
       "score": 46
     },
     {
       "id": "max-token",
       "name": "MAX",
-      "score": 44
-    },
-    {
-      "id": "verified-emeralds",
-      "name": "Verified Emeralds",
-      "score": 42
+      "score": 45
     },
     {
       "id": "stonkbroker",
       "name": "StonkBroker",
-      "score": 38
+      "score": 44
     },
     {
-      "id": "commander-vrax-4",
-      "name": "Commander Vrax",
-      "score": 31
+      "id": "nova-3",
+      "name": "NOVA",
+      "score": 44
+    },
+    {
+      "id": "clawpump-tech",
+      "name": "clawpump.tech",
+      "score": 33
     }
   ],
   "left": [
     {
       "id": "altai-the-tiger",
       "name": "altai-the-tiger",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "bitkub-coin",
+      "name": "KUB Coin",
+      "reason": "low volume"
+    },
+    {
+      "id": "coin98",
+      "name": "coin98",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "ekubo-protocol",
+      "name": "ekubo-protocol",
       "reason": "dropped out of top N"
     },
     {
@@ -84,13 +109,23 @@
       "reason": "low volume"
     },
     {
-      "id": "stargate-finance",
-      "name": "Stargate Finance",
+      "id": "messier",
+      "name": "messier",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "polyswarm",
+      "name": "PolySwarm",
       "reason": "low volume"
     },
     {
-      "id": "superform",
-      "name": "superform",
+      "id": "sanctum-2",
+      "name": "Sanctum",
+      "reason": "low volume"
+    },
+    {
+      "id": "streamoors",
+      "name": "streamoors",
       "reason": "dropped out of top N"
     },
     {
