@@ -4,7 +4,12 @@
     {
       "id": "neosoul",
       "name": "NeoSoul",
-      "score": 54
+      "score": 55
+    },
+    {
+      "id": "nexst",
+      "name": "NEXST",
+      "score": 53
     },
     {
       "id": "tornado-cash",
@@ -12,14 +17,29 @@
       "score": 52
     },
     {
-      "id": "doge-pepe",
-      "name": "Doge Pepe",
-      "score": 47
+      "id": "quantum-resistant-ledger",
+      "name": "Quantum Resistant Ledger",
+      "score": 50
+    },
+    {
+      "id": "bitdca",
+      "name": "BitDCA",
+      "score": 50
+    },
+    {
+      "id": "dacity-coin",
+      "name": "Dacity Coin",
+      "score": 49
+    },
+    {
+      "id": "arcblock",
+      "name": "Arcblock",
+      "score": 46
     },
     {
       "id": "ai-powered-finance",
       "name": "AI Powered Finance",
-      "score": 47
+      "score": 46
     },
     {
       "id": "hoodpork",
@@ -27,39 +47,34 @@
       "score": 46
     },
     {
-      "id": "autonolas",
-      "name": "Autonolas",
+      "id": "doge-pepe",
+      "name": "Doge Pepe",
       "score": 46
-    },
-    {
-      "id": "dacity-coin",
-      "name": "Dacity Coin",
-      "score": 46
-    },
-    {
-      "id": "iota-2",
-      "name": "iota",
-      "score": 46
-    },
-    {
-      "id": "max-token",
-      "name": "MAX",
-      "score": 45
     },
     {
       "id": "stonkbroker",
       "name": "StonkBroker",
+      "score": 45
+    },
+    {
+      "id": "max-token",
+      "name": "MAX",
       "score": 44
+    },
+    {
+      "id": "iota-2",
+      "name": "iota",
+      "score": 43
     },
     {
       "id": "nova-3",
       "name": "NOVA",
-      "score": 44
+      "score": 39
     },
     {
       "id": "clawpump-tech",
       "name": "clawpump.tech",
-      "score": 33
+      "score": 34
     }
   ],
   "left": [
@@ -69,23 +84,23 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "bitkub-coin",
-      "name": "KUB Coin",
-      "reason": "low volume"
-    },
-    {
-      "id": "coin98",
-      "name": "coin98",
-      "reason": "dropped out of top N"
-    },
-    {
       "id": "ekubo-protocol",
       "name": "ekubo-protocol",
       "reason": "dropped out of top N"
     },
     {
+      "id": "ergo",
+      "name": "Ergo",
+      "reason": "low volume"
+    },
+    {
       "id": "frenpet",
       "name": "Fren Pet",
+      "reason": "low volume"
+    },
+    {
+      "id": "freysa-ai",
+      "name": "Freysa AI",
       "reason": "low volume"
     },
     {
@@ -114,11 +129,6 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "polyswarm",
-      "name": "PolySwarm",
-      "reason": "low volume"
-    },
-    {
       "id": "sanctum-2",
       "name": "Sanctum",
       "reason": "low volume"
@@ -132,6 +142,11 @@
       "id": "sword-inu",
       "name": "sword-inu",
       "reason": "dropped out of top N"
+    },
+    {
+      "id": "templar",
+      "name": "\u03c4emplar",
+      "reason": "low volume"
     },
     {
       "id": "world-mobile-token",
