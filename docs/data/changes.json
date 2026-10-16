@@ -2,24 +2,24 @@
   "compared_to": "2026-10-15",
   "entered": [
     {
-      "id": "stbl",
-      "name": "STBL",
-      "score": 65
+      "id": "forta",
+      "name": "Forta",
+      "score": 58
     },
     {
-      "id": "auki-labs",
-      "name": "Auki",
-      "score": 61
+      "id": "ai-powered-finance",
+      "name": "AI Powered Finance",
+      "score": 47
     },
     {
-      "id": "robo-token-2",
-      "name": "Fabric Protocol",
-      "score": 60
+      "id": "verified-emeralds",
+      "name": "Verified Emeralds",
+      "score": 45
     },
     {
-      "id": "grx-chain",
-      "name": "GRX Chain",
-      "score": 34
+      "id": "agoras-currency-of-tau",
+      "name": "Agoras: Tau Net",
+      "score": 44
     }
   ],
   "left": [
@@ -29,13 +29,23 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "goldfish-gold",
-      "name": "Goldfish Gold",
+      "id": "hunt-token",
+      "name": "Hunt",
       "reason": "low volume"
     },
     {
       "id": "loaded-lions",
       "name": "Loaded Lions",
+      "reason": "low volume"
+    },
+    {
+      "id": "ocean-protocol",
+      "name": "Ocean Protocol",
+      "reason": "low volume"
+    },
+    {
+      "id": "polyswarm",
+      "name": "PolySwarm",
       "reason": "low volume"
     },
     {
@@ -46,6 +56,11 @@
     {
       "id": "vin-2",
       "name": "VulgarTycoon",
+      "reason": "low volume"
+    },
+    {
+      "id": "world-mobile-token",
+      "name": "World Mobile Token",
       "reason": "low volume"
     },
     {
