@@ -2,24 +2,24 @@
   "compared_to": "2026-10-16",
   "entered": [
     {
-      "id": "bob-build-on-bitcoin",
-      "name": "BOB (Build on Bitcoin)",
-      "score": 56
-    },
-    {
       "id": "leo-token",
       "name": "LEO Token",
       "score": 48
     },
     {
+      "id": "autonolas",
+      "name": "Autonolas",
+      "score": 46
+    },
+    {
+      "id": "templar",
+      "name": "\u03c4emplar",
+      "score": 41
+    },
+    {
       "id": "bora",
       "name": "BORA",
       "score": 34
-    },
-    {
-      "id": "grx-chain",
-      "name": "GRX Chain",
-      "score": 18
     }
   ],
   "left": [
@@ -29,9 +29,9 @@
       "reason": "low volume"
     },
     {
-      "id": "ai-powered-finance",
-      "name": "AI Powered Finance",
-      "reason": "low volume"
+      "id": "anime",
+      "name": "anime",
+      "reason": "dropped out of top N"
     },
     {
       "id": "arcblock",
@@ -39,8 +39,8 @@
       "reason": "low volume"
     },
     {
-      "id": "clawpump-tech",
-      "name": "clawpump-tech",
+      "id": "coin98",
+      "name": "coin98",
       "reason": "dropped out of top N"
     },
     {
@@ -54,6 +54,11 @@
       "reason": "dropped out of top N"
     },
     {
+      "id": "gama-token",
+      "name": "Gama Token",
+      "reason": "low volume"
+    },
+    {
       "id": "max-token",
       "name": "MAX",
       "reason": "low volume"
@@ -61,11 +66,6 @@
     {
       "id": "medibloc",
       "name": "Medibloc",
-      "reason": "low volume"
-    },
-    {
-      "id": "nova-3",
-      "name": "NOVA",
       "reason": "low volume"
     },
     {
@@ -79,13 +79,18 @@
       "reason": "price too high"
     },
     {
-      "id": "verified-emeralds",
-      "name": "Verified Emeralds",
+      "id": "tornado-cash",
+      "name": "Tornado Cash",
       "reason": "low volume"
     },
     {
-      "id": "wiki-cat",
-      "name": "Wiki Cat",
+      "id": "tx",
+      "name": "tx",
+      "reason": "low volume"
+    },
+    {
+      "id": "verified-emeralds",
+      "name": "Verified Emeralds",
       "reason": "low volume"
     }
   ]
