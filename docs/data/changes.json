@@ -2,18 +2,8 @@
   "compared_to": "2026-10-16",
   "entered": [
     {
-      "id": "robo-token-2",
-      "name": "Fabric Protocol",
-      "score": 59
-    },
-    {
-      "id": "sapien-2",
-      "name": "Sapien",
-      "score": 58
-    },
-    {
-      "id": "ao-computer",
-      "name": "ao Computer",
+      "id": "bob-build-on-bitcoin",
+      "name": "BOB (Build on Bitcoin)",
       "score": 56
     },
     {
@@ -24,14 +14,44 @@
     {
       "id": "bora",
       "name": "BORA",
-      "score": 33
+      "score": 34
+    },
+    {
+      "id": "grx-chain",
+      "name": "GRX Chain",
+      "score": 18
     }
   ],
   "left": [
     {
+      "id": "across-protocol",
+      "name": "Across Protocol",
+      "reason": "low volume"
+    },
+    {
       "id": "ai-powered-finance",
       "name": "AI Powered Finance",
       "reason": "low volume"
+    },
+    {
+      "id": "arcblock",
+      "name": "Arcblock",
+      "reason": "low volume"
+    },
+    {
+      "id": "clawpump-tech",
+      "name": "clawpump-tech",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "cortex-2",
+      "name": "Cortex",
+      "reason": "low volume"
+    },
+    {
+      "id": "dacity-coin",
+      "name": "dacity-coin",
+      "reason": "dropped out of top N"
     },
     {
       "id": "max-token",
@@ -39,8 +59,18 @@
       "reason": "low volume"
     },
     {
-      "id": "ocean-protocol",
-      "name": "Ocean Protocol",
+      "id": "medibloc",
+      "name": "Medibloc",
+      "reason": "low volume"
+    },
+    {
+      "id": "nova-3",
+      "name": "NOVA",
+      "reason": "low volume"
+    },
+    {
+      "id": "pocket-network",
+      "name": "Pocket Network",
       "reason": "low volume"
     },
     {
@@ -49,13 +79,13 @@
       "reason": "price too high"
     },
     {
-      "id": "stonkbroker",
-      "name": "stonkbroker",
-      "reason": "dropped out of top N"
-    },
-    {
       "id": "verified-emeralds",
       "name": "Verified Emeralds",
+      "reason": "low volume"
+    },
+    {
+      "id": "wiki-cat",
+      "name": "Wiki Cat",
       "reason": "low volume"
     }
   ]
