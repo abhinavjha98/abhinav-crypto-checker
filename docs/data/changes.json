@@ -1,187 +1,62 @@
 {
-  "compared_to": "2026-10-15",
+  "compared_to": "2026-10-16",
   "entered": [
     {
-      "id": "south-korea-bull-3x-etf-bstocks-tokenized-stock",
-      "name": "South Korea Bull 3X ETF (bStocks Tokenized Stock)",
+      "id": "robo-token-2",
+      "name": "Fabric Protocol",
+      "score": 59
+    },
+    {
+      "id": "sapien-2",
+      "name": "Sapien",
       "score": 58
     },
     {
-      "id": "neosoul",
-      "name": "NeoSoul",
-      "score": 54
-    },
-    {
-      "id": "nexst",
-      "name": "NEXST",
-      "score": 53
-    },
-    {
-      "id": "quantum-resistant-ledger",
-      "name": "Quantum Resistant Ledger",
-      "score": 53
-    },
-    {
-      "id": "tornado-cash",
-      "name": "Tornado Cash",
-      "score": 52
-    },
-    {
-      "id": "bitdca",
-      "name": "BitDCA",
-      "score": 50
-    },
-    {
-      "id": "verified-emeralds",
-      "name": "Verified Emeralds",
-      "score": 48
-    },
-    {
-      "id": "dacity-coin",
-      "name": "Dacity Coin",
-      "score": 47
-    },
-    {
-      "id": "ai-powered-finance",
-      "name": "AI Powered Finance",
-      "score": 47
-    },
-    {
-      "id": "hoodpork",
-      "name": "HoodPork",
-      "score": 46
-    },
-    {
-      "id": "iota-2",
-      "name": "iota",
-      "score": 46
-    },
-    {
-      "id": "arcblock",
-      "name": "Arcblock",
-      "score": 46
-    },
-    {
-      "id": "max-token",
-      "name": "MAX",
-      "score": 44
-    },
-    {
-      "id": "stonkbroker",
-      "name": "StonkBroker",
-      "score": 42
-    },
-    {
-      "id": "nova-3",
-      "name": "NOVA",
-      "score": 41
-    },
-    {
-      "id": "clawpump-tech",
-      "name": "clawpump.tech",
-      "score": 33
-    },
-    {
-      "id": "across-protocol",
-      "name": "Across Protocol",
-      "score": 32
-    }
-  ],
-  "left": [
-    {
-      "id": "altai-the-tiger",
-      "name": "altai-the-tiger",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "bora",
-      "name": "BORA",
-      "reason": "low volume"
-    },
-    {
-      "id": "ekubo-protocol",
-      "name": "ekubo-protocol",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "ergo",
-      "name": "Ergo",
-      "reason": "low volume"
-    },
-    {
-      "id": "frenpet",
-      "name": "Fren Pet",
-      "reason": "low volume"
-    },
-    {
-      "id": "hunt-token",
-      "name": "Hunt",
-      "reason": "low volume"
-    },
-    {
-      "id": "ignition-2",
-      "name": "ignition-2",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "ix-swap",
-      "name": "IXS",
-      "reason": "low volume"
+      "id": "ao-computer",
+      "name": "ao Computer",
+      "score": 56
     },
     {
       "id": "leo-token",
       "name": "LEO Token",
+      "score": 48
+    },
+    {
+      "id": "bora",
+      "name": "BORA",
+      "score": 33
+    }
+  ],
+  "left": [
+    {
+      "id": "ai-powered-finance",
+      "name": "AI Powered Finance",
       "reason": "low volume"
     },
     {
-      "id": "loaded-lions",
-      "name": "Loaded Lions",
+      "id": "max-token",
+      "name": "MAX",
       "reason": "low volume"
     },
     {
-      "id": "messier",
-      "name": "messier",
+      "id": "ocean-protocol",
+      "name": "Ocean Protocol",
+      "reason": "low volume"
+    },
+    {
+      "id": "south-korea-bull-3x-etf-bstocks-tokenized-stock",
+      "name": "South Korea Bull 3X ETF (bStocks Tokenized Stock)",
+      "reason": "price too high"
+    },
+    {
+      "id": "stonkbroker",
+      "name": "stonkbroker",
       "reason": "dropped out of top N"
     },
     {
-      "id": "proprietary-trading-network",
-      "name": "Vanta Network",
+      "id": "verified-emeralds",
+      "name": "Verified Emeralds",
       "reason": "low volume"
-    },
-    {
-      "id": "sanctum-2",
-      "name": "Sanctum",
-      "reason": "low volume"
-    },
-    {
-      "id": "streamoors",
-      "name": "streamoors",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "superform",
-      "name": "superform",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "sword-inu",
-      "name": "sword-inu",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "templar",
-      "name": "\u03c4emplar",
-      "reason": "low volume"
-    },
-    {
-      "id": "world-mobile-token",
-      "name": "World Mobile Token",
-      "reason": "low volume"
-    },
-    {
-      "id": "zzz-2",
-      "name": "zzz-2",
-      "reason": "dropped out of top N"
     }
   ]
 }
