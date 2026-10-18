@@ -4,21 +4,16 @@
     {
       "id": "elsa",
       "name": "Elsa",
-      "score": 67
-    },
-    {
-      "id": "nullmask",
-      "name": "Nullmask",
-      "score": 59
-    },
-    {
-      "id": "bob-build-on-bitcoin",
-      "name": "BOB (Build on Bitcoin)",
-      "score": 56
+      "score": 68
     },
     {
       "id": "quantum-resistant-ledger",
       "name": "Quantum Resistant Ledger",
+      "score": 56
+    },
+    {
+      "id": "bob-build-on-bitcoin",
+      "name": "BOB (Build on Bitcoin)",
       "score": 56
     },
     {
@@ -27,18 +22,23 @@
       "score": 55
     },
     {
-      "id": "tx",
-      "name": "tx",
-      "score": 54
+      "id": "nullmask",
+      "name": "Nullmask",
+      "score": 53
     },
     {
-      "id": "boomer-4",
-      "name": "Boomer",
+      "id": "tx",
+      "name": "tx",
       "score": 53
     },
     {
       "id": "claudia-5",
       "name": "Claudia",
+      "score": 52
+    },
+    {
+      "id": "hi",
+      "name": "hi",
       "score": 50
     },
     {
@@ -47,9 +47,9 @@
       "score": 50
     },
     {
-      "id": "hi",
-      "name": "hi",
-      "score": 50
+      "id": "proprietary-trading-network",
+      "name": "Vanta Network",
+      "score": 49
     },
     {
       "id": "researchcoin",
@@ -57,18 +57,8 @@
       "score": 49
     },
     {
-      "id": "doge-pepe-3",
-      "name": "Doge Pepe",
-      "score": 47
-    },
-    {
-      "id": "ao-computer",
-      "name": "ao Computer",
-      "score": 46
-    },
-    {
-      "id": "proprietary-trading-network",
-      "name": "Vanta Network",
+      "id": "yei-finance",
+      "name": "Yei Finance",
       "score": 46
     },
     {
@@ -77,19 +67,24 @@
       "score": 44
     },
     {
+      "id": "doge-pepe-3",
+      "name": "Doge Pepe",
+      "score": 44
+    },
+    {
       "id": "tetsuo-super-intelligence",
       "name": "Tetsuo Super Intelligence",
       "score": 43
     },
     {
-      "id": "fuzzybear",
-      "name": "Fuzzybear",
-      "score": 39
-    },
-    {
       "id": "iota-2",
       "name": "iota",
-      "score": 37
+      "score": 40
+    },
+    {
+      "id": "fuzzybear",
+      "name": "Fuzzybear",
+      "score": 40
     },
     {
       "id": "babycashcat",
@@ -97,13 +92,13 @@
       "score": 36
     },
     {
-      "id": "world-mobile-token",
-      "name": "World Mobile Token",
-      "score": 34
-    },
-    {
       "id": "gradients",
       "name": "Gradients",
+      "score": 35
+    },
+    {
+      "id": "world-mobile-token",
+      "name": "World Mobile Token",
       "score": 32
     },
     {
@@ -119,18 +114,23 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "ai-factory",
-      "name": "ai-factory",
-      "reason": "dropped out of top N"
-    },
-    {
       "id": "billions-network",
       "name": "billions-network",
       "reason": "dropped out of top N"
     },
     {
+      "id": "bora",
+      "name": "BORA",
+      "reason": "low volume"
+    },
+    {
       "id": "gamebuild",
       "name": "GameBuild",
+      "reason": "low volume"
+    },
+    {
+      "id": "goldfish-gold",
+      "name": "Goldfish Gold",
       "reason": "low volume"
     },
     {
@@ -149,6 +149,11 @@
       "reason": "dropped out of top N"
     },
     {
+      "id": "nova-3",
+      "name": "NOVA",
+      "reason": "low volume"
+    },
+    {
       "id": "ocean-protocol",
       "name": "Ocean Protocol",
       "reason": "low volume"
@@ -159,39 +164,24 @@
       "reason": "low volume"
     },
     {
-      "id": "perle",
-      "name": "perle",
-      "reason": "dropped out of top N"
-    },
-    {
       "id": "pippin",
       "name": "pippin",
       "reason": "dropped out of top N"
     },
     {
-      "id": "pocket-network",
-      "name": "Pocket Network",
+      "id": "railgun",
+      "name": "Railgun",
       "reason": "low volume"
     },
     {
-      "id": "power-protocol",
-      "name": "power-protocol",
-      "reason": "dropped out of top N"
+      "id": "south-korea-bull-3x-etf-bstocks-tokenized-stock",
+      "name": "South Korea Bull 3X ETF (bStocks Tokenized Stock)",
+      "reason": "price too high"
     },
     {
       "id": "super-inu-2",
       "name": "super-inu-2",
       "reason": "dropped out of top N"
-    },
-    {
-      "id": "taiko",
-      "name": "taiko",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "tornado-cash",
-      "name": "Tornado Cash",
-      "reason": "low volume"
     },
     {
       "id": "tutorial",
@@ -200,8 +190,8 @@
     },
     {
       "id": "wibx",
-      "name": "Wibx",
-      "reason": "low volume"
+      "name": "wibx",
+      "reason": "dropped out of top N"
     }
   ]
 }
