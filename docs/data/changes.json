@@ -2,14 +2,14 @@
   "compared_to": "2026-10-17",
   "entered": [
     {
-      "id": "nullmask",
-      "name": "Nullmask",
-      "score": 58
+      "id": "elsa",
+      "name": "Elsa",
+      "score": 68
     },
     {
       "id": "bob-build-on-bitcoin",
       "name": "BOB (Build on Bitcoin)",
-      "score": 55
+      "score": 56
     },
     {
       "id": "tx",
@@ -22,39 +22,69 @@
       "score": 52
     },
     {
+      "id": "boomer-4",
+      "name": "Boomer",
+      "score": 51
+    },
+    {
+      "id": "3jane-usd3",
+      "name": "3Jane USD3",
+      "score": 50
+    },
+    {
       "id": "claudia-5",
       "name": "Claudia",
       "score": 50
     },
     {
+      "id": "researchcoin",
+      "name": "ResearchCoin",
+      "score": 49
+    },
+    {
       "id": "proprietary-trading-network",
       "name": "Vanta Network",
-      "score": 49
+      "score": 48
     },
     {
-      "id": "boomer-4",
-      "name": "Boomer",
-      "score": 49
-    },
-    {
-      "id": "doge-pepe-3",
-      "name": "Doge Pepe",
+      "id": "nullmask",
+      "name": "Nullmask",
       "score": 47
+    },
+    {
+      "id": "hi",
+      "name": "hi",
+      "score": 46
     },
     {
       "id": "tokamak-network",
       "name": "Tokamak Network",
-      "score": 45
+      "score": 44
     },
     {
-      "id": "researchcoin",
-      "name": "ResearchCoin",
-      "score": 45
+      "id": "doge-pepe-3",
+      "name": "Doge Pepe",
+      "score": 42
+    },
+    {
+      "id": "fuzzybear",
+      "name": "Fuzzybear",
+      "score": 37
+    },
+    {
+      "id": "babycashcat",
+      "name": "BabyCashCat",
+      "score": 36
     },
     {
       "id": "gradients",
       "name": "Gradients",
-      "score": 35
+      "score": 34
+    },
+    {
+      "id": "metya",
+      "name": "MetYa",
+      "score": 25
     }
   ],
   "left": [
@@ -64,14 +94,19 @@
       "reason": "dropped out of top N"
     },
     {
+      "id": "ai-factory",
+      "name": "ai-factory",
+      "reason": "dropped out of top N"
+    },
+    {
       "id": "billions-network",
       "name": "billions-network",
       "reason": "dropped out of top N"
     },
     {
-      "id": "escoin-token",
-      "name": "Escoin",
-      "reason": "low volume"
+      "id": "hoodpork",
+      "name": "hoodpork",
+      "reason": "dropped out of top N"
     },
     {
       "id": "mira-3",
@@ -94,16 +129,6 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "pocket-network",
-      "name": "Pocket Network",
-      "reason": "low volume"
-    },
-    {
-      "id": "railgun",
-      "name": "Railgun",
-      "reason": "low volume"
-    },
-    {
       "id": "super-inu-2",
       "name": "super-inu-2",
       "reason": "dropped out of top N"
@@ -119,14 +144,19 @@
       "reason": "low volume"
     },
     {
-      "id": "tornado-cash",
-      "name": "Tornado Cash",
-      "reason": "low volume"
-    },
-    {
       "id": "tutorial",
       "name": "tutorial",
       "reason": "dropped out of top N"
+    },
+    {
+      "id": "wibx",
+      "name": "Wibx",
+      "reason": "low volume"
+    },
+    {
+      "id": "wiki-cat",
+      "name": "Wiki Cat",
+      "reason": "low volume"
     }
   ]
 }
