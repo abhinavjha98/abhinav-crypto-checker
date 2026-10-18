@@ -1,151 +1,46 @@
 {
-  "compared_to": "2026-10-16",
+  "compared_to": "2026-10-17",
   "entered": [
     {
-      "id": "efficientfrontier",
-      "name": "EfficientFrontier",
-      "score": 49
+      "id": "superform",
+      "name": "Superform",
+      "score": 57
     },
     {
-      "id": "leo-token",
-      "name": "LEO Token",
-      "score": 48
-    },
-    {
-      "id": "autonolas",
-      "name": "Autonolas",
+      "id": "researchcoin",
+      "name": "ResearchCoin",
       "score": 46
     },
     {
-      "id": "templar",
-      "name": "\u03c4emplar",
-      "score": 41
-    },
-    {
-      "id": "bora",
-      "name": "BORA",
-      "score": 33
-    },
-    {
-      "id": "wibx",
-      "name": "Wibx",
-      "score": 25
+      "id": "fuzzybear",
+      "name": "Fuzzybear",
+      "score": 40
     }
   ],
   "left": [
     {
-      "id": "3jane-usd3",
-      "name": "3Jane USD3",
+      "id": "ai-companions",
+      "name": "AI Companions",
       "reason": "low volume"
     },
     {
-      "id": "across-protocol",
-      "name": "Across Protocol",
-      "reason": "low volume"
-    },
-    {
-      "id": "anime",
-      "name": "anime",
+      "id": "nova-3",
+      "name": "nova-3",
       "reason": "dropped out of top N"
     },
     {
-      "id": "arcblock",
-      "name": "Arcblock",
+      "id": "railgun",
+      "name": "Railgun",
       "reason": "low volume"
     },
     {
-      "id": "bitdca",
-      "name": "BitDCA",
-      "reason": "low volume"
-    },
-    {
-      "id": "boner-coin",
-      "name": "boner-coin",
+      "id": "super-inu-2",
+      "name": "super-inu-2",
       "reason": "dropped out of top N"
     },
     {
-      "id": "clawpump-tech",
-      "name": "clawpump-tech",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "coin98",
-      "name": "coin98",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "cortex-2",
-      "name": "Cortex",
-      "reason": "low volume"
-    },
-    {
-      "id": "dacity-coin",
-      "name": "dacity-coin",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "deapcoin",
-      "name": "DEAPCOIN",
-      "reason": "low volume"
-    },
-    {
-      "id": "idlemine",
-      "name": "IdleMine",
-      "reason": "low volume"
-    },
-    {
-      "id": "iota-2",
-      "name": "iota",
-      "reason": "low volume"
-    },
-    {
-      "id": "max-token",
-      "name": "MAX",
-      "reason": "low volume"
-    },
-    {
-      "id": "medibloc",
-      "name": "Medibloc",
-      "reason": "low volume"
-    },
-    {
-      "id": "quantum-resistant-ledger",
-      "name": "Quantum Resistant Ledger",
-      "reason": "low volume"
-    },
-    {
-      "id": "re-protocol-reusde",
-      "name": "Re Protocol reUSDe",
-      "reason": "low volume"
-    },
-    {
-      "id": "stargate-finance",
-      "name": "Stargate Finance",
-      "reason": "low volume"
-    },
-    {
-      "id": "stonkbroker",
-      "name": "stonkbroker",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "tokamak-network",
-      "name": "Tokamak Network",
-      "reason": "low volume"
-    },
-    {
-      "id": "tx",
-      "name": "tx",
-      "reason": "low volume"
-    },
-    {
-      "id": "umia",
-      "name": "Umia",
-      "reason": "low volume"
-    },
-    {
-      "id": "verified-emeralds",
-      "name": "Verified Emeralds",
+      "id": "tornado-cash",
+      "name": "Tornado Cash",
       "reason": "low volume"
     }
   ]
