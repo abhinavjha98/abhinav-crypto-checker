@@ -2,30 +2,35 @@
   "compared_to": "2026-10-17",
   "entered": [
     {
-      "id": "superform",
-      "name": "Superform",
-      "score": 57
+      "id": "tx",
+      "name": "tx",
+      "score": 54
     },
     {
       "id": "researchcoin",
       "name": "ResearchCoin",
-      "score": 46
+      "score": 52
     },
     {
-      "id": "fuzzybear",
-      "name": "Fuzzybear",
-      "score": 40
+      "id": "minter",
+      "name": "Minter",
+      "score": 49
+    },
+    {
+      "id": "tokamak-network",
+      "name": "Tokamak Network",
+      "score": 48
     }
   ],
   "left": [
     {
-      "id": "ai-companions",
-      "name": "AI Companions",
-      "reason": "low volume"
+      "id": "efficientfrontier",
+      "name": "EfficientFrontier",
+      "reason": "price too high"
     },
     {
-      "id": "nova-3",
-      "name": "nova-3",
+      "id": "ethereum-classic",
+      "name": "ethereum-classic",
       "reason": "dropped out of top N"
     },
     {
@@ -37,11 +42,6 @@
       "id": "super-inu-2",
       "name": "super-inu-2",
       "reason": "dropped out of top N"
-    },
-    {
-      "id": "tornado-cash",
-      "name": "Tornado Cash",
-      "reason": "low volume"
     }
   ]
 }
