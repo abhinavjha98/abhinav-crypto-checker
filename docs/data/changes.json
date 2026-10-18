@@ -4,7 +4,12 @@
     {
       "id": "elsa",
       "name": "Elsa",
-      "score": 68
+      "score": 67
+    },
+    {
+      "id": "nullmask",
+      "name": "Nullmask",
+      "score": 59
     },
     {
       "id": "bob-build-on-bitcoin",
@@ -12,19 +17,29 @@
       "score": 56
     },
     {
-      "id": "tx",
-      "name": "tx",
-      "score": 53
+      "id": "quantum-resistant-ledger",
+      "name": "Quantum Resistant Ledger",
+      "score": 56
     },
     {
       "id": "covenant-x402",
       "name": "Covenant x402",
-      "score": 52
+      "score": 55
+    },
+    {
+      "id": "tx",
+      "name": "tx",
+      "score": 54
     },
     {
       "id": "boomer-4",
       "name": "Boomer",
-      "score": 51
+      "score": 53
+    },
+    {
+      "id": "claudia-5",
+      "name": "Claudia",
+      "score": 50
     },
     {
       "id": "3jane-usd3",
@@ -32,8 +47,8 @@
       "score": 50
     },
     {
-      "id": "claudia-5",
-      "name": "Claudia",
+      "id": "hi",
+      "name": "hi",
       "score": 50
     },
     {
@@ -42,18 +57,18 @@
       "score": 49
     },
     {
-      "id": "proprietary-trading-network",
-      "name": "Vanta Network",
-      "score": 48
-    },
-    {
-      "id": "nullmask",
-      "name": "Nullmask",
+      "id": "doge-pepe-3",
+      "name": "Doge Pepe",
       "score": 47
     },
     {
-      "id": "hi",
-      "name": "hi",
+      "id": "ao-computer",
+      "name": "ao Computer",
+      "score": 46
+    },
+    {
+      "id": "proprietary-trading-network",
+      "name": "Vanta Network",
       "score": 46
     },
     {
@@ -62,13 +77,18 @@
       "score": 44
     },
     {
-      "id": "doge-pepe-3",
-      "name": "Doge Pepe",
-      "score": 42
+      "id": "tetsuo-super-intelligence",
+      "name": "Tetsuo Super Intelligence",
+      "score": 43
     },
     {
       "id": "fuzzybear",
       "name": "Fuzzybear",
+      "score": 39
+    },
+    {
+      "id": "iota-2",
+      "name": "iota",
       "score": 37
     },
     {
@@ -77,14 +97,19 @@
       "score": 36
     },
     {
+      "id": "world-mobile-token",
+      "name": "World Mobile Token",
+      "score": 34
+    },
+    {
       "id": "gradients",
       "name": "Gradients",
-      "score": 34
+      "score": 32
     },
     {
       "id": "metya",
       "name": "MetYa",
-      "score": 25
+      "score": 24
     }
   ],
   "left": [
@@ -104,8 +129,18 @@
       "reason": "dropped out of top N"
     },
     {
+      "id": "gamebuild",
+      "name": "GameBuild",
+      "reason": "low volume"
+    },
+    {
       "id": "hoodpork",
       "name": "hoodpork",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "meet48",
+      "name": "meet48",
       "reason": "dropped out of top N"
     },
     {
@@ -119,6 +154,11 @@
       "reason": "low volume"
     },
     {
+      "id": "oho-blockchain",
+      "name": "OHO Blockchain",
+      "reason": "low volume"
+    },
+    {
       "id": "perle",
       "name": "perle",
       "reason": "dropped out of top N"
@@ -126,6 +166,16 @@
     {
       "id": "pippin",
       "name": "pippin",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "pocket-network",
+      "name": "Pocket Network",
+      "reason": "low volume"
+    },
+    {
+      "id": "power-protocol",
+      "name": "power-protocol",
       "reason": "dropped out of top N"
     },
     {
@@ -139,8 +189,8 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "templar",
-      "name": "\u03c4emplar",
+      "id": "tornado-cash",
+      "name": "Tornado Cash",
       "reason": "low volume"
     },
     {
@@ -151,11 +201,6 @@
     {
       "id": "wibx",
       "name": "Wibx",
-      "reason": "low volume"
-    },
-    {
-      "id": "wiki-cat",
-      "name": "Wiki Cat",
       "reason": "low volume"
     }
   ]
