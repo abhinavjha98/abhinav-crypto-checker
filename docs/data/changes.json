@@ -1,197 +1,57 @@
 {
-  "compared_to": "2026-10-17",
+  "compared_to": "2026-10-18",
   "entered": [
     {
-      "id": "elsa",
-      "name": "Elsa",
-      "score": 68
+      "id": "super-inu-2",
+      "name": "Super Inu",
+      "score": 60
     },
     {
-      "id": "quantum-resistant-ledger",
-      "name": "Quantum Resistant Ledger",
-      "score": 56
-    },
-    {
-      "id": "bob-build-on-bitcoin",
-      "name": "BOB (Build on Bitcoin)",
-      "score": 56
-    },
-    {
-      "id": "covenant-x402",
-      "name": "Covenant x402",
+      "id": "boomer-4",
+      "name": "Boomer",
       "score": 55
     },
     {
-      "id": "nullmask",
-      "name": "Nullmask",
-      "score": 53
-    },
-    {
-      "id": "tx",
-      "name": "tx",
-      "score": 53
-    },
-    {
-      "id": "claudia-5",
-      "name": "Claudia",
-      "score": 52
-    },
-    {
-      "id": "hi",
-      "name": "hi",
-      "score": 50
-    },
-    {
-      "id": "3jane-usd3",
-      "name": "3Jane USD3",
-      "score": 50
-    },
-    {
-      "id": "proprietary-trading-network",
-      "name": "Vanta Network",
-      "score": 49
-    },
-    {
-      "id": "researchcoin",
-      "name": "ResearchCoin",
-      "score": 49
-    },
-    {
-      "id": "yei-finance",
-      "name": "Yei Finance",
+      "id": "everything",
+      "name": "Everything",
       "score": 46
-    },
-    {
-      "id": "tokamak-network",
-      "name": "Tokamak Network",
-      "score": 44
-    },
-    {
-      "id": "doge-pepe-3",
-      "name": "Doge Pepe",
-      "score": 44
-    },
-    {
-      "id": "tetsuo-super-intelligence",
-      "name": "Tetsuo Super Intelligence",
-      "score": 43
-    },
-    {
-      "id": "iota-2",
-      "name": "iota",
-      "score": 40
-    },
-    {
-      "id": "fuzzybear",
-      "name": "Fuzzybear",
-      "score": 40
-    },
-    {
-      "id": "babycashcat",
-      "name": "BabyCashCat",
-      "score": 36
-    },
-    {
-      "id": "gradients",
-      "name": "Gradients",
-      "score": 35
-    },
-    {
-      "id": "world-mobile-token",
-      "name": "World Mobile Token",
-      "score": 32
-    },
-    {
-      "id": "metya",
-      "name": "MetYa",
-      "score": 24
-    }
-  ],
-  "left": [
-    {
-      "id": "ai-companions",
-      "name": "ai-companions",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "billions-network",
-      "name": "billions-network",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "bora",
-      "name": "BORA",
-      "reason": "low volume"
-    },
-    {
-      "id": "gamebuild",
-      "name": "GameBuild",
-      "reason": "low volume"
-    },
-    {
-      "id": "goldfish-gold",
-      "name": "Goldfish Gold",
-      "reason": "low volume"
-    },
-    {
-      "id": "hoodpork",
-      "name": "hoodpork",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "meet48",
-      "name": "meet48",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "mira-3",
-      "name": "mira-3",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "nova-3",
-      "name": "NOVA",
-      "reason": "low volume"
-    },
-    {
-      "id": "ocean-protocol",
-      "name": "Ocean Protocol",
-      "reason": "low volume"
-    },
-    {
-      "id": "oho-blockchain",
-      "name": "OHO Blockchain",
-      "reason": "low volume"
-    },
-    {
-      "id": "pippin",
-      "name": "pippin",
-      "reason": "dropped out of top N"
     },
     {
       "id": "railgun",
       "name": "Railgun",
+      "score": 44
+    },
+    {
+      "id": "hoodpork",
+      "name": "HoodPork",
+      "score": 30
+    },
+    {
+      "id": "bora",
+      "name": "BORA",
+      "score": 29
+    }
+  ],
+  "left": [
+    {
+      "id": "bob-build-on-bitcoin",
+      "name": "bob-build-on-bitcoin",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "elsa",
+      "name": "elsa",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "perle",
+      "name": "perle",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "pocket-network",
+      "name": "Pocket Network",
       "reason": "low volume"
-    },
-    {
-      "id": "south-korea-bull-3x-etf-bstocks-tokenized-stock",
-      "name": "South Korea Bull 3X ETF (bStocks Tokenized Stock)",
-      "reason": "price too high"
-    },
-    {
-      "id": "super-inu-2",
-      "name": "super-inu-2",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "tutorial",
-      "name": "tutorial",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "wibx",
-      "name": "wibx",
-      "reason": "dropped out of top N"
     }
   ]
 }
