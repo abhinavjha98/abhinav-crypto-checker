@@ -4,7 +4,7 @@
     {
       "id": "meet48",
       "name": "MEET48",
-      "score": 62
+      "score": 61
     },
     {
       "id": "sanctum-2",
@@ -12,24 +12,19 @@
       "score": 58
     },
     {
-      "id": "surplus-intelligence",
-      "name": "Surplus intelligence",
-      "score": 52
+      "id": "startupsi",
+      "name": "startupSI",
+      "score": 54
     },
     {
-      "id": "bitdca",
-      "name": "BitDCA",
+      "id": "surplus-intelligence",
+      "name": "Surplus intelligence",
       "score": 50
     },
     {
-      "id": "tutorial",
-      "name": "Tutorial",
-      "score": 47
-    },
-    {
-      "id": "boomer-4",
-      "name": "Boomer",
-      "score": 47
+      "id": "goldfish-gold",
+      "name": "Goldfish Gold",
+      "score": 50
     },
     {
       "id": "everything",
@@ -42,24 +37,14 @@
       "score": 46
     },
     {
-      "id": "stonkbroker",
-      "name": "StonkBroker",
+      "id": "hoodpork",
+      "name": "HoodPork",
       "score": 45
     },
     {
       "id": "idlemine",
       "name": "IdleMine",
-      "score": 45
-    },
-    {
-      "id": "mira-3",
-      "name": "Mira",
       "score": 44
-    },
-    {
-      "id": "umia",
-      "name": "Umia",
-      "score": 43
     },
     {
       "id": "ao-computer",
@@ -69,38 +54,48 @@
     {
       "id": "railgun",
       "name": "Railgun",
+      "score": 43
+    },
+    {
+      "id": "umia",
+      "name": "Umia",
       "score": 42
     },
     {
-      "id": "pippin",
-      "name": "pippin",
-      "score": 37
+      "id": "bitmind",
+      "name": "BitMind",
+      "score": 38
     },
     {
-      "id": "medibloc",
-      "name": "Medibloc",
-      "score": 37
+      "id": "stonkbroker",
+      "name": "StonkBroker",
+      "score": 35
     },
     {
       "id": "bora",
       "name": "BORA",
-      "score": 32
+      "score": 31
+    },
+    {
+      "id": "roll-2",
+      "name": "ROLL",
+      "score": 29
     },
     {
       "id": "ai-companions",
       "name": "AI Companions",
-      "score": 25
+      "score": 21
     }
   ],
   "left": [
     {
-      "id": "bob-build-on-bitcoin",
-      "name": "bob-build-on-bitcoin",
+      "id": "ai-factory",
+      "name": "ai-factory",
       "reason": "dropped out of top N"
     },
     {
-      "id": "claudia-5",
-      "name": "claudia-5",
+      "id": "bob-build-on-bitcoin",
+      "name": "bob-build-on-bitcoin",
       "reason": "dropped out of top N"
     },
     {
@@ -109,13 +104,8 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "elsa",
-      "name": "elsa",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "escoin-token",
-      "name": "Escoin",
+      "id": "fuzzybear",
+      "name": "Fuzzybear",
       "reason": "low volume"
     },
     {
@@ -129,6 +119,11 @@
       "reason": "low volume"
     },
     {
+      "id": "hi",
+      "name": "hi",
+      "reason": "dropped out of top N"
+    },
+    {
       "id": "metya",
       "name": "MetYa",
       "reason": "low volume"
@@ -139,19 +134,34 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "researchcoin",
-      "name": "researchcoin",
+      "id": "power-protocol",
+      "name": "power-protocol",
       "reason": "dropped out of top N"
     },
     {
-      "id": "tensorcash",
-      "name": "tensorcash",
+      "id": "quantum-resistant-ledger",
+      "name": "Quantum Resistant Ledger",
+      "reason": "low volume"
+    },
+    {
+      "id": "researchcoin",
+      "name": "researchcoin",
       "reason": "dropped out of top N"
     },
     {
       "id": "tetsuo-super-intelligence",
       "name": "tetsuo-super-intelligence",
       "reason": "dropped out of top N"
+    },
+    {
+      "id": "tokamak-network",
+      "name": "Tokamak Network",
+      "reason": "low volume"
+    },
+    {
+      "id": "world-mobile-token",
+      "name": "World Mobile Token",
+      "reason": "low volume"
     }
   ]
 }
