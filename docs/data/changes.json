@@ -12,14 +12,29 @@
       "score": 58
     },
     {
-      "id": "boomer-4",
-      "name": "Boomer",
+      "id": "surplus-intelligence",
+      "name": "Surplus intelligence",
+      "score": 52
+    },
+    {
+      "id": "bitdca",
+      "name": "BitDCA",
       "score": 50
     },
     {
-      "id": "surplus-intelligence",
-      "name": "Surplus intelligence",
-      "score": 49
+      "id": "tutorial",
+      "name": "Tutorial",
+      "score": 47
+    },
+    {
+      "id": "boomer-4",
+      "name": "Boomer",
+      "score": 47
+    },
+    {
+      "id": "everything",
+      "name": "Everything",
+      "score": 47
     },
     {
       "id": "deapcoin",
@@ -27,44 +42,54 @@
       "score": 46
     },
     {
-      "id": "everything",
-      "name": "Everything",
-      "score": 46
+      "id": "stonkbroker",
+      "name": "StonkBroker",
+      "score": 45
     },
     {
-      "id": "umia",
-      "name": "Umia",
-      "score": 44
+      "id": "idlemine",
+      "name": "IdleMine",
+      "score": 45
     },
     {
       "id": "mira-3",
       "name": "Mira",
-      "score": 41
+      "score": 44
+    },
+    {
+      "id": "umia",
+      "name": "Umia",
+      "score": 43
+    },
+    {
+      "id": "ao-computer",
+      "name": "ao Computer",
+      "score": 43
     },
     {
       "id": "railgun",
       "name": "Railgun",
-      "score": 39
+      "score": 42
     },
     {
-      "id": "ix-swap",
-      "name": "IXS",
-      "score": 38
+      "id": "pippin",
+      "name": "pippin",
+      "score": 37
     },
     {
-      "id": "boner-coin",
-      "name": "Boner Coin",
+      "id": "medibloc",
+      "name": "Medibloc",
       "score": 37
     },
     {
       "id": "bora",
       "name": "BORA",
-      "score": 31
+      "score": 32
     },
     {
       "id": "ai-companions",
       "name": "AI Companions",
-      "score": 22
+      "score": 25
     }
   ],
   "left": [
@@ -74,9 +99,39 @@
       "reason": "dropped out of top N"
     },
     {
+      "id": "claudia-5",
+      "name": "claudia-5",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "covenant-x402",
+      "name": "covenant-x402",
+      "reason": "dropped out of top N"
+    },
+    {
       "id": "elsa",
       "name": "elsa",
       "reason": "dropped out of top N"
+    },
+    {
+      "id": "escoin-token",
+      "name": "Escoin",
+      "reason": "low volume"
+    },
+    {
+      "id": "gama-token",
+      "name": "Gama Token",
+      "reason": "low volume"
+    },
+    {
+      "id": "gradients",
+      "name": "Gradients",
+      "reason": "low volume"
+    },
+    {
+      "id": "metya",
+      "name": "MetYa",
+      "reason": "low volume"
     },
     {
       "id": "perle",
@@ -84,29 +139,19 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "pocket-network",
-      "name": "Pocket Network",
-      "reason": "low volume"
+      "id": "researchcoin",
+      "name": "researchcoin",
+      "reason": "dropped out of top N"
     },
     {
-      "id": "power-protocol",
-      "name": "power-protocol",
+      "id": "tensorcash",
+      "name": "tensorcash",
       "reason": "dropped out of top N"
     },
     {
       "id": "tetsuo-super-intelligence",
       "name": "tetsuo-super-intelligence",
       "reason": "dropped out of top N"
-    },
-    {
-      "id": "tx",
-      "name": "tx",
-      "reason": "low volume"
-    },
-    {
-      "id": "wiki-cat",
-      "name": "Wiki Cat",
-      "reason": "low volume"
     }
   ]
 }
