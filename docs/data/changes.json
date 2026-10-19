@@ -2,6 +2,11 @@
   "compared_to": "2026-10-18",
   "entered": [
     {
+      "id": "super-inu-2",
+      "name": "Super Inu",
+      "score": 63
+    },
+    {
       "id": "meet48",
       "name": "MEET48",
       "score": 61
@@ -14,12 +19,12 @@
     {
       "id": "startupsi",
       "name": "startupSI",
-      "score": 54
+      "score": 56
     },
     {
       "id": "surplus-intelligence",
       "name": "Surplus intelligence",
-      "score": 50
+      "score": 51
     },
     {
       "id": "goldfish-gold",
@@ -27,29 +32,24 @@
       "score": 50
     },
     {
+      "id": "deapcoin",
+      "name": "DEAPCOIN",
+      "score": 47
+    },
+    {
       "id": "everything",
       "name": "Everything",
       "score": 47
     },
     {
-      "id": "deapcoin",
-      "name": "DEAPCOIN",
-      "score": 46
-    },
-    {
       "id": "hoodpork",
       "name": "HoodPork",
-      "score": 45
+      "score": 47
     },
     {
       "id": "idlemine",
       "name": "IdleMine",
-      "score": 44
-    },
-    {
-      "id": "ao-computer",
-      "name": "ao Computer",
-      "score": 43
+      "score": 46
     },
     {
       "id": "railgun",
@@ -57,29 +57,24 @@
       "score": 43
     },
     {
-      "id": "umia",
-      "name": "Umia",
+      "id": "stonkbroker",
+      "name": "StonkBroker",
       "score": 42
     },
     {
       "id": "bitmind",
       "name": "BitMind",
-      "score": 38
+      "score": 39
     },
     {
-      "id": "stonkbroker",
-      "name": "StonkBroker",
+      "id": "pippin",
+      "name": "pippin",
       "score": 35
     },
     {
       "id": "bora",
       "name": "BORA",
-      "score": 31
-    },
-    {
-      "id": "roll-2",
-      "name": "ROLL",
-      "score": 29
+      "score": 30
     },
     {
       "id": "ai-companions",
@@ -99,14 +94,19 @@
       "reason": "dropped out of top N"
     },
     {
+      "id": "claudia-5",
+      "name": "claudia-5",
+      "reason": "dropped out of top N"
+    },
+    {
       "id": "covenant-x402",
       "name": "covenant-x402",
       "reason": "dropped out of top N"
     },
     {
-      "id": "fuzzybear",
-      "name": "Fuzzybear",
-      "reason": "low volume"
+      "id": "doge-pepe-3",
+      "name": "doge-pepe-3",
+      "reason": "dropped out of top N"
     },
     {
       "id": "gama-token",
@@ -134,19 +134,24 @@
       "reason": "dropped out of top N"
     },
     {
+      "id": "pocket-network",
+      "name": "Pocket Network",
+      "reason": "low volume"
+    },
+    {
       "id": "power-protocol",
       "name": "power-protocol",
       "reason": "dropped out of top N"
     },
     {
-      "id": "quantum-resistant-ledger",
-      "name": "Quantum Resistant Ledger",
-      "reason": "low volume"
-    },
-    {
       "id": "researchcoin",
       "name": "researchcoin",
       "reason": "dropped out of top N"
+    },
+    {
+      "id": "rollbit-coin",
+      "name": "Rollbit Coin",
+      "reason": "low volume"
     },
     {
       "id": "tetsuo-super-intelligence",
@@ -159,9 +164,14 @@
       "reason": "low volume"
     },
     {
-      "id": "world-mobile-token",
-      "name": "World Mobile Token",
+      "id": "tornado-cash",
+      "name": "Tornado Cash",
       "reason": "low volume"
+    },
+    {
+      "id": "world-mobile-token",
+      "name": "world-mobile-token",
+      "reason": "dropped out of top N"
     }
   ]
 }
