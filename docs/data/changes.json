@@ -2,11 +2,6 @@
   "compared_to": "2026-10-19",
   "entered": [
     {
-      "id": "tornado-cash",
-      "name": "Tornado Cash",
-      "score": 55
-    },
-    {
       "id": "tutorial",
       "name": "Tutorial",
       "score": 48
@@ -14,17 +9,22 @@
     {
       "id": "mira-3",
       "name": "Mira",
-      "score": 40
+      "score": 44
     },
     {
       "id": "chainflip",
       "name": "Chainflip",
-      "score": 40
+      "score": 41
+    },
+    {
+      "id": "tokamak-network",
+      "name": "Tokamak Network",
+      "score": 41
     },
     {
       "id": "pocket-network",
       "name": "Pocket Network",
-      "score": 35
+      "score": 36
     }
   ],
   "left": [
@@ -32,6 +32,11 @@
       "id": "anvil",
       "name": "Anvil",
       "reason": "low volume"
+    },
+    {
+      "id": "autonolas",
+      "name": "autonolas",
+      "reason": "dropped out of top N"
     },
     {
       "id": "babycashcat",
@@ -49,13 +54,28 @@
       "reason": "low volume"
     },
     {
+      "id": "nkyc-token",
+      "name": "NKYC Token",
+      "reason": "price too high"
+    },
+    {
       "id": "sanctum-2",
       "name": "Sanctum",
       "reason": "low volume"
     },
     {
+      "id": "startupsi",
+      "name": "startupsi",
+      "reason": "dropped out of top N"
+    },
+    {
       "id": "super-inu-2",
       "name": "super-inu-2",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "vin-2",
+      "name": "vin-2",
       "reason": "dropped out of top N"
     }
   ]
