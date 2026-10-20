@@ -2,14 +2,29 @@
   "compared_to": "2026-10-19",
   "entered": [
     {
-      "id": "tornado-cash",
-      "name": "Tornado Cash",
-      "score": 55
+      "id": "doodles",
+      "name": "Doodles",
+      "score": 65
     },
     {
       "id": "perle",
       "name": "Perle",
-      "score": 53
+      "score": 58
+    },
+    {
+      "id": "gama-token",
+      "name": "Gama Token",
+      "score": 54
+    },
+    {
+      "id": "tornado-cash",
+      "name": "Tornado Cash",
+      "score": 54
+    },
+    {
+      "id": "claudia-5",
+      "name": "Claudia",
+      "score": 52
     },
     {
       "id": "tutorial",
@@ -17,14 +32,9 @@
       "score": 47
     },
     {
-      "id": "claudia-5",
-      "name": "Claudia",
-      "score": 47
-    },
-    {
       "id": "ai-factory",
       "name": "OpenRoboto",
-      "score": 44
+      "score": 46
     },
     {
       "id": "tokamak-network",
@@ -32,29 +42,59 @@
       "score": 42
     },
     {
-      "id": "chainflip",
-      "name": "Chainflip",
-      "score": 41
-    },
-    {
       "id": "mira-3",
       "name": "Mira",
-      "score": 39
+      "score": 41
     },
     {
       "id": "bc-token",
       "name": "BCGame Coin",
-      "score": 39
+      "score": 41
+    },
+    {
+      "id": "chainflip",
+      "name": "Chainflip",
+      "score": 40
     },
     {
       "id": "torch",
       "name": "torch",
-      "score": 38
+      "score": 39
     },
     {
       "id": "pocket-network",
       "name": "Pocket Network",
-      "score": 36
+      "score": 37
+    },
+    {
+      "id": "world-mobile-token",
+      "name": "World Mobile Token",
+      "score": 35
+    },
+    {
+      "id": "hunt-token",
+      "name": "Hunt",
+      "score": 34
+    },
+    {
+      "id": "songbird",
+      "name": "Songbird",
+      "score": 32
+    },
+    {
+      "id": "messier",
+      "name": "MESSIER",
+      "score": 26
+    },
+    {
+      "id": "boner-coin",
+      "name": "Boner Coin",
+      "score": 23
+    },
+    {
+      "id": "zcoin",
+      "name": "Firo",
+      "score": 15
     }
   ],
   "left": [
@@ -64,8 +104,28 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "marscat-token",
-      "name": "Marscat Token",
+      "id": "bifrost",
+      "name": "Bifrost",
+      "reason": "low volume"
+    },
+    {
+      "id": "bitmind",
+      "name": "BitMind",
+      "reason": "low volume"
+    },
+    {
+      "id": "dkargo",
+      "name": "dkargo",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "elsa",
+      "name": "elsa",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "hoodpork",
+      "name": "HoodPork",
       "reason": "low volume"
     },
     {
@@ -74,8 +134,8 @@
       "reason": "price too high"
     },
     {
-      "id": "quantum-resistant-ledger",
-      "name": "Quantum Resistant Ledger",
+      "id": "railgun",
+      "name": "Railgun",
       "reason": "low volume"
     },
     {
@@ -87,16 +147,6 @@
       "id": "super-inu-2",
       "name": "super-inu-2",
       "reason": "dropped out of top N"
-    },
-    {
-      "id": "vin-2",
-      "name": "vin-2",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "wiki-cat",
-      "name": "Wiki Cat",
-      "reason": "low volume"
     }
   ]
 }
