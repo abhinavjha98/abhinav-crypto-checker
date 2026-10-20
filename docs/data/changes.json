@@ -2,14 +2,34 @@
   "compared_to": "2026-10-19",
   "entered": [
     {
-      "id": "tutorial",
-      "name": "Tutorial",
-      "score": 48
+      "id": "tornado-cash",
+      "name": "Tornado Cash",
+      "score": 55
     },
     {
-      "id": "mira-3",
-      "name": "Mira",
+      "id": "perle",
+      "name": "Perle",
+      "score": 53
+    },
+    {
+      "id": "tutorial",
+      "name": "Tutorial",
+      "score": 47
+    },
+    {
+      "id": "claudia-5",
+      "name": "Claudia",
+      "score": 47
+    },
+    {
+      "id": "ai-factory",
+      "name": "OpenRoboto",
       "score": 44
+    },
+    {
+      "id": "tokamak-network",
+      "name": "Tokamak Network",
+      "score": 42
     },
     {
       "id": "chainflip",
@@ -17,9 +37,19 @@
       "score": 41
     },
     {
-      "id": "tokamak-network",
-      "name": "Tokamak Network",
-      "score": 41
+      "id": "mira-3",
+      "name": "Mira",
+      "score": 39
+    },
+    {
+      "id": "bc-token",
+      "name": "BCGame Coin",
+      "score": 39
+    },
+    {
+      "id": "torch",
+      "name": "torch",
+      "score": 38
     },
     {
       "id": "pocket-network",
@@ -29,28 +59,13 @@
   ],
   "left": [
     {
-      "id": "anvil",
-      "name": "Anvil",
-      "reason": "low volume"
-    },
-    {
-      "id": "autonolas",
-      "name": "autonolas",
-      "reason": "dropped out of top N"
-    },
-    {
       "id": "babycashcat",
       "name": "babycashcat",
       "reason": "dropped out of top N"
     },
     {
-      "id": "elsa",
-      "name": "elsa",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "leo-token",
-      "name": "LEO Token",
+      "id": "marscat-token",
+      "name": "Marscat Token",
       "reason": "low volume"
     },
     {
@@ -59,8 +74,8 @@
       "reason": "price too high"
     },
     {
-      "id": "sanctum-2",
-      "name": "Sanctum",
+      "id": "quantum-resistant-ledger",
+      "name": "Quantum Resistant Ledger",
       "reason": "low volume"
     },
     {
@@ -77,6 +92,11 @@
       "id": "vin-2",
       "name": "vin-2",
       "reason": "dropped out of top N"
+    },
+    {
+      "id": "wiki-cat",
+      "name": "Wiki Cat",
+      "reason": "low volume"
     }
   ]
 }
