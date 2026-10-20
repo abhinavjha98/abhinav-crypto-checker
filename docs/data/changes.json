@@ -4,7 +4,7 @@
     {
       "id": "doodles",
       "name": "Doodles",
-      "score": 65
+      "score": 71
     },
     {
       "id": "perle",
@@ -17,29 +17,24 @@
       "score": 54
     },
     {
-      "id": "tornado-cash",
-      "name": "Tornado Cash",
-      "score": 54
+      "id": "stargate-finance",
+      "name": "Stargate Finance",
+      "score": 47
     },
     {
-      "id": "claudia-5",
-      "name": "Claudia",
-      "score": 52
+      "id": "tornado-cash",
+      "name": "Tornado Cash",
+      "score": 47
     },
     {
       "id": "tutorial",
       "name": "Tutorial",
-      "score": 47
-    },
-    {
-      "id": "ai-factory",
-      "name": "OpenRoboto",
       "score": 46
     },
     {
-      "id": "tokamak-network",
-      "name": "Tokamak Network",
-      "score": 42
+      "id": "frenpet",
+      "name": "Fren Pet",
+      "score": 45
     },
     {
       "id": "mira-3",
@@ -52,14 +47,19 @@
       "score": 41
     },
     {
-      "id": "chainflip",
-      "name": "Chainflip",
-      "score": 40
+      "id": "tokamak-network",
+      "name": "Tokamak Network",
+      "score": 41
     },
     {
       "id": "torch",
       "name": "torch",
-      "score": 39
+      "score": 38
+    },
+    {
+      "id": "world-mobile-token",
+      "name": "World Mobile Token",
+      "score": 37
     },
     {
       "id": "pocket-network",
@@ -67,9 +67,19 @@
       "score": 37
     },
     {
-      "id": "world-mobile-token",
-      "name": "World Mobile Token",
+      "id": "nova-3",
+      "name": "NOVA",
+      "score": 36
+    },
+    {
+      "id": "songbird",
+      "name": "Songbird",
       "score": 35
+    },
+    {
+      "id": "power-protocol",
+      "name": "Power Protocol",
+      "score": 34
     },
     {
       "id": "hunt-token",
@@ -77,40 +87,45 @@
       "score": 34
     },
     {
-      "id": "songbird",
-      "name": "Songbird",
-      "score": 32
-    },
-    {
       "id": "messier",
       "name": "MESSIER",
-      "score": 26
+      "score": 25
+    },
+    {
+      "id": "andy-the-wisguy",
+      "name": "ANDY ETH",
+      "score": 24
     },
     {
       "id": "boner-coin",
       "name": "Boner Coin",
-      "score": 23
+      "score": 24
     },
     {
       "id": "zcoin",
       "name": "Firo",
-      "score": 15
+      "score": 16
     }
   ],
   "left": [
+    {
+      "id": "anvil",
+      "name": "Anvil",
+      "reason": "low volume"
+    },
     {
       "id": "babycashcat",
       "name": "babycashcat",
       "reason": "dropped out of top N"
     },
     {
-      "id": "bifrost",
-      "name": "Bifrost",
+      "id": "bitmind",
+      "name": "BitMind",
       "reason": "low volume"
     },
     {
-      "id": "bitmind",
-      "name": "BitMind",
+      "id": "bora",
+      "name": "BORA",
       "reason": "low volume"
     },
     {
@@ -124,6 +139,11 @@
       "reason": "dropped out of top N"
     },
     {
+      "id": "hastra-auto",
+      "name": "Hastra AUTO",
+      "reason": "low volume"
+    },
+    {
       "id": "hoodpork",
       "name": "HoodPork",
       "reason": "low volume"
@@ -132,11 +152,6 @@
       "id": "nkyc-token",
       "name": "NKYC Token",
       "reason": "price too high"
-    },
-    {
-      "id": "railgun",
-      "name": "Railgun",
-      "reason": "low volume"
     },
     {
       "id": "startupsi",
