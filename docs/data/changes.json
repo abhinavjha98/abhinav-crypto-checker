@@ -1,176 +1,61 @@
 {
-  "compared_to": "2026-10-18",
+  "compared_to": "2026-10-19",
   "entered": [
     {
-      "id": "super-inu-2",
-      "name": "Super Inu",
-      "score": 63
+      "id": "tornado-cash",
+      "name": "Tornado Cash",
+      "score": 55
     },
     {
-      "id": "meet48",
-      "name": "MEET48",
-      "score": 61
+      "id": "tutorial",
+      "name": "Tutorial",
+      "score": 48
     },
     {
-      "id": "sanctum-2",
-      "name": "Sanctum",
-      "score": 58
+      "id": "mira-3",
+      "name": "Mira",
+      "score": 40
     },
     {
-      "id": "startupsi",
-      "name": "startupSI",
-      "score": 56
-    },
-    {
-      "id": "surplus-intelligence",
-      "name": "Surplus intelligence",
-      "score": 51
-    },
-    {
-      "id": "goldfish-gold",
-      "name": "Goldfish Gold",
-      "score": 50
-    },
-    {
-      "id": "deapcoin",
-      "name": "DEAPCOIN",
-      "score": 47
-    },
-    {
-      "id": "everything",
-      "name": "Everything",
-      "score": 47
-    },
-    {
-      "id": "hoodpork",
-      "name": "HoodPork",
-      "score": 47
-    },
-    {
-      "id": "idlemine",
-      "name": "IdleMine",
-      "score": 46
-    },
-    {
-      "id": "railgun",
-      "name": "Railgun",
-      "score": 43
-    },
-    {
-      "id": "stonkbroker",
-      "name": "StonkBroker",
-      "score": 42
-    },
-    {
-      "id": "bitmind",
-      "name": "BitMind",
-      "score": 39
-    },
-    {
-      "id": "pippin",
-      "name": "pippin",
-      "score": 35
-    },
-    {
-      "id": "bora",
-      "name": "BORA",
-      "score": 30
-    },
-    {
-      "id": "ai-companions",
-      "name": "AI Companions",
-      "score": 21
-    }
-  ],
-  "left": [
-    {
-      "id": "ai-factory",
-      "name": "ai-factory",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "bob-build-on-bitcoin",
-      "name": "bob-build-on-bitcoin",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "claudia-5",
-      "name": "claudia-5",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "covenant-x402",
-      "name": "covenant-x402",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "doge-pepe-3",
-      "name": "doge-pepe-3",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "gama-token",
-      "name": "Gama Token",
-      "reason": "low volume"
-    },
-    {
-      "id": "gradients",
-      "name": "Gradients",
-      "reason": "low volume"
-    },
-    {
-      "id": "hi",
-      "name": "hi",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "metya",
-      "name": "MetYa",
-      "reason": "low volume"
-    },
-    {
-      "id": "perle",
-      "name": "perle",
-      "reason": "dropped out of top N"
+      "id": "chainflip",
+      "name": "Chainflip",
+      "score": 40
     },
     {
       "id": "pocket-network",
       "name": "Pocket Network",
+      "score": 35
+    }
+  ],
+  "left": [
+    {
+      "id": "anvil",
+      "name": "Anvil",
       "reason": "low volume"
     },
     {
-      "id": "power-protocol",
-      "name": "power-protocol",
+      "id": "babycashcat",
+      "name": "babycashcat",
       "reason": "dropped out of top N"
     },
     {
-      "id": "researchcoin",
-      "name": "researchcoin",
+      "id": "elsa",
+      "name": "elsa",
       "reason": "dropped out of top N"
     },
     {
-      "id": "rollbit-coin",
-      "name": "Rollbit Coin",
+      "id": "leo-token",
+      "name": "LEO Token",
       "reason": "low volume"
     },
     {
-      "id": "tetsuo-super-intelligence",
-      "name": "tetsuo-super-intelligence",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "tokamak-network",
-      "name": "Tokamak Network",
+      "id": "sanctum-2",
+      "name": "Sanctum",
       "reason": "low volume"
     },
     {
-      "id": "tornado-cash",
-      "name": "Tornado Cash",
-      "reason": "low volume"
-    },
-    {
-      "id": "world-mobile-token",
-      "name": "world-mobile-token",
+      "id": "super-inu-2",
+      "name": "super-inu-2",
       "reason": "dropped out of top N"
     }
   ]
