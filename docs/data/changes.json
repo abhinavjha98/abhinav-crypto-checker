@@ -2,39 +2,39 @@
   "compared_to": "2026-10-20",
   "entered": [
     {
+      "id": "hash-2",
+      "name": "Provenance Blockchain",
+      "score": 62
+    },
+    {
       "id": "bubblemaps",
       "name": "Bubblemaps",
+      "score": 62
+    },
+    {
+      "id": "anvil",
+      "name": "Anvil",
       "score": 61
     },
     {
       "id": "axis-robotics",
       "name": "Axis Robotics",
-      "score": 60
-    },
-    {
-      "id": "aura-final-boss-2",
-      "name": "Aura Final Boss",
-      "score": 56
+      "score": 59
     },
     {
       "id": "nkyc-token",
       "name": "NKYC Token",
-      "score": 56
+      "score": 58
     },
     {
-      "id": "dkargo",
-      "name": "dKargo",
-      "score": 52
-    },
-    {
-      "id": "moonbirds",
-      "name": "Moonbirds",
-      "score": 51
+      "id": "aura-final-boss-2",
+      "name": "Aura Final Boss",
+      "score": 58
     },
     {
       "id": "yellow",
       "name": "Yellow",
-      "score": 50
+      "score": 54
     },
     {
       "id": "bitdca",
@@ -42,24 +42,29 @@
       "score": 50
     },
     {
-      "id": "lagrange",
-      "name": "Lagrange",
+      "id": "rollbit-coin",
+      "name": "Rollbit Coin",
+      "score": 48
+    },
+    {
+      "id": "dkargo",
+      "name": "dKargo",
       "score": 48
     },
     {
       "id": "universal-high-income-2",
       "name": "Universal High Income",
-      "score": 48
+      "score": 47
     },
     {
-      "id": "anime",
-      "name": "Animecoin",
-      "score": 48
+      "id": "lagrange",
+      "name": "Lagrange",
+      "score": 47
     },
     {
       "id": "gamebuild",
       "name": "GameBuild",
-      "score": 47
+      "score": 46
     },
     {
       "id": "chainflip",
@@ -67,19 +72,19 @@
       "score": 41
     },
     {
-      "id": "ao-computer",
-      "name": "ao Computer",
+      "id": "bitmind",
+      "name": "BitMind",
       "score": 40
     },
     {
       "id": "umia",
       "name": "Umia",
-      "score": 39
+      "score": 38
     },
     {
-      "id": "bitmind",
-      "name": "BitMind",
-      "score": 39
+      "id": "ao-computer",
+      "name": "ao Computer",
+      "score": 38
     },
     {
       "id": "medibloc",
@@ -95,6 +100,11 @@
       "id": "bora",
       "name": "BORA",
       "score": 28
+    },
+    {
+      "id": "chex-token",
+      "name": "Chintai",
+      "score": 26
     }
   ],
   "left": [
@@ -124,23 +134,43 @@
       "reason": "low volume"
     },
     {
+      "id": "gama-token",
+      "name": "Gama Token",
+      "reason": "low volume"
+    },
+    {
+      "id": "hunt-token",
+      "name": "Hunt",
+      "reason": "low volume"
+    },
+    {
+      "id": "moonriver",
+      "name": "moonriver",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "quantum-resistant-ledger",
+      "name": "Quantum Resistant Ledger",
+      "reason": "low volume"
+    },
+    {
       "id": "torch",
       "name": "torch",
       "reason": "dropped out of top N"
     },
     {
-      "id": "tread-fi",
-      "name": "Tread.fi",
-      "reason": "low volume"
-    },
-    {
-      "id": "unipoly",
-      "name": "Unipoly",
-      "reason": "low volume"
+      "id": "tutorial",
+      "name": "tutorial",
+      "reason": "dropped out of top N"
     },
     {
       "id": "world-mobile-token",
       "name": "World Mobile Token",
+      "reason": "low volume"
+    },
+    {
+      "id": "zcoin",
+      "name": "Firo",
       "reason": "low volume"
     }
   ]
