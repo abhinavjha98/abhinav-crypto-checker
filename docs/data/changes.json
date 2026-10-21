@@ -2,49 +2,79 @@
   "compared_to": "2026-10-20",
   "entered": [
     {
-      "id": "forta",
-      "name": "Forta",
-      "score": 63
+      "id": "elsa",
+      "name": "Elsa",
+      "score": 71
     },
     {
       "id": "aura-final-boss-2",
       "name": "Aura Final Boss",
-      "score": 57
+      "score": 61
     },
     {
-      "id": "moonbirds",
-      "name": "Moonbirds",
-      "score": 56
+      "id": "anvil",
+      "name": "Anvil",
+      "score": 61
+    },
+    {
+      "id": "bubblemaps",
+      "name": "Bubblemaps",
+      "score": 59
     },
     {
       "id": "nkyc-token",
       "name": "NKYC Token",
-      "score": 54
+      "score": 56
     },
     {
       "id": "dkargo",
       "name": "dKargo",
-      "score": 51
+      "score": 53
+    },
+    {
+      "id": "moonbirds",
+      "name": "Moonbirds",
+      "score": 53
+    },
+    {
+      "id": "bitdca",
+      "name": "BitDCA",
+      "score": 49
+    },
+    {
+      "id": "rollbit-coin",
+      "name": "Rollbit Coin",
+      "score": 48
     },
     {
       "id": "gamebuild",
       "name": "GameBuild",
-      "score": 45
+      "score": 46
+    },
+    {
+      "id": "anime",
+      "name": "Animecoin",
+      "score": 46
+    },
+    {
+      "id": "ao-computer",
+      "name": "ao Computer",
+      "score": 43
     },
     {
       "id": "umia",
       "name": "Umia",
-      "score": 37
+      "score": 39
     },
     {
       "id": "ergo",
       "name": "Ergo",
-      "score": 33
+      "score": 32
     },
     {
       "id": "bora",
       "name": "BORA",
-      "score": 25
+      "score": 26
     }
   ],
   "left": [
@@ -64,8 +94,13 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "boner-coin",
-      "name": "boner-coin",
+      "id": "bc-token",
+      "name": "BCGame Coin",
+      "reason": "low volume"
+    },
+    {
+      "id": "debtreliefbot",
+      "name": "debtreliefbot",
       "reason": "dropped out of top N"
     },
     {
@@ -74,14 +109,14 @@
       "reason": "low volume"
     },
     {
-      "id": "nova-3",
-      "name": "NOVA",
+      "id": "frenpet",
+      "name": "Fren Pet",
       "reason": "low volume"
     },
     {
-      "id": "power-protocol",
-      "name": "power-protocol",
-      "reason": "dropped out of top N"
+      "id": "nova-3",
+      "name": "NOVA",
+      "reason": "low volume"
     },
     {
       "id": "quantum-resistant-ledger",
@@ -89,14 +124,19 @@
       "reason": "low volume"
     },
     {
-      "id": "talus",
-      "name": "talus",
-      "reason": "dropped out of top N"
-    },
-    {
       "id": "torch",
       "name": "torch",
       "reason": "dropped out of top N"
+    },
+    {
+      "id": "tx",
+      "name": "tx",
+      "reason": "low volume"
+    },
+    {
+      "id": "unipoly",
+      "name": "Unipoly",
+      "reason": "low volume"
     }
   ]
 }
