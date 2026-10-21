@@ -1,166 +1,101 @@
 {
-  "compared_to": "2026-10-19",
+  "compared_to": "2026-10-20",
   "entered": [
     {
-      "id": "doodles",
-      "name": "Doodles",
-      "score": 71
+      "id": "forta",
+      "name": "Forta",
+      "score": 63
     },
     {
-      "id": "perle",
-      "name": "Perle",
-      "score": 58
+      "id": "aura-final-boss-2",
+      "name": "Aura Final Boss",
+      "score": 57
     },
     {
-      "id": "gama-token",
-      "name": "Gama Token",
-      "score": 54
-    },
-    {
-      "id": "stargate-finance",
-      "name": "Stargate Finance",
-      "score": 47
-    },
-    {
-      "id": "tornado-cash",
-      "name": "Tornado Cash",
-      "score": 47
-    },
-    {
-      "id": "tutorial",
-      "name": "Tutorial",
-      "score": 46
-    },
-    {
-      "id": "frenpet",
-      "name": "Fren Pet",
-      "score": 45
-    },
-    {
-      "id": "mira-3",
-      "name": "Mira",
-      "score": 41
-    },
-    {
-      "id": "bc-token",
-      "name": "BCGame Coin",
-      "score": 41
-    },
-    {
-      "id": "tokamak-network",
-      "name": "Tokamak Network",
-      "score": 41
-    },
-    {
-      "id": "torch",
-      "name": "torch",
-      "score": 38
-    },
-    {
-      "id": "world-mobile-token",
-      "name": "World Mobile Token",
-      "score": 37
-    },
-    {
-      "id": "pocket-network",
-      "name": "Pocket Network",
-      "score": 37
-    },
-    {
-      "id": "nova-3",
-      "name": "NOVA",
-      "score": 36
-    },
-    {
-      "id": "songbird",
-      "name": "Songbird",
-      "score": 35
-    },
-    {
-      "id": "power-protocol",
-      "name": "Power Protocol",
-      "score": 34
-    },
-    {
-      "id": "hunt-token",
-      "name": "Hunt",
-      "score": 34
-    },
-    {
-      "id": "messier",
-      "name": "MESSIER",
-      "score": 25
-    },
-    {
-      "id": "andy-the-wisguy",
-      "name": "ANDY ETH",
-      "score": 24
-    },
-    {
-      "id": "boner-coin",
-      "name": "Boner Coin",
-      "score": 24
-    },
-    {
-      "id": "zcoin",
-      "name": "Firo",
-      "score": 16
-    }
-  ],
-  "left": [
-    {
-      "id": "anvil",
-      "name": "Anvil",
-      "reason": "low volume"
-    },
-    {
-      "id": "babycashcat",
-      "name": "babycashcat",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "bitmind",
-      "name": "BitMind",
-      "reason": "low volume"
-    },
-    {
-      "id": "bora",
-      "name": "BORA",
-      "reason": "low volume"
-    },
-    {
-      "id": "dkargo",
-      "name": "dkargo",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "elsa",
-      "name": "elsa",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "hastra-auto",
-      "name": "Hastra AUTO",
-      "reason": "low volume"
-    },
-    {
-      "id": "hoodpork",
-      "name": "HoodPork",
-      "reason": "low volume"
+      "id": "moonbirds",
+      "name": "Moonbirds",
+      "score": 56
     },
     {
       "id": "nkyc-token",
       "name": "NKYC Token",
-      "reason": "price too high"
+      "score": 54
     },
     {
-      "id": "startupsi",
-      "name": "startupsi",
+      "id": "dkargo",
+      "name": "dKargo",
+      "score": 51
+    },
+    {
+      "id": "gamebuild",
+      "name": "GameBuild",
+      "score": 45
+    },
+    {
+      "id": "umia",
+      "name": "Umia",
+      "score": 37
+    },
+    {
+      "id": "ergo",
+      "name": "Ergo",
+      "score": 33
+    },
+    {
+      "id": "bora",
+      "name": "BORA",
+      "score": 25
+    }
+  ],
+  "left": [
+    {
+      "id": "a-hunters-dream",
+      "name": "a-hunters-dream",
       "reason": "dropped out of top N"
     },
     {
-      "id": "super-inu-2",
-      "name": "super-inu-2",
+      "id": "andy-the-wisguy",
+      "name": "andy-the-wisguy",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "autonolas",
+      "name": "autonolas",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "boner-coin",
+      "name": "boner-coin",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "everything",
+      "name": "Everything",
+      "reason": "low volume"
+    },
+    {
+      "id": "nova-3",
+      "name": "NOVA",
+      "reason": "low volume"
+    },
+    {
+      "id": "power-protocol",
+      "name": "power-protocol",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "quantum-resistant-ledger",
+      "name": "Quantum Resistant Ledger",
+      "reason": "low volume"
+    },
+    {
+      "id": "talus",
+      "name": "talus",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "torch",
+      "name": "torch",
       "reason": "dropped out of top N"
     }
   ]
