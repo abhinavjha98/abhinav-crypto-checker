@@ -1,171 +1,61 @@
 {
-  "compared_to": "2026-10-20",
+  "compared_to": "2026-10-21",
   "entered": [
     {
-      "id": "elsa",
-      "name": "Elsa",
-      "score": 72
+      "id": "forta",
+      "name": "Forta",
+      "score": 66
     },
     {
-      "id": "bubblemaps",
-      "name": "Bubblemaps",
-      "score": 60
-    },
-    {
-      "id": "aura-final-boss-2",
-      "name": "Aura Final Boss",
-      "score": 60
-    },
-    {
-      "id": "axis-robotics",
-      "name": "Axis Robotics",
-      "score": 59
-    },
-    {
-      "id": "anvil",
-      "name": "Anvil",
-      "score": 56
-    },
-    {
-      "id": "yellow",
-      "name": "Yellow",
-      "score": 54
-    },
-    {
-      "id": "universal-high-income-2",
-      "name": "Universal High Income",
-      "score": 49
-    },
-    {
-      "id": "bitdca",
-      "name": "BitDCA",
-      "score": 49
-    },
-    {
-      "id": "lagrange",
-      "name": "Lagrange",
-      "score": 48
-    },
-    {
-      "id": "gamebuild",
-      "name": "GameBuild",
-      "score": 48
-    },
-    {
-      "id": "rollbit-coin",
-      "name": "Rollbit Coin",
-      "score": 47
-    },
-    {
-      "id": "dkargo",
-      "name": "dKargo",
-      "score": 43
-    },
-    {
-      "id": "ao-computer",
-      "name": "ao Computer",
-      "score": 40
-    },
-    {
-      "id": "bitmind",
-      "name": "BitMind",
-      "score": 40
-    },
-    {
-      "id": "umia",
-      "name": "Umia",
-      "score": 39
-    },
-    {
-      "id": "medibloc",
-      "name": "Medibloc",
-      "score": 36
-    },
-    {
-      "id": "billions-network",
-      "name": "Billions Network",
-      "score": 35
-    },
-    {
-      "id": "gradients",
-      "name": "Gradients",
-      "score": 30
-    },
-    {
-      "id": "bora",
-      "name": "BORA",
-      "score": 27
-    },
-    {
-      "id": "ergo",
-      "name": "Ergo",
-      "score": 25
-    }
-  ],
-  "left": [
-    {
-      "id": "a-hunters-dream",
-      "name": "a-hunters-dream",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "andy-the-wisguy",
-      "name": "andy-the-wisguy",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "bc-token",
-      "name": "BCGame Coin",
-      "reason": "low volume"
-    },
-    {
-      "id": "everything",
-      "name": "Everything",
-      "reason": "low volume"
-    },
-    {
-      "id": "frenpet",
-      "name": "Fren Pet",
-      "reason": "low volume"
-    },
-    {
-      "id": "hunt-token",
-      "name": "Hunt",
-      "reason": "low volume"
-    },
-    {
-      "id": "moonriver",
-      "name": "moonriver",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "quantum-resistant-ledger",
-      "name": "Quantum Resistant Ledger",
-      "reason": "low volume"
-    },
-    {
-      "id": "songbird",
-      "name": "Songbird",
-      "reason": "low volume"
-    },
-    {
-      "id": "torch",
-      "name": "torch",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "tutorial",
-      "name": "tutorial",
-      "reason": "dropped out of top N"
+      "id": "hash-2",
+      "name": "Provenance Blockchain",
+      "score": 51
     },
     {
       "id": "wiki-cat",
       "name": "Wiki Cat",
+      "score": 32
+    }
+  ],
+  "left": [
+    {
+      "id": "billions-network",
+      "name": "billions-network",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "ergo",
+      "name": "Ergo",
       "reason": "low volume"
     },
     {
-      "id": "world-mobile-token",
-      "name": "World Mobile Token",
+      "id": "hood-sword-inu",
+      "name": "hood-sword-inu",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "medibloc",
+      "name": "Medibloc",
+      "reason": "low volume"
+    },
+    {
+      "id": "messier",
+      "name": "messier",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "pippin",
+      "name": "pippin",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "stargate-finance",
+      "name": "stargate-finance",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "vin-2",
+      "name": "VulgarTycoon",
       "reason": "low volume"
     }
   ]
