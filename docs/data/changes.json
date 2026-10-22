@@ -4,23 +4,58 @@
     {
       "id": "forta",
       "name": "Forta",
-      "score": 66
+      "score": 58
     },
     {
       "id": "hash-2",
       "name": "Provenance Blockchain",
-      "score": 51
+      "score": 52
+    },
+    {
+      "id": "onlyagent",
+      "name": "OnlyAgent",
+      "score": 50
+    },
+    {
+      "id": "chainflip",
+      "name": "Chainflip",
+      "score": 42
+    },
+    {
+      "id": "pear-protocol",
+      "name": "Pear Protocol",
+      "score": 42
     },
     {
       "id": "wiki-cat",
       "name": "Wiki Cat",
-      "score": 32
+      "score": 31
+    },
+    {
+      "id": "mass-vehicle-ledger",
+      "name": "MVL",
+      "score": 26
     }
   ],
   "left": [
     {
       "id": "billions-network",
       "name": "billions-network",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "bitdca",
+      "name": "BitDCA",
+      "reason": "low volume"
+    },
+    {
+      "id": "debtreliefbot",
+      "name": "debtreliefbot",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "definitive",
+      "name": "definitive",
       "reason": "dropped out of top N"
     },
     {
@@ -34,8 +69,13 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "medibloc",
-      "name": "Medibloc",
+      "id": "interfold",
+      "name": "interfold",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "marscat-token",
+      "name": "Marscat Token",
       "reason": "low volume"
     },
     {
@@ -46,6 +86,11 @@
     {
       "id": "pippin",
       "name": "pippin",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "power-protocol",
+      "name": "power-protocol",
       "reason": "dropped out of top N"
     },
     {
