@@ -2,24 +2,34 @@
   "compared_to": "2026-10-21",
   "entered": [
     {
+      "id": "hippo-protocol",
+      "name": "Hippo Protocol",
+      "score": 65
+    },
+    {
+      "id": "bitlayer-bitvm",
+      "name": "Bitlayer",
+      "score": 60
+    },
+    {
       "id": "forta",
       "name": "Forta",
       "score": 59
     },
     {
-      "id": "bitlayer-bitvm",
-      "name": "Bitlayer",
-      "score": 57
+      "id": "nkyc-token",
+      "name": "NKYC Token",
+      "score": 56
     },
     {
       "id": "onlyagent",
       "name": "OnlyAgent",
-      "score": 48
+      "score": 51
     },
     {
-      "id": "pear-protocol",
-      "name": "Pear Protocol",
-      "score": 48
+      "id": "hastra-auto",
+      "name": "Hastra AUTO",
+      "score": 50
     },
     {
       "id": "numa-x",
@@ -27,9 +37,14 @@
       "score": 46
     },
     {
+      "id": "pear-protocol",
+      "name": "Pear Protocol",
+      "score": 46
+    },
+    {
       "id": "dacity-coin-3",
       "name": "Dacity Coin",
-      "score": 38
+      "score": 40
     },
     {
       "id": "edena",
@@ -47,9 +62,9 @@
       "score": 31
     },
     {
-      "id": "mass-vehicle-ledger",
-      "name": "MVL",
-      "score": 26
+      "id": "grx-chain",
+      "name": "GRX Chain",
+      "score": 20
     }
   ],
   "left": [
@@ -61,6 +76,11 @@
     {
       "id": "aura-final-boss-2",
       "name": "aura-final-boss-2",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "billions-network",
+      "name": "billions-network",
       "reason": "dropped out of top N"
     },
     {
@@ -129,14 +149,9 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "tiger-alpha",
-      "name": "tiger-alpha",
-      "reason": "dropped out of top N"
-    },
-    {
       "id": "vin-2",
-      "name": "VulgarTycoon",
-      "reason": "low volume"
+      "name": "vin-2",
+      "reason": "dropped out of top N"
     }
   ]
 }
