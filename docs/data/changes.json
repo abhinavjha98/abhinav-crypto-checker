@@ -4,11 +4,21 @@
     {
       "id": "moonbirds",
       "name": "Moonbirds",
-      "score": 69
+      "score": 68
+    },
+    {
+      "id": "numeraire",
+      "name": "Numeraire",
+      "score": 68
     },
     {
       "id": "superform",
       "name": "Superform",
+      "score": 59
+    },
+    {
+      "id": "interfold",
+      "name": "The Interfold",
       "score": 56
     },
     {
@@ -17,9 +27,9 @@
       "score": 56
     },
     {
-      "id": "interfold",
-      "name": "The Interfold",
-      "score": 56
+      "id": "synfutures",
+      "name": "SynFutures",
+      "score": 50
     },
     {
       "id": "usdu",
@@ -39,12 +49,7 @@
     {
       "id": "bc-token",
       "name": "BCGame Coin",
-      "score": 40
-    },
-    {
-      "id": "epic-cash",
-      "name": "Epic Private Internet Cash",
-      "score": 39
+      "score": 41
     },
     {
       "id": "vin-2",
@@ -52,19 +57,24 @@
       "score": 38
     },
     {
-      "id": "pippin",
-      "name": "pippin",
-      "score": 32
+      "id": "cortex-2",
+      "name": "Cortex",
+      "score": 34
     },
     {
-      "id": "boner-coin",
-      "name": "Boner Coin",
-      "score": 26
+      "id": "pippin",
+      "name": "pippin",
+      "score": 34
+    },
+    {
+      "id": "realio-network",
+      "name": "Realio Network Token",
+      "score": 32
     },
     {
       "id": "ergo",
       "name": "Ergo",
-      "score": 24
+      "score": 26
     },
     {
       "id": "burnedfi",
@@ -84,9 +94,9 @@
       "reason": "low volume"
     },
     {
-      "id": "autonolas",
-      "name": "Autonolas",
-      "reason": "low volume"
+      "id": "biconomy",
+      "name": "biconomy",
+      "reason": "dropped out of top N"
     },
     {
       "id": "bitlayer-bitvm",
@@ -109,24 +119,19 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "goldfish-gold",
-      "name": "Goldfish Gold",
-      "reason": "low volume"
-    },
-    {
       "id": "grx-chain",
       "name": "grx-chain",
       "reason": "dropped out of top N"
     },
     {
+      "id": "hastra-auto",
+      "name": "Hastra AUTO",
+      "reason": "low volume"
+    },
+    {
       "id": "hippo-protocol",
       "name": "hippo-protocol",
       "reason": "dropped out of top N"
-    },
-    {
-      "id": "nova-3",
-      "name": "NOVA",
-      "reason": "low volume"
     },
     {
       "id": "ocean-protocol",
