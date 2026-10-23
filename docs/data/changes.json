@@ -2,23 +2,18 @@
   "compared_to": "2026-10-22",
   "entered": [
     {
-      "id": "interfold",
-      "name": "The Interfold",
-      "score": 59
-    },
-    {
       "id": "moonbirds",
       "name": "Moonbirds",
-      "score": 57
+      "score": 63
     },
     {
-      "id": "quantum-resistant-ledger",
-      "name": "Quantum Resistant Ledger",
-      "score": 56
+      "id": "interfold",
+      "name": "The Interfold",
+      "score": 60
     },
     {
-      "id": "superform",
-      "name": "Superform",
+      "id": "usdu",
+      "name": "USDu",
       "score": 49
     },
     {
@@ -34,11 +29,16 @@
     {
       "id": "auki-labs",
       "name": "Auki",
-      "score": 45
+      "score": 43
     },
     {
-      "id": "world-mobile-token",
-      "name": "World Mobile Token",
+      "id": "public-meme-token",
+      "name": "Public Masterpiece Token",
+      "score": 42
+    },
+    {
+      "id": "adventure-gold",
+      "name": "Adventure Gold",
       "score": 41
     },
     {
@@ -47,29 +47,19 @@
       "score": 37
     },
     {
-      "id": "boner-coin",
-      "name": "Boner Coin",
+      "id": "world-mobile-token",
+      "name": "World Mobile Token",
       "score": 35
     },
     {
-      "id": "realio-network",
-      "name": "Realio Network Token",
+      "id": "boner-coin",
+      "name": "Boner Coin",
       "score": 32
     },
     {
       "id": "pippin",
       "name": "pippin",
-      "score": 31
-    },
-    {
-      "id": "wibx",
-      "name": "Wibx",
-      "score": 30
-    },
-    {
-      "id": "mass-vehicle-ledger",
-      "name": "MVL",
-      "score": 26
+      "score": 29
     },
     {
       "id": "ergo",
@@ -79,13 +69,28 @@
     {
       "id": "burnedfi",
       "name": "BurnedFi",
-      "score": 15
+      "score": 13
     }
   ],
   "left": [
     {
+      "id": "ai-powered-finance",
+      "name": "AI Powered Finance",
+      "reason": "low volume"
+    },
+    {
       "id": "anvil",
       "name": "Anvil",
+      "reason": "low volume"
+    },
+    {
+      "id": "ao-computer",
+      "name": "ao Computer",
+      "reason": "low volume"
+    },
+    {
+      "id": "bora",
+      "name": "BORA",
       "reason": "low volume"
     },
     {
@@ -99,9 +104,9 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "goldfish-gold",
-      "name": "Goldfish Gold",
-      "reason": "low volume"
+      "id": "elsa",
+      "name": "elsa",
+      "reason": "dropped out of top N"
     },
     {
       "id": "grx-chain",
@@ -114,9 +119,14 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "nkyc-token",
-      "name": "NKYC Token",
-      "reason": "price too high"
+      "id": "nano",
+      "name": "Nano",
+      "reason": "low volume"
+    },
+    {
+      "id": "nova-3",
+      "name": "NOVA",
+      "reason": "low volume"
     },
     {
       "id": "ocean-protocol",
@@ -129,9 +139,19 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "redteam",
-      "name": "redteam",
-      "reason": "dropped out of top N"
+      "id": "pear-protocol",
+      "name": "Pear Protocol",
+      "reason": "low volume"
+    },
+    {
+      "id": "pocket-network",
+      "name": "Pocket Network",
+      "reason": "low volume"
+    },
+    {
+      "id": "polyswarm",
+      "name": "PolySwarm",
+      "reason": "low volume"
     },
     {
       "id": "sanctum-2",
@@ -144,23 +164,8 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "templar",
-      "name": "\u03c4emplar",
-      "reason": "low volume"
-    },
-    {
       "id": "tokamak-network",
       "name": "Tokamak Network",
-      "reason": "low volume"
-    },
-    {
-      "id": "tornado-cash",
-      "name": "Tornado Cash",
-      "reason": "low volume"
-    },
-    {
-      "id": "wiki-cat",
-      "name": "Wiki Cat",
       "reason": "low volume"
     }
   ]
