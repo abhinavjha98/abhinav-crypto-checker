@@ -4,12 +4,22 @@
     {
       "id": "moonbirds",
       "name": "Moonbirds",
-      "score": 63
+      "score": 69
+    },
+    {
+      "id": "superform",
+      "name": "Superform",
+      "score": 56
+    },
+    {
+      "id": "babycashcat",
+      "name": "BabyCashCat",
+      "score": 56
     },
     {
       "id": "interfold",
       "name": "The Interfold",
-      "score": 60
+      "score": 56
     },
     {
       "id": "usdu",
@@ -27,49 +37,39 @@
       "score": 47
     },
     {
-      "id": "auki-labs",
-      "name": "Auki",
-      "score": 43
+      "id": "bc-token",
+      "name": "BCGame Coin",
+      "score": 40
     },
     {
-      "id": "public-meme-token",
-      "name": "Public Masterpiece Token",
-      "score": 42
-    },
-    {
-      "id": "adventure-gold",
-      "name": "Adventure Gold",
-      "score": 41
+      "id": "epic-cash",
+      "name": "Epic Private Internet Cash",
+      "score": 39
     },
     {
       "id": "vin-2",
       "name": "VulgarTycoon",
-      "score": 37
-    },
-    {
-      "id": "world-mobile-token",
-      "name": "World Mobile Token",
-      "score": 35
-    },
-    {
-      "id": "boner-coin",
-      "name": "Boner Coin",
-      "score": 32
+      "score": 38
     },
     {
       "id": "pippin",
       "name": "pippin",
-      "score": 29
+      "score": 32
+    },
+    {
+      "id": "boner-coin",
+      "name": "Boner Coin",
+      "score": 26
     },
     {
       "id": "ergo",
       "name": "Ergo",
-      "score": 23
+      "score": 24
     },
     {
       "id": "burnedfi",
       "name": "BurnedFi",
-      "score": 13
+      "score": 15
     }
   ],
   "left": [
@@ -84,14 +84,14 @@
       "reason": "low volume"
     },
     {
-      "id": "ao-computer",
-      "name": "ao Computer",
+      "id": "autonolas",
+      "name": "Autonolas",
       "reason": "low volume"
     },
     {
-      "id": "bora",
-      "name": "BORA",
-      "reason": "low volume"
+      "id": "bitlayer-bitvm",
+      "name": "bitlayer-bitvm",
+      "reason": "dropped out of top N"
     },
     {
       "id": "doodles",
@@ -104,9 +104,14 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "elsa",
-      "name": "elsa",
+      "id": "forta",
+      "name": "forta",
       "reason": "dropped out of top N"
+    },
+    {
+      "id": "goldfish-gold",
+      "name": "Goldfish Gold",
+      "reason": "low volume"
     },
     {
       "id": "grx-chain",
@@ -117,11 +122,6 @@
       "id": "hippo-protocol",
       "name": "hippo-protocol",
       "reason": "dropped out of top N"
-    },
-    {
-      "id": "nano",
-      "name": "Nano",
-      "reason": "low volume"
     },
     {
       "id": "nova-3",
@@ -144,16 +144,6 @@
       "reason": "low volume"
     },
     {
-      "id": "pocket-network",
-      "name": "Pocket Network",
-      "reason": "low volume"
-    },
-    {
-      "id": "polyswarm",
-      "name": "PolySwarm",
-      "reason": "low volume"
-    },
-    {
       "id": "sanctum-2",
       "name": "Sanctum",
       "reason": "low volume"
@@ -164,8 +154,18 @@
       "reason": "dropped out of top N"
     },
     {
+      "id": "templar",
+      "name": "\u03c4emplar",
+      "reason": "low volume"
+    },
+    {
       "id": "tokamak-network",
       "name": "Tokamak Network",
+      "reason": "low volume"
+    },
+    {
+      "id": "umia",
+      "name": "Umia",
       "reason": "low volume"
     }
   ]
