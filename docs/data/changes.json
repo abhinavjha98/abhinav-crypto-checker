@@ -1,157 +1,117 @@
 {
-  "compared_to": "2026-10-21",
+  "compared_to": "2026-10-22",
   "entered": [
     {
-      "id": "hippo-protocol",
-      "name": "Hippo Protocol",
-      "score": 65
-    },
-    {
-      "id": "bitlayer-bitvm",
-      "name": "Bitlayer",
+      "id": "south-korea-bull-3x-etf-bstocks-tokenized-stock",
+      "name": "South Korea Bull 3X ETF (bStocks Tokenized ETF)",
       "score": 60
     },
     {
-      "id": "forta",
-      "name": "Forta",
+      "id": "interfold",
+      "name": "The Interfold",
       "score": 59
     },
     {
-      "id": "nkyc-token",
-      "name": "NKYC Token",
-      "score": 56
-    },
-    {
-      "id": "onlyagent",
-      "name": "OnlyAgent",
-      "score": 51
-    },
-    {
-      "id": "hastra-auto",
-      "name": "Hastra AUTO",
-      "score": 50
-    },
-    {
-      "id": "numa-x",
-      "name": "NUMA-X",
-      "score": 46
-    },
-    {
-      "id": "pear-protocol",
-      "name": "Pear Protocol",
-      "score": 46
-    },
-    {
-      "id": "dacity-coin-3",
-      "name": "Dacity Coin",
-      "score": 40
-    },
-    {
-      "id": "edena",
-      "name": "EDENA",
-      "score": 33
-    },
-    {
-      "id": "ocean-protocol",
-      "name": "Ocean Protocol",
-      "score": 32
-    },
-    {
-      "id": "wiki-cat",
-      "name": "Wiki Cat",
-      "score": 31
-    },
-    {
-      "id": "grx-chain",
-      "name": "GRX Chain",
-      "score": 20
-    }
-  ],
-  "left": [
-    {
-      "id": "adventure-gold",
-      "name": "adventure-gold",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "aura-final-boss-2",
-      "name": "aura-final-boss-2",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "billions-network",
-      "name": "billions-network",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "bitdca",
-      "name": "BitDCA",
-      "reason": "low volume"
-    },
-    {
-      "id": "boner-coin",
-      "name": "boner-coin",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "debtreliefbot",
-      "name": "debtreliefbot",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "ergo",
-      "name": "Ergo",
-      "reason": "low volume"
-    },
-    {
-      "id": "hood-sword-inu",
-      "name": "hood-sword-inu",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "interfold",
-      "name": "interfold",
-      "reason": "dropped out of top N"
+      "id": "moonbirds",
+      "name": "Moonbirds",
+      "score": 54
     },
     {
       "id": "leo-token",
       "name": "LEO Token",
-      "reason": "low volume"
-    },
-    {
-      "id": "medibloc",
-      "name": "Medibloc",
-      "reason": "low volume"
-    },
-    {
-      "id": "messier",
-      "name": "messier",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "pippin",
-      "name": "pippin",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "realio-network",
-      "name": "realio-network",
-      "reason": "dropped out of top N"
+      "score": 48
     },
     {
       "id": "rollbit-coin",
       "name": "Rollbit Coin",
+      "score": 47
+    },
+    {
+      "id": "pippin",
+      "name": "pippin",
+      "score": 32
+    },
+    {
+      "id": "wibx",
+      "name": "Wibx",
+      "score": 27
+    },
+    {
+      "id": "ergo",
+      "name": "Ergo",
+      "score": 26
+    },
+    {
+      "id": "mass-vehicle-ledger",
+      "name": "MVL",
+      "score": 25
+    },
+    {
+      "id": "burnedfi",
+      "name": "BurnedFi",
+      "score": 15
+    }
+  ],
+  "left": [
+    {
+      "id": "anvil",
+      "name": "Anvil",
       "reason": "low volume"
     },
     {
-      "id": "stargate-finance",
-      "name": "stargate-finance",
+      "id": "bitlayer-bitvm",
+      "name": "bitlayer-bitvm",
       "reason": "dropped out of top N"
     },
     {
-      "id": "vin-2",
-      "name": "vin-2",
+      "id": "deapcoin",
+      "name": "DEAPCOIN",
+      "reason": "low volume"
+    },
+    {
+      "id": "doodles",
+      "name": "doodles",
       "reason": "dropped out of top N"
+    },
+    {
+      "id": "edena",
+      "name": "edena",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "grx-chain",
+      "name": "grx-chain",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "hippo-protocol",
+      "name": "hippo-protocol",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "ocean-protocol",
+      "name": "Ocean Protocol",
+      "reason": "low volume"
+    },
+    {
+      "id": "onlyagent",
+      "name": "onlyagent",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "sanctum-2",
+      "name": "Sanctum",
+      "reason": "low volume"
+    },
+    {
+      "id": "templar",
+      "name": "\u03c4emplar",
+      "reason": "low volume"
+    },
+    {
+      "id": "wiki-cat",
+      "name": "Wiki Cat",
+      "reason": "low volume"
     }
   ]
 }
