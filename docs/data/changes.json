@@ -4,41 +4,31 @@
     {
       "id": "orderly-network",
       "name": "Orderly",
-      "score": 73
-    },
-    {
-      "id": "forta",
-      "name": "Forta",
-      "score": 64
+      "score": 74
     },
     {
       "id": "south-korea-bull-3x-etf-bstocks-tokenized-stock",
       "name": "South Korea Bull 3X ETF (bStocks Tokenized ETF)",
-      "score": 62
+      "score": 61
     },
     {
-      "id": "caldera",
-      "name": "Caldera",
-      "score": 61
+      "id": "forta",
+      "name": "Forta",
+      "score": 59
     },
     {
       "id": "anime",
       "name": "Animecoin",
-      "score": 49
+      "score": 47
     },
     {
       "id": "credible-finance",
       "name": "Credible Finance",
-      "score": 47
-    },
-    {
-      "id": "tcy",
-      "name": "THORChain Yield",
       "score": 46
     },
     {
-      "id": "sanctum-2",
-      "name": "Sanctum",
+      "id": "binance-super-cz-2",
+      "name": "Binance Super CZ",
       "score": 45
     },
     {
@@ -47,19 +37,19 @@
       "score": 45
     },
     {
-      "id": "binance-super-cz-2",
-      "name": "Binance Super CZ",
-      "score": 45
+      "id": "tcy",
+      "name": "THORChain Yield",
+      "score": 44
     },
     {
       "id": "pear-protocol",
       "name": "Pear Protocol",
-      "score": 44
+      "score": 43
     },
     {
       "id": "adventure-gold",
       "name": "Adventure Gold",
-      "score": 43
+      "score": 42
     },
     {
       "id": "affine",
@@ -67,29 +57,29 @@
       "score": 41
     },
     {
-      "id": "tokamak-network",
-      "name": "Tokamak Network",
-      "score": 40
-    },
-    {
       "id": "epic-cash",
       "name": "Epic Private Internet Cash",
-      "score": 38
+      "score": 41
     },
     {
-      "id": "medibloc",
-      "name": "Medibloc",
-      "score": 37
+      "id": "tokamak-network",
+      "name": "Tokamak Network",
+      "score": 39
     },
     {
       "id": "umia",
       "name": "Umia",
-      "score": 34
+      "score": 36
+    },
+    {
+      "id": "medibloc",
+      "name": "Medibloc",
+      "score": 36
     },
     {
       "id": "edena",
       "name": "EDENA",
-      "score": 33
+      "score": 34
     },
     {
       "id": "hunt-token",
@@ -97,20 +87,45 @@
       "score": 33
     },
     {
+      "id": "across-protocol",
+      "name": "Across Protocol",
+      "score": 32
+    },
+    {
       "id": "arcblock",
       "name": "Arcblock",
-      "score": 33
+      "score": 29
     }
   ],
   "left": [
     {
-      "id": "ao-computer",
-      "name": "ao Computer",
-      "reason": "low volume"
+      "id": "airtor-protocol",
+      "name": "airtor-protocol",
+      "reason": "dropped out of top N"
     },
     {
       "id": "autonolas",
       "name": "Autonolas",
+      "reason": "low volume"
+    },
+    {
+      "id": "babycashcat",
+      "name": "BabyCashCat",
+      "reason": "low volume"
+    },
+    {
+      "id": "bc-token",
+      "name": "BCGame Coin",
+      "reason": "low volume"
+    },
+    {
+      "id": "benqi",
+      "name": "benqi",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "bora",
+      "name": "BORA",
       "reason": "low volume"
     },
     {
@@ -119,9 +134,9 @@
       "reason": "low volume"
     },
     {
-      "id": "freysa-ai",
-      "name": "freysa-ai",
-      "reason": "dropped out of top N"
+      "id": "ergo",
+      "name": "Ergo",
+      "reason": "low volume"
     },
     {
       "id": "goldfish-gold",
@@ -142,6 +157,11 @@
       "id": "hookr-fun",
       "name": "hookr-fun",
       "reason": "dropped out of top N"
+    },
+    {
+      "id": "idlemine",
+      "name": "IdleMine",
+      "reason": "low volume"
     },
     {
       "id": "iota-2",
@@ -181,6 +201,16 @@
     {
       "id": "usdu",
       "name": "USDu",
+      "reason": "low volume"
+    },
+    {
+      "id": "vin-2",
+      "name": "VulgarTycoon",
+      "reason": "low volume"
+    },
+    {
+      "id": "zcoin",
+      "name": "Firo",
       "reason": "low volume"
     }
   ]
