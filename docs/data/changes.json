@@ -4,7 +4,12 @@
     {
       "id": "orderly-network",
       "name": "Orderly",
-      "score": 76
+      "score": 73
+    },
+    {
+      "id": "forta",
+      "name": "Forta",
+      "score": 64
     },
     {
       "id": "south-korea-bull-3x-etf-bstocks-tokenized-stock",
@@ -12,28 +17,18 @@
       "score": 62
     },
     {
-      "id": "humidifi",
-      "name": "HumidiFi",
-      "score": 62
-    },
-    {
-      "id": "kernel-2",
-      "name": "KernelDAO",
-      "score": 57
-    },
-    {
-      "id": "binance-super-cz-2",
-      "name": "Binance Super CZ",
-      "score": 49
+      "id": "caldera",
+      "name": "Caldera",
+      "score": 61
     },
     {
       "id": "anime",
       "name": "Animecoin",
-      "score": 48
+      "score": 49
     },
     {
-      "id": "biconomy",
-      "name": "Biconomy",
+      "id": "credible-finance",
+      "name": "Credible Finance",
       "score": 47
     },
     {
@@ -42,19 +37,29 @@
       "score": 46
     },
     {
-      "id": "pear-protocol",
-      "name": "Pear Protocol",
+      "id": "sanctum-2",
+      "name": "Sanctum",
       "score": 45
     },
     {
       "id": "re-protocol-reusde",
       "name": "Re Protocol reUSDe",
+      "score": 45
+    },
+    {
+      "id": "binance-super-cz-2",
+      "name": "Binance Super CZ",
+      "score": 45
+    },
+    {
+      "id": "pear-protocol",
+      "name": "Pear Protocol",
       "score": 44
     },
     {
       "id": "adventure-gold",
       "name": "Adventure Gold",
-      "score": 42
+      "score": 43
     },
     {
       "id": "affine",
@@ -64,7 +69,12 @@
     {
       "id": "tokamak-network",
       "name": "Tokamak Network",
-      "score": 39
+      "score": 40
+    },
+    {
+      "id": "epic-cash",
+      "name": "Epic Private Internet Cash",
+      "score": 38
     },
     {
       "id": "medibloc",
@@ -72,30 +82,55 @@
       "score": 37
     },
     {
+      "id": "umia",
+      "name": "Umia",
+      "score": 34
+    },
+    {
+      "id": "edena",
+      "name": "EDENA",
+      "score": 33
+    },
+    {
       "id": "hunt-token",
       "name": "Hunt",
       "score": 33
     },
     {
-      "id": "edena",
-      "name": "EDENA",
-      "score": 32
-    },
-    {
-      "id": "across-protocol",
-      "name": "Across Protocol",
-      "score": 29
+      "id": "arcblock",
+      "name": "Arcblock",
+      "score": 33
     }
   ],
   "left": [
+    {
+      "id": "ao-computer",
+      "name": "ao Computer",
+      "reason": "low volume"
+    },
     {
       "id": "autonolas",
       "name": "Autonolas",
       "reason": "low volume"
     },
     {
+      "id": "deapcoin",
+      "name": "DEAPCOIN",
+      "reason": "low volume"
+    },
+    {
+      "id": "freysa-ai",
+      "name": "freysa-ai",
+      "reason": "dropped out of top N"
+    },
+    {
       "id": "goldfish-gold",
       "name": "Goldfish Gold",
+      "reason": "low volume"
+    },
+    {
+      "id": "gradients",
+      "name": "Gradients",
       "reason": "low volume"
     },
     {
@@ -109,19 +144,14 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "leo-token",
-      "name": "LEO Token",
+      "id": "iota-2",
+      "name": "iota",
       "reason": "low volume"
     },
     {
       "id": "meme-horse",
       "name": "MEME HORSE",
       "reason": "low volume"
-    },
-    {
-      "id": "realio-network",
-      "name": "realio-network",
-      "reason": "dropped out of top N"
     },
     {
       "id": "redteam",
@@ -146,6 +176,11 @@
     {
       "id": "tx",
       "name": "tx",
+      "reason": "low volume"
+    },
+    {
+      "id": "usdu",
+      "name": "USDu",
       "reason": "low volume"
     }
   ]
