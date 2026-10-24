@@ -2,39 +2,69 @@
   "compared_to": "2026-10-23",
   "entered": [
     {
-      "id": "south-korea-bull-3x-etf-bstocks-tokenized-stock",
-      "name": "South Korea Bull 3X ETF (bStocks Tokenized ETF)",
-      "score": 60
+      "id": "infinit",
+      "name": "INFINIT",
+      "score": 64
     },
     {
-      "id": "tcy",
-      "name": "THORChain Yield",
-      "score": 49
+      "id": "forta",
+      "name": "Forta",
+      "score": 63
+    },
+    {
+      "id": "caldera",
+      "name": "Caldera",
+      "score": 62
+    },
+    {
+      "id": "katana-network-token",
+      "name": "Katana",
+      "score": 58
     },
     {
       "id": "anime",
       "name": "Animecoin",
-      "score": 48
+      "score": 49
+    },
+    {
+      "id": "tcy",
+      "name": "THORChain Yield",
+      "score": 47
+    },
+    {
+      "id": "auki-labs",
+      "name": "Auki",
+      "score": 46
     },
     {
       "id": "biconomy",
       "name": "Biconomy",
-      "score": 47
+      "score": 46
+    },
+    {
+      "id": "pear-protocol",
+      "name": "Pear Protocol",
+      "score": 45
+    },
+    {
+      "id": "re-protocol-reusde",
+      "name": "Re Protocol reUSDe",
+      "score": 44
     },
     {
       "id": "adventure-gold",
       "name": "Adventure Gold",
-      "score": 41
+      "score": 42
     },
     {
       "id": "tokamak-network",
       "name": "Tokamak Network",
-      "score": 38
+      "score": 40
     },
     {
       "id": "medibloc",
       "name": "Medibloc",
-      "score": 38
+      "score": 39
     },
     {
       "id": "epic-cash",
@@ -49,18 +79,33 @@
       "reason": "low volume"
     },
     {
+      "id": "bora",
+      "name": "BORA",
+      "reason": "low volume"
+    },
+    {
+      "id": "dacity-coin-3",
+      "name": "dacity-coin-3",
+      "reason": "dropped out of top N"
+    },
+    {
       "id": "freysa-ai",
       "name": "freysa-ai",
       "reason": "dropped out of top N"
     },
     {
-      "id": "gamebuild",
-      "name": "GameBuild",
-      "reason": "low volume"
+      "id": "graphite-protocol",
+      "name": "graphite-protocol",
+      "reason": "dropped out of top N"
     },
     {
-      "id": "leo-token",
-      "name": "LEO Token",
+      "id": "hookr-fun",
+      "name": "hookr-fun",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "meme-horse",
+      "name": "MEME HORSE",
       "reason": "low volume"
     },
     {
