@@ -4,7 +4,7 @@
     {
       "id": "orderly-network",
       "name": "Orderly",
-      "score": 67
+      "score": 68
     },
     {
       "id": "south-korea-bull-3x-etf-bstocks-tokenized-stock",
@@ -14,12 +14,7 @@
     {
       "id": "forta",
       "name": "Forta",
-      "score": 59
-    },
-    {
-      "id": "binance-super-cz-2",
-      "name": "Binance Super CZ",
-      "score": 48
+      "score": 58
     },
     {
       "id": "anime",
@@ -32,9 +27,9 @@
       "score": 47
     },
     {
-      "id": "credible-finance",
-      "name": "Credible Finance",
-      "score": 45
+      "id": "tcy",
+      "name": "THORChain Yield",
+      "score": 46
     },
     {
       "id": "re-protocol-reusde",
@@ -42,8 +37,8 @@
       "score": 45
     },
     {
-      "id": "tcy",
-      "name": "THORChain Yield",
+      "id": "binance-super-cz-2",
+      "name": "Binance Super CZ",
       "score": 45
     },
     {
@@ -59,12 +54,12 @@
     {
       "id": "adventure-gold",
       "name": "Adventure Gold",
-      "score": 41
+      "score": 40
     },
     {
       "id": "tokamak-network",
       "name": "Tokamak Network",
-      "score": 40
+      "score": 39
     },
     {
       "id": "peapods-finance",
@@ -79,35 +74,25 @@
     {
       "id": "medibloc",
       "name": "Medibloc",
-      "score": 37
+      "score": 36
     },
     {
       "id": "umia",
       "name": "Umia",
-      "score": 35
+      "score": 34
     },
     {
       "id": "edena",
       "name": "EDENA",
-      "score": 34
+      "score": 33
     },
     {
       "id": "hunt-token",
       "name": "Hunt",
       "score": 33
-    },
-    {
-      "id": "arcblock",
-      "name": "Arcblock",
-      "score": 30
     }
   ],
   "left": [
-    {
-      "id": "airtor-protocol",
-      "name": "airtor-protocol",
-      "reason": "dropped out of top N"
-    },
     {
       "id": "babycashcat",
       "name": "BabyCashCat",
@@ -119,11 +104,6 @@
       "reason": "low volume"
     },
     {
-      "id": "concordium",
-      "name": "Concordium",
-      "reason": "low volume"
-    },
-    {
       "id": "deapcoin",
       "name": "DEAPCOIN",
       "reason": "low volume"
@@ -131,11 +111,6 @@
     {
       "id": "ergo",
       "name": "Ergo",
-      "reason": "low volume"
-    },
-    {
-      "id": "goldfish-gold",
-      "name": "Goldfish Gold",
       "reason": "low volume"
     },
     {
@@ -161,11 +136,6 @@
     {
       "id": "iota-2",
       "name": "iota",
-      "reason": "low volume"
-    },
-    {
-      "id": "leo-token",
-      "name": "LEO Token",
       "reason": "low volume"
     },
     {
@@ -199,6 +169,11 @@
       "reason": "dropped out of top N"
     },
     {
+      "id": "tensorcash",
+      "name": "TensorCash",
+      "reason": "low volume"
+    },
+    {
       "id": "tread-fi",
       "name": "tread-fi",
       "reason": "dropped out of top N"
@@ -214,8 +189,8 @@
       "reason": "low volume"
     },
     {
-      "id": "wiki-cat",
-      "name": "Wiki Cat",
+      "id": "vin-2",
+      "name": "VulgarTycoon",
       "reason": "low volume"
     },
     {
