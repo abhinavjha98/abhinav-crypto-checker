@@ -1,176 +1,81 @@
 {
-  "compared_to": "2026-10-22",
+  "compared_to": "2026-10-23",
   "entered": [
     {
-      "id": "moonbirds",
-      "name": "Moonbirds",
-      "score": 68
+      "id": "south-korea-bull-3x-etf-bstocks-tokenized-stock",
+      "name": "South Korea Bull 3X ETF (bStocks Tokenized ETF)",
+      "score": 60
     },
     {
-      "id": "numeraire",
-      "name": "Numeraire",
-      "score": 68
-    },
-    {
-      "id": "superform",
-      "name": "Superform",
-      "score": 59
-    },
-    {
-      "id": "interfold",
-      "name": "The Interfold",
-      "score": 56
-    },
-    {
-      "id": "babycashcat",
-      "name": "BabyCashCat",
-      "score": 56
-    },
-    {
-      "id": "synfutures",
-      "name": "SynFutures",
-      "score": 50
-    },
-    {
-      "id": "usdu",
-      "name": "USDu",
+      "id": "tcy",
+      "name": "THORChain Yield",
       "score": 49
     },
     {
-      "id": "leo-token",
-      "name": "LEO Token",
+      "id": "anime",
+      "name": "Animecoin",
       "score": 48
     },
     {
-      "id": "rollbit-coin",
-      "name": "Rollbit Coin",
+      "id": "biconomy",
+      "name": "Biconomy",
       "score": 47
     },
     {
-      "id": "bc-token",
-      "name": "BCGame Coin",
+      "id": "adventure-gold",
+      "name": "Adventure Gold",
       "score": 41
-    },
-    {
-      "id": "vin-2",
-      "name": "VulgarTycoon",
-      "score": 38
-    },
-    {
-      "id": "cortex-2",
-      "name": "Cortex",
-      "score": 34
-    },
-    {
-      "id": "pippin",
-      "name": "pippin",
-      "score": 34
-    },
-    {
-      "id": "realio-network",
-      "name": "Realio Network Token",
-      "score": 32
-    },
-    {
-      "id": "ergo",
-      "name": "Ergo",
-      "score": 26
-    },
-    {
-      "id": "burnedfi",
-      "name": "BurnedFi",
-      "score": 15
-    }
-  ],
-  "left": [
-    {
-      "id": "ai-powered-finance",
-      "name": "AI Powered Finance",
-      "reason": "low volume"
-    },
-    {
-      "id": "anvil",
-      "name": "Anvil",
-      "reason": "low volume"
-    },
-    {
-      "id": "biconomy",
-      "name": "biconomy",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "bitlayer-bitvm",
-      "name": "bitlayer-bitvm",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "doodles",
-      "name": "doodles",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "edena",
-      "name": "edena",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "forta",
-      "name": "forta",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "grx-chain",
-      "name": "grx-chain",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "hastra-auto",
-      "name": "Hastra AUTO",
-      "reason": "low volume"
-    },
-    {
-      "id": "hippo-protocol",
-      "name": "hippo-protocol",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "ocean-protocol",
-      "name": "Ocean Protocol",
-      "reason": "low volume"
-    },
-    {
-      "id": "onlyagent",
-      "name": "onlyagent",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "pear-protocol",
-      "name": "Pear Protocol",
-      "reason": "low volume"
-    },
-    {
-      "id": "sanctum-2",
-      "name": "Sanctum",
-      "reason": "low volume"
-    },
-    {
-      "id": "surplus-intelligence",
-      "name": "surplus-intelligence",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "templar",
-      "name": "\u03c4emplar",
-      "reason": "low volume"
     },
     {
       "id": "tokamak-network",
       "name": "Tokamak Network",
+      "score": 38
+    },
+    {
+      "id": "medibloc",
+      "name": "Medibloc",
+      "score": 38
+    },
+    {
+      "id": "epic-cash",
+      "name": "Epic Private Internet Cash",
+      "score": 38
+    }
+  ],
+  "left": [
+    {
+      "id": "apyusd",
+      "name": "apyUSD",
       "reason": "low volume"
     },
     {
-      "id": "umia",
-      "name": "Umia",
+      "id": "freysa-ai",
+      "name": "freysa-ai",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "gamebuild",
+      "name": "GameBuild",
+      "reason": "low volume"
+    },
+    {
+      "id": "leo-token",
+      "name": "LEO Token",
+      "reason": "low volume"
+    },
+    {
+      "id": "realio-network",
+      "name": "realio-network",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "redteam",
+      "name": "redteam",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "tx",
+      "name": "tx",
       "reason": "low volume"
     }
   ]
