@@ -7,23 +7,23 @@
       "score": 59
     },
     {
-      "id": "hookr-fun",
-      "name": "Hookr.fun",
-      "score": 53
-    },
-    {
       "id": "pepina-2",
       "name": "Pepina",
-      "score": 51
+      "score": 49
+    },
+    {
+      "id": "big-titty-coin",
+      "name": "Big Titty Coin",
+      "score": 48
+    },
+    {
+      "id": "qanplatform",
+      "name": "QANplatform",
+      "score": 46
     },
     {
       "id": "tread-fi",
       "name": "Tread.fi",
-      "score": 47
-    },
-    {
-      "id": "evmzone",
-      "name": "evmzone",
       "score": 46
     },
     {
@@ -37,9 +37,14 @@
       "score": 44
     },
     {
+      "id": "pangea-2",
+      "name": "Pangea",
+      "score": 41
+    },
+    {
       "id": "chainflip",
       "name": "Chainflip",
-      "score": 42
+      "score": 41
     },
     {
       "id": "bc-token",
@@ -49,12 +54,17 @@
     {
       "id": "meme-horse",
       "name": "MEME HORSE",
-      "score": 39
+      "score": 40
     },
     {
       "id": "tensorcash",
       "name": "TensorCash",
-      "score": 37
+      "score": 39
+    },
+    {
+      "id": "vin-2",
+      "name": "VulgarTycoon",
+      "score": 38
     },
     {
       "id": "mass-vehicle-ledger",
@@ -67,22 +77,22 @@
       "score": 33
     },
     {
-      "id": "vin-2",
-      "name": "VulgarTycoon",
-      "score": 32
+      "id": "across-protocol",
+      "name": "Across Protocol",
+      "score": 30
     },
     {
       "id": "gradients",
       "name": "Gradients",
       "score": 29
+    },
+    {
+      "id": "boner-coin",
+      "name": "Boner Coin",
+      "score": 26
     }
   ],
   "left": [
-    {
-      "id": "apyusd",
-      "name": "apyUSD",
-      "reason": "low volume"
-    },
     {
       "id": "autonolas",
       "name": "Autonolas",
@@ -134,6 +144,11 @@
       "reason": "low volume"
     },
     {
+      "id": "mantra",
+      "name": "mantra",
+      "reason": "dropped out of top N"
+    },
+    {
       "id": "nano",
       "name": "Nano",
       "reason": "low volume"
@@ -149,9 +164,9 @@
       "reason": "low volume"
     },
     {
-      "id": "railgun",
-      "name": "Railgun",
-      "reason": "low volume"
+      "id": "pippin",
+      "name": "pippin",
+      "reason": "dropped out of top N"
     },
     {
       "id": "re-protocol-reusde",
@@ -171,11 +186,6 @@
     {
       "id": "tcy",
       "name": "THORChain Yield",
-      "reason": "low volume"
-    },
-    {
-      "id": "tiger-alpha",
-      "name": "Tiger Alpha",
       "reason": "low volume"
     },
     {
