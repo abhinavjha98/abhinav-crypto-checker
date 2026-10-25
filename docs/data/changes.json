@@ -2,25 +2,70 @@
   "compared_to": "2026-10-24",
   "entered": [
     {
-      "id": "pangea-2",
-      "name": "Pangea",
-      "score": 39
+      "id": "tread-fi",
+      "name": "Tread.fi",
+      "score": 56
+    },
+    {
+      "id": "pepina-2",
+      "name": "Pepina",
+      "score": 49
+    },
+    {
+      "id": "bitdca",
+      "name": "BitDCA",
+      "score": 48
+    },
+    {
+      "id": "surplus-intelligence",
+      "name": "Surplus intelligence",
+      "score": 48
+    },
+    {
+      "id": "apriori",
+      "name": "Capricorn",
+      "score": 46
+    },
+    {
+      "id": "templar",
+      "name": "\u03c4emplar",
+      "score": 33
+    },
+    {
+      "id": "across-protocol",
+      "name": "Across Protocol",
+      "score": 30
+    },
+    {
+      "id": "gradients",
+      "name": "Gradients",
+      "score": 28
+    },
+    {
+      "id": "mass-vehicle-ledger",
+      "name": "MVL",
+      "score": 25
     }
   ],
   "left": [
     {
-      "id": "affine",
-      "name": "affine",
-      "reason": "price too high"
-    },
-    {
-      "id": "bora",
-      "name": "BORA",
+      "id": "ao-computer",
+      "name": "ao Computer",
       "reason": "low volume"
     },
     {
-      "id": "burnedfi",
-      "name": "BurnedFi",
+      "id": "biconomy",
+      "name": "biconomy",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "binance-super-cz-2",
+      "name": "binance-super-cz-2",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "concordium",
+      "name": "Concordium",
       "reason": "low volume"
     },
     {
@@ -29,8 +74,48 @@
       "reason": "low volume"
     },
     {
+      "id": "goldfish-gold",
+      "name": "Goldfish Gold",
+      "reason": "low volume"
+    },
+    {
+      "id": "incentiv",
+      "name": "incentiv",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "leo-token",
+      "name": "LEO Token",
+      "reason": "low volume"
+    },
+    {
       "id": "peapods-finance",
       "name": "Peapods Finance",
+      "reason": "low volume"
+    },
+    {
+      "id": "pear-protocol",
+      "name": "Pear Protocol",
+      "reason": "low volume"
+    },
+    {
+      "id": "re-protocol-reusde",
+      "name": "Re Protocol reUSDe",
+      "reason": "low volume"
+    },
+    {
+      "id": "south-korea-bull-3x-etf-bstocks-tokenized-stock",
+      "name": "South Korea Bull 3X ETF (bStocks Tokenized ETF)",
+      "reason": "price too high"
+    },
+    {
+      "id": "synfutures",
+      "name": "synfutures",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "tcy",
+      "name": "THORChain Yield",
       "reason": "low volume"
     },
     {
