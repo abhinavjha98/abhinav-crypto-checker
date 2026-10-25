@@ -4,7 +4,7 @@
     {
       "id": "nkyc-token",
       "name": "NKYC Token",
-      "score": 58
+      "score": 59
     },
     {
       "id": "pepina-2",
@@ -12,49 +12,79 @@
       "score": 52
     },
     {
-      "id": "hookr-fun",
-      "name": "Hookr.fun",
-      "score": 51
-    },
-    {
-      "id": "evmzone",
-      "name": "evmzone",
-      "score": 49
-    },
-    {
-      "id": "surplus-intelligence",
-      "name": "Surplus intelligence",
-      "score": 45
-    },
-    {
-      "id": "apriori",
-      "name": "Capricorn",
-      "score": 43
+      "id": "bitdca",
+      "name": "BitDCA",
+      "score": 50
     },
     {
       "id": "tread-fi",
       "name": "Tread.fi",
-      "score": 38
+      "score": 48
+    },
+    {
+      "id": "hookr-fun",
+      "name": "Hookr.fun",
+      "score": 48
+    },
+    {
+      "id": "qanplatform",
+      "name": "QANplatform",
+      "score": 47
+    },
+    {
+      "id": "evmzone",
+      "name": "evmzone",
+      "score": 45
+    },
+    {
+      "id": "surplus-intelligence",
+      "name": "Surplus intelligence",
+      "score": 44
+    },
+    {
+      "id": "apriori",
+      "name": "Capricorn",
+      "score": 44
+    },
+    {
+      "id": "bc-token",
+      "name": "BCGame Coin",
+      "score": 42
+    },
+    {
+      "id": "chainflip",
+      "name": "Chainflip",
+      "score": 42
+    },
+    {
+      "id": "pangea-2",
+      "name": "Pangea",
+      "score": 39
+    },
+    {
+      "id": "vin-2",
+      "name": "VulgarTycoon",
+      "score": 37
+    },
+    {
+      "id": "tensorcash",
+      "name": "TensorCash",
+      "score": 36
+    },
+    {
+      "id": "mass-vehicle-ledger",
+      "name": "MVL",
+      "score": 34
     },
     {
       "id": "templar",
       "name": "\u03c4emplar",
-      "score": 34
-    },
-    {
-      "id": "across-protocol",
-      "name": "Across Protocol",
-      "score": 34
+      "score": 33
     },
     {
       "id": "gradients",
       "name": "Gradients",
       "score": 29
-    },
-    {
-      "id": "mass-vehicle-ledger",
-      "name": "MVL",
-      "score": 27
     }
   ],
   "left": [
@@ -62,6 +92,16 @@
       "id": "apyusd",
       "name": "apyUSD",
       "reason": "low volume"
+    },
+    {
+      "id": "autonolas",
+      "name": "Autonolas",
+      "reason": "low volume"
+    },
+    {
+      "id": "benqi",
+      "name": "benqi",
+      "reason": "dropped out of top N"
     },
     {
       "id": "biconomy",
@@ -84,8 +124,8 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "epic-cash",
-      "name": "Epic Private Internet Cash",
+      "id": "figure-heloc",
+      "name": "Figure Heloc",
       "reason": "low volume"
     },
     {
@@ -94,8 +134,8 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "marscat-token",
-      "name": "Marscat Token",
+      "id": "leo-token",
+      "name": "LEO Token",
       "reason": "low volume"
     },
     {
@@ -105,17 +145,17 @@
     },
     {
       "id": "pear-protocol",
-      "name": "pear-protocol",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "pippin",
-      "name": "pippin",
-      "reason": "dropped out of top N"
+      "name": "Pear Protocol",
+      "reason": "low volume"
     },
     {
       "id": "re-protocol-reusde",
       "name": "Re Protocol reUSDe",
+      "reason": "low volume"
+    },
+    {
+      "id": "rollbit-coin",
+      "name": "Rollbit Coin",
       "reason": "low volume"
     },
     {
@@ -124,24 +164,29 @@
       "reason": "price too high"
     },
     {
-      "id": "synfutures",
-      "name": "synfutures",
-      "reason": "dropped out of top N"
-    },
-    {
       "id": "tcy",
       "name": "THORChain Yield",
       "reason": "low volume"
     },
     {
       "id": "tiger-alpha",
-      "name": "tiger-alpha",
-      "reason": "dropped out of top N"
+      "name": "Tiger Alpha",
+      "reason": "low volume"
+    },
+    {
+      "id": "umia",
+      "name": "Umia",
+      "reason": "low volume"
     },
     {
       "id": "universal-high-income-2",
       "name": "universal-high-income-2",
       "reason": "dropped out of top N"
+    },
+    {
+      "id": "wiki-cat",
+      "name": "Wiki Cat",
+      "reason": "low volume"
     }
   ]
 }
