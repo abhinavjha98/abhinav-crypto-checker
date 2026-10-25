@@ -2,55 +2,65 @@
   "compared_to": "2026-10-24",
   "entered": [
     {
-      "id": "tread-fi",
-      "name": "Tread.fi",
-      "score": 56
+      "id": "nkyc-token",
+      "name": "NKYC Token",
+      "score": 58
     },
     {
       "id": "pepina-2",
       "name": "Pepina",
-      "score": 49
+      "score": 52
     },
     {
-      "id": "bitdca",
-      "name": "BitDCA",
-      "score": 48
+      "id": "hookr-fun",
+      "name": "Hookr.fun",
+      "score": 51
+    },
+    {
+      "id": "evmzone",
+      "name": "evmzone",
+      "score": 49
     },
     {
       "id": "surplus-intelligence",
       "name": "Surplus intelligence",
-      "score": 48
+      "score": 45
     },
     {
       "id": "apriori",
       "name": "Capricorn",
-      "score": 46
+      "score": 43
+    },
+    {
+      "id": "tread-fi",
+      "name": "Tread.fi",
+      "score": 38
     },
     {
       "id": "templar",
       "name": "\u03c4emplar",
-      "score": 33
+      "score": 34
     },
     {
       "id": "across-protocol",
       "name": "Across Protocol",
-      "score": 30
+      "score": 34
     },
     {
       "id": "gradients",
       "name": "Gradients",
-      "score": 28
+      "score": 29
     },
     {
       "id": "mass-vehicle-ledger",
       "name": "MVL",
-      "score": 25
+      "score": 27
     }
   ],
   "left": [
     {
-      "id": "ao-computer",
-      "name": "ao Computer",
+      "id": "apyusd",
+      "name": "apyUSD",
       "reason": "low volume"
     },
     {
@@ -64,18 +74,18 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "concordium",
-      "name": "Concordium",
+      "id": "cortex-2",
+      "name": "Cortex",
       "reason": "low volume"
+    },
+    {
+      "id": "edena",
+      "name": "edena",
+      "reason": "dropped out of top N"
     },
     {
       "id": "epic-cash",
       "name": "Epic Private Internet Cash",
-      "reason": "low volume"
-    },
-    {
-      "id": "goldfish-gold",
-      "name": "Goldfish Gold",
       "reason": "low volume"
     },
     {
@@ -84,8 +94,8 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "leo-token",
-      "name": "LEO Token",
+      "id": "marscat-token",
+      "name": "Marscat Token",
       "reason": "low volume"
     },
     {
@@ -95,8 +105,13 @@
     },
     {
       "id": "pear-protocol",
-      "name": "Pear Protocol",
-      "reason": "low volume"
+      "name": "pear-protocol",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "pippin",
+      "name": "pippin",
+      "reason": "dropped out of top N"
     },
     {
       "id": "re-protocol-reusde",
@@ -119,14 +134,14 @@
       "reason": "low volume"
     },
     {
-      "id": "universal-high-income-2",
-      "name": "universal-high-income-2",
+      "id": "tiger-alpha",
+      "name": "tiger-alpha",
       "reason": "dropped out of top N"
     },
     {
-      "id": "wiki-cat",
-      "name": "Wiki Cat",
-      "reason": "low volume"
+      "id": "universal-high-income-2",
+      "name": "universal-high-income-2",
+      "reason": "dropped out of top N"
     }
   ]
 }
