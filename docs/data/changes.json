@@ -1,201 +1,46 @@
 {
-  "compared_to": "2026-10-23",
+  "compared_to": "2026-10-24",
   "entered": [
     {
-      "id": "orderly-network",
-      "name": "Orderly",
-      "score": 68
-    },
-    {
-      "id": "south-korea-bull-3x-etf-bstocks-tokenized-stock",
-      "name": "South Korea Bull 3X ETF (bStocks Tokenized ETF)",
-      "score": 62
-    },
-    {
-      "id": "forta",
-      "name": "Forta",
-      "score": 58
-    },
-    {
-      "id": "anime",
-      "name": "Animecoin",
-      "score": 48
-    },
-    {
-      "id": "biconomy",
-      "name": "Biconomy",
-      "score": 47
-    },
-    {
-      "id": "tcy",
-      "name": "THORChain Yield",
-      "score": 46
-    },
-    {
-      "id": "re-protocol-reusde",
-      "name": "Re Protocol reUSDe",
-      "score": 45
-    },
-    {
-      "id": "binance-super-cz-2",
-      "name": "Binance Super CZ",
-      "score": 45
-    },
-    {
-      "id": "epic-cash",
-      "name": "Epic Private Internet Cash",
-      "score": 44
-    },
-    {
-      "id": "pear-protocol",
-      "name": "Pear Protocol",
-      "score": 44
-    },
-    {
-      "id": "adventure-gold",
-      "name": "Adventure Gold",
-      "score": 40
-    },
-    {
-      "id": "tokamak-network",
-      "name": "Tokamak Network",
+      "id": "pangea-2",
+      "name": "Pangea",
       "score": 39
-    },
-    {
-      "id": "peapods-finance",
-      "name": "Peapods Finance",
-      "score": 39
-    },
-    {
-      "id": "affine",
-      "name": "affine",
-      "score": 38
-    },
-    {
-      "id": "medibloc",
-      "name": "Medibloc",
-      "score": 36
-    },
-    {
-      "id": "umia",
-      "name": "Umia",
-      "score": 34
-    },
-    {
-      "id": "edena",
-      "name": "EDENA",
-      "score": 33
-    },
-    {
-      "id": "hunt-token",
-      "name": "Hunt",
-      "score": 33
     }
   ],
   "left": [
     {
-      "id": "babycashcat",
-      "name": "BabyCashCat",
-      "reason": "low volume"
-    },
-    {
-      "id": "bc-token",
-      "name": "BCGame Coin",
-      "reason": "low volume"
-    },
-    {
-      "id": "deapcoin",
-      "name": "DEAPCOIN",
-      "reason": "low volume"
-    },
-    {
-      "id": "ergo",
-      "name": "Ergo",
-      "reason": "low volume"
-    },
-    {
-      "id": "gradients",
-      "name": "Gradients",
-      "reason": "low volume"
-    },
-    {
-      "id": "graphite-protocol",
-      "name": "graphite-protocol",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "hookr-fun",
-      "name": "hookr-fun",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "idlemine",
-      "name": "IdleMine",
-      "reason": "low volume"
-    },
-    {
-      "id": "iota-2",
-      "name": "iota",
-      "reason": "low volume"
-    },
-    {
-      "id": "meme-horse",
-      "name": "MEME HORSE",
-      "reason": "low volume"
-    },
-    {
-      "id": "nkyc-token",
-      "name": "NKYC Token",
+      "id": "affine",
+      "name": "affine",
       "reason": "price too high"
     },
     {
-      "id": "nova-3",
-      "name": "NOVA",
+      "id": "bora",
+      "name": "BORA",
       "reason": "low volume"
     },
     {
-      "id": "redteam",
-      "name": "redteam",
+      "id": "burnedfi",
+      "name": "BurnedFi",
+      "reason": "low volume"
+    },
+    {
+      "id": "epic-cash",
+      "name": "Epic Private Internet Cash",
+      "reason": "low volume"
+    },
+    {
+      "id": "peapods-finance",
+      "name": "Peapods Finance",
+      "reason": "low volume"
+    },
+    {
+      "id": "universal-high-income-2",
+      "name": "universal-high-income-2",
       "reason": "dropped out of top N"
     },
     {
-      "id": "stonkbroker",
-      "name": "stonkbroker",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "talus",
-      "name": "talus",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "tensorcash",
-      "name": "TensorCash",
-      "reason": "low volume"
-    },
-    {
-      "id": "tread-fi",
-      "name": "tread-fi",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "tx",
-      "name": "tx",
-      "reason": "low volume"
-    },
-    {
-      "id": "usdu",
-      "name": "USDu",
-      "reason": "low volume"
-    },
-    {
-      "id": "vin-2",
-      "name": "VulgarTycoon",
-      "reason": "low volume"
-    },
-    {
-      "id": "zcoin",
-      "name": "Firo",
+      "id": "wiki-cat",
+      "name": "Wiki Cat",
       "reason": "low volume"
     }
   ]
