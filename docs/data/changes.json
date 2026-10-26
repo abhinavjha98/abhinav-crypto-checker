@@ -7,14 +7,39 @@
       "score": 63
     },
     {
-      "id": "tronbank",
-      "name": "TronBank",
-      "score": 51
+      "id": "caldera",
+      "name": "Caldera",
+      "score": 62
     },
     {
-      "id": "evmzone",
-      "name": "evmzone",
-      "score": 49
+      "id": "mag7-ssi",
+      "name": "MAG7.ssi",
+      "score": 62
+    },
+    {
+      "id": "fx-usd-saving",
+      "name": "f(x) USD Saving",
+      "score": 54
+    },
+    {
+      "id": "leo-token",
+      "name": "LEO Token",
+      "score": 48
+    },
+    {
+      "id": "tronbank",
+      "name": "TronBank",
+      "score": 46
+    },
+    {
+      "id": "cortex-2",
+      "name": "Cortex",
+      "score": 38
+    },
+    {
+      "id": "nova-3",
+      "name": "NOVA",
+      "score": 34
     },
     {
       "id": "nano",
@@ -24,9 +49,19 @@
   ],
   "left": [
     {
-      "id": "ao-computer",
-      "name": "ao Computer",
-      "reason": "low volume"
+      "id": "apriori",
+      "name": "apriori",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "boner-coin",
+      "name": "boner-coin",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "dacity-coin-3",
+      "name": "dacity-coin-3",
+      "reason": "dropped out of top N"
     },
     {
       "id": "hunter-biden-s-laptop-3",
@@ -34,8 +69,8 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "tiger-alpha",
-      "name": "tiger-alpha",
+      "id": "superform",
+      "name": "superform",
       "reason": "dropped out of top N"
     }
   ]
