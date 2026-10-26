@@ -9,7 +9,12 @@
     {
       "id": "mantra",
       "name": "MANTRA",
-      "score": 61
+      "score": 62
+    },
+    {
+      "id": "doodles",
+      "name": "Doodles",
+      "score": 56
     },
     {
       "id": "fx-usd-saving",
@@ -17,34 +22,29 @@
       "score": 55
     },
     {
-      "id": "doodles",
-      "name": "Doodles",
-      "score": 55
-    },
-    {
-      "id": "evmzone",
-      "name": "evmzone",
+      "id": "aria-ai",
+      "name": "Aria.AI",
       "score": 54
     },
     {
-      "id": "aria-ai",
-      "name": "Aria.AI",
-      "score": 52
+      "id": "tronbank",
+      "name": "TronBank",
+      "score": 53
     },
     {
       "id": "deapcoin",
       "name": "DEAPCOIN",
+      "score": 50
+    },
+    {
+      "id": "autonolas",
+      "name": "Autonolas",
       "score": 49
     },
     {
       "id": "atoshi",
       "name": "Atoshi",
-      "score": 48
-    },
-    {
-      "id": "autonolas",
-      "name": "Autonolas",
-      "score": 48
+      "score": 49
     },
     {
       "id": "leo-token",
@@ -59,17 +59,17 @@
     {
       "id": "figure-heloc",
       "name": "Figure Heloc",
-      "score": 45
+      "score": 46
     },
     {
       "id": "idlemine",
       "name": "IdleMine",
-      "score": 43
+      "score": 44
     },
     {
-      "id": "tronbank",
-      "name": "TronBank",
-      "score": 42
+      "id": "bless-2",
+      "name": "Bless",
+      "score": 43
     },
     {
       "id": "umia",
@@ -79,12 +79,12 @@
     {
       "id": "cortex-2",
       "name": "Cortex",
-      "score": 37
+      "score": 36
     },
     {
       "id": "iota-2",
       "name": "iota",
-      "score": 37
+      "score": 36
     },
     {
       "id": "metya",
@@ -92,19 +92,19 @@
       "score": 36
     },
     {
-      "id": "pippin",
-      "name": "pippin",
+      "id": "talus",
+      "name": "Talus",
       "score": 35
     },
     {
-      "id": "nova-3",
-      "name": "NOVA",
+      "id": "pippin",
+      "name": "pippin",
       "score": 34
     },
     {
       "id": "nano",
       "name": "Nano",
-      "score": 30
+      "score": 29
     }
   ],
   "left": [
@@ -124,11 +124,6 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "bc-token",
-      "name": "BCGame Coin",
-      "reason": "low volume"
-    },
-    {
       "id": "boner-coin",
       "name": "boner-coin",
       "reason": "dropped out of top N"
@@ -139,19 +134,9 @@
       "reason": "low volume"
     },
     {
-      "id": "chainflip",
-      "name": "Chainflip",
-      "reason": "low volume"
-    },
-    {
-      "id": "dacity-coin-3",
-      "name": "dacity-coin-3",
-      "reason": "dropped out of top N"
-    },
-    {
       "id": "epic-cash",
-      "name": "Epic Private Internet Cash",
-      "reason": "low volume"
+      "name": "epic-cash",
+      "reason": "dropped out of top N"
     },
     {
       "id": "gradients",
@@ -161,6 +146,16 @@
     {
       "id": "hunter-biden-s-laptop-3",
       "name": "hunter-biden-s-laptop-3",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "mass-vehicle-ledger",
+      "name": "MVL",
+      "reason": "low volume"
+    },
+    {
+      "id": "pangea-2",
+      "name": "pangea-2",
       "reason": "dropped out of top N"
     },
     {
@@ -179,8 +174,18 @@
       "reason": "dropped out of top N"
     },
     {
+      "id": "tensorcash",
+      "name": "TensorCash",
+      "reason": "low volume"
+    },
+    {
       "id": "tokamak-network",
       "name": "Tokamak Network",
+      "reason": "low volume"
+    },
+    {
+      "id": "zylo-ecosystem",
+      "name": "Zylo Ecosystem",
       "reason": "low volume"
     }
   ]
