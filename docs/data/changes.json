@@ -2,13 +2,13 @@
   "compared_to": "2026-10-25",
   "entered": [
     {
-      "id": "mantra",
-      "name": "MANTRA",
+      "id": "doodles",
+      "name": "Doodles",
       "score": 63
     },
     {
-      "id": "caldera",
-      "name": "Caldera",
+      "id": "fx-usd-saving",
+      "name": "f(x) USD Saving",
       "score": 62
     },
     {
@@ -17,29 +17,59 @@
       "score": 62
     },
     {
-      "id": "fx-usd-saving",
-      "name": "f(x) USD Saving",
-      "score": 54
+      "id": "mantra",
+      "name": "MANTRA",
+      "score": 59
     },
     {
-      "id": "leo-token",
-      "name": "LEO Token",
+      "id": "evmzone",
+      "name": "evmzone",
+      "score": 53
+    },
+    {
+      "id": "aria-ai",
+      "name": "Aria.AI",
+      "score": 50
+    },
+    {
+      "id": "deapcoin",
+      "name": "DEAPCOIN",
       "score": 48
+    },
+    {
+      "id": "atoshi",
+      "name": "Atoshi",
+      "score": 47
     },
     {
       "id": "tronbank",
       "name": "TronBank",
-      "score": 46
+      "score": 43
+    },
+    {
+      "id": "iota-2",
+      "name": "iota",
+      "score": 38
+    },
+    {
+      "id": "metya",
+      "name": "MetYa",
+      "score": 38
     },
     {
       "id": "cortex-2",
       "name": "Cortex",
-      "score": 38
+      "score": 37
+    },
+    {
+      "id": "umia",
+      "name": "Umia",
+      "score": 37
     },
     {
       "id": "nova-3",
       "name": "NOVA",
-      "score": 34
+      "score": 33
     },
     {
       "id": "nano",
@@ -48,6 +78,16 @@
     }
   ],
   "left": [
+    {
+      "id": "across-protocol",
+      "name": "Across Protocol",
+      "reason": "low volume"
+    },
+    {
+      "id": "affine",
+      "name": "affine",
+      "reason": "price too high"
+    },
     {
       "id": "apriori",
       "name": "apriori",
@@ -59,9 +99,19 @@
       "reason": "dropped out of top N"
     },
     {
+      "id": "burnedfi",
+      "name": "BurnedFi",
+      "reason": "low volume"
+    },
+    {
       "id": "dacity-coin-3",
       "name": "dacity-coin-3",
       "reason": "dropped out of top N"
+    },
+    {
+      "id": "gradients",
+      "name": "Gradients",
+      "reason": "low volume"
     },
     {
       "id": "hunter-biden-s-laptop-3",
@@ -69,9 +119,29 @@
       "reason": "dropped out of top N"
     },
     {
+      "id": "realio-network",
+      "name": "realio-network",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "rollbit-coin",
+      "name": "Rollbit Coin",
+      "reason": "low volume"
+    },
+    {
       "id": "superform",
       "name": "superform",
       "reason": "dropped out of top N"
+    },
+    {
+      "id": "templar",
+      "name": "\u03c4emplar",
+      "reason": "low volume"
+    },
+    {
+      "id": "vin-2",
+      "name": "VulgarTycoon",
+      "reason": "low volume"
     }
   ]
 }
