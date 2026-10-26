@@ -2,16 +2,6 @@
   "compared_to": "2026-10-25",
   "entered": [
     {
-      "id": "doodles",
-      "name": "Doodles",
-      "score": 63
-    },
-    {
-      "id": "fx-usd-saving",
-      "name": "f(x) USD Saving",
-      "score": 62
-    },
-    {
       "id": "mag7-ssi",
       "name": "MAG7.ssi",
       "score": 62
@@ -19,42 +9,72 @@
     {
       "id": "mantra",
       "name": "MANTRA",
-      "score": 59
+      "score": 61
+    },
+    {
+      "id": "fx-usd-saving",
+      "name": "f(x) USD Saving",
+      "score": 55
+    },
+    {
+      "id": "doodles",
+      "name": "Doodles",
+      "score": 55
     },
     {
       "id": "evmzone",
       "name": "evmzone",
-      "score": 53
+      "score": 54
     },
     {
       "id": "aria-ai",
       "name": "Aria.AI",
-      "score": 50
+      "score": 52
     },
     {
       "id": "deapcoin",
       "name": "DEAPCOIN",
-      "score": 48
+      "score": 49
     },
     {
       "id": "atoshi",
       "name": "Atoshi",
+      "score": 48
+    },
+    {
+      "id": "autonolas",
+      "name": "Autonolas",
+      "score": 48
+    },
+    {
+      "id": "leo-token",
+      "name": "LEO Token",
+      "score": 48
+    },
+    {
+      "id": "pear-protocol",
+      "name": "Pear Protocol",
       "score": 47
+    },
+    {
+      "id": "figure-heloc",
+      "name": "Figure Heloc",
+      "score": 45
+    },
+    {
+      "id": "idlemine",
+      "name": "IdleMine",
+      "score": 43
     },
     {
       "id": "tronbank",
       "name": "TronBank",
-      "score": 43
+      "score": 42
     },
     {
-      "id": "iota-2",
-      "name": "iota",
-      "score": 38
-    },
-    {
-      "id": "metya",
-      "name": "MetYa",
-      "score": 38
+      "id": "umia",
+      "name": "Umia",
+      "score": 41
     },
     {
       "id": "cortex-2",
@@ -62,14 +82,24 @@
       "score": 37
     },
     {
-      "id": "umia",
-      "name": "Umia",
+      "id": "iota-2",
+      "name": "iota",
       "score": 37
+    },
+    {
+      "id": "metya",
+      "name": "MetYa",
+      "score": 36
+    },
+    {
+      "id": "pippin",
+      "name": "pippin",
+      "score": 35
     },
     {
       "id": "nova-3",
       "name": "NOVA",
-      "score": 33
+      "score": 34
     },
     {
       "id": "nano",
@@ -94,6 +124,11 @@
       "reason": "dropped out of top N"
     },
     {
+      "id": "bc-token",
+      "name": "BCGame Coin",
+      "reason": "low volume"
+    },
+    {
       "id": "boner-coin",
       "name": "boner-coin",
       "reason": "dropped out of top N"
@@ -104,9 +139,19 @@
       "reason": "low volume"
     },
     {
+      "id": "chainflip",
+      "name": "Chainflip",
+      "reason": "low volume"
+    },
+    {
       "id": "dacity-coin-3",
       "name": "dacity-coin-3",
       "reason": "dropped out of top N"
+    },
+    {
+      "id": "epic-cash",
+      "name": "Epic Private Internet Cash",
+      "reason": "low volume"
     },
     {
       "id": "gradients",
@@ -119,14 +164,14 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "realio-network",
-      "name": "realio-network",
+      "id": "pepina-2",
+      "name": "pepina-2",
       "reason": "dropped out of top N"
     },
     {
-      "id": "rollbit-coin",
-      "name": "Rollbit Coin",
-      "reason": "low volume"
+      "id": "realio-network",
+      "name": "realio-network",
+      "reason": "dropped out of top N"
     },
     {
       "id": "superform",
@@ -134,13 +179,8 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "templar",
-      "name": "\u03c4emplar",
-      "reason": "low volume"
-    },
-    {
-      "id": "vin-2",
-      "name": "VulgarTycoon",
+      "id": "tokamak-network",
+      "name": "Tokamak Network",
       "reason": "low volume"
     }
   ]
