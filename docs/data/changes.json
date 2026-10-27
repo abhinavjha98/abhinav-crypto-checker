@@ -2,30 +2,55 @@
   "compared_to": "2026-10-26",
   "entered": [
     {
-      "id": "caldera",
-      "name": "Caldera",
-      "score": 67
-    },
-    {
       "id": "infinity-ground",
       "name": "Infinity Ground",
-      "score": 63
+      "score": 61
     },
     {
       "id": "superform",
       "name": "Superform",
-      "score": 54
+      "score": 59
+    },
+    {
+      "id": "epic-cash",
+      "name": "Epic Private Internet Cash",
+      "score": 40
+    },
+    {
+      "id": "tokamak-network",
+      "name": "Tokamak Network",
+      "score": 35
     },
     {
       "id": "across-protocol",
       "name": "Across Protocol",
-      "score": 33
+      "score": 31
+    },
+    {
+      "id": "realio-network",
+      "name": "Realio Network Token",
+      "score": 31
+    },
+    {
+      "id": "gradients",
+      "name": "Gradients",
+      "score": 27
     }
   ],
   "left": [
     {
+      "id": "airtor-protocol",
+      "name": "airtor-protocol",
+      "reason": "dropped out of top N"
+    },
+    {
       "id": "ao-computer",
       "name": "ao Computer",
+      "reason": "low volume"
+    },
+    {
+      "id": "atoshi",
+      "name": "Atoshi",
       "reason": "low volume"
     },
     {
@@ -62,6 +87,21 @@
       "id": "memetoon",
       "name": "MEMETOON",
       "reason": "low volume"
+    },
+    {
+      "id": "metya",
+      "name": "MetYa",
+      "reason": "low volume"
+    },
+    {
+      "id": "railgun",
+      "name": "Railgun",
+      "reason": "low volume"
+    },
+    {
+      "id": "talus",
+      "name": "talus",
+      "reason": "dropped out of top N"
     },
     {
       "id": "tiger-alpha",
