@@ -4,32 +4,62 @@
     {
       "id": "infinity-ground",
       "name": "Infinity Ground",
-      "score": 61
+      "score": 55
     },
     {
-      "id": "superform",
-      "name": "Superform",
-      "score": 59
+      "id": "sovren",
+      "name": "Sovren",
+      "score": 49
+    },
+    {
+      "id": "biconomy",
+      "name": "Biconomy",
+      "score": 46
     },
     {
       "id": "epic-cash",
       "name": "Epic Private Internet Cash",
-      "score": 40
+      "score": 46
+    },
+    {
+      "id": "apriori",
+      "name": "Capricorn",
+      "score": 43
+    },
+    {
+      "id": "tutorial",
+      "name": "Tutorial",
+      "score": 39
     },
     {
       "id": "tokamak-network",
       "name": "Tokamak Network",
-      "score": 35
+      "score": 36
     },
     {
-      "id": "across-protocol",
-      "name": "Across Protocol",
-      "score": 31
+      "id": "hoodpork",
+      "name": "HoodPork",
+      "score": 34
+    },
+    {
+      "id": "squeekchain",
+      "name": "SqueekChain",
+      "score": 33
+    },
+    {
+      "id": "nova-3",
+      "name": "NOVA",
+      "score": 33
     },
     {
       "id": "realio-network",
       "name": "Realio Network Token",
       "score": 31
+    },
+    {
+      "id": "across-protocol",
+      "name": "Across Protocol",
+      "score": 30
     },
     {
       "id": "gradients",
@@ -39,14 +69,14 @@
   ],
   "left": [
     {
-      "id": "airtor-protocol",
-      "name": "airtor-protocol",
-      "reason": "dropped out of top N"
-    },
-    {
       "id": "ao-computer",
       "name": "ao Computer",
       "reason": "low volume"
+    },
+    {
+      "id": "aria-ai",
+      "name": "aria-ai",
+      "reason": "dropped out of top N"
     },
     {
       "id": "atoshi",
@@ -79,8 +109,23 @@
       "reason": "low volume"
     },
     {
+      "id": "hunt-token",
+      "name": "Hunt",
+      "reason": "low volume"
+    },
+    {
+      "id": "leo-token",
+      "name": "LEO Token",
+      "reason": "low volume"
+    },
+    {
       "id": "little-john",
       "name": "Little John",
+      "reason": "low volume"
+    },
+    {
+      "id": "medibloc",
+      "name": "Medibloc",
       "reason": "low volume"
     },
     {
@@ -94,9 +139,19 @@
       "reason": "low volume"
     },
     {
-      "id": "railgun",
-      "name": "Railgun",
-      "reason": "low volume"
+      "id": "orderly-network",
+      "name": "orderly-network",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "pear-protocol",
+      "name": "pear-protocol",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "pippin",
+      "name": "pippin",
+      "reason": "dropped out of top N"
     },
     {
       "id": "talus",
@@ -104,9 +159,9 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "tiger-alpha",
-      "name": "tiger-alpha",
-      "reason": "dropped out of top N"
+      "id": "tronbank",
+      "name": "TronBank",
+      "reason": "low volume"
     }
   ]
 }
