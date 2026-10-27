@@ -1,192 +1,72 @@
 {
-  "compared_to": "2026-10-25",
+  "compared_to": "2026-10-26",
   "entered": [
     {
-      "id": "mag7-ssi",
-      "name": "MAG7.ssi",
-      "score": 62
+      "id": "caldera",
+      "name": "Caldera",
+      "score": 67
     },
     {
-      "id": "mantra",
-      "name": "MANTRA",
-      "score": 62
+      "id": "infinity-ground",
+      "name": "Infinity Ground",
+      "score": 63
     },
     {
-      "id": "doodles",
-      "name": "Doodles",
-      "score": 56
-    },
-    {
-      "id": "fx-usd-saving",
-      "name": "f(x) USD Saving",
-      "score": 55
-    },
-    {
-      "id": "aria-ai",
-      "name": "Aria.AI",
+      "id": "superform",
+      "name": "Superform",
       "score": 54
     },
     {
-      "id": "tronbank",
-      "name": "TronBank",
-      "score": 53
-    },
-    {
-      "id": "deapcoin",
-      "name": "DEAPCOIN",
-      "score": 50
-    },
-    {
-      "id": "autonolas",
-      "name": "Autonolas",
-      "score": 49
-    },
-    {
-      "id": "atoshi",
-      "name": "Atoshi",
-      "score": 49
-    },
-    {
-      "id": "leo-token",
-      "name": "LEO Token",
-      "score": 48
-    },
-    {
-      "id": "pear-protocol",
-      "name": "Pear Protocol",
-      "score": 47
-    },
-    {
-      "id": "figure-heloc",
-      "name": "Figure Heloc",
-      "score": 46
-    },
-    {
-      "id": "idlemine",
-      "name": "IdleMine",
-      "score": 44
-    },
-    {
-      "id": "bless-2",
-      "name": "Bless",
-      "score": 43
-    },
-    {
-      "id": "umia",
-      "name": "Umia",
-      "score": 41
-    },
-    {
-      "id": "cortex-2",
-      "name": "Cortex",
-      "score": 36
-    },
-    {
-      "id": "iota-2",
-      "name": "iota",
-      "score": 36
-    },
-    {
-      "id": "metya",
-      "name": "MetYa",
-      "score": 36
-    },
-    {
-      "id": "talus",
-      "name": "Talus",
-      "score": 35
-    },
-    {
-      "id": "pippin",
-      "name": "pippin",
-      "score": 34
-    },
-    {
-      "id": "nano",
-      "name": "Nano",
-      "score": 29
+      "id": "across-protocol",
+      "name": "Across Protocol",
+      "score": 33
     }
   ],
   "left": [
     {
-      "id": "across-protocol",
-      "name": "Across Protocol",
+      "id": "ao-computer",
+      "name": "ao Computer",
       "reason": "low volume"
     },
     {
-      "id": "affine",
-      "name": "affine",
-      "reason": "price too high"
-    },
-    {
-      "id": "apriori",
-      "name": "apriori",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "boner-coin",
-      "name": "boner-coin",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "burnedfi",
-      "name": "BurnedFi",
+      "id": "autonolas",
+      "name": "Autonolas",
       "reason": "low volume"
     },
     {
-      "id": "epic-cash",
-      "name": "epic-cash",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "gradients",
-      "name": "Gradients",
+      "id": "bitmart-token",
+      "name": "BitMart",
       "reason": "low volume"
     },
     {
-      "id": "hunter-biden-s-laptop-3",
-      "name": "hunter-biden-s-laptop-3",
+      "id": "bless-2",
+      "name": "bless-2",
       "reason": "dropped out of top N"
     },
     {
-      "id": "mass-vehicle-ledger",
-      "name": "MVL",
+      "id": "dacity-coin-3",
+      "name": "dacity-coin-3",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "fx-usd-saving",
+      "name": "f(x) USD Saving",
       "reason": "low volume"
     },
     {
-      "id": "pangea-2",
-      "name": "pangea-2",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "pepina-2",
-      "name": "pepina-2",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "realio-network",
-      "name": "realio-network",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "superform",
-      "name": "superform",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "tensorcash",
-      "name": "TensorCash",
+      "id": "little-john",
+      "name": "Little John",
       "reason": "low volume"
     },
     {
-      "id": "tokamak-network",
-      "name": "Tokamak Network",
+      "id": "memetoon",
+      "name": "MEMETOON",
       "reason": "low volume"
     },
     {
-      "id": "zylo-ecosystem",
-      "name": "Zylo Ecosystem",
-      "reason": "low volume"
+      "id": "tiger-alpha",
+      "name": "tiger-alpha",
+      "reason": "dropped out of top N"
     }
   ]
 }
