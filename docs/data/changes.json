@@ -12,19 +12,14 @@
       "score": 49
     },
     {
-      "id": "biconomy",
-      "name": "Biconomy",
-      "score": 46
-    },
-    {
-      "id": "epic-cash",
-      "name": "Epic Private Internet Cash",
+      "id": "tensorcash",
+      "name": "TensorCash",
       "score": 46
     },
     {
       "id": "apriori",
       "name": "Capricorn",
-      "score": 43
+      "score": 45
     },
     {
       "id": "tutorial",
@@ -32,39 +27,44 @@
       "score": 39
     },
     {
+      "id": "hoodpork",
+      "name": "HoodPork",
+      "score": 38
+    },
+    {
       "id": "tokamak-network",
       "name": "Tokamak Network",
       "score": 36
     },
     {
-      "id": "hoodpork",
-      "name": "HoodPork",
-      "score": 34
-    },
-    {
-      "id": "squeekchain",
-      "name": "SqueekChain",
-      "score": 33
-    },
-    {
       "id": "nova-3",
       "name": "NOVA",
-      "score": 33
-    },
-    {
-      "id": "realio-network",
-      "name": "Realio Network Token",
-      "score": 31
+      "score": 34
     },
     {
       "id": "across-protocol",
       "name": "Across Protocol",
+      "score": 33
+    },
+    {
+      "id": "arcblock",
+      "name": "Arcblock",
       "score": 30
     },
     {
       "id": "gradients",
       "name": "Gradients",
-      "score": 27
+      "score": 29
+    },
+    {
+      "id": "boner-coin",
+      "name": "Boner Coin",
+      "score": 29
+    },
+    {
+      "id": "ergo",
+      "name": "Ergo",
+      "score": 24
     }
   ],
   "left": [
@@ -94,8 +94,8 @@
       "reason": "low volume"
     },
     {
-      "id": "bless-2",
-      "name": "bless-2",
+      "id": "certik",
+      "name": "certik",
       "reason": "dropped out of top N"
     },
     {
@@ -114,13 +114,18 @@
       "reason": "low volume"
     },
     {
-      "id": "leo-token",
-      "name": "LEO Token",
+      "id": "little-john",
+      "name": "Little John",
       "reason": "low volume"
     },
     {
-      "id": "little-john",
-      "name": "Little John",
+      "id": "mag7-ssi",
+      "name": "MAG7.ssi",
+      "reason": "low volume"
+    },
+    {
+      "id": "marscat-token",
+      "name": "Marscat Token",
       "reason": "low volume"
     },
     {
@@ -157,11 +162,6 @@
       "id": "talus",
       "name": "talus",
       "reason": "dropped out of top N"
-    },
-    {
-      "id": "tronbank",
-      "name": "TronBank",
-      "reason": "low volume"
     }
   ]
 }
