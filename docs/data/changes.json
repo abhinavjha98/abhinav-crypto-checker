@@ -2,19 +2,19 @@
   "compared_to": "2026-10-27",
   "entered": [
     {
-      "id": "mag7-ssi",
-      "name": "MAG7.ssi",
-      "score": 62
+      "id": "orderly-network",
+      "name": "Orderly",
+      "score": 60
+    },
+    {
+      "id": "aria-ai",
+      "name": "Aria.AI",
+      "score": 57
     },
     {
       "id": "hookr-fun",
       "name": "Hookr.fun",
-      "score": 57
-    },
-    {
-      "id": "marscat-token",
-      "name": "Marscat Token",
-      "score": 51
+      "score": 56
     },
     {
       "id": "hastra-auto",
@@ -22,34 +22,44 @@
       "score": 50
     },
     {
-      "id": "autonolas",
-      "name": "Autonolas",
+      "id": "bitdca",
+      "name": "BitDCA",
       "score": 48
     },
     {
-      "id": "epic-cash",
-      "name": "Epic Private Internet Cash",
+      "id": "marscat-token",
+      "name": "Marscat Token",
+      "score": 47
+    },
+    {
+      "id": "autonolas",
+      "name": "Autonolas",
+      "score": 45
+    },
+    {
+      "id": "ai-powered-finance",
+      "name": "AI Powered Finance",
+      "score": 44
+    },
+    {
+      "id": "pangea-2",
+      "name": "Pangea",
+      "score": 41
+    },
+    {
+      "id": "stonkbroker",
+      "name": "StonkBroker",
+      "score": 38
+    },
+    {
+      "id": "pippin",
+      "name": "pippin",
       "score": 38
     },
     {
       "id": "ao-computer",
       "name": "ao Computer",
-      "score": 35
-    },
-    {
-      "id": "stonkbroker",
-      "name": "StonkBroker",
       "score": 34
-    },
-    {
-      "id": "kled-ai",
-      "name": "Kled AI",
-      "score": 32
-    },
-    {
-      "id": "realio-network",
-      "name": "Realio Network Token",
-      "score": 30
     },
     {
       "id": "tx",
@@ -64,9 +74,34 @@
       "reason": "low volume"
     },
     {
-      "id": "qanplatform",
-      "name": "QANplatform",
+      "id": "chainflip",
+      "name": "Chainflip",
       "reason": "low volume"
+    },
+    {
+      "id": "gama-token",
+      "name": "Gama Token",
+      "reason": "low volume"
+    },
+    {
+      "id": "goldfish-gold",
+      "name": "Goldfish Gold",
+      "reason": "low volume"
+    },
+    {
+      "id": "gradients",
+      "name": "Gradients",
+      "reason": "low volume"
+    },
+    {
+      "id": "nkyc-token",
+      "name": "NKYC Token",
+      "reason": "price too high"
+    },
+    {
+      "id": "sovren",
+      "name": "sovren",
+      "reason": "dropped out of top N"
     },
     {
       "id": "tau-fa",
