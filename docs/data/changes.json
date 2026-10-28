@@ -2,14 +2,14 @@
   "compared_to": "2026-10-27",
   "entered": [
     {
+      "id": "mag7-ssi",
+      "name": "MAG7.ssi",
+      "score": 63
+    },
+    {
       "id": "orderly-network",
       "name": "Orderly",
       "score": 60
-    },
-    {
-      "id": "aria-ai",
-      "name": "Aria.AI",
-      "score": 57
     },
     {
       "id": "hookr-fun",
@@ -29,11 +29,21 @@
     {
       "id": "marscat-token",
       "name": "Marscat Token",
-      "score": 47
+      "score": 48
+    },
+    {
+      "id": "usdu",
+      "name": "USDu",
+      "score": 48
     },
     {
       "id": "autonolas",
       "name": "Autonolas",
+      "score": 45
+    },
+    {
+      "id": "biconomy",
+      "name": "Biconomy",
       "score": 45
     },
     {
@@ -42,14 +52,24 @@
       "score": 44
     },
     {
-      "id": "pangea-2",
-      "name": "Pangea",
+      "id": "certik",
+      "name": "Shentu",
       "score": 41
     },
     {
-      "id": "stonkbroker",
-      "name": "StonkBroker",
-      "score": 38
+      "id": "ritual",
+      "name": "Ritual",
+      "score": 41
+    },
+    {
+      "id": "credible-finance",
+      "name": "Credible Finance",
+      "score": 40
+    },
+    {
+      "id": "pangea-2",
+      "name": "Pangea",
+      "score": 40
     },
     {
       "id": "pippin",
@@ -57,35 +77,35 @@
       "score": 38
     },
     {
-      "id": "ao-computer",
-      "name": "ao Computer",
-      "score": 34
+      "id": "stonkbroker",
+      "name": "StonkBroker",
+      "score": 38
     },
     {
-      "id": "tx",
-      "name": "tx",
+      "id": "talus",
+      "name": "Talus",
+      "score": 38
+    },
+    {
+      "id": "ao-computer",
+      "name": "ao Computer",
+      "score": 36
+    },
+    {
+      "id": "realio-network",
+      "name": "Realio Network Token",
       "score": 30
     }
   ],
   "left": [
     {
-      "id": "across-protocol",
-      "name": "Across Protocol",
-      "reason": "low volume"
-    },
-    {
-      "id": "chainflip",
-      "name": "Chainflip",
-      "reason": "low volume"
+      "id": "doodles",
+      "name": "doodles",
+      "reason": "dropped out of top N"
     },
     {
       "id": "gama-token",
       "name": "Gama Token",
-      "reason": "low volume"
-    },
-    {
-      "id": "goldfish-gold",
-      "name": "Goldfish Gold",
       "reason": "low volume"
     },
     {
@@ -94,9 +114,14 @@
       "reason": "low volume"
     },
     {
-      "id": "nkyc-token",
-      "name": "NKYC Token",
-      "reason": "price too high"
+      "id": "nano",
+      "name": "Nano",
+      "reason": "low volume"
+    },
+    {
+      "id": "qanplatform",
+      "name": "QANplatform",
+      "reason": "low volume"
     },
     {
       "id": "sovren",
