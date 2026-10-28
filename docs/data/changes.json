@@ -1,167 +1,87 @@
 {
-  "compared_to": "2026-10-26",
+  "compared_to": "2026-10-27",
   "entered": [
-    {
-      "id": "infinity-ground",
-      "name": "Infinity Ground",
-      "score": 55
-    },
-    {
-      "id": "sovren",
-      "name": "Sovren",
-      "score": 49
-    },
-    {
-      "id": "tensorcash",
-      "name": "TensorCash",
-      "score": 46
-    },
-    {
-      "id": "apriori",
-      "name": "Capricorn",
-      "score": 45
-    },
-    {
-      "id": "tutorial",
-      "name": "Tutorial",
-      "score": 39
-    },
-    {
-      "id": "hoodpork",
-      "name": "HoodPork",
-      "score": 38
-    },
-    {
-      "id": "tokamak-network",
-      "name": "Tokamak Network",
-      "score": 36
-    },
-    {
-      "id": "nova-3",
-      "name": "NOVA",
-      "score": 34
-    },
-    {
-      "id": "across-protocol",
-      "name": "Across Protocol",
-      "score": 33
-    },
-    {
-      "id": "arcblock",
-      "name": "Arcblock",
-      "score": 30
-    },
-    {
-      "id": "gradients",
-      "name": "Gradients",
-      "score": 29
-    },
-    {
-      "id": "boner-coin",
-      "name": "Boner Coin",
-      "score": 29
-    },
-    {
-      "id": "ergo",
-      "name": "Ergo",
-      "score": 24
-    }
-  ],
-  "left": [
-    {
-      "id": "ao-computer",
-      "name": "ao Computer",
-      "reason": "low volume"
-    },
-    {
-      "id": "aria-ai",
-      "name": "aria-ai",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "atoshi",
-      "name": "Atoshi",
-      "reason": "low volume"
-    },
-    {
-      "id": "autonolas",
-      "name": "Autonolas",
-      "reason": "low volume"
-    },
-    {
-      "id": "bitmart-token",
-      "name": "BitMart",
-      "reason": "low volume"
-    },
-    {
-      "id": "certik",
-      "name": "certik",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "dacity-coin-3",
-      "name": "dacity-coin-3",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "fx-usd-saving",
-      "name": "f(x) USD Saving",
-      "reason": "low volume"
-    },
-    {
-      "id": "hunt-token",
-      "name": "Hunt",
-      "reason": "low volume"
-    },
-    {
-      "id": "little-john",
-      "name": "Little John",
-      "reason": "low volume"
-    },
     {
       "id": "mag7-ssi",
       "name": "MAG7.ssi",
-      "reason": "low volume"
+      "score": 62
+    },
+    {
+      "id": "hookr-fun",
+      "name": "Hookr.fun",
+      "score": 57
     },
     {
       "id": "marscat-token",
       "name": "Marscat Token",
+      "score": 51
+    },
+    {
+      "id": "hastra-auto",
+      "name": "Hastra AUTO",
+      "score": 50
+    },
+    {
+      "id": "autonolas",
+      "name": "Autonolas",
+      "score": 48
+    },
+    {
+      "id": "epic-cash",
+      "name": "Epic Private Internet Cash",
+      "score": 38
+    },
+    {
+      "id": "ao-computer",
+      "name": "ao Computer",
+      "score": 35
+    },
+    {
+      "id": "stonkbroker",
+      "name": "StonkBroker",
+      "score": 34
+    },
+    {
+      "id": "kled-ai",
+      "name": "Kled AI",
+      "score": 32
+    },
+    {
+      "id": "realio-network",
+      "name": "Realio Network Token",
+      "score": 30
+    },
+    {
+      "id": "tx",
+      "name": "tx",
+      "score": 30
+    }
+  ],
+  "left": [
+    {
+      "id": "across-protocol",
+      "name": "Across Protocol",
       "reason": "low volume"
     },
     {
-      "id": "medibloc",
-      "name": "Medibloc",
+      "id": "qanplatform",
+      "name": "QANplatform",
       "reason": "low volume"
     },
     {
-      "id": "memetoon",
-      "name": "MEMETOON",
+      "id": "tau-fa",
+      "name": "TAU FA",
       "reason": "low volume"
     },
     {
-      "id": "metya",
-      "name": "MetYa",
+      "id": "tronbank",
+      "name": "tronbank",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "vin-2",
+      "name": "VulgarTycoon",
       "reason": "low volume"
-    },
-    {
-      "id": "orderly-network",
-      "name": "orderly-network",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "pear-protocol",
-      "name": "pear-protocol",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "pippin",
-      "name": "pippin",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "talus",
-      "name": "talus",
-      "reason": "dropped out of top N"
     }
   ]
 }
