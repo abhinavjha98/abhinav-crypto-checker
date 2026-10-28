@@ -7,28 +7,23 @@
       "score": 63
     },
     {
-      "id": "orderly-network",
-      "name": "Orderly",
-      "score": 60
-    },
-    {
       "id": "hookr-fun",
       "name": "Hookr.fun",
-      "score": 56
+      "score": 59
     },
     {
       "id": "hastra-auto",
       "name": "Hastra AUTO",
-      "score": 50
+      "score": 52
+    },
+    {
+      "id": "w-ai-parked",
+      "name": "basilica",
+      "score": 52
     },
     {
       "id": "bitdca",
       "name": "BitDCA",
-      "score": 48
-    },
-    {
-      "id": "marscat-token",
-      "name": "Marscat Token",
       "score": 48
     },
     {
@@ -37,14 +32,19 @@
       "score": 48
     },
     {
-      "id": "autonolas",
-      "name": "Autonolas",
-      "score": 45
+      "id": "marscat-token",
+      "name": "Marscat Token",
+      "score": 48
+    },
+    {
+      "id": "zylo-ecosystem",
+      "name": "Zylo Ecosystem",
+      "score": 44
     },
     {
       "id": "biconomy",
       "name": "Biconomy",
-      "score": 45
+      "score": 44
     },
     {
       "id": "ai-powered-finance",
@@ -52,8 +52,13 @@
       "score": 44
     },
     {
-      "id": "certik",
-      "name": "Shentu",
+      "id": "autonolas",
+      "name": "Autonolas",
+      "score": 44
+    },
+    {
+      "id": "credible-finance",
+      "name": "Credible Finance",
       "score": 41
     },
     {
@@ -62,34 +67,29 @@
       "score": 41
     },
     {
-      "id": "credible-finance",
-      "name": "Credible Finance",
+      "id": "ao-computer",
+      "name": "ao Computer",
       "score": 40
     },
     {
-      "id": "pangea-2",
-      "name": "Pangea",
+      "id": "talus",
+      "name": "Talus",
       "score": 40
     },
     {
       "id": "pippin",
       "name": "pippin",
-      "score": 38
+      "score": 39
+    },
+    {
+      "id": "tcy",
+      "name": "THORChain Yield",
+      "score": 39
     },
     {
       "id": "stonkbroker",
       "name": "StonkBroker",
       "score": 38
-    },
-    {
-      "id": "talus",
-      "name": "Talus",
-      "score": 38
-    },
-    {
-      "id": "ao-computer",
-      "name": "ao Computer",
-      "score": 36
     },
     {
       "id": "realio-network",
@@ -98,6 +98,16 @@
     }
   ],
   "left": [
+    {
+      "id": "arcblock",
+      "name": "Arcblock",
+      "reason": "low volume"
+    },
+    {
+      "id": "concordium",
+      "name": "Concordium",
+      "reason": "low volume"
+    },
     {
       "id": "doodles",
       "name": "doodles",
@@ -111,6 +121,11 @@
     {
       "id": "gradients",
       "name": "Gradients",
+      "reason": "low volume"
+    },
+    {
+      "id": "hoodpork",
+      "name": "HoodPork",
       "reason": "low volume"
     },
     {
