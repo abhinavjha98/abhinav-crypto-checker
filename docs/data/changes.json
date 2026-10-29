@@ -2,19 +2,34 @@
   "compared_to": "2026-10-28",
   "entered": [
     {
-      "id": "superform",
-      "name": "Superform",
-      "score": 58
+      "id": "katana-network-token",
+      "name": "Katana",
+      "score": 64
+    },
+    {
+      "id": "anvil",
+      "name": "Anvil",
+      "score": 60
     },
     {
       "id": "aria-ai",
       "name": "Aria.AI",
-      "score": 52
+      "score": 57
     },
     {
       "id": "incentiv",
       "name": "Incentiv",
-      "score": 45
+      "score": 49
+    },
+    {
+      "id": "affine",
+      "name": "affine",
+      "score": 38
+    },
+    {
+      "id": "arcblock",
+      "name": "Arcblock",
+      "score": 30
     },
     {
       "id": "nano",
@@ -29,8 +44,23 @@
       "reason": "low volume"
     },
     {
-      "id": "radicle",
-      "name": "radicle",
+      "id": "bc-token",
+      "name": "BCGame Coin",
+      "reason": "low volume"
+    },
+    {
+      "id": "bitdca",
+      "name": "BitDCA",
+      "reason": "low volume"
+    },
+    {
+      "id": "realio-network",
+      "name": "realio-network",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "talus",
+      "name": "talus",
       "reason": "dropped out of top N"
     },
     {
@@ -39,9 +69,9 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "wiki-cat",
-      "name": "Wiki Cat",
-      "reason": "low volume"
+      "id": "w-ai-parked",
+      "name": "w-ai-parked",
+      "reason": "dropped out of top N"
     },
     {
       "id": "zylo-ecosystem",
