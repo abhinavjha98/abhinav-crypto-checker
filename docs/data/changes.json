@@ -2,11 +2,6 @@
   "compared_to": "2026-10-28",
   "entered": [
     {
-      "id": "katana-network-token",
-      "name": "Katana",
-      "score": 64
-    },
-    {
       "id": "anvil",
       "name": "Anvil",
       "score": 60
@@ -14,27 +9,42 @@
     {
       "id": "aria-ai",
       "name": "Aria.AI",
-      "score": 57
+      "score": 55
     },
     {
       "id": "incentiv",
       "name": "Incentiv",
-      "score": 49
+      "score": 48
     },
     {
-      "id": "affine",
-      "name": "affine",
-      "score": 38
+      "id": "re-protocol-reusde",
+      "name": "Re Protocol reUSDe",
+      "score": 44
+    },
+    {
+      "id": "changenow",
+      "name": "ChangeNOW",
+      "score": 33
     },
     {
       "id": "arcblock",
       "name": "Arcblock",
-      "score": 30
+      "score": 32
     },
     {
       "id": "nano",
       "name": "Nano",
-      "score": 30
+      "score": 32
+    },
+    {
+      "id": "ocean-protocol",
+      "name": "Ocean Protocol",
+      "score": 29
+    },
+    {
+      "id": "hoodpork",
+      "name": "HoodPork",
+      "score": 25
     }
   ],
   "left": [
@@ -44,8 +54,8 @@
       "reason": "low volume"
     },
     {
-      "id": "bc-token",
-      "name": "BCGame Coin",
+      "id": "ai-powered-finance",
+      "name": "AI Powered Finance",
       "reason": "low volume"
     },
     {
@@ -54,9 +64,29 @@
       "reason": "low volume"
     },
     {
+      "id": "credible-finance",
+      "name": "Credible Finance",
+      "reason": "low volume"
+    },
+    {
+      "id": "kaio",
+      "name": "kaio",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "marscat-token",
+      "name": "Marscat Token",
+      "reason": "low volume"
+    },
+    {
       "id": "realio-network",
       "name": "realio-network",
       "reason": "dropped out of top N"
+    },
+    {
+      "id": "rollbit-coin",
+      "name": "Rollbit Coin",
+      "reason": "low volume"
     },
     {
       "id": "talus",
@@ -67,6 +97,11 @@
       "id": "tiger-alpha",
       "name": "tiger-alpha",
       "reason": "dropped out of top N"
+    },
+    {
+      "id": "usdu",
+      "name": "USDu",
+      "reason": "low volume"
     },
     {
       "id": "w-ai-parked",
