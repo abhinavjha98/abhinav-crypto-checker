@@ -9,27 +9,42 @@
     {
       "id": "aria-ai",
       "name": "Aria.AI",
-      "score": 55
+      "score": 54
     },
     {
-      "id": "incentiv",
-      "name": "Incentiv",
+      "id": "tronbank",
+      "name": "TronBank",
+      "score": 51
+    },
+    {
+      "id": "certik",
+      "name": "Shentu",
       "score": 48
     },
     {
       "id": "re-protocol-reusde",
       "name": "Re Protocol reUSDe",
-      "score": 44
+      "score": 45
     },
     {
-      "id": "changenow",
-      "name": "ChangeNOW",
-      "score": 33
+      "id": "super-pepe",
+      "name": "Super Pepe",
+      "score": 40
     },
     {
       "id": "arcblock",
       "name": "Arcblock",
-      "score": 32
+      "score": 38
+    },
+    {
+      "id": "affine",
+      "name": "affine",
+      "score": 38
+    },
+    {
+      "id": "changenow",
+      "name": "ChangeNOW",
+      "score": 34
     },
     {
       "id": "nano",
@@ -49,11 +64,6 @@
   ],
   "left": [
     {
-      "id": "across-protocol",
-      "name": "Across Protocol",
-      "reason": "low volume"
-    },
-    {
       "id": "ai-powered-finance",
       "name": "AI Powered Finance",
       "reason": "low volume"
@@ -69,29 +79,34 @@
       "reason": "low volume"
     },
     {
+      "id": "dual",
+      "name": "Dual",
+      "reason": "low volume"
+    },
+    {
+      "id": "iota-2",
+      "name": "iota",
+      "reason": "low volume"
+    },
+    {
       "id": "kaio",
       "name": "kaio",
       "reason": "dropped out of top N"
     },
     {
-      "id": "marscat-token",
-      "name": "Marscat Token",
-      "reason": "low volume"
-    },
-    {
-      "id": "realio-network",
-      "name": "realio-network",
+      "id": "pippin",
+      "name": "pippin",
       "reason": "dropped out of top N"
-    },
-    {
-      "id": "rollbit-coin",
-      "name": "Rollbit Coin",
-      "reason": "low volume"
     },
     {
       "id": "talus",
       "name": "talus",
       "reason": "dropped out of top N"
+    },
+    {
+      "id": "tcy",
+      "name": "THORChain Yield",
+      "reason": "low volume"
     },
     {
       "id": "tiger-alpha",
@@ -102,11 +117,6 @@
       "id": "usdu",
       "name": "USDu",
       "reason": "low volume"
-    },
-    {
-      "id": "w-ai-parked",
-      "name": "w-ai-parked",
-      "reason": "dropped out of top N"
     },
     {
       "id": "zylo-ecosystem",
