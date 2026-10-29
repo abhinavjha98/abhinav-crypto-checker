@@ -1,161 +1,51 @@
 {
-  "compared_to": "2026-10-27",
+  "compared_to": "2026-10-28",
   "entered": [
     {
-      "id": "mag7-ssi",
-      "name": "MAG7.ssi",
-      "score": 63
+      "id": "superform",
+      "name": "Superform",
+      "score": 58
     },
     {
-      "id": "hookr-fun",
-      "name": "Hookr.fun",
-      "score": 59
-    },
-    {
-      "id": "hastra-auto",
-      "name": "Hastra AUTO",
+      "id": "aria-ai",
+      "name": "Aria.AI",
       "score": 52
     },
     {
-      "id": "w-ai-parked",
-      "name": "basilica",
-      "score": 52
+      "id": "incentiv",
+      "name": "Incentiv",
+      "score": 45
     },
     {
-      "id": "bitdca",
-      "name": "BitDCA",
-      "score": 48
-    },
-    {
-      "id": "usdu",
-      "name": "USDu",
-      "score": 48
-    },
-    {
-      "id": "marscat-token",
-      "name": "Marscat Token",
-      "score": 48
-    },
-    {
-      "id": "zylo-ecosystem",
-      "name": "Zylo Ecosystem",
-      "score": 44
-    },
-    {
-      "id": "biconomy",
-      "name": "Biconomy",
-      "score": 44
-    },
-    {
-      "id": "ai-powered-finance",
-      "name": "AI Powered Finance",
-      "score": 44
-    },
-    {
-      "id": "autonolas",
-      "name": "Autonolas",
-      "score": 44
-    },
-    {
-      "id": "credible-finance",
-      "name": "Credible Finance",
-      "score": 41
-    },
-    {
-      "id": "ritual",
-      "name": "Ritual",
-      "score": 41
-    },
-    {
-      "id": "ao-computer",
-      "name": "ao Computer",
-      "score": 40
-    },
-    {
-      "id": "talus",
-      "name": "Talus",
-      "score": 40
-    },
-    {
-      "id": "pippin",
-      "name": "pippin",
-      "score": 39
-    },
-    {
-      "id": "tcy",
-      "name": "THORChain Yield",
-      "score": 39
-    },
-    {
-      "id": "stonkbroker",
-      "name": "StonkBroker",
-      "score": 38
-    },
-    {
-      "id": "realio-network",
-      "name": "Realio Network Token",
+      "id": "nano",
+      "name": "Nano",
       "score": 30
     }
   ],
   "left": [
     {
-      "id": "arcblock",
-      "name": "Arcblock",
+      "id": "across-protocol",
+      "name": "Across Protocol",
       "reason": "low volume"
     },
     {
-      "id": "concordium",
-      "name": "Concordium",
-      "reason": "low volume"
-    },
-    {
-      "id": "doodles",
-      "name": "doodles",
+      "id": "radicle",
+      "name": "radicle",
       "reason": "dropped out of top N"
     },
     {
-      "id": "gama-token",
-      "name": "Gama Token",
-      "reason": "low volume"
-    },
-    {
-      "id": "gradients",
-      "name": "Gradients",
-      "reason": "low volume"
-    },
-    {
-      "id": "hoodpork",
-      "name": "HoodPork",
-      "reason": "low volume"
-    },
-    {
-      "id": "nano",
-      "name": "Nano",
-      "reason": "low volume"
-    },
-    {
-      "id": "qanplatform",
-      "name": "QANplatform",
-      "reason": "low volume"
-    },
-    {
-      "id": "sovren",
-      "name": "sovren",
+      "id": "tiger-alpha",
+      "name": "tiger-alpha",
       "reason": "dropped out of top N"
     },
     {
-      "id": "tau-fa",
-      "name": "TAU FA",
+      "id": "wiki-cat",
+      "name": "Wiki Cat",
       "reason": "low volume"
     },
     {
-      "id": "tronbank",
-      "name": "tronbank",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "vin-2",
-      "name": "VulgarTycoon",
+      "id": "zylo-ecosystem",
+      "name": "Zylo Ecosystem",
       "reason": "low volume"
     }
   ]
