@@ -2,74 +2,64 @@
   "compared_to": "2026-10-29",
   "entered": [
     {
-      "id": "hermez-network-token",
-      "name": "Hermez Network",
-      "score": 60
-    },
-    {
       "id": "doodles",
       "name": "Doodles",
-      "score": 59
+      "score": 61
     },
     {
       "id": "incentiv",
       "name": "Incentiv",
-      "score": 52
+      "score": 56
     },
     {
-      "id": "kernel-2",
-      "name": "KernelDAO",
-      "score": 51
+      "id": "orderly-network",
+      "name": "Orderly",
+      "score": 56
     },
     {
-      "id": "bitdca",
-      "name": "BitDCA",
-      "score": 49
+      "id": "synfutures",
+      "name": "SynFutures",
+      "score": 50
     },
     {
       "id": "elephant-money",
       "name": "Elephant Money",
-      "score": 47
-    },
-    {
-      "id": "prospective",
-      "name": "Prospective",
-      "score": 46
-    },
-    {
-      "id": "babycashcat",
-      "name": "BabyCashCat",
-      "score": 46
+      "score": 48
     },
     {
       "id": "dual",
       "name": "Dual",
-      "score": 46
+      "score": 48
+    },
+    {
+      "id": "bitdca",
+      "name": "BitDCA",
+      "score": 44
     },
     {
       "id": "ai-powered-finance",
       "name": "AI Powered Finance",
-      "score": 44
-    },
-    {
-      "id": "super-inu-3",
-      "name": "Super Inu",
-      "score": 41
+      "score": 43
     },
     {
       "id": "sanctum-2",
       "name": "Sanctum",
-      "score": 40
+      "score": 42
     },
     {
-      "id": "concordium",
-      "name": "Concordium",
-      "score": 39
+      "id": "babycashcat",
+      "name": "BabyCashCat",
+      "score": 41
     },
     {
       "id": "tau-fa",
       "name": "TAU FA",
-      "score": 39
+      "score": 38
+    },
+    {
+      "id": "concordium",
+      "name": "Concordium",
+      "score": 38
     },
     {
       "id": "credible-finance",
@@ -77,32 +67,32 @@
       "score": 36
     },
     {
+      "id": "iota-2",
+      "name": "iota",
+      "score": 35
+    },
+    {
       "id": "medibloc",
       "name": "Medibloc",
       "score": 33
     },
     {
-      "id": "strikecoin",
-      "name": "StrikeX",
-      "score": 32
-    },
-    {
       "id": "vin-2",
       "name": "VulgarTycoon",
-      "score": 32
-    },
-    {
-      "id": "iota-2",
-      "name": "iota",
-      "score": 31
+      "score": 33
     },
     {
       "id": "hunt-token",
       "name": "Hunt",
-      "score": 29
+      "score": 30
     }
   ],
   "left": [
+    {
+      "id": "affine",
+      "name": "affine",
+      "reason": "low volume"
+    },
     {
       "id": "ai-companions",
       "name": "ai-companions",
@@ -124,18 +114,23 @@
       "reason": "dropped out of top N"
     },
     {
+      "id": "bora",
+      "name": "BORA",
+      "reason": "low volume"
+    },
+    {
       "id": "changenow",
       "name": "ChangeNOW",
       "reason": "low volume"
     },
     {
-      "id": "dkargo",
-      "name": "dkargo",
-      "reason": "dropped out of top N"
+      "id": "cortex-2",
+      "name": "Cortex",
+      "reason": "low volume"
     },
     {
-      "id": "endurance",
-      "name": "endurance",
+      "id": "dkargo",
+      "name": "dkargo",
       "reason": "dropped out of top N"
     },
     {
@@ -146,6 +141,11 @@
     {
       "id": "fonq",
       "name": "FONQ",
+      "reason": "low volume"
+    },
+    {
+      "id": "fuzzybear",
+      "name": "Fuzzybear",
       "reason": "low volume"
     },
     {
@@ -189,19 +189,14 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "w-ai-parked",
-      "name": "w-ai-parked",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "wiki-cat",
-      "name": "Wiki Cat",
+      "id": "usdai",
+      "name": "USDai",
       "reason": "low volume"
     },
     {
-      "id": "xai-blockchain",
-      "name": "Xai",
-      "reason": "outside top N"
+      "id": "w-ai-parked",
+      "name": "w-ai-parked",
+      "reason": "dropped out of top N"
     }
   ]
 }
