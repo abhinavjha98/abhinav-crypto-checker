@@ -2,13 +2,8 @@
   "compared_to": "2026-10-29",
   "entered": [
     {
-      "id": "chainlink",
-      "name": "Chainlink",
-      "score": 61
-    },
-    {
-      "id": "fx-usd-saving",
-      "name": "f(x) USD Saving",
+      "id": "doodles",
+      "name": "Doodles",
       "score": 61
     },
     {
@@ -17,9 +12,14 @@
       "score": 60
     },
     {
-      "id": "bob-build-on-bitcoin",
-      "name": "BOB (Build on Bitcoin)",
-      "score": 52
+      "id": "orderly-network",
+      "name": "Orderly",
+      "score": 58
+    },
+    {
+      "id": "incentiv",
+      "name": "Incentiv",
+      "score": 54
     },
     {
       "id": "prospective",
@@ -27,65 +27,65 @@
       "score": 48
     },
     {
-      "id": "pear-protocol",
-      "name": "Pear Protocol",
-      "score": 48
-    },
-    {
-      "id": "incentiv",
-      "name": "Incentiv",
-      "score": 47
+      "id": "dual",
+      "name": "Dual",
+      "score": 46
     },
     {
       "id": "kaio",
       "name": "KAIO",
-      "score": 42
+      "score": 41
     },
     {
       "id": "sanctum-2",
       "name": "Sanctum",
-      "score": 33
+      "score": 37
+    },
+    {
+      "id": "fomo-life",
+      "name": "FOMO\u4eba\u751f",
+      "score": 36
     },
     {
       "id": "medibloc",
       "name": "Medibloc",
-      "score": 33
+      "score": 34
+    },
+    {
+      "id": "strikecoin",
+      "name": "StrikeX",
+      "score": 34
+    },
+    {
+      "id": "iota-2",
+      "name": "iota",
+      "score": 34
     },
     {
       "id": "vin-2",
       "name": "VulgarTycoon",
-      "score": 31
+      "score": 32
+    },
+    {
+      "id": "super-intelligent-beauty",
+      "name": "Super Intelligent Beauty",
+      "score": 30
     },
     {
       "id": "hunt-token",
       "name": "Hunt",
       "score": 29
-    },
-    {
-      "id": "strikecoin",
-      "name": "StrikeX",
-      "score": 26
     }
   ],
   "left": [
     {
-      "id": "ai-companions",
-      "name": "ai-companions",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "airtor-protocol",
-      "name": "airtor-protocol",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "ao-computer",
-      "name": "ao Computer",
+      "id": "across-protocol",
+      "name": "Across Protocol",
       "reason": "low volume"
     },
     {
-      "id": "bitcast",
-      "name": "bitcast",
+      "id": "ai-companions",
+      "name": "ai-companions",
       "reason": "dropped out of top N"
     },
     {
@@ -94,24 +94,9 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "certik",
-      "name": "certik",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "endurance",
-      "name": "endurance",
-      "reason": "dropped out of top N"
-    },
-    {
       "id": "ergo",
       "name": "Ergo",
       "reason": "low volume"
-    },
-    {
-      "id": "fogo",
-      "name": "fogo",
-      "reason": "dropped out of top N"
     },
     {
       "id": "hookr-fun",
@@ -119,14 +104,9 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "nkyc-token",
-      "name": "NKYC Token",
-      "reason": "price too high"
-    },
-    {
-      "id": "nullmask",
-      "name": "nullmask",
-      "reason": "dropped out of top N"
+      "id": "nova-3",
+      "name": "NOVA",
+      "reason": "low volume"
     },
     {
       "id": "radicle",
@@ -139,13 +119,13 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "w-ai-parked",
-      "name": "w-ai-parked",
+      "id": "super-pepe",
+      "name": "super-pepe",
       "reason": "dropped out of top N"
     },
     {
-      "id": "xai-blockchain",
-      "name": "xai-blockchain",
+      "id": "tronbank",
+      "name": "tronbank",
       "reason": "dropped out of top N"
     }
   ]
