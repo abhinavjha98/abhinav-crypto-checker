@@ -1,127 +1,152 @@
 {
-  "compared_to": "2026-10-28",
+  "compared_to": "2026-10-29",
   "entered": [
     {
-      "id": "anvil",
-      "name": "Anvil",
+      "id": "chainlink",
+      "name": "Chainlink",
+      "score": 61
+    },
+    {
+      "id": "fx-usd-saving",
+      "name": "f(x) USD Saving",
+      "score": 61
+    },
+    {
+      "id": "hermez-network-token",
+      "name": "Hermez Network",
       "score": 60
     },
     {
-      "id": "aria-ai",
-      "name": "Aria.AI",
-      "score": 54
+      "id": "bob-build-on-bitcoin",
+      "name": "BOB (Build on Bitcoin)",
+      "score": 52
     },
     {
-      "id": "tronbank",
-      "name": "TronBank",
-      "score": 51
-    },
-    {
-      "id": "certik",
-      "name": "Shentu",
+      "id": "prospective",
+      "name": "Prospective",
       "score": 48
     },
     {
-      "id": "re-protocol-reusde",
-      "name": "Re Protocol reUSDe",
-      "score": 45
+      "id": "pear-protocol",
+      "name": "Pear Protocol",
+      "score": 48
     },
     {
-      "id": "super-pepe",
-      "name": "Super Pepe",
-      "score": 40
+      "id": "incentiv",
+      "name": "Incentiv",
+      "score": 47
     },
     {
-      "id": "arcblock",
-      "name": "Arcblock",
-      "score": 38
+      "id": "kaio",
+      "name": "KAIO",
+      "score": 42
     },
     {
-      "id": "affine",
-      "name": "affine",
-      "score": 38
+      "id": "sanctum-2",
+      "name": "Sanctum",
+      "score": 33
     },
     {
-      "id": "changenow",
-      "name": "ChangeNOW",
-      "score": 34
+      "id": "medibloc",
+      "name": "Medibloc",
+      "score": 33
     },
     {
-      "id": "nano",
-      "name": "Nano",
-      "score": 32
+      "id": "vin-2",
+      "name": "VulgarTycoon",
+      "score": 31
     },
     {
-      "id": "ocean-protocol",
-      "name": "Ocean Protocol",
+      "id": "hunt-token",
+      "name": "Hunt",
       "score": 29
     },
     {
-      "id": "hoodpork",
-      "name": "HoodPork",
-      "score": 25
+      "id": "strikecoin",
+      "name": "StrikeX",
+      "score": 26
     }
   ],
   "left": [
     {
-      "id": "ai-powered-finance",
-      "name": "AI Powered Finance",
-      "reason": "low volume"
-    },
-    {
-      "id": "bitdca",
-      "name": "BitDCA",
-      "reason": "low volume"
-    },
-    {
-      "id": "credible-finance",
-      "name": "Credible Finance",
-      "reason": "low volume"
-    },
-    {
-      "id": "dual",
-      "name": "Dual",
-      "reason": "low volume"
-    },
-    {
-      "id": "iota-2",
-      "name": "iota",
-      "reason": "low volume"
-    },
-    {
-      "id": "kaio",
-      "name": "kaio",
+      "id": "ai-companions",
+      "name": "ai-companions",
       "reason": "dropped out of top N"
     },
     {
-      "id": "pippin",
-      "name": "pippin",
+      "id": "airtor-protocol",
+      "name": "airtor-protocol",
       "reason": "dropped out of top N"
     },
     {
-      "id": "talus",
-      "name": "talus",
+      "id": "ao-computer",
+      "name": "ao Computer",
+      "reason": "low volume"
+    },
+    {
+      "id": "bitcast",
+      "name": "bitcast",
       "reason": "dropped out of top N"
     },
     {
-      "id": "tcy",
-      "name": "THORChain Yield",
-      "reason": "low volume"
-    },
-    {
-      "id": "tiger-alpha",
-      "name": "tiger-alpha",
+      "id": "boner-coin",
+      "name": "boner-coin",
       "reason": "dropped out of top N"
     },
     {
-      "id": "usdu",
-      "name": "USDu",
+      "id": "certik",
+      "name": "certik",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "endurance",
+      "name": "endurance",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "ergo",
+      "name": "Ergo",
       "reason": "low volume"
     },
     {
-      "id": "zylo-ecosystem",
-      "name": "Zylo Ecosystem",
-      "reason": "low volume"
+      "id": "fogo",
+      "name": "fogo",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "hookr-fun",
+      "name": "hookr-fun",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "nkyc-token",
+      "name": "NKYC Token",
+      "reason": "price too high"
+    },
+    {
+      "id": "nullmask",
+      "name": "nullmask",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "radicle",
+      "name": "radicle",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "realio-network",
+      "name": "realio-network",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "w-ai-parked",
+      "name": "w-ai-parked",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "xai-blockchain",
+      "name": "xai-blockchain",
+      "reason": "dropped out of top N"
     }
   ]
 }
