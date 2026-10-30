@@ -2,19 +2,24 @@
   "compared_to": "2026-10-29",
   "entered": [
     {
-      "id": "doodles",
-      "name": "Doodles",
-      "score": 62
-    },
-    {
       "id": "hermez-network-token",
       "name": "Hermez Network",
       "score": 60
     },
     {
+      "id": "doodles",
+      "name": "Doodles",
+      "score": 59
+    },
+    {
       "id": "incentiv",
       "name": "Incentiv",
-      "score": 54
+      "score": 52
+    },
+    {
+      "id": "kernel-2",
+      "name": "KernelDAO",
+      "score": 51
     },
     {
       "id": "bitdca",
@@ -22,14 +27,24 @@
       "score": 49
     },
     {
+      "id": "elephant-money",
+      "name": "Elephant Money",
+      "score": 47
+    },
+    {
       "id": "prospective",
       "name": "Prospective",
-      "score": 48
+      "score": 46
+    },
+    {
+      "id": "babycashcat",
+      "name": "BabyCashCat",
+      "score": 46
     },
     {
       "id": "dual",
       "name": "Dual",
-      "score": 45
+      "score": 46
     },
     {
       "id": "ai-powered-finance",
@@ -37,9 +52,19 @@
       "score": 44
     },
     {
+      "id": "super-inu-3",
+      "name": "Super Inu",
+      "score": 41
+    },
+    {
       "id": "sanctum-2",
       "name": "Sanctum",
       "score": 40
+    },
+    {
+      "id": "concordium",
+      "name": "Concordium",
+      "score": 39
     },
     {
       "id": "tau-fa",
@@ -47,19 +72,14 @@
       "score": 39
     },
     {
-      "id": "concordium",
-      "name": "Concordium",
-      "score": 37
-    },
-    {
-      "id": "obligate-trade-finance-yield",
-      "name": "Obligate Trade Finance Yield",
-      "score": 35
+      "id": "credible-finance",
+      "name": "Credible Finance",
+      "score": 36
     },
     {
       "id": "medibloc",
       "name": "Medibloc",
-      "score": 34
+      "score": 33
     },
     {
       "id": "strikecoin",
@@ -74,15 +94,20 @@
     {
       "id": "iota-2",
       "name": "iota",
-      "score": 32
+      "score": 31
     },
     {
       "id": "hunt-token",
       "name": "Hunt",
-      "score": 28
+      "score": 29
     }
   ],
   "left": [
+    {
+      "id": "ai-companions",
+      "name": "ai-companions",
+      "reason": "dropped out of top N"
+    },
     {
       "id": "aria-ai",
       "name": "aria-ai",
@@ -125,8 +150,8 @@
     },
     {
       "id": "hoodpork",
-      "name": "HoodPork",
-      "reason": "low volume"
+      "name": "hoodpork",
+      "reason": "dropped out of top N"
     },
     {
       "id": "hookr-fun",
@@ -162,6 +187,21 @@
       "id": "tutorial",
       "name": "tutorial",
       "reason": "dropped out of top N"
+    },
+    {
+      "id": "w-ai-parked",
+      "name": "w-ai-parked",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "wiki-cat",
+      "name": "Wiki Cat",
+      "reason": "low volume"
+    },
+    {
+      "id": "xai-blockchain",
+      "name": "Xai",
+      "reason": "outside top N"
     }
   ]
 }
