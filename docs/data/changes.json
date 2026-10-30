@@ -4,7 +4,7 @@
     {
       "id": "doodles",
       "name": "Doodles",
-      "score": 61
+      "score": 62
     },
     {
       "id": "hermez-network-token",
@@ -12,14 +12,14 @@
       "score": 60
     },
     {
-      "id": "orderly-network",
-      "name": "Orderly",
-      "score": 58
-    },
-    {
       "id": "incentiv",
       "name": "Incentiv",
       "score": 54
+    },
+    {
+      "id": "bitdca",
+      "name": "BitDCA",
+      "score": 49
     },
     {
       "id": "prospective",
@@ -29,22 +29,32 @@
     {
       "id": "dual",
       "name": "Dual",
-      "score": 46
+      "score": 45
     },
     {
-      "id": "kaio",
-      "name": "KAIO",
-      "score": 41
+      "id": "ai-powered-finance",
+      "name": "AI Powered Finance",
+      "score": 44
     },
     {
       "id": "sanctum-2",
       "name": "Sanctum",
+      "score": 40
+    },
+    {
+      "id": "tau-fa",
+      "name": "TAU FA",
+      "score": 39
+    },
+    {
+      "id": "concordium",
+      "name": "Concordium",
       "score": 37
     },
     {
-      "id": "fomo-life",
-      "name": "FOMO\u4eba\u751f",
-      "score": 36
+      "id": "obligate-trade-finance-yield",
+      "name": "Obligate Trade Finance Yield",
+      "score": 35
     },
     {
       "id": "medibloc",
@@ -54,12 +64,7 @@
     {
       "id": "strikecoin",
       "name": "StrikeX",
-      "score": 34
-    },
-    {
-      "id": "iota-2",
-      "name": "iota",
-      "score": 34
+      "score": 32
     },
     {
       "id": "vin-2",
@@ -67,25 +72,25 @@
       "score": 32
     },
     {
-      "id": "super-intelligent-beauty",
-      "name": "Super Intelligent Beauty",
-      "score": 30
+      "id": "iota-2",
+      "name": "iota",
+      "score": 32
     },
     {
       "id": "hunt-token",
       "name": "Hunt",
-      "score": 29
+      "score": 28
     }
   ],
   "left": [
     {
-      "id": "across-protocol",
-      "name": "Across Protocol",
-      "reason": "low volume"
+      "id": "aria-ai",
+      "name": "aria-ai",
+      "reason": "dropped out of top N"
     },
     {
-      "id": "ai-companions",
-      "name": "ai-companions",
+      "id": "bitcast",
+      "name": "bitcast",
       "reason": "dropped out of top N"
     },
     {
@@ -94,8 +99,33 @@
       "reason": "dropped out of top N"
     },
     {
+      "id": "changenow",
+      "name": "ChangeNOW",
+      "reason": "low volume"
+    },
+    {
+      "id": "dkargo",
+      "name": "dkargo",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "endurance",
+      "name": "endurance",
+      "reason": "dropped out of top N"
+    },
+    {
       "id": "ergo",
       "name": "Ergo",
+      "reason": "low volume"
+    },
+    {
+      "id": "fonq",
+      "name": "FONQ",
+      "reason": "low volume"
+    },
+    {
+      "id": "hoodpork",
+      "name": "HoodPork",
       "reason": "low volume"
     },
     {
@@ -114,18 +144,23 @@
       "reason": "dropped out of top N"
     },
     {
+      "id": "re-protocol-reusde",
+      "name": "Re Protocol reUSDe",
+      "reason": "low volume"
+    },
+    {
       "id": "realio-network",
       "name": "realio-network",
       "reason": "dropped out of top N"
     },
     {
-      "id": "super-pepe",
-      "name": "super-pepe",
+      "id": "tronbank",
+      "name": "tronbank",
       "reason": "dropped out of top N"
     },
     {
-      "id": "tronbank",
-      "name": "tronbank",
+      "id": "tutorial",
+      "name": "tutorial",
       "reason": "dropped out of top N"
     }
   ]
