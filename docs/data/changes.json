@@ -4,16 +4,16 @@
     {
       "id": "aria-ai",
       "name": "Aria.AI",
-      "score": 56
+      "score": 55
     },
     {
       "id": "tcy",
       "name": "THORChain Yield",
-      "score": 49
+      "score": 50
     },
     {
-      "id": "radicle",
-      "name": "Radworks",
+      "id": "dessa",
+      "name": "Dessa",
       "score": 47
     },
     {
@@ -22,18 +22,18 @@
       "score": 46
     },
     {
-      "id": "dessa",
-      "name": "Dessa",
-      "score": 44
-    },
-    {
       "id": "luca",
       "name": "LUCA",
-      "score": 42
+      "score": 44
     },
     {
       "id": "super-inu-3",
       "name": "Super Inu",
+      "score": 44
+    },
+    {
+      "id": "hookr-fun",
+      "name": "Hookr.fun",
       "score": 41
     },
     {
@@ -44,33 +44,33 @@
     {
       "id": "fomo-life",
       "name": "FOMO\u4eba\u751f",
-      "score": 34
+      "score": 38
     },
     {
       "id": "true",
       "name": "True",
       "score": 33
-    },
-    {
-      "id": "dkargo",
-      "name": "dKargo",
-      "score": 23
     }
   ],
   "left": [
     {
-      "id": "across-protocol",
-      "name": "Across Protocol",
+      "id": "ai-powered-finance",
+      "name": "AI Powered Finance",
       "reason": "low volume"
     },
     {
-      "id": "airtor-protocol",
-      "name": "airtor-protocol",
-      "reason": "dropped out of top N"
+      "id": "ao-computer",
+      "name": "ao Computer",
+      "reason": "low volume"
     },
     {
       "id": "arcblock",
       "name": "Arcblock",
+      "reason": "low volume"
+    },
+    {
+      "id": "babycashcat",
+      "name": "BabyCashCat",
       "reason": "low volume"
     },
     {
@@ -84,6 +84,21 @@
       "reason": "low volume"
     },
     {
+      "id": "concordium",
+      "name": "Concordium",
+      "reason": "low volume"
+    },
+    {
+      "id": "credible-finance",
+      "name": "Credible Finance",
+      "reason": "low volume"
+    },
+    {
+      "id": "elephant-money",
+      "name": "Elephant Money",
+      "reason": "low volume"
+    },
+    {
       "id": "fogo",
       "name": "fogo",
       "reason": "dropped out of top N"
@@ -94,18 +109,28 @@
       "reason": "low volume"
     },
     {
-      "id": "goldfish-gold",
-      "name": "Goldfish Gold",
-      "reason": "low volume"
-    },
-    {
       "id": "hunt-token",
       "name": "Hunt",
       "reason": "low volume"
     },
     {
+      "id": "idlemine",
+      "name": "IdleMine",
+      "reason": "low volume"
+    },
+    {
+      "id": "incentiv",
+      "name": "incentiv",
+      "reason": "dropped out of top N"
+    },
+    {
       "id": "iota-2",
       "name": "iota",
+      "reason": "low volume"
+    },
+    {
+      "id": "manadia",
+      "name": "Manadia",
       "reason": "low volume"
     },
     {
@@ -114,13 +139,8 @@
       "reason": "low volume"
     },
     {
-      "id": "railgun",
-      "name": "Railgun",
-      "reason": "low volume"
-    },
-    {
-      "id": "sanctum-2",
-      "name": "Sanctum",
+      "id": "nano",
+      "name": "Nano",
       "reason": "low volume"
     },
     {
@@ -129,9 +149,14 @@
       "reason": "low volume"
     },
     {
-      "id": "super-pepe",
-      "name": "super-pepe",
+      "id": "synfutures",
+      "name": "synfutures",
       "reason": "dropped out of top N"
+    },
+    {
+      "id": "templar",
+      "name": "\u03c4emplar",
+      "reason": "low volume"
     },
     {
       "id": "tensorcash",
@@ -146,6 +171,11 @@
     {
       "id": "umia",
       "name": "Umia",
+      "reason": "low volume"
+    },
+    {
+      "id": "unipoly",
+      "name": "Unipoly",
       "reason": "low volume"
     },
     {
