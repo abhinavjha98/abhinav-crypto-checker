@@ -9,12 +9,12 @@
     {
       "id": "tcy",
       "name": "THORChain Yield",
-      "score": 50
+      "score": 49
     },
     {
       "id": "dessa",
       "name": "Dessa",
-      "score": 47
+      "score": 48
     },
     {
       "id": "fonq",
@@ -22,19 +22,14 @@
       "score": 46
     },
     {
+      "id": "super-inu-3",
+      "name": "Super Inu",
+      "score": 45
+    },
+    {
       "id": "luca",
       "name": "LUCA",
       "score": 44
-    },
-    {
-      "id": "super-inu-3",
-      "name": "Super Inu",
-      "score": 44
-    },
-    {
-      "id": "hookr-fun",
-      "name": "Hookr.fun",
-      "score": 41
     },
     {
       "id": "affine",
@@ -42,20 +37,25 @@
       "score": 39
     },
     {
+      "id": "hookr-fun",
+      "name": "Hookr.fun",
+      "score": 39
+    },
+    {
       "id": "fomo-life",
       "name": "FOMO\u4eba\u751f",
-      "score": 38
+      "score": 36
     },
     {
       "id": "true",
       "name": "True",
-      "score": 33
+      "score": 29
     }
   ],
   "left": [
     {
-      "id": "ai-powered-finance",
-      "name": "AI Powered Finance",
+      "id": "anvil",
+      "name": "Anvil",
       "reason": "low volume"
     },
     {
@@ -66,6 +66,11 @@
     {
       "id": "arcblock",
       "name": "Arcblock",
+      "reason": "low volume"
+    },
+    {
+      "id": "autonolas",
+      "name": "Autonolas",
       "reason": "low volume"
     },
     {
@@ -104,11 +109,6 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "freysa-ai",
-      "name": "Freysa AI",
-      "reason": "low volume"
-    },
-    {
       "id": "hunt-token",
       "name": "Hunt",
       "reason": "low volume"
@@ -129,6 +129,11 @@
       "reason": "low volume"
     },
     {
+      "id": "mag7-ssi",
+      "name": "MAG7.ssi",
+      "reason": "low volume"
+    },
+    {
       "id": "manadia",
       "name": "Manadia",
       "reason": "low volume"
@@ -141,6 +146,16 @@
     {
       "id": "nano",
       "name": "Nano",
+      "reason": "low volume"
+    },
+    {
+      "id": "railgun",
+      "name": "Railgun",
+      "reason": "low volume"
+    },
+    {
+      "id": "sanctum-2",
+      "name": "Sanctum",
       "reason": "low volume"
     },
     {
