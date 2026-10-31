@@ -7,9 +7,14 @@
       "score": 56
     },
     {
-      "id": "dessa",
-      "name": "Dessa",
+      "id": "tcy",
+      "name": "THORChain Yield",
       "score": 49
+    },
+    {
+      "id": "radicle",
+      "name": "Radworks",
+      "score": 47
     },
     {
       "id": "fonq",
@@ -17,9 +22,29 @@
       "score": 46
     },
     {
-      "id": "qanplatform",
-      "name": "QANplatform",
+      "id": "dessa",
+      "name": "Dessa",
+      "score": 44
+    },
+    {
+      "id": "luca",
+      "name": "LUCA",
       "score": 42
+    },
+    {
+      "id": "super-inu-3",
+      "name": "Super Inu",
+      "score": 41
+    },
+    {
+      "id": "affine",
+      "name": "affine",
+      "score": 39
+    },
+    {
+      "id": "fomo-life",
+      "name": "FOMO\u4eba\u751f",
+      "score": 34
     },
     {
       "id": "true",
@@ -27,8 +52,8 @@
       "score": 33
     },
     {
-      "id": "ergo",
-      "name": "Ergo",
+      "id": "dkargo",
+      "name": "dKargo",
       "score": 23
     }
   ],
@@ -39,13 +64,48 @@
       "reason": "low volume"
     },
     {
+      "id": "airtor-protocol",
+      "name": "airtor-protocol",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "arcblock",
+      "name": "Arcblock",
+      "reason": "low volume"
+    },
+    {
+      "id": "bitdca",
+      "name": "BitDCA",
+      "reason": "low volume"
+    },
+    {
       "id": "bitmind",
       "name": "BitMind",
       "reason": "low volume"
     },
     {
+      "id": "fogo",
+      "name": "fogo",
+      "reason": "dropped out of top N"
+    },
+    {
       "id": "freysa-ai",
       "name": "Freysa AI",
+      "reason": "low volume"
+    },
+    {
+      "id": "goldfish-gold",
+      "name": "Goldfish Gold",
+      "reason": "low volume"
+    },
+    {
+      "id": "hunt-token",
+      "name": "Hunt",
+      "reason": "low volume"
+    },
+    {
+      "id": "iota-2",
+      "name": "iota",
       "reason": "low volume"
     },
     {
@@ -54,13 +114,13 @@
       "reason": "low volume"
     },
     {
-      "id": "orderly-network",
-      "name": "Orderly",
-      "reason": "outside top N"
-    },
-    {
       "id": "railgun",
       "name": "Railgun",
+      "reason": "low volume"
+    },
+    {
+      "id": "sanctum-2",
+      "name": "Sanctum",
       "reason": "low volume"
     },
     {
@@ -71,11 +131,6 @@
     {
       "id": "super-pepe",
       "name": "super-pepe",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "synfutures",
-      "name": "synfutures",
       "reason": "dropped out of top N"
     },
     {
