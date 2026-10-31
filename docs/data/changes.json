@@ -1,202 +1,102 @@
 {
-  "compared_to": "2026-10-29",
+  "compared_to": "2026-10-30",
   "entered": [
     {
-      "id": "doodles",
-      "name": "Doodles",
-      "score": 61
-    },
-    {
-      "id": "incentiv",
-      "name": "Incentiv",
-      "score": 56
-    },
-    {
-      "id": "orderly-network",
-      "name": "Orderly",
-      "score": 56
-    },
-    {
-      "id": "synfutures",
-      "name": "SynFutures",
-      "score": 50
-    },
-    {
-      "id": "elephant-money",
-      "name": "Elephant Money",
-      "score": 48
-    },
-    {
-      "id": "dual",
-      "name": "Dual",
-      "score": 48
-    },
-    {
-      "id": "bitdca",
-      "name": "BitDCA",
-      "score": 44
-    },
-    {
-      "id": "ai-powered-finance",
-      "name": "AI Powered Finance",
-      "score": 43
-    },
-    {
-      "id": "sanctum-2",
-      "name": "Sanctum",
-      "score": 42
-    },
-    {
-      "id": "babycashcat",
-      "name": "BabyCashCat",
-      "score": 41
-    },
-    {
-      "id": "tau-fa",
-      "name": "TAU FA",
-      "score": 38
-    },
-    {
-      "id": "concordium",
-      "name": "Concordium",
-      "score": 38
-    },
-    {
-      "id": "credible-finance",
-      "name": "Credible Finance",
-      "score": 36
-    },
-    {
-      "id": "iota-2",
-      "name": "iota",
-      "score": 35
-    },
-    {
-      "id": "medibloc",
-      "name": "Medibloc",
-      "score": 33
-    },
-    {
-      "id": "vin-2",
-      "name": "VulgarTycoon",
-      "score": 33
-    },
-    {
-      "id": "hunt-token",
-      "name": "Hunt",
-      "score": 30
-    }
-  ],
-  "left": [
-    {
-      "id": "affine",
-      "name": "affine",
-      "reason": "low volume"
-    },
-    {
-      "id": "ai-companions",
-      "name": "ai-companions",
-      "reason": "dropped out of top N"
-    },
-    {
       "id": "aria-ai",
-      "name": "aria-ai",
-      "reason": "dropped out of top N"
+      "name": "Aria.AI",
+      "score": 56
     },
     {
-      "id": "bitcast",
-      "name": "bitcast",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "boner-coin",
-      "name": "boner-coin",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "bora",
-      "name": "BORA",
-      "reason": "low volume"
-    },
-    {
-      "id": "changenow",
-      "name": "ChangeNOW",
-      "reason": "low volume"
-    },
-    {
-      "id": "cortex-2",
-      "name": "Cortex",
-      "reason": "low volume"
-    },
-    {
-      "id": "dkargo",
-      "name": "dkargo",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "ergo",
-      "name": "Ergo",
-      "reason": "low volume"
+      "id": "dessa",
+      "name": "Dessa",
+      "score": 49
     },
     {
       "id": "fonq",
       "name": "FONQ",
+      "score": 46
+    },
+    {
+      "id": "qanplatform",
+      "name": "QANplatform",
+      "score": 42
+    },
+    {
+      "id": "true",
+      "name": "True",
+      "score": 33
+    },
+    {
+      "id": "ergo",
+      "name": "Ergo",
+      "score": 23
+    }
+  ],
+  "left": [
+    {
+      "id": "across-protocol",
+      "name": "Across Protocol",
       "reason": "low volume"
     },
     {
-      "id": "fuzzybear",
-      "name": "Fuzzybear",
+      "id": "bitmind",
+      "name": "BitMind",
       "reason": "low volume"
     },
     {
-      "id": "hoodpork",
-      "name": "hoodpork",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "hookr-fun",
-      "name": "hookr-fun",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "nova-3",
-      "name": "NOVA",
+      "id": "freysa-ai",
+      "name": "Freysa AI",
       "reason": "low volume"
     },
     {
-      "id": "radicle",
-      "name": "radicle",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "re-protocol-reusde",
-      "name": "Re Protocol reUSDe",
+      "id": "medibloc",
+      "name": "Medibloc",
       "reason": "low volume"
     },
     {
-      "id": "realio-network",
-      "name": "realio-network",
-      "reason": "dropped out of top N"
+      "id": "orderly-network",
+      "name": "Orderly",
+      "reason": "outside top N"
     },
     {
-      "id": "tronbank",
-      "name": "tronbank",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "tutorial",
-      "name": "tutorial",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "usdai",
-      "name": "USDai",
+      "id": "railgun",
+      "name": "Railgun",
       "reason": "low volume"
     },
     {
-      "id": "w-ai-parked",
-      "name": "w-ai-parked",
+      "id": "scandic-coin",
+      "name": "Scandic Coin",
+      "reason": "low volume"
+    },
+    {
+      "id": "super-pepe",
+      "name": "super-pepe",
       "reason": "dropped out of top N"
+    },
+    {
+      "id": "synfutures",
+      "name": "synfutures",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "tensorcash",
+      "name": "TensorCash",
+      "reason": "low volume"
+    },
+    {
+      "id": "tokamak-network",
+      "name": "Tokamak Network",
+      "reason": "low volume"
+    },
+    {
+      "id": "umia",
+      "name": "Umia",
+      "reason": "low volume"
+    },
+    {
+      "id": "vin-2",
+      "name": "VulgarTycoon",
+      "reason": "low volume"
     }
   ]
 }
