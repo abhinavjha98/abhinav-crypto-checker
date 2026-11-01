@@ -4,12 +4,12 @@
     {
       "id": "starpower",
       "name": "Starpower",
-      "score": 63
+      "score": 67
     },
     {
       "id": "ambire-wallet",
       "name": "Ambire Wallet",
-      "score": 56
+      "score": 55
     },
     {
       "id": "bob-build-on-bitcoin",
@@ -17,18 +17,23 @@
       "score": 54
     },
     {
-      "id": "omega-labs",
-      "name": "OMEGA Labs",
+      "id": "usdai",
+      "name": "USDai",
       "score": 54
     },
     {
-      "id": "incentiv",
-      "name": "Incentiv",
-      "score": 53
+      "id": "omega-labs",
+      "name": "OMEGA Labs",
+      "score": 50
     },
     {
       "id": "froggie",
       "name": "Froggie",
+      "score": 50
+    },
+    {
+      "id": "audacity-2",
+      "name": "AudaCity",
       "score": 50
     },
     {
@@ -42,18 +47,28 @@
       "score": 49
     },
     {
+      "id": "incentiv",
+      "name": "Incentiv",
+      "score": 47
+    },
+    {
+      "id": "manadia",
+      "name": "Manadia",
+      "score": 46
+    },
+    {
       "id": "railgun",
       "name": "Railgun",
       "score": 46
     },
     {
-      "id": "zylo-ecosystem",
-      "name": "Zylo Ecosystem",
-      "score": 45
-    },
-    {
       "id": "autonolas",
       "name": "Autonolas",
+      "score": 44
+    },
+    {
+      "id": "ao-computer",
+      "name": "ao Computer",
       "score": 43
     },
     {
@@ -64,7 +79,22 @@
     {
       "id": "medibloc",
       "name": "Medibloc",
-      "score": 38
+      "score": 37
+    },
+    {
+      "id": "peapods-finance",
+      "name": "Peapods Finance",
+      "score": 37
+    },
+    {
+      "id": "nova-3",
+      "name": "NOVA",
+      "score": 35
+    },
+    {
+      "id": "bitmind",
+      "name": "BitMind",
+      "score": 34
     },
     {
       "id": "dkargo",
@@ -72,37 +102,37 @@
       "score": 34
     },
     {
-      "id": "nova-3",
-      "name": "NOVA",
-      "score": 34
-    },
-    {
-      "id": "tx",
-      "name": "tx",
-      "score": 33
-    },
-    {
-      "id": "bitmind",
-      "name": "BitMind",
-      "score": 33
-    },
-    {
       "id": "nano",
       "name": "Nano",
-      "score": 30
+      "score": 31
     },
     {
       "id": "gradients",
       "name": "Gradients",
-      "score": 29
+      "score": 30
     },
     {
       "id": "mass-vehicle-ledger",
       "name": "MVL",
-      "score": 26
+      "score": 25
     }
   ],
   "left": [
+    {
+      "id": "across-protocol",
+      "name": "Across Protocol",
+      "reason": "low volume"
+    },
+    {
+      "id": "airtor-protocol",
+      "name": "airtor-protocol",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "anime",
+      "name": "anime",
+      "reason": "dropped out of top N"
+    },
     {
       "id": "big-titty-coin",
       "name": "big-titty-coin",
@@ -111,6 +141,21 @@
     {
       "id": "capybobo",
       "name": "capybobo",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "cobak-token",
+      "name": "Cobak",
+      "reason": "low volume"
+    },
+    {
+      "id": "deapcoin",
+      "name": "DEAPCOIN",
+      "reason": "low volume"
+    },
+    {
+      "id": "elsa",
+      "name": "elsa",
       "reason": "dropped out of top N"
     },
     {
@@ -134,16 +179,6 @@
       "reason": "low volume"
     },
     {
-      "id": "luca",
-      "name": "LUCA",
-      "reason": "low volume"
-    },
-    {
-      "id": "marscat-token",
-      "name": "Marscat Token",
-      "reason": "low volume"
-    },
-    {
       "id": "nullmask",
       "name": "nullmask",
       "reason": "dropped out of top N"
@@ -154,18 +189,18 @@
       "reason": "low volume"
     },
     {
+      "id": "perle",
+      "name": "perle",
+      "reason": "dropped out of top N"
+    },
+    {
       "id": "super-pepe",
       "name": "super-pepe",
       "reason": "dropped out of top N"
     },
     {
-      "id": "swissborg",
-      "name": "SwissBorg",
-      "reason": "low volume"
-    },
-    {
-      "id": "tornado-cash",
-      "name": "Tornado Cash",
+      "id": "tcy",
+      "name": "THORChain Yield",
       "reason": "low volume"
     },
     {
