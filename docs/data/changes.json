@@ -9,17 +9,57 @@
     {
       "id": "bob-build-on-bitcoin",
       "name": "BOB (Build on Bitcoin)",
+      "score": 53
+    },
+    {
+      "id": "ambire-wallet",
+      "name": "Ambire Wallet",
       "score": 52
+    },
+    {
+      "id": "usdu",
+      "name": "USDu",
+      "score": 49
+    },
+    {
+      "id": "froggie",
+      "name": "Froggie",
+      "score": 49
+    },
+    {
+      "id": "railgun",
+      "name": "Railgun",
+      "score": 45
+    },
+    {
+      "id": "ao-computer",
+      "name": "ao Computer",
+      "score": 38
+    },
+    {
+      "id": "tensorcash",
+      "name": "TensorCash",
+      "score": 38
+    },
+    {
+      "id": "medibloc",
+      "name": "Medibloc",
+      "score": 37
     },
     {
       "id": "tx",
       "name": "tx",
-      "score": 31
+      "score": 32
+    },
+    {
+      "id": "oho-blockchain",
+      "name": "OHO Blockchain",
+      "score": 32
     },
     {
       "id": "nano",
       "name": "Nano",
-      "score": 29
+      "score": 30
     },
     {
       "id": "dkargo",
@@ -30,17 +70,32 @@
   "left": [
     {
       "id": "doodles",
-      "name": "Doodles",
-      "reason": "outside top N"
-    },
-    {
-      "id": "jelly-my-jelly",
-      "name": "jelly-my-jelly",
+      "name": "doodles",
       "reason": "dropped out of top N"
     },
     {
-      "id": "nullmask",
-      "name": "nullmask",
+      "id": "fomo-life",
+      "name": "FOMO\u4eba\u751f",
+      "reason": "low volume"
+    },
+    {
+      "id": "hastra-auto",
+      "name": "Hastra AUTO",
+      "reason": "low volume"
+    },
+    {
+      "id": "marscat-token",
+      "name": "Marscat Token",
+      "reason": "low volume"
+    },
+    {
+      "id": "orderly-network",
+      "name": "orderly-network",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "super-pepe",
+      "name": "super-pepe",
       "reason": "dropped out of top N"
     },
     {
