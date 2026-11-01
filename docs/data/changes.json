@@ -4,7 +4,17 @@
     {
       "id": "incentiv",
       "name": "Incentiv",
-      "score": 58
+      "score": 56
+    },
+    {
+      "id": "omega-labs",
+      "name": "OMEGA Labs",
+      "score": 55
+    },
+    {
+      "id": "ambire-wallet",
+      "name": "Ambire Wallet",
+      "score": 54
     },
     {
       "id": "bob-build-on-bitcoin",
@@ -12,9 +22,9 @@
       "score": 53
     },
     {
-      "id": "ambire-wallet",
-      "name": "Ambire Wallet",
-      "score": 52
+      "id": "bitdca",
+      "name": "BitDCA",
+      "score": 49
     },
     {
       "id": "usdu",
@@ -24,36 +34,46 @@
     {
       "id": "froggie",
       "name": "Froggie",
-      "score": 49
+      "score": 47
     },
     {
-      "id": "railgun",
-      "name": "Railgun",
+      "id": "zylo-ecosystem",
+      "name": "Zylo Ecosystem",
       "score": 45
     },
     {
-      "id": "ao-computer",
-      "name": "ao Computer",
-      "score": 38
+      "id": "silencio",
+      "name": "Silencio",
+      "score": 44
     },
     {
-      "id": "tensorcash",
-      "name": "TensorCash",
+      "id": "oho-blockchain",
+      "name": "OHO Blockchain",
       "score": 38
     },
     {
       "id": "medibloc",
       "name": "Medibloc",
-      "score": 37
+      "score": 38
+    },
+    {
+      "id": "nova-3",
+      "name": "NOVA",
+      "score": 34
+    },
+    {
+      "id": "dkargo",
+      "name": "dKargo",
+      "score": 34
+    },
+    {
+      "id": "bitmind",
+      "name": "BitMind",
+      "score": 34
     },
     {
       "id": "tx",
       "name": "tx",
-      "score": 32
-    },
-    {
-      "id": "oho-blockchain",
-      "name": "OHO Blockchain",
       "score": 32
     },
     {
@@ -62,20 +82,30 @@
       "score": 30
     },
     {
-      "id": "dkargo",
-      "name": "dKargo",
-      "score": 24
+      "id": "gradients",
+      "name": "Gradients",
+      "score": 28
     }
   ],
   "left": [
     {
-      "id": "doodles",
-      "name": "doodles",
+      "id": "capybobo",
+      "name": "capybobo",
       "reason": "dropped out of top N"
+    },
+    {
+      "id": "figure-heloc",
+      "name": "Figure Heloc",
+      "reason": "low volume"
     },
     {
       "id": "fomo-life",
       "name": "FOMO\u4eba\u751f",
+      "reason": "low volume"
+    },
+    {
+      "id": "goldfish-gold",
+      "name": "Goldfish Gold",
       "reason": "low volume"
     },
     {
@@ -84,13 +114,8 @@
       "reason": "low volume"
     },
     {
-      "id": "marscat-token",
-      "name": "Marscat Token",
-      "reason": "low volume"
-    },
-    {
-      "id": "orderly-network",
-      "name": "orderly-network",
+      "id": "nullmask",
+      "name": "nullmask",
       "reason": "dropped out of top N"
     },
     {
@@ -99,9 +124,9 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "xai-blockchain",
-      "name": "xai-blockchain",
-      "reason": "dropped out of top N"
+      "id": "tornado-cash",
+      "name": "Tornado Cash",
+      "reason": "low volume"
     }
   ]
 }
