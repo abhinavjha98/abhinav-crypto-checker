@@ -1,202 +1,52 @@
 {
-  "compared_to": "2026-10-30",
+  "compared_to": "2026-10-31",
   "entered": [
     {
-      "id": "aria-ai",
-      "name": "Aria.AI",
-      "score": 55
-    },
-    {
-      "id": "tcy",
-      "name": "THORChain Yield",
-      "score": 49
-    },
-    {
-      "id": "dessa",
-      "name": "Dessa",
-      "score": 48
-    },
-    {
-      "id": "fonq",
-      "name": "FONQ",
-      "score": 46
-    },
-    {
-      "id": "super-inu-3",
-      "name": "Super Inu",
-      "score": 45
-    },
-    {
-      "id": "luca",
-      "name": "LUCA",
-      "score": 44
-    },
-    {
-      "id": "affine",
-      "name": "affine",
-      "score": 39
-    },
-    {
-      "id": "hookr-fun",
-      "name": "Hookr.fun",
-      "score": 39
-    },
-    {
-      "id": "fomo-life",
-      "name": "FOMO\u4eba\u751f",
-      "score": 36
-    },
-    {
-      "id": "true",
-      "name": "True",
-      "score": 29
-    }
-  ],
-  "left": [
-    {
-      "id": "anvil",
-      "name": "Anvil",
-      "reason": "low volume"
-    },
-    {
-      "id": "ao-computer",
-      "name": "ao Computer",
-      "reason": "low volume"
-    },
-    {
-      "id": "arcblock",
-      "name": "Arcblock",
-      "reason": "low volume"
-    },
-    {
-      "id": "autonolas",
-      "name": "Autonolas",
-      "reason": "low volume"
-    },
-    {
-      "id": "babycashcat",
-      "name": "BabyCashCat",
-      "reason": "low volume"
-    },
-    {
-      "id": "bitdca",
-      "name": "BitDCA",
-      "reason": "low volume"
-    },
-    {
-      "id": "bitmind",
-      "name": "BitMind",
-      "reason": "low volume"
-    },
-    {
-      "id": "concordium",
-      "name": "Concordium",
-      "reason": "low volume"
-    },
-    {
-      "id": "credible-finance",
-      "name": "Credible Finance",
-      "reason": "low volume"
-    },
-    {
-      "id": "elephant-money",
-      "name": "Elephant Money",
-      "reason": "low volume"
-    },
-    {
-      "id": "fogo",
-      "name": "fogo",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "hunt-token",
-      "name": "Hunt",
-      "reason": "low volume"
-    },
-    {
-      "id": "idlemine",
-      "name": "IdleMine",
-      "reason": "low volume"
-    },
-    {
       "id": "incentiv",
-      "name": "incentiv",
-      "reason": "dropped out of top N"
+      "name": "Incentiv",
+      "score": 58
     },
     {
-      "id": "iota-2",
-      "name": "iota",
-      "reason": "low volume"
+      "id": "bob-build-on-bitcoin",
+      "name": "BOB (Build on Bitcoin)",
+      "score": 52
     },
     {
-      "id": "mag7-ssi",
-      "name": "MAG7.ssi",
-      "reason": "low volume"
-    },
-    {
-      "id": "manadia",
-      "name": "Manadia",
-      "reason": "low volume"
-    },
-    {
-      "id": "medibloc",
-      "name": "Medibloc",
-      "reason": "low volume"
+      "id": "tx",
+      "name": "tx",
+      "score": 31
     },
     {
       "id": "nano",
       "name": "Nano",
-      "reason": "low volume"
+      "score": 29
     },
     {
-      "id": "railgun",
-      "name": "Railgun",
-      "reason": "low volume"
+      "id": "dkargo",
+      "name": "dKargo",
+      "score": 24
+    }
+  ],
+  "left": [
+    {
+      "id": "doodles",
+      "name": "Doodles",
+      "reason": "outside top N"
     },
     {
-      "id": "sanctum-2",
-      "name": "Sanctum",
-      "reason": "low volume"
-    },
-    {
-      "id": "scandic-coin",
-      "name": "Scandic Coin",
-      "reason": "low volume"
-    },
-    {
-      "id": "synfutures",
-      "name": "synfutures",
+      "id": "jelly-my-jelly",
+      "name": "jelly-my-jelly",
       "reason": "dropped out of top N"
     },
     {
-      "id": "templar",
-      "name": "\u03c4emplar",
-      "reason": "low volume"
+      "id": "nullmask",
+      "name": "nullmask",
+      "reason": "dropped out of top N"
     },
     {
-      "id": "tensorcash",
-      "name": "TensorCash",
-      "reason": "low volume"
-    },
-    {
-      "id": "tokamak-network",
-      "name": "Tokamak Network",
-      "reason": "low volume"
-    },
-    {
-      "id": "umia",
-      "name": "Umia",
-      "reason": "low volume"
-    },
-    {
-      "id": "unipoly",
-      "name": "Unipoly",
-      "reason": "low volume"
-    },
-    {
-      "id": "vin-2",
-      "name": "VulgarTycoon",
-      "reason": "low volume"
+      "id": "xai-blockchain",
+      "name": "xai-blockchain",
+      "reason": "dropped out of top N"
     }
   ]
 }
