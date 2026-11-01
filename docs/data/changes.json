@@ -2,24 +2,34 @@
   "compared_to": "2026-10-31",
   "entered": [
     {
-      "id": "incentiv",
-      "name": "Incentiv",
-      "score": 56
-    },
-    {
-      "id": "omega-labs",
-      "name": "OMEGA Labs",
-      "score": 55
+      "id": "starpower",
+      "name": "Starpower",
+      "score": 63
     },
     {
       "id": "ambire-wallet",
       "name": "Ambire Wallet",
-      "score": 54
+      "score": 56
     },
     {
       "id": "bob-build-on-bitcoin",
       "name": "BOB (Build on Bitcoin)",
+      "score": 54
+    },
+    {
+      "id": "omega-labs",
+      "name": "OMEGA Labs",
+      "score": 54
+    },
+    {
+      "id": "incentiv",
+      "name": "Incentiv",
       "score": 53
+    },
+    {
+      "id": "froggie",
+      "name": "Froggie",
+      "score": 50
     },
     {
       "id": "bitdca",
@@ -32,9 +42,9 @@
       "score": 49
     },
     {
-      "id": "froggie",
-      "name": "Froggie",
-      "score": 47
+      "id": "railgun",
+      "name": "Railgun",
+      "score": 46
     },
     {
       "id": "zylo-ecosystem",
@@ -42,14 +52,14 @@
       "score": 45
     },
     {
-      "id": "silencio",
-      "name": "Silencio",
-      "score": 44
+      "id": "autonolas",
+      "name": "Autonolas",
+      "score": 43
     },
     {
       "id": "oho-blockchain",
       "name": "OHO Blockchain",
-      "score": 38
+      "score": 39
     },
     {
       "id": "medibloc",
@@ -57,24 +67,24 @@
       "score": 38
     },
     {
-      "id": "nova-3",
-      "name": "NOVA",
-      "score": 34
-    },
-    {
       "id": "dkargo",
       "name": "dKargo",
       "score": 34
     },
     {
-      "id": "bitmind",
-      "name": "BitMind",
+      "id": "nova-3",
+      "name": "NOVA",
       "score": 34
     },
     {
       "id": "tx",
       "name": "tx",
-      "score": 32
+      "score": 33
+    },
+    {
+      "id": "bitmind",
+      "name": "BitMind",
+      "score": 33
     },
     {
       "id": "nano",
@@ -84,10 +94,20 @@
     {
       "id": "gradients",
       "name": "Gradients",
-      "score": 28
+      "score": 29
+    },
+    {
+      "id": "mass-vehicle-ledger",
+      "name": "MVL",
+      "score": 26
     }
   ],
   "left": [
+    {
+      "id": "big-titty-coin",
+      "name": "big-titty-coin",
+      "reason": "dropped out of top N"
+    },
     {
       "id": "capybobo",
       "name": "capybobo",
@@ -114,9 +134,24 @@
       "reason": "low volume"
     },
     {
+      "id": "luca",
+      "name": "LUCA",
+      "reason": "low volume"
+    },
+    {
+      "id": "marscat-token",
+      "name": "Marscat Token",
+      "reason": "low volume"
+    },
+    {
       "id": "nullmask",
       "name": "nullmask",
       "reason": "dropped out of top N"
+    },
+    {
+      "id": "ocean-protocol",
+      "name": "Ocean Protocol",
+      "reason": "low volume"
     },
     {
       "id": "super-pepe",
@@ -124,9 +159,19 @@
       "reason": "dropped out of top N"
     },
     {
+      "id": "swissborg",
+      "name": "SwissBorg",
+      "reason": "low volume"
+    },
+    {
       "id": "tornado-cash",
       "name": "Tornado Cash",
       "reason": "low volume"
+    },
+    {
+      "id": "xai-blockchain",
+      "name": "xai-blockchain",
+      "reason": "dropped out of top N"
     }
   ]
 }
