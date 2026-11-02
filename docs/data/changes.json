@@ -2,14 +2,19 @@
   "compared_to": "2026-11-01",
   "entered": [
     {
+      "id": "mag7-ssi",
+      "name": "MAG7.ssi",
+      "score": 61
+    },
+    {
       "id": "concrete",
       "name": "Concrete",
-      "score": 62
+      "score": 60
     },
     {
       "id": "perle",
       "name": "Perle",
-      "score": 56
+      "score": 57
     },
     {
       "id": "cobak-token",
@@ -17,29 +22,64 @@
       "score": 55
     },
     {
-      "id": "tronbank",
-      "name": "TronBank",
-      "score": 53
+      "id": "hastra-auto",
+      "name": "Hastra AUTO",
+      "score": 51
     },
     {
-      "id": "babyboomtoken",
-      "name": "BabyBoomToken",
-      "score": 43
+      "id": "goldfish-gold",
+      "name": "Goldfish Gold",
+      "score": 50
     },
     {
       "id": "tcy",
       "name": "THORChain Yield",
-      "score": 41
+      "score": 50
     },
     {
-      "id": "tokamak-network",
-      "name": "Tokamak Network",
-      "score": 36
+      "id": "prize-protocol",
+      "name": "Prize Protocol",
+      "score": 49
     },
     {
-      "id": "tx",
-      "name": "tx",
-      "score": 34
+      "id": "dmt-nat",
+      "name": "DMT-NAT",
+      "score": 49
+    },
+    {
+      "id": "idlemine",
+      "name": "IdleMine",
+      "score": 46
+    },
+    {
+      "id": "figure-heloc",
+      "name": "Figure Heloc",
+      "score": 45
+    },
+    {
+      "id": "concordium",
+      "name": "Concordium",
+      "score": 37
+    },
+    {
+      "id": "lity",
+      "name": "LITY",
+      "score": 32
+    },
+    {
+      "id": "across-protocol",
+      "name": "Across Protocol",
+      "score": 31
+    },
+    {
+      "id": "realio-network",
+      "name": "Realio Network Token",
+      "score": 30
+    },
+    {
+      "id": "airtor-protocol",
+      "name": "ANyONe Protocol",
+      "score": 29
     },
     {
       "id": "bora",
@@ -48,11 +88,6 @@
     }
   ],
   "left": [
-    {
-      "id": "affine",
-      "name": "affine",
-      "reason": "low volume"
-    },
     {
       "id": "ao-computer",
       "name": "ao Computer",
@@ -64,8 +99,38 @@
       "reason": "low volume"
     },
     {
+      "id": "bitdca",
+      "name": "BitDCA",
+      "reason": "low volume"
+    },
+    {
+      "id": "bitkub-coin",
+      "name": "KUB Coin",
+      "reason": "low volume"
+    },
+    {
+      "id": "bitmind",
+      "name": "BitMind",
+      "reason": "low volume"
+    },
+    {
       "id": "chainflip",
       "name": "Chainflip",
+      "reason": "low volume"
+    },
+    {
+      "id": "dessa",
+      "name": "dessa",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "froggie",
+      "name": "Froggie",
+      "reason": "low volume"
+    },
+    {
+      "id": "gradients",
+      "name": "Gradients",
       "reason": "low volume"
     },
     {
@@ -74,24 +139,39 @@
       "reason": "dropped out of top N"
     },
     {
+      "id": "medibloc",
+      "name": "Medibloc",
+      "reason": "low volume"
+    },
+    {
+      "id": "nano",
+      "name": "Nano",
+      "reason": "low volume"
+    },
+    {
       "id": "peapods-finance",
       "name": "Peapods Finance",
       "reason": "low volume"
     },
     {
-      "id": "polyswarm",
-      "name": "polyswarm",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "rollbit-coin",
-      "name": "Rollbit Coin",
+      "id": "proprietary-trading-network",
+      "name": "Vanta Network",
       "reason": "low volume"
     },
     {
       "id": "starpower",
       "name": "starpower",
       "reason": "dropped out of top N"
+    },
+    {
+      "id": "tau-fa",
+      "name": "TAU FA",
+      "reason": "low volume"
+    },
+    {
+      "id": "usdu",
+      "name": "USDu",
+      "reason": "low volume"
     }
   ]
 }
