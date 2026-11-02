@@ -1,211 +1,96 @@
 {
-  "compared_to": "2026-10-31",
+  "compared_to": "2026-11-01",
   "entered": [
     {
-      "id": "starpower",
-      "name": "Starpower",
-      "score": 67
+      "id": "concrete",
+      "name": "Concrete",
+      "score": 62
     },
     {
-      "id": "ambire-wallet",
-      "name": "Ambire Wallet",
+      "id": "perle",
+      "name": "Perle",
+      "score": 56
+    },
+    {
+      "id": "cobak-token",
+      "name": "Cobak",
       "score": 55
     },
     {
-      "id": "bob-build-on-bitcoin",
-      "name": "BOB (Build on Bitcoin)",
-      "score": 54
+      "id": "tronbank",
+      "name": "TronBank",
+      "score": 53
     },
     {
-      "id": "usdai",
-      "name": "USDai",
-      "score": 54
-    },
-    {
-      "id": "omega-labs",
-      "name": "OMEGA Labs",
-      "score": 50
-    },
-    {
-      "id": "froggie",
-      "name": "Froggie",
-      "score": 50
-    },
-    {
-      "id": "audacity-2",
-      "name": "AudaCity",
-      "score": 50
-    },
-    {
-      "id": "bitdca",
-      "name": "BitDCA",
-      "score": 49
-    },
-    {
-      "id": "usdu",
-      "name": "USDu",
-      "score": 49
-    },
-    {
-      "id": "incentiv",
-      "name": "Incentiv",
-      "score": 47
-    },
-    {
-      "id": "manadia",
-      "name": "Manadia",
-      "score": 46
-    },
-    {
-      "id": "railgun",
-      "name": "Railgun",
-      "score": 46
-    },
-    {
-      "id": "autonolas",
-      "name": "Autonolas",
-      "score": 44
-    },
-    {
-      "id": "ao-computer",
-      "name": "ao Computer",
+      "id": "babyboomtoken",
+      "name": "BabyBoomToken",
       "score": 43
     },
     {
-      "id": "oho-blockchain",
-      "name": "OHO Blockchain",
-      "score": 39
+      "id": "tcy",
+      "name": "THORChain Yield",
+      "score": 41
     },
     {
-      "id": "medibloc",
-      "name": "Medibloc",
-      "score": 37
+      "id": "tokamak-network",
+      "name": "Tokamak Network",
+      "score": 36
     },
     {
-      "id": "peapods-finance",
-      "name": "Peapods Finance",
-      "score": 37
-    },
-    {
-      "id": "nova-3",
-      "name": "NOVA",
-      "score": 35
-    },
-    {
-      "id": "bitmind",
-      "name": "BitMind",
+      "id": "tx",
+      "name": "tx",
       "score": 34
     },
     {
-      "id": "dkargo",
-      "name": "dKargo",
-      "score": 34
-    },
-    {
-      "id": "nano",
-      "name": "Nano",
-      "score": 31
-    },
-    {
-      "id": "gradients",
-      "name": "Gradients",
-      "score": 30
-    },
-    {
-      "id": "mass-vehicle-ledger",
-      "name": "MVL",
+      "id": "bora",
+      "name": "BORA",
       "score": 25
     }
   ],
   "left": [
     {
-      "id": "across-protocol",
-      "name": "Across Protocol",
+      "id": "affine",
+      "name": "affine",
       "reason": "low volume"
     },
     {
-      "id": "airtor-protocol",
-      "name": "airtor-protocol",
+      "id": "ao-computer",
+      "name": "ao Computer",
+      "reason": "low volume"
+    },
+    {
+      "id": "asset",
+      "name": "REAL",
+      "reason": "low volume"
+    },
+    {
+      "id": "chainflip",
+      "name": "Chainflip",
+      "reason": "low volume"
+    },
+    {
+      "id": "interfold",
+      "name": "interfold",
       "reason": "dropped out of top N"
     },
     {
-      "id": "anime",
-      "name": "anime",
+      "id": "peapods-finance",
+      "name": "Peapods Finance",
+      "reason": "low volume"
+    },
+    {
+      "id": "polyswarm",
+      "name": "polyswarm",
       "reason": "dropped out of top N"
     },
     {
-      "id": "big-titty-coin",
-      "name": "big-titty-coin",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "capybobo",
-      "name": "capybobo",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "cobak-token",
-      "name": "Cobak",
+      "id": "rollbit-coin",
+      "name": "Rollbit Coin",
       "reason": "low volume"
     },
     {
-      "id": "deapcoin",
-      "name": "DEAPCOIN",
-      "reason": "low volume"
-    },
-    {
-      "id": "elsa",
-      "name": "elsa",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "figure-heloc",
-      "name": "Figure Heloc",
-      "reason": "low volume"
-    },
-    {
-      "id": "fomo-life",
-      "name": "FOMO\u4eba\u751f",
-      "reason": "low volume"
-    },
-    {
-      "id": "goldfish-gold",
-      "name": "Goldfish Gold",
-      "reason": "low volume"
-    },
-    {
-      "id": "hastra-auto",
-      "name": "Hastra AUTO",
-      "reason": "low volume"
-    },
-    {
-      "id": "nullmask",
-      "name": "nullmask",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "ocean-protocol",
-      "name": "Ocean Protocol",
-      "reason": "low volume"
-    },
-    {
-      "id": "perle",
-      "name": "perle",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "super-pepe",
-      "name": "super-pepe",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "tcy",
-      "name": "THORChain Yield",
-      "reason": "low volume"
-    },
-    {
-      "id": "xai-blockchain",
-      "name": "xai-blockchain",
+      "id": "starpower",
+      "name": "starpower",
       "reason": "dropped out of top N"
     }
   ]
