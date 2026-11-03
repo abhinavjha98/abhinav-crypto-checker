@@ -4,27 +4,42 @@
     {
       "id": "ambire-wallet",
       "name": "Ambire Wallet",
-      "score": 61
+      "score": 58
+    },
+    {
+      "id": "capybobo",
+      "name": "Capybobo",
+      "score": 55
     },
     {
       "id": "bitdca",
       "name": "BitDCA",
-      "score": 48
+      "score": 49
     },
     {
       "id": "asset",
       "name": "REAL",
+      "score": 44
+    },
+    {
+      "id": "fuzzybear",
+      "name": "Fuzzybear",
       "score": 42
     },
     {
       "id": "umia",
       "name": "Umia",
-      "score": 42
+      "score": 41
     },
     {
-      "id": "power-protocol",
-      "name": "Power Protocol",
-      "score": 34
+      "id": "tensorcash",
+      "name": "TensorCash",
+      "score": 39
+    },
+    {
+      "id": "iota-2",
+      "name": "iota",
+      "score": 36
     },
     {
       "id": "super-pepe",
@@ -32,20 +47,35 @@
       "score": 33
     },
     {
+      "id": "snowmoon",
+      "name": "SNOWMOON",
+      "score": 32
+    },
+    {
       "id": "chromaway",
       "name": "Chromia",
-      "score": 31
+      "score": 30
+    },
+    {
+      "id": "power-protocol",
+      "name": "Power Protocol",
+      "score": 28
     }
   ],
   "left": [
     {
-      "id": "autonolas",
-      "name": "Autonolas",
+      "id": "anvil",
+      "name": "Anvil",
       "reason": "low volume"
     },
     {
       "id": "bora",
       "name": "BORA",
+      "reason": "low volume"
+    },
+    {
+      "id": "concordium",
+      "name": "Concordium",
       "reason": "low volume"
     },
     {
@@ -59,14 +89,19 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "gamebuild",
-      "name": "GameBuild",
+      "id": "gradients",
+      "name": "Gradients",
       "reason": "low volume"
     },
     {
       "id": "luca",
       "name": "luca",
       "reason": "dropped out of top N"
+    },
+    {
+      "id": "mag7-ssi",
+      "name": "MAG7.ssi",
+      "reason": "low volume"
     },
     {
       "id": "mey-network",
@@ -84,13 +119,23 @@
       "reason": "price too high"
     },
     {
-      "id": "tokamak-network",
-      "name": "Tokamak Network",
+      "id": "ondo-high-growth-powered-by-blackrock",
+      "name": "Ondo High Growth Powered by BlackRock",
       "reason": "low volume"
     },
     {
-      "id": "tornado-cash",
-      "name": "Tornado Cash",
+      "id": "ondo-magnificent-7-and-crypto-portfolio",
+      "name": "Ondo Magnificent 7 and Crypto Portfolio",
+      "reason": "low volume"
+    },
+    {
+      "id": "super-inu-3",
+      "name": "super-inu-3",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "tokamak-network",
+      "name": "Tokamak Network",
       "reason": "low volume"
     },
     {
