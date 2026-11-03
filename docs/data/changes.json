@@ -1,206 +1,86 @@
 {
-  "compared_to": "2026-11-01",
+  "compared_to": "2026-11-02",
   "entered": [
     {
-      "id": "elsa",
-      "name": "Elsa",
-      "score": 73
-    },
-    {
-      "id": "concrete",
-      "name": "Concrete",
-      "score": 61
-    },
-    {
-      "id": "mag7-ssi",
-      "name": "MAG7.ssi",
+      "id": "ambire-wallet",
+      "name": "Ambire Wallet",
       "score": 60
     },
     {
-      "id": "anvil",
-      "name": "Anvil",
-      "score": 60
-    },
-    {
-      "id": "ondo-magnificent-7-and-crypto-portfolio",
-      "name": "Ondo Magnificent 7 and Crypto Portfolio",
-      "score": 57
-    },
-    {
-      "id": "ondo-high-growth-powered-by-blackrock",
-      "name": "Ondo High Growth Powered by BlackRock",
-      "score": 55
-    },
-    {
-      "id": "elastos",
-      "name": "Elastos",
-      "score": 54
-    },
-    {
-      "id": "cobak-token",
-      "name": "Cobak",
-      "score": 54
-    },
-    {
-      "id": "hastra-auto",
-      "name": "Hastra AUTO",
-      "score": 51
-    },
-    {
-      "id": "goldfish-gold",
-      "name": "Goldfish Gold",
-      "score": 50
-    },
-    {
-      "id": "dmt-nat",
-      "name": "DMT-NAT",
-      "score": 49
-    },
-    {
-      "id": "prize-protocol",
-      "name": "Prize Protocol",
-      "score": 48
-    },
-    {
-      "id": "idlemine",
-      "name": "IdleMine",
+      "id": "tree-capital",
+      "name": "Tree",
       "score": 47
     },
     {
-      "id": "tcy",
-      "name": "THORChain Yield",
-      "score": 46
+      "id": "anime",
+      "name": "Animecoin",
+      "score": 47
     },
     {
-      "id": "figure-heloc",
-      "name": "Figure Heloc",
-      "score": 45
+      "id": "cloudbank",
+      "name": "CloudBank",
+      "score": 44
     },
     {
-      "id": "concordium",
-      "name": "Concordium",
-      "score": 37
-    },
-    {
-      "id": "tokamak-network",
-      "name": "Tokamak Network",
-      "score": 35
-    },
-    {
-      "id": "tx",
-      "name": "tx",
+      "id": "power-protocol",
+      "name": "Power Protocol",
       "score": 34
     },
     {
-      "id": "templar",
-      "name": "\u03c4emplar",
-      "score": 32
-    },
-    {
-      "id": "lity",
-      "name": "LITY",
-      "score": 32
-    },
-    {
-      "id": "across-protocol",
-      "name": "Across Protocol",
+      "id": "chromaway",
+      "name": "Chromia",
       "score": 30
-    },
-    {
-      "id": "ocean-protocol",
-      "name": "Ocean Protocol",
-      "score": 27
-    },
-    {
-      "id": "bora",
-      "name": "BORA",
-      "score": 25
     }
   ],
   "left": [
     {
-      "id": "ambire-wallet",
-      "name": "Ambire Wallet",
+      "id": "across-protocol",
+      "name": "Across Protocol",
       "reason": "low volume"
     },
     {
-      "id": "ao-computer",
-      "name": "ao Computer",
+      "id": "bora",
+      "name": "BORA",
       "reason": "low volume"
     },
     {
-      "id": "asset",
-      "name": "REAL",
-      "reason": "low volume"
-    },
-    {
-      "id": "bitdca",
-      "name": "BitDCA",
-      "reason": "low volume"
-    },
-    {
-      "id": "bitmind",
-      "name": "BitMind",
-      "reason": "low volume"
-    },
-    {
-      "id": "chromaway",
-      "name": "chromaway",
+      "id": "elastos",
+      "name": "elastos",
       "reason": "dropped out of top N"
     },
     {
-      "id": "dessa",
-      "name": "dessa",
+      "id": "lity",
+      "name": "lity",
       "reason": "dropped out of top N"
     },
     {
-      "id": "doodles",
-      "name": "doodles",
+      "id": "mey-network",
+      "name": "mey-network",
       "reason": "dropped out of top N"
     },
     {
-      "id": "froggie",
-      "name": "Froggie",
-      "reason": "low volume"
-    },
-    {
-      "id": "interfold",
-      "name": "interfold",
+      "id": "mira-3",
+      "name": "mira-3",
       "reason": "dropped out of top N"
     },
     {
-      "id": "mass-vehicle-ledger",
-      "name": "MVL",
+      "id": "ondo-high-growth-powered-by-blackrock",
+      "name": "Ondo High Growth Powered by BlackRock",
       "reason": "low volume"
     },
     {
-      "id": "medibloc",
-      "name": "Medibloc",
-      "reason": "low volume"
-    },
-    {
-      "id": "peapods-finance",
-      "name": "Peapods Finance",
-      "reason": "low volume"
-    },
-    {
-      "id": "power-protocol",
-      "name": "power-protocol",
+      "id": "super-inu-3",
+      "name": "super-inu-3",
       "reason": "dropped out of top N"
     },
     {
-      "id": "starpower",
-      "name": "starpower",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "true",
-      "name": "True",
+      "id": "tokamak-network",
+      "name": "Tokamak Network",
       "reason": "low volume"
     },
     {
-      "id": "usdu",
-      "name": "USDu",
+      "id": "velodrome-finance",
+      "name": "Velodrome Finance",
       "reason": "low volume"
     }
   ]
