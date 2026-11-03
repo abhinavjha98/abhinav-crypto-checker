@@ -4,22 +4,22 @@
     {
       "id": "ambire-wallet",
       "name": "Ambire Wallet",
-      "score": 60
+      "score": 61
     },
     {
-      "id": "tree-capital",
-      "name": "Tree",
-      "score": 47
+      "id": "bitdca",
+      "name": "BitDCA",
+      "score": 48
     },
     {
-      "id": "anime",
-      "name": "Animecoin",
-      "score": 47
+      "id": "asset",
+      "name": "REAL",
+      "score": 42
     },
     {
-      "id": "cloudbank",
-      "name": "CloudBank",
-      "score": 44
+      "id": "umia",
+      "name": "Umia",
+      "score": 42
     },
     {
       "id": "power-protocol",
@@ -27,15 +27,20 @@
       "score": 34
     },
     {
+      "id": "super-pepe",
+      "name": "Super Pepe",
+      "score": 33
+    },
+    {
       "id": "chromaway",
       "name": "Chromia",
-      "score": 30
+      "score": 31
     }
   ],
   "left": [
     {
-      "id": "across-protocol",
-      "name": "Across Protocol",
+      "id": "autonolas",
+      "name": "Autonolas",
       "reason": "low volume"
     },
     {
@@ -49,8 +54,18 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "lity",
-      "name": "lity",
+      "id": "elsa",
+      "name": "elsa",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "gamebuild",
+      "name": "GameBuild",
+      "reason": "low volume"
+    },
+    {
+      "id": "luca",
+      "name": "luca",
       "reason": "dropped out of top N"
     },
     {
@@ -59,23 +74,28 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "mira-3",
-      "name": "mira-3",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "ondo-high-growth-powered-by-blackrock",
-      "name": "Ondo High Growth Powered by BlackRock",
+      "id": "nano",
+      "name": "Nano",
       "reason": "low volume"
     },
     {
-      "id": "super-inu-3",
-      "name": "super-inu-3",
-      "reason": "dropped out of top N"
+      "id": "nkyc-token",
+      "name": "NKYC Token",
+      "reason": "price too high"
     },
     {
       "id": "tokamak-network",
       "name": "Tokamak Network",
+      "reason": "low volume"
+    },
+    {
+      "id": "tornado-cash",
+      "name": "Tornado Cash",
+      "reason": "low volume"
+    },
+    {
+      "id": "tx",
+      "name": "tx",
       "reason": "low volume"
     },
     {
