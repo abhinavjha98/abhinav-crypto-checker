@@ -4,26 +4,31 @@
     {
       "id": "elsa",
       "name": "Elsa",
-      "score": 70
+      "score": 68
+    },
+    {
+      "id": "fx-usd-saving",
+      "name": "f(x) USD Saving",
+      "score": 62
     },
     {
       "id": "mag7-ssi",
       "name": "MAG7.ssi",
-      "score": 60
+      "score": 61
     },
     {
-      "id": "perle",
-      "name": "Perle",
-      "score": 56
+      "id": "1win-token",
+      "name": "1win Token",
+      "score": 53
     },
     {
       "id": "babyboomtoken",
       "name": "BabyBoomToken",
-      "score": 50
+      "score": 51
     },
     {
-      "id": "anime",
-      "name": "Animecoin",
+      "id": "tree-capital",
+      "name": "Tree",
       "score": 48
     },
     {
@@ -32,39 +37,64 @@
       "score": 46
     },
     {
-      "id": "tree-capital",
-      "name": "Tree",
-      "score": 46
-    },
-    {
-      "id": "obligate-trade-finance-yield",
-      "name": "Obligate Trade Finance Yield",
-      "score": 42
+      "id": "everything",
+      "name": "Everything",
+      "score": 45
     },
     {
       "id": "concordium",
       "name": "Concordium",
-      "score": 39
+      "score": 38
     },
     {
       "id": "peapods-finance",
       "name": "Peapods Finance",
-      "score": 34
+      "score": 36
+    },
+    {
+      "id": "world-mobile-token",
+      "name": "World Mobile Token",
+      "score": 33
+    },
+    {
+      "id": "vin-2",
+      "name": "VulgarTycoon",
+      "score": 33
     },
     {
       "id": "nano",
       "name": "Nano",
-      "score": 29
+      "score": 30
     },
     {
-      "id": "airtor-protocol",
-      "name": "ANyONe Protocol",
-      "score": 27
+      "id": "hunt-token",
+      "name": "Hunt",
+      "score": 28
+    },
+    {
+      "id": "gradients",
+      "name": "Gradients",
+      "score": 26
     },
     {
       "id": "bora",
       "name": "BORA",
-      "score": 22
+      "score": 23
+    },
+    {
+      "id": "ergo",
+      "name": "Ergo",
+      "score": 20
+    },
+    {
+      "id": "researchcoin",
+      "name": "ResearchCoin",
+      "score": 20
+    },
+    {
+      "id": "zcoin",
+      "name": "Firo",
+      "score": 18
     }
   ],
   "left": [
@@ -94,23 +124,33 @@
       "reason": "low volume"
     },
     {
+      "id": "hastra-auto",
+      "name": "Hastra AUTO",
+      "reason": "low volume"
+    },
+    {
+      "id": "leo-token",
+      "name": "LEO Token",
+      "reason": "low volume"
+    },
+    {
       "id": "lity",
       "name": "lity",
       "reason": "dropped out of top N"
     },
     {
-      "id": "omega-labs",
-      "name": "omega-labs",
+      "id": "polyswarm",
+      "name": "polyswarm",
       "reason": "dropped out of top N"
     },
     {
-      "id": "orderly-network",
-      "name": "Orderly",
-      "reason": "outside top N"
+      "id": "prize-protocol",
+      "name": "Prize Protocol",
+      "reason": "low volume"
     },
     {
-      "id": "rollbit-coin",
-      "name": "Rollbit Coin",
+      "id": "railgun",
+      "name": "Railgun",
       "reason": "low volume"
     },
     {
@@ -122,6 +162,11 @@
       "id": "super-pepe",
       "name": "super-pepe",
       "reason": "dropped out of top N"
+    },
+    {
+      "id": "tau-fa",
+      "name": "TAU FA",
+      "reason": "low volume"
     },
     {
       "id": "tensorcash",
