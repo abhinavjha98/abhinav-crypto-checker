@@ -1,152 +1,67 @@
 {
-  "compared_to": "2026-11-02",
+  "compared_to": "2026-11-03",
   "entered": [
     {
-      "id": "ambire-wallet",
-      "name": "Ambire Wallet",
-      "score": 58
+      "id": "mag7-ssi",
+      "name": "MAG7.ssi",
+      "score": 61
     },
     {
-      "id": "capybobo",
-      "name": "Capybobo",
-      "score": 55
-    },
-    {
-      "id": "bitdca",
-      "name": "BitDCA",
-      "score": 49
-    },
-    {
-      "id": "asset",
-      "name": "REAL",
-      "score": 44
-    },
-    {
-      "id": "fuzzybear",
-      "name": "Fuzzybear",
-      "score": 42
-    },
-    {
-      "id": "umia",
-      "name": "Umia",
-      "score": 41
-    },
-    {
-      "id": "tensorcash",
-      "name": "TensorCash",
-      "score": 39
-    },
-    {
-      "id": "iota-2",
-      "name": "iota",
-      "score": 36
-    },
-    {
-      "id": "super-pepe",
-      "name": "Super Pepe",
-      "score": 33
-    },
-    {
-      "id": "snowmoon",
-      "name": "SNOWMOON",
-      "score": 32
-    },
-    {
-      "id": "chromaway",
-      "name": "Chromia",
-      "score": 30
-    },
-    {
-      "id": "power-protocol",
-      "name": "Power Protocol",
-      "score": 28
+      "id": "anime",
+      "name": "Animecoin",
+      "score": 48
     }
   ],
   "left": [
     {
-      "id": "anvil",
-      "name": "Anvil",
-      "reason": "low volume"
-    },
-    {
-      "id": "bora",
-      "name": "BORA",
-      "reason": "low volume"
-    },
-    {
-      "id": "concordium",
-      "name": "Concordium",
-      "reason": "low volume"
-    },
-    {
-      "id": "elastos",
-      "name": "elastos",
+      "id": "ambire-wallet",
+      "name": "ambire-wallet",
       "reason": "dropped out of top N"
     },
     {
-      "id": "elsa",
-      "name": "elsa",
+      "id": "bc-token",
+      "name": "BCGame Coin",
+      "reason": "low volume"
+    },
+    {
+      "id": "dmt-nat",
+      "name": "DMT-NAT",
+      "reason": "low volume"
+    },
+    {
+      "id": "goldfish-gold",
+      "name": "Goldfish Gold",
+      "reason": "low volume"
+    },
+    {
+      "id": "lity",
+      "name": "lity",
       "reason": "dropped out of top N"
     },
     {
-      "id": "gradients",
-      "name": "Gradients",
-      "reason": "low volume"
-    },
-    {
-      "id": "luca",
-      "name": "luca",
+      "id": "omega-labs",
+      "name": "omega-labs",
       "reason": "dropped out of top N"
     },
     {
-      "id": "mag7-ssi",
-      "name": "MAG7.ssi",
-      "reason": "low volume"
-    },
-    {
-      "id": "mey-network",
-      "name": "mey-network",
+      "id": "polyswarm",
+      "name": "polyswarm",
       "reason": "dropped out of top N"
     },
     {
-      "id": "nano",
-      "name": "Nano",
+      "id": "rollbit-coin",
+      "name": "Rollbit Coin",
       "reason": "low volume"
     },
     {
-      "id": "nkyc-token",
-      "name": "NKYC Token",
-      "reason": "price too high"
-    },
-    {
-      "id": "ondo-high-growth-powered-by-blackrock",
-      "name": "Ondo High Growth Powered by BlackRock",
-      "reason": "low volume"
-    },
-    {
-      "id": "ondo-magnificent-7-and-crypto-portfolio",
-      "name": "Ondo Magnificent 7 and Crypto Portfolio",
-      "reason": "low volume"
-    },
-    {
-      "id": "super-inu-3",
-      "name": "super-inu-3",
+      "id": "snowmoon",
+      "name": "snowmoon",
       "reason": "dropped out of top N"
     },
     {
-      "id": "tokamak-network",
-      "name": "Tokamak Network",
-      "reason": "low volume"
-    },
-    {
-      "id": "tx",
-      "name": "tx",
-      "reason": "low volume"
-    },
-    {
-      "id": "velodrome-finance",
-      "name": "Velodrome Finance",
-      "reason": "low volume"
+      "id": "super-pepe",
+      "name": "super-pepe",
+      "reason": "dropped out of top N"
     }
   ]
 }
