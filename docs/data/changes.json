@@ -2,14 +2,69 @@
   "compared_to": "2026-11-03",
   "entered": [
     {
+      "id": "elsa",
+      "name": "Elsa",
+      "score": 70
+    },
+    {
       "id": "mag7-ssi",
       "name": "MAG7.ssi",
-      "score": 61
+      "score": 60
+    },
+    {
+      "id": "perle",
+      "name": "Perle",
+      "score": 56
+    },
+    {
+      "id": "babyboomtoken",
+      "name": "BabyBoomToken",
+      "score": 50
     },
     {
       "id": "anime",
       "name": "Animecoin",
       "score": 48
+    },
+    {
+      "id": "deapcoin",
+      "name": "DEAPCOIN",
+      "score": 46
+    },
+    {
+      "id": "tree-capital",
+      "name": "Tree",
+      "score": 46
+    },
+    {
+      "id": "obligate-trade-finance-yield",
+      "name": "Obligate Trade Finance Yield",
+      "score": 42
+    },
+    {
+      "id": "concordium",
+      "name": "Concordium",
+      "score": 39
+    },
+    {
+      "id": "peapods-finance",
+      "name": "Peapods Finance",
+      "score": 34
+    },
+    {
+      "id": "nano",
+      "name": "Nano",
+      "score": 29
+    },
+    {
+      "id": "airtor-protocol",
+      "name": "ANyONe Protocol",
+      "score": 27
+    },
+    {
+      "id": "bora",
+      "name": "BORA",
+      "score": 22
     }
   ],
   "left": [
@@ -17,6 +72,11 @@
       "id": "ambire-wallet",
       "name": "ambire-wallet",
       "reason": "dropped out of top N"
+    },
+    {
+      "id": "asset",
+      "name": "REAL",
+      "reason": "low volume"
     },
     {
       "id": "bc-token",
@@ -44,9 +104,9 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "polyswarm",
-      "name": "polyswarm",
-      "reason": "dropped out of top N"
+      "id": "orderly-network",
+      "name": "Orderly",
+      "reason": "outside top N"
     },
     {
       "id": "rollbit-coin",
@@ -62,6 +122,11 @@
       "id": "super-pepe",
       "name": "super-pepe",
       "reason": "dropped out of top N"
+    },
+    {
+      "id": "tensorcash",
+      "name": "TensorCash",
+      "reason": "low volume"
     }
   ]
 }
