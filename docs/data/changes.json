@@ -4,7 +4,7 @@
     {
       "id": "elsa",
       "name": "Elsa",
-      "score": 68
+      "score": 72
     },
     {
       "id": "fx-usd-saving",
@@ -17,19 +17,29 @@
       "score": 61
     },
     {
+      "id": "reallink",
+      "name": "RealLink",
+      "score": 53
+    },
+    {
       "id": "1win-token",
       "name": "1win Token",
-      "score": 53
+      "score": 51
     },
     {
       "id": "babyboomtoken",
       "name": "BabyBoomToken",
-      "score": 51
+      "score": 50
     },
     {
       "id": "tree-capital",
       "name": "Tree",
-      "score": 48
+      "score": 49
+    },
+    {
+      "id": "dessa",
+      "name": "Dessa",
+      "score": 47
     },
     {
       "id": "deapcoin",
@@ -42,9 +52,14 @@
       "score": 45
     },
     {
-      "id": "concordium",
-      "name": "Concordium",
-      "score": 38
+      "id": "kaio",
+      "name": "KAIO",
+      "score": 43
+    },
+    {
+      "id": "foco-2",
+      "name": "FOCO",
+      "score": 41
     },
     {
       "id": "peapods-finance",
@@ -52,9 +67,14 @@
       "score": 36
     },
     {
-      "id": "world-mobile-token",
-      "name": "World Mobile Token",
-      "score": 33
+      "id": "concordium",
+      "name": "Concordium",
+      "score": 35
+    },
+    {
+      "id": "tokamak-network",
+      "name": "Tokamak Network",
+      "score": 35
     },
     {
       "id": "vin-2",
@@ -62,19 +82,24 @@
       "score": 33
     },
     {
+      "id": "world-mobile-token",
+      "name": "World Mobile Token",
+      "score": 32
+    },
+    {
       "id": "nano",
       "name": "Nano",
-      "score": 30
+      "score": 29
     },
     {
       "id": "hunt-token",
       "name": "Hunt",
-      "score": 28
+      "score": 29
     },
     {
-      "id": "gradients",
-      "name": "Gradients",
-      "score": 26
+      "id": "airtor-protocol",
+      "name": "ANyONe Protocol",
+      "score": 27
     },
     {
       "id": "bora",
@@ -82,22 +107,22 @@
       "score": 23
     },
     {
-      "id": "ergo",
-      "name": "Ergo",
-      "score": 20
-    },
-    {
       "id": "researchcoin",
       "name": "ResearchCoin",
-      "score": 20
+      "score": 21
     },
     {
-      "id": "zcoin",
-      "name": "Firo",
-      "score": 18
+      "id": "ergo",
+      "name": "Ergo",
+      "score": 21
     }
   ],
   "left": [
+    {
+      "id": "3jane-usd3",
+      "name": "3Jane USD3",
+      "reason": "low volume"
+    },
     {
       "id": "ambire-wallet",
       "name": "ambire-wallet",
@@ -114,8 +139,28 @@
       "reason": "low volume"
     },
     {
+      "id": "biconomy",
+      "name": "biconomy",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "bless-2",
+      "name": "bless-2",
+      "reason": "dropped out of top N"
+    },
+    {
       "id": "dmt-nat",
       "name": "DMT-NAT",
+      "reason": "low volume"
+    },
+    {
+      "id": "funfair",
+      "name": "funfair",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "fuzzybear",
+      "name": "Fuzzybear",
       "reason": "low volume"
     },
     {
@@ -139,6 +184,11 @@
       "reason": "dropped out of top N"
     },
     {
+      "id": "omega-labs",
+      "name": "omega-labs",
+      "reason": "dropped out of top N"
+    },
+    {
       "id": "polyswarm",
       "name": "polyswarm",
       "reason": "dropped out of top N"
@@ -146,11 +196,6 @@
     {
       "id": "prize-protocol",
       "name": "Prize Protocol",
-      "reason": "low volume"
-    },
-    {
-      "id": "railgun",
-      "name": "Railgun",
       "reason": "low volume"
     },
     {
