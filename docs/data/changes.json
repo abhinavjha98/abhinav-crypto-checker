@@ -1,222 +1,77 @@
 {
-  "compared_to": "2026-11-03",
+  "compared_to": "2026-11-04",
   "entered": [
     {
-      "id": "elsa",
-      "name": "Elsa",
-      "score": 72
-    },
-    {
-      "id": "fx-usd-saving",
-      "name": "f(x) USD Saving",
-      "score": 62
-    },
-    {
-      "id": "mag7-ssi",
-      "name": "MAG7.ssi",
-      "score": 61
-    },
-    {
-      "id": "reallink",
-      "name": "RealLink",
-      "score": 53
-    },
-    {
-      "id": "1win-token",
-      "name": "1win Token",
-      "score": 51
-    },
-    {
-      "id": "babyboomtoken",
-      "name": "BabyBoomToken",
-      "score": 50
-    },
-    {
-      "id": "tree-capital",
-      "name": "Tree",
-      "score": 49
-    },
-    {
-      "id": "dessa",
-      "name": "Dessa",
-      "score": 47
-    },
-    {
-      "id": "deapcoin",
-      "name": "DEAPCOIN",
-      "score": 46
-    },
-    {
-      "id": "everything",
-      "name": "Everything",
-      "score": 45
-    },
-    {
-      "id": "kaio",
-      "name": "KAIO",
-      "score": 43
-    },
-    {
-      "id": "foco-2",
-      "name": "FOCO",
-      "score": 41
-    },
-    {
-      "id": "peapods-finance",
-      "name": "Peapods Finance",
-      "score": 36
-    },
-    {
-      "id": "concordium",
-      "name": "Concordium",
-      "score": 35
-    },
-    {
-      "id": "tokamak-network",
-      "name": "Tokamak Network",
-      "score": 35
-    },
-    {
-      "id": "vin-2",
-      "name": "VulgarTycoon",
-      "score": 33
-    },
-    {
-      "id": "world-mobile-token",
-      "name": "World Mobile Token",
-      "score": 32
-    },
-    {
-      "id": "nano",
-      "name": "Nano",
-      "score": 29
-    },
-    {
-      "id": "hunt-token",
-      "name": "Hunt",
-      "score": 29
-    },
-    {
-      "id": "airtor-protocol",
-      "name": "ANyONe Protocol",
-      "score": 27
-    },
-    {
-      "id": "bora",
-      "name": "BORA",
-      "score": 23
-    },
-    {
-      "id": "researchcoin",
-      "name": "ResearchCoin",
-      "score": 21
-    },
-    {
-      "id": "ergo",
-      "name": "Ergo",
-      "score": 21
-    }
-  ],
-  "left": [
-    {
-      "id": "3jane-usd3",
-      "name": "3Jane USD3",
-      "reason": "low volume"
-    },
-    {
-      "id": "ambire-wallet",
-      "name": "ambire-wallet",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "asset",
-      "name": "REAL",
-      "reason": "low volume"
-    },
-    {
-      "id": "bc-token",
-      "name": "BCGame Coin",
-      "reason": "low volume"
-    },
-    {
-      "id": "biconomy",
-      "name": "biconomy",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "bless-2",
-      "name": "bless-2",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "dmt-nat",
-      "name": "DMT-NAT",
-      "reason": "low volume"
-    },
-    {
-      "id": "funfair",
-      "name": "funfair",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "fuzzybear",
-      "name": "Fuzzybear",
-      "reason": "low volume"
+      "id": "mey-network",
+      "name": "Mey Network",
+      "score": 56
     },
     {
       "id": "goldfish-gold",
       "name": "Goldfish Gold",
-      "reason": "low volume"
+      "score": 50
     },
     {
-      "id": "hastra-auto",
-      "name": "Hastra AUTO",
-      "reason": "low volume"
+      "id": "ao-computer",
+      "name": "ao Computer",
+      "score": 38
     },
     {
-      "id": "leo-token",
-      "name": "LEO Token",
-      "reason": "low volume"
+      "id": "bitcast",
+      "name": "Bitcast",
+      "score": 27
     },
     {
-      "id": "lity",
-      "name": "lity",
+      "id": "zcoin",
+      "name": "Firo",
+      "score": 19
+    }
+  ],
+  "left": [
+    {
+      "id": "audacity-2",
+      "name": "audacity-2",
       "reason": "dropped out of top N"
     },
     {
-      "id": "omega-labs",
-      "name": "omega-labs",
+      "id": "foco-2",
+      "name": "foco-2",
       "reason": "dropped out of top N"
     },
     {
-      "id": "polyswarm",
-      "name": "polyswarm",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "prize-protocol",
-      "name": "Prize Protocol",
+      "id": "hunt-token",
+      "name": "Hunt",
       "reason": "low volume"
     },
     {
-      "id": "snowmoon",
-      "name": "snowmoon",
+      "id": "orderly-network",
+      "name": "orderly-network",
       "reason": "dropped out of top N"
     },
     {
-      "id": "super-pepe",
-      "name": "super-pepe",
+      "id": "templar",
+      "name": "\u03c4emplar",
+      "reason": "low volume"
+    },
+    {
+      "id": "tokamak-network",
+      "name": "Tokamak Network",
+      "reason": "low volume"
+    },
+    {
+      "id": "tree-capital",
+      "name": "Tree",
+      "reason": "low volume"
+    },
+    {
+      "id": "vin-2",
+      "name": "VulgarTycoon",
+      "reason": "low volume"
+    },
+    {
+      "id": "world-mobile-token",
+      "name": "world-mobile-token",
       "reason": "dropped out of top N"
-    },
-    {
-      "id": "tau-fa",
-      "name": "TAU FA",
-      "reason": "low volume"
-    },
-    {
-      "id": "tensorcash",
-      "name": "TensorCash",
-      "reason": "low volume"
     }
   ]
 }
