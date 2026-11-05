@@ -2,23 +2,28 @@
   "compared_to": "2026-11-04",
   "entered": [
     {
-      "id": "mey-network",
-      "name": "Mey Network",
-      "score": 57
+      "id": "starpower",
+      "name": "Starpower",
+      "score": 63
     },
     {
-      "id": "south-korea-bull-3x-etf-bstocks-tokenized-stock",
-      "name": "South Korea Bull 3X ETF (bStocks Tokenized ETF)",
-      "score": 53
-    },
-    {
-      "id": "omega-labs",
-      "name": "OMEGA Labs",
-      "score": 52
+      "id": "anvil",
+      "name": "Anvil",
+      "score": 60
     },
     {
       "id": "superform",
       "name": "Superform",
+      "score": 54
+    },
+    {
+      "id": "3jane-usd3",
+      "name": "3Jane USD3",
+      "score": 52
+    },
+    {
+      "id": "bc-token",
+      "name": "BCGame Coin",
       "score": 51
     },
     {
@@ -27,29 +32,49 @@
       "score": 51
     },
     {
-      "id": "3jane-usd3",
-      "name": "3Jane USD3",
-      "score": 51
+      "id": "bless-2",
+      "name": "Bless",
+      "score": 49
+    },
+    {
+      "id": "usdu",
+      "name": "USDu",
+      "score": 48
     },
     {
       "id": "re-protocol-reusde",
       "name": "Re Protocol reUSDe",
-      "score": 46
-    },
-    {
-      "id": "bc-token",
-      "name": "BCGame Coin",
-      "score": 46
+      "score": 45
     },
     {
       "id": "ao-computer",
       "name": "ao Computer",
-      "score": 40
+      "score": 42
     },
     {
-      "id": "bitcast",
-      "name": "Bitcast",
+      "id": "tx",
+      "name": "tx",
+      "score": 35
+    },
+    {
+      "id": "luca",
+      "name": "LUCA",
+      "score": 34
+    },
+    {
+      "id": "haroldonsol",
+      "name": "Harold",
+      "score": 34
+    },
+    {
+      "id": "funfair",
+      "name": "FUNToken",
       "score": 30
+    },
+    {
+      "id": "ai-xovia",
+      "name": "AI XOVIA",
+      "score": 29
     },
     {
       "id": "polyswarm",
@@ -57,9 +82,9 @@
       "score": 28
     },
     {
-      "id": "gradients",
-      "name": "Gradients",
-      "score": 27
+      "id": "burnedfi",
+      "name": "BurnedFi",
+      "score": 20
     }
   ],
   "left": [
@@ -79,13 +104,13 @@
       "reason": "low volume"
     },
     {
-      "id": "btse-token",
-      "name": "BTSE Token",
-      "reason": "low volume"
-    },
-    {
       "id": "certik",
       "name": "certik",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "endurance",
+      "name": "endurance",
       "reason": "dropped out of top N"
     },
     {
@@ -99,8 +124,38 @@
       "reason": "dropped out of top N"
     },
     {
+      "id": "fonq",
+      "name": "FONQ",
+      "reason": "low volume"
+    },
+    {
+      "id": "freysa-ai",
+      "name": "Freysa AI",
+      "reason": "low volume"
+    },
+    {
+      "id": "fx-usd-saving",
+      "name": "f(x) USD Saving",
+      "reason": "low volume"
+    },
+    {
       "id": "hunt-token",
       "name": "Hunt",
+      "reason": "low volume"
+    },
+    {
+      "id": "manadia",
+      "name": "Manadia",
+      "reason": "low volume"
+    },
+    {
+      "id": "mira-3",
+      "name": "mira-3",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "nano",
+      "name": "Nano",
       "reason": "low volume"
     },
     {
@@ -110,7 +165,17 @@
     },
     {
       "id": "peapods-finance",
-      "name": "Peapods Finance",
+      "name": "peapods-finance",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "power-protocol",
+      "name": "power-protocol",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "railgun",
+      "name": "Railgun",
       "reason": "low volume"
     },
     {
@@ -119,9 +184,9 @@
       "reason": "low volume"
     },
     {
-      "id": "templar",
-      "name": "\u03c4emplar",
-      "reason": "low volume"
+      "id": "surplus-intelligence",
+      "name": "surplus-intelligence",
+      "reason": "dropped out of top N"
     },
     {
       "id": "tree-capital",
