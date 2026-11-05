@@ -4,34 +4,94 @@
     {
       "id": "mey-network",
       "name": "Mey Network",
-      "score": 56
+      "score": 57
+    },
+    {
+      "id": "south-korea-bull-3x-etf-bstocks-tokenized-stock",
+      "name": "South Korea Bull 3X ETF (bStocks Tokenized ETF)",
+      "score": 53
+    },
+    {
+      "id": "omega-labs",
+      "name": "OMEGA Labs",
+      "score": 52
+    },
+    {
+      "id": "superform",
+      "name": "Superform",
+      "score": 51
     },
     {
       "id": "goldfish-gold",
       "name": "Goldfish Gold",
-      "score": 50
+      "score": 51
+    },
+    {
+      "id": "3jane-usd3",
+      "name": "3Jane USD3",
+      "score": 51
+    },
+    {
+      "id": "re-protocol-reusde",
+      "name": "Re Protocol reUSDe",
+      "score": 46
+    },
+    {
+      "id": "bc-token",
+      "name": "BCGame Coin",
+      "score": 46
     },
     {
       "id": "ao-computer",
       "name": "ao Computer",
-      "score": 38
+      "score": 40
     },
     {
       "id": "bitcast",
       "name": "Bitcast",
-      "score": 27
+      "score": 30
     },
     {
-      "id": "zcoin",
-      "name": "Firo",
-      "score": 19
+      "id": "polyswarm",
+      "name": "PolySwarm",
+      "score": 28
+    },
+    {
+      "id": "gradients",
+      "name": "Gradients",
+      "score": 27
     }
   ],
   "left": [
     {
+      "id": "1win-token",
+      "name": "1win-token",
+      "reason": "dropped out of top N"
+    },
+    {
       "id": "audacity-2",
       "name": "audacity-2",
       "reason": "dropped out of top N"
+    },
+    {
+      "id": "babyboomtoken",
+      "name": "BabyBoomToken",
+      "reason": "low volume"
+    },
+    {
+      "id": "btse-token",
+      "name": "BTSE Token",
+      "reason": "low volume"
+    },
+    {
+      "id": "certik",
+      "name": "certik",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "everything",
+      "name": "Everything",
+      "reason": "low volume"
     },
     {
       "id": "foco-2",
@@ -49,13 +109,18 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "templar",
-      "name": "\u03c4emplar",
+      "id": "peapods-finance",
+      "name": "Peapods Finance",
       "reason": "low volume"
     },
     {
-      "id": "tokamak-network",
-      "name": "Tokamak Network",
+      "id": "reallink",
+      "name": "RealLink",
+      "reason": "low volume"
+    },
+    {
+      "id": "templar",
+      "name": "\u03c4emplar",
       "reason": "low volume"
     },
     {
