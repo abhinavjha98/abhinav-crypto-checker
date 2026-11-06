@@ -4,12 +4,22 @@
     {
       "id": "trusta-ai",
       "name": "Trusta AI",
-      "score": 67
+      "score": 66
     },
     {
       "id": "south-korea-bull-3x-etf-bstocks-tokenized-stock",
       "name": "South Korea Bull 3X ETF (bStocks Tokenized ETF)",
-      "score": 53
+      "score": 60
+    },
+    {
+      "id": "froggie",
+      "name": "Froggie",
+      "score": 52
+    },
+    {
+      "id": "reboot-2",
+      "name": "Reboot",
+      "score": 52
     },
     {
       "id": "hastra-auto",
@@ -17,29 +27,14 @@
       "score": 51
     },
     {
-      "id": "surplus-intelligence",
-      "name": "Surplus intelligence",
-      "score": 51
+      "id": "railgun",
+      "name": "Railgun",
+      "score": 50
     },
     {
       "id": "leo-token",
       "name": "LEO Token",
-      "score": 50
-    },
-    {
-      "id": "endurance",
-      "name": "Fusionist",
-      "score": 47
-    },
-    {
-      "id": "reboot-2",
-      "name": "Reboot",
-      "score": 47
-    },
-    {
-      "id": "railgun",
-      "name": "Railgun",
-      "score": 46
+      "score": 49
     },
     {
       "id": "denim",
@@ -47,9 +42,19 @@
       "score": 46
     },
     {
+      "id": "endurance",
+      "name": "Fusionist",
+      "score": 45
+    },
+    {
+      "id": "unipoly",
+      "name": "Unipoly",
+      "score": 43
+    },
+    {
       "id": "mey-network",
       "name": "Mey Network",
-      "score": 43
+      "score": 42
     },
     {
       "id": "sanctum-2",
@@ -57,50 +62,30 @@
       "score": 41
     },
     {
-      "id": "unipoly",
-      "name": "Unipoly",
-      "score": 41
-    },
-    {
-      "id": "fuzzybear",
-      "name": "Fuzzybear",
-      "score": 37
-    },
-    {
       "id": "manadia",
       "name": "Manadia",
-      "score": 35
-    },
-    {
-      "id": "world-mobile-token",
-      "name": "World Mobile Token",
-      "score": 33
-    },
-    {
-      "id": "power-protocol",
-      "name": "Power Protocol",
-      "score": 33
-    },
-    {
-      "id": "vin-2",
-      "name": "VulgarTycoon",
-      "score": 32
-    },
-    {
-      "id": "nano",
-      "name": "Nano",
-      "score": 31
+      "score": 37
     },
     {
       "id": "medibloc",
       "name": "Medibloc",
-      "score": 31
+      "score": 34
+    },
+    {
+      "id": "bitcast",
+      "name": "Bitcast",
+      "score": 30
+    },
+    {
+      "id": "world-mobile-token",
+      "name": "World Mobile Token",
+      "score": 30
     }
   ],
   "left": [
     {
-      "id": "across-protocol",
-      "name": "Across Protocol",
+      "id": "ai-xovia",
+      "name": "AI XOVIA",
       "reason": "low volume"
     },
     {
@@ -114,13 +99,23 @@
       "reason": "low volume"
     },
     {
-      "id": "deapcoin",
-      "name": "DEAPCOIN",
+      "id": "bless-2",
+      "name": "bless-2",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "burnedfi",
+      "name": "BurnedFi",
       "reason": "low volume"
     },
     {
-      "id": "goldfish-gold",
-      "name": "Goldfish Gold",
+      "id": "chainflip",
+      "name": "Chainflip",
+      "reason": "low volume"
+    },
+    {
+      "id": "deapcoin",
+      "name": "DEAPCOIN",
       "reason": "low volume"
     },
     {
@@ -134,6 +129,11 @@
       "reason": "low volume"
     },
     {
+      "id": "nova-3",
+      "name": "NOVA",
+      "reason": "low volume"
+    },
+    {
       "id": "polyswarm",
       "name": "polyswarm",
       "reason": "dropped out of top N"
@@ -144,8 +144,18 @@
       "reason": "low volume"
     },
     {
+      "id": "templar",
+      "name": "\u03c4emplar",
+      "reason": "low volume"
+    },
+    {
       "id": "tokamak-network",
       "name": "Tokamak Network",
+      "reason": "low volume"
+    },
+    {
+      "id": "tornado-cash",
+      "name": "Tornado Cash",
       "reason": "low volume"
     }
   ]
