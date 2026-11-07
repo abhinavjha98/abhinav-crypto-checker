@@ -4,7 +4,7 @@
     {
       "id": "nkyc-token",
       "name": "NKYC Token",
-      "score": 59
+      "score": 60
     },
     {
       "id": "goldfish-gold",
@@ -12,29 +12,44 @@
       "score": 52
     },
     {
+      "id": "autonolas",
+      "name": "Autonolas",
+      "score": 44
+    },
+    {
       "id": "1win-token",
       "name": "1win Token",
       "score": 42
     },
     {
-      "id": "coge-coin-2",
-      "name": "COGE COIN",
+      "id": "dacity-coin-4",
+      "name": "Dacity Coin",
       "score": 42
     },
     {
       "id": "ao-computer",
       "name": "ao Computer",
-      "score": 42
+      "score": 40
     },
     {
       "id": "power-protocol",
       "name": "Power Protocol",
-      "score": 36
+      "score": 34
+    },
+    {
+      "id": "across-protocol",
+      "name": "Across Protocol",
+      "score": 34
     },
     {
       "id": "nova-3",
       "name": "NOVA",
-      "score": 34
+      "score": 33
+    },
+    {
+      "id": "wiki-cat",
+      "name": "Wiki Cat",
+      "score": 32
     },
     {
       "id": "nano",
@@ -42,19 +57,14 @@
       "score": 32
     },
     {
-      "id": "wiki-cat",
-      "name": "Wiki Cat",
-      "score": 31
-    },
-    {
-      "id": "chromaway",
-      "name": "Chromia",
+      "id": "strikecoin",
+      "name": "StrikeX",
       "score": 30
     },
     {
       "id": "bitkub-coin",
       "name": "KUB Coin",
-      "score": 29
+      "score": 30
     }
   ],
   "left": [
@@ -69,23 +79,18 @@
       "reason": "low volume"
     },
     {
-      "id": "bc-token",
-      "name": "BCGame Coin",
-      "reason": "low volume"
-    },
-    {
       "id": "bitdca",
       "name": "BitDCA",
       "reason": "low volume"
     },
     {
-      "id": "bless-2",
-      "name": "bless-2",
-      "reason": "dropped out of top N"
-    },
-    {
       "id": "bora",
       "name": "BORA",
+      "reason": "low volume"
+    },
+    {
+      "id": "cobak-token",
+      "name": "Cobak",
       "reason": "low volume"
     },
     {
@@ -104,8 +109,18 @@
       "reason": "dropped out of top N"
     },
     {
+      "id": "froggie",
+      "name": "Froggie",
+      "reason": "low volume"
+    },
+    {
       "id": "gamebuild",
       "name": "GameBuild",
+      "reason": "low volume"
+    },
+    {
+      "id": "hastra-auto",
+      "name": "Hastra AUTO",
       "reason": "low volume"
     },
     {
@@ -119,8 +134,8 @@
       "reason": "low volume"
     },
     {
-      "id": "leo-token",
-      "name": "LEO Token",
+      "id": "mag7-ssi",
+      "name": "MAG7.ssi",
       "reason": "low volume"
     },
     {
@@ -129,13 +144,8 @@
       "reason": "low volume"
     },
     {
-      "id": "ondo-high-growth-powered-by-blackrock",
-      "name": "Ondo High Growth Powered by BlackRock",
-      "reason": "low volume"
-    },
-    {
-      "id": "ondo-magnificent-7-and-crypto-portfolio",
-      "name": "Ondo Magnificent 7 and Crypto Portfolio",
+      "id": "ocean-protocol",
+      "name": "Ocean Protocol",
       "reason": "low volume"
     },
     {
@@ -154,8 +164,23 @@
       "reason": "low volume"
     },
     {
+      "id": "the-innovation-game",
+      "name": "The Innovation Game",
+      "reason": "low volume"
+    },
+    {
       "id": "tx",
       "name": "tx",
+      "reason": "low volume"
+    },
+    {
+      "id": "umia",
+      "name": "Umia",
+      "reason": "low volume"
+    },
+    {
+      "id": "usdai",
+      "name": "USDai",
       "reason": "low volume"
     },
     {
