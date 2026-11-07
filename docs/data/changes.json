@@ -4,7 +4,7 @@
     {
       "id": "nkyc-token",
       "name": "NKYC Token",
-      "score": 60
+      "score": 62
     },
     {
       "id": "goldfish-gold",
@@ -12,9 +12,19 @@
       "score": 52
     },
     {
-      "id": "autonolas",
-      "name": "Autonolas",
+      "id": "omega-labs",
+      "name": "OMEGA Labs",
+      "score": 48
+    },
+    {
+      "id": "dacity-coin-4",
+      "name": "Dacity Coin",
       "score": 44
+    },
+    {
+      "id": "ao-computer",
+      "name": "ao Computer",
+      "score": 43
     },
     {
       "id": "1win-token",
@@ -22,19 +32,14 @@
       "score": 42
     },
     {
-      "id": "dacity-coin-4",
-      "name": "Dacity Coin",
-      "score": 42
-    },
-    {
-      "id": "ao-computer",
-      "name": "ao Computer",
+      "id": "credible-finance",
+      "name": "Credible Finance",
       "score": 40
     },
     {
-      "id": "power-protocol",
-      "name": "Power Protocol",
-      "score": 34
+      "id": "autonolas",
+      "name": "Autonolas",
+      "score": 39
     },
     {
       "id": "across-protocol",
@@ -44,27 +49,22 @@
     {
       "id": "nova-3",
       "name": "NOVA",
+      "score": 34
+    },
+    {
+      "id": "nano",
+      "name": "Nano",
       "score": 33
     },
     {
       "id": "wiki-cat",
       "name": "Wiki Cat",
-      "score": 32
-    },
-    {
-      "id": "nano",
-      "name": "Nano",
-      "score": 32
+      "score": 31
     },
     {
       "id": "strikecoin",
       "name": "StrikeX",
-      "score": 30
-    },
-    {
-      "id": "bitkub-coin",
-      "name": "KUB Coin",
-      "score": 30
+      "score": 31
     }
   ],
   "left": [
@@ -74,9 +74,19 @@
       "reason": "dropped out of top N"
     },
     {
+      "id": "anonymous-cat",
+      "name": "anonymous-cat",
+      "reason": "dropped out of top N"
+    },
+    {
       "id": "anvil",
       "name": "Anvil",
       "reason": "low volume"
+    },
+    {
+      "id": "bitcast",
+      "name": "bitcast",
+      "reason": "dropped out of top N"
     },
     {
       "id": "bitdca",
@@ -101,11 +111,6 @@
     {
       "id": "denim",
       "name": "denim",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "dkargo",
-      "name": "dkargo",
       "reason": "dropped out of top N"
     },
     {
@@ -149,8 +154,28 @@
       "reason": "low volume"
     },
     {
+      "id": "ondo-high-growth-powered-by-blackrock",
+      "name": "Ondo High Growth Powered by BlackRock",
+      "reason": "low volume"
+    },
+    {
+      "id": "ondo-magnificent-7-and-crypto-portfolio",
+      "name": "Ondo Magnificent 7 and Crypto Portfolio",
+      "reason": "low volume"
+    },
+    {
+      "id": "pocket-network",
+      "name": "Pocket Network",
+      "reason": "low volume"
+    },
+    {
       "id": "railgun",
       "name": "Railgun",
+      "reason": "low volume"
+    },
+    {
+      "id": "rollbit-coin",
+      "name": "Rollbit Coin",
       "reason": "low volume"
     },
     {
@@ -164,18 +189,13 @@
       "reason": "low volume"
     },
     {
-      "id": "the-innovation-game",
-      "name": "The Innovation Game",
+      "id": "templar",
+      "name": "\u03c4emplar",
       "reason": "low volume"
     },
     {
       "id": "tx",
       "name": "tx",
-      "reason": "low volume"
-    },
-    {
-      "id": "umia",
-      "name": "Umia",
       "reason": "low volume"
     },
     {
