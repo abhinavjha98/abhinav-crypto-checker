@@ -12,46 +12,66 @@
       "score": 52
     },
     {
-      "id": "across-protocol",
-      "name": "Across Protocol",
-      "score": 40
-    },
-    {
-      "id": "ao-computer",
-      "name": "ao Computer",
-      "score": 40
+      "id": "1win-token",
+      "name": "1win Token",
+      "score": 42
     },
     {
       "id": "coge-coin-2",
       "name": "COGE COIN",
-      "score": 39
+      "score": 42
     },
     {
-      "id": "chromaway",
-      "name": "Chromia",
-      "score": 35
+      "id": "ao-computer",
+      "name": "ao Computer",
+      "score": 42
+    },
+    {
+      "id": "power-protocol",
+      "name": "Power Protocol",
+      "score": 36
+    },
+    {
+      "id": "nova-3",
+      "name": "NOVA",
+      "score": 34
+    },
+    {
+      "id": "nano",
+      "name": "Nano",
+      "score": 32
     },
     {
       "id": "wiki-cat",
       "name": "Wiki Cat",
-      "score": 33
+      "score": 31
+    },
+    {
+      "id": "chromaway",
+      "name": "Chromia",
+      "score": 30
     },
     {
       "id": "bitkub-coin",
       "name": "KUB Coin",
-      "score": 30
+      "score": 29
     }
   ],
   "left": [
     {
-      "id": "bc-token",
-      "name": "BCGame Coin",
+      "id": "airtor-protocol",
+      "name": "airtor-protocol",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "anvil",
+      "name": "Anvil",
       "reason": "low volume"
     },
     {
-      "id": "bitcast",
-      "name": "bitcast",
-      "reason": "dropped out of top N"
+      "id": "bc-token",
+      "name": "BCGame Coin",
+      "reason": "low volume"
     },
     {
       "id": "bitdca",
@@ -59,13 +79,28 @@
       "reason": "low volume"
     },
     {
+      "id": "bless-2",
+      "name": "bless-2",
+      "reason": "dropped out of top N"
+    },
+    {
       "id": "bora",
       "name": "BORA",
       "reason": "low volume"
     },
     {
+      "id": "cysic",
+      "name": "cysic",
+      "reason": "dropped out of top N"
+    },
+    {
       "id": "denim",
       "name": "denim",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "dkargo",
+      "name": "dkargo",
       "reason": "dropped out of top N"
     },
     {
@@ -74,8 +109,38 @@
       "reason": "low volume"
     },
     {
+      "id": "idlemine",
+      "name": "IdleMine",
+      "reason": "low volume"
+    },
+    {
       "id": "iota-2",
       "name": "iota",
+      "reason": "low volume"
+    },
+    {
+      "id": "leo-token",
+      "name": "LEO Token",
+      "reason": "low volume"
+    },
+    {
+      "id": "milk-alliance",
+      "name": "MiL.k",
+      "reason": "low volume"
+    },
+    {
+      "id": "ondo-high-growth-powered-by-blackrock",
+      "name": "Ondo High Growth Powered by BlackRock",
+      "reason": "low volume"
+    },
+    {
+      "id": "ondo-magnificent-7-and-crypto-portfolio",
+      "name": "Ondo Magnificent 7 and Crypto Portfolio",
+      "reason": "low volume"
+    },
+    {
+      "id": "railgun",
+      "name": "Railgun",
       "reason": "low volume"
     },
     {
