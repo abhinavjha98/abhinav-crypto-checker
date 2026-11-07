@@ -1,176 +1,101 @@
 {
-  "compared_to": "2026-11-05",
+  "compared_to": "2026-11-06",
   "entered": [
     {
-      "id": "trusta-ai",
-      "name": "Trusta AI",
-      "score": 67
-    },
-    {
-      "id": "south-korea-bull-3x-etf-bstocks-tokenized-stock",
-      "name": "South Korea Bull 3X ETF (bStocks Tokenized ETF)",
+      "id": "nkyc-token",
+      "name": "NKYC Token",
       "score": 59
     },
     {
-      "id": "surplus-intelligence",
-      "name": "Surplus intelligence",
+      "id": "goldfish-gold",
+      "name": "Goldfish Gold",
       "score": 52
     },
     {
-      "id": "mey-network",
-      "name": "Mey Network",
-      "score": 51
+      "id": "across-protocol",
+      "name": "Across Protocol",
+      "score": 40
     },
     {
-      "id": "froggie",
-      "name": "Froggie",
-      "score": 51
+      "id": "ao-computer",
+      "name": "ao Computer",
+      "score": 40
     },
     {
-      "id": "hastra-auto",
-      "name": "Hastra AUTO",
-      "score": 51
+      "id": "coge-coin-2",
+      "name": "COGE COIN",
+      "score": 39
     },
     {
-      "id": "leo-token",
-      "name": "LEO Token",
-      "score": 50
+      "id": "chromaway",
+      "name": "Chromia",
+      "score": 35
     },
     {
-      "id": "ondo-high-growth-powered-by-blackrock",
-      "name": "Ondo High Growth Powered by BlackRock",
-      "score": 49
+      "id": "wiki-cat",
+      "name": "Wiki Cat",
+      "score": 33
     },
     {
-      "id": "railgun",
-      "name": "Railgun",
-      "score": 48
-    },
-    {
-      "id": "ondo-magnificent-7-and-crypto-portfolio",
-      "name": "Ondo Magnificent 7 and Crypto Portfolio",
-      "score": 48
-    },
-    {
-      "id": "reboot-2",
-      "name": "Reboot",
-      "score": 45
-    },
-    {
-      "id": "endurance",
-      "name": "Fusionist",
-      "score": 44
-    },
-    {
-      "id": "unipoly",
-      "name": "Unipoly",
-      "score": 44
-    },
-    {
-      "id": "denim",
-      "name": "DENIM",
-      "score": 43
-    },
-    {
-      "id": "sanctum-2",
-      "name": "Sanctum",
-      "score": 41
-    },
-    {
-      "id": "manadia",
-      "name": "Manadia",
-      "score": 37
-    },
-    {
-      "id": "bitcast",
-      "name": "Bitcast",
+      "id": "bitkub-coin",
+      "name": "KUB Coin",
       "score": 30
     }
   ],
   "left": [
     {
-      "id": "across-protocol",
-      "name": "Across Protocol",
+      "id": "bc-token",
+      "name": "BCGame Coin",
       "reason": "low volume"
     },
     {
-      "id": "ao-computer",
-      "name": "ao Computer",
-      "reason": "low volume"
-    },
-    {
-      "id": "autonolas",
-      "name": "Autonolas",
-      "reason": "low volume"
-    },
-    {
-      "id": "bitkub-coin",
-      "name": "KUB Coin",
-      "reason": "low volume"
-    },
-    {
-      "id": "burnedfi",
-      "name": "BurnedFi",
-      "reason": "low volume"
-    },
-    {
-      "id": "chainflip",
-      "name": "Chainflip",
-      "reason": "low volume"
-    },
-    {
-      "id": "chromaway",
-      "name": "chromaway",
+      "id": "bitcast",
+      "name": "bitcast",
       "reason": "dropped out of top N"
     },
     {
-      "id": "deapcoin",
-      "name": "DEAPCOIN",
+      "id": "bitdca",
+      "name": "BitDCA",
       "reason": "low volume"
     },
     {
-      "id": "goldfish-gold",
-      "name": "Goldfish Gold",
+      "id": "bora",
+      "name": "BORA",
       "reason": "low volume"
     },
     {
-      "id": "haroldonsol",
-      "name": "haroldonsol",
+      "id": "denim",
+      "name": "denim",
       "reason": "dropped out of top N"
     },
     {
-      "id": "luca",
-      "name": "LUCA",
+      "id": "gamebuild",
+      "name": "GameBuild",
       "reason": "low volume"
     },
     {
-      "id": "nova-3",
-      "name": "NOVA",
+      "id": "iota-2",
+      "name": "iota",
       "reason": "low volume"
     },
     {
-      "id": "polyswarm",
-      "name": "polyswarm",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "re-protocol-reusde",
-      "name": "Re Protocol reUSDe",
+      "id": "sanctum-2",
+      "name": "Sanctum",
       "reason": "low volume"
     },
     {
-      "id": "tokamak-network",
-      "name": "Tokamak Network",
+      "id": "tcy",
+      "name": "THORChain Yield",
       "reason": "low volume"
     },
     {
-      "id": "tornado-cash",
-      "name": "Tornado Cash",
+      "id": "tx",
+      "name": "tx",
       "reason": "low volume"
     },
     {
-      "id": "wiki-cat",
-      "name": "Wiki Cat",
+      "id": "usdu",
+      "name": "USDu",
       "reason": "low volume"
     }
   ]
