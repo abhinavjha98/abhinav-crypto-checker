@@ -7,55 +7,70 @@
       "score": 59
     },
     {
-      "id": "usdai",
-      "name": "USDai",
-      "score": 56
-    },
-    {
-      "id": "chainflip",
-      "name": "Chainflip",
-      "score": 47
-    },
-    {
       "id": "cobak-token",
       "name": "Cobak",
-      "score": 47
+      "score": 50
     },
     {
       "id": "wasted-2",
       "name": "WASTED",
-      "score": 47
+      "score": 48
     },
     {
       "id": "deapcoin",
       "name": "DEAPCOIN",
-      "score": 46
-    },
-    {
-      "id": "milk-alliance",
-      "name": "MiL.k",
-      "score": 40
+      "score": 47
     },
     {
       "id": "doge-pepe-3",
       "name": "Doge Pepe",
-      "score": 40
+      "score": 44
+    },
+    {
+      "id": "milk-alliance",
+      "name": "MiL.k",
+      "score": 44
+    },
+    {
+      "id": "tornado-cash",
+      "name": "Tornado Cash",
+      "score": 42
     },
     {
       "id": "pocket-network",
       "name": "Pocket Network",
-      "score": 33
+      "score": 34
     },
     {
       "id": "bitcast",
       "name": "Bitcast",
-      "score": 32
+      "score": 31
+    },
+    {
+      "id": "templar",
+      "name": "\u03c4emplar",
+      "score": 31
     }
   ],
   "left": [
     {
+      "id": "1win-token",
+      "name": "1win-token",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "3jane-usd3",
+      "name": "3Jane USD3",
+      "reason": "low volume"
+    },
+    {
       "id": "adshares",
       "name": "Adshares",
+      "reason": "low volume"
+    },
+    {
+      "id": "ai-powered-finance",
+      "name": "AI Powered Finance",
       "reason": "low volume"
     },
     {
@@ -64,9 +79,34 @@
       "reason": "low volume"
     },
     {
+      "id": "ao-computer",
+      "name": "ao Computer",
+      "reason": "low volume"
+    },
+    {
+      "id": "autonolas",
+      "name": "autonolas",
+      "reason": "dropped out of top N"
+    },
+    {
       "id": "endurance",
       "name": "endurance",
       "reason": "dropped out of top N"
+    },
+    {
+      "id": "escoin-token",
+      "name": "Escoin",
+      "reason": "low volume"
+    },
+    {
+      "id": "fartboy",
+      "name": "Fartboy",
+      "reason": "low volume"
+    },
+    {
+      "id": "hippius",
+      "name": "Hippius",
+      "reason": "low volume"
     },
     {
       "id": "reboot-2",
@@ -74,8 +114,18 @@
       "reason": "dropped out of top N"
     },
     {
+      "id": "strikecoin",
+      "name": "StrikeX",
+      "reason": "low volume"
+    },
+    {
       "id": "swissborg",
       "name": "SwissBorg",
+      "reason": "low volume"
+    },
+    {
+      "id": "wiki-cat",
+      "name": "Wiki Cat",
       "reason": "low volume"
     },
     {
