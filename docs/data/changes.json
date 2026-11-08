@@ -2,29 +2,44 @@
   "compared_to": "2026-11-07",
   "entered": [
     {
-      "id": "aero",
-      "name": "Aero",
-      "score": 57
+      "id": "mag7-ssi",
+      "name": "MAG7.ssi",
+      "score": 61
     },
     {
       "id": "milk-alliance",
       "name": "MiL.k",
-      "score": 53
+      "score": 57
+    },
+    {
+      "id": "cobak-token",
+      "name": "Cobak",
+      "score": 55
+    },
+    {
+      "id": "aero",
+      "name": "Aero",
+      "score": 55
+    },
+    {
+      "id": "chainlink",
+      "name": "Chainlink",
+      "score": 54
+    },
+    {
+      "id": "rollbit-coin",
+      "name": "Rollbit Coin",
+      "score": 50
     },
     {
       "id": "be-like-jose",
       "name": "Be Like Jos\u00e9",
-      "score": 50
-    },
-    {
-      "id": "wasted-2",
-      "name": "WASTED",
       "score": 48
     },
     {
-      "id": "bitdca",
-      "name": "BitDCA",
-      "score": 48
+      "id": "crypgpt",
+      "name": "CrypGPT",
+      "score": 47
     },
     {
       "id": "deapcoin",
@@ -34,12 +49,32 @@
     {
       "id": "tornado-cash",
       "name": "Tornado Cash",
-      "score": 44
+      "score": 46
     },
     {
       "id": "doge-pepe-3",
       "name": "Doge Pepe",
       "score": 44
+    },
+    {
+      "id": "zylo-ecosystem",
+      "name": "Zylo Ecosystem",
+      "score": 44
+    },
+    {
+      "id": "railgun",
+      "name": "Railgun",
+      "score": 43
+    },
+    {
+      "id": "tensorcash",
+      "name": "TensorCash",
+      "score": 38
+    },
+    {
+      "id": "bitcast",
+      "name": "Bitcast",
+      "score": 33
     },
     {
       "id": "pocket-network",
@@ -52,14 +87,14 @@
       "score": 32
     },
     {
-      "id": "bitcast",
-      "name": "Bitcast",
-      "score": 31
+      "id": "lity",
+      "name": "LITY",
+      "score": 29
     },
     {
       "id": "bitkub-coin",
       "name": "KUB Coin",
-      "score": 30
+      "score": 29
     }
   ],
   "left": [
@@ -69,13 +104,8 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "3jane-usd3",
-      "name": "3Jane USD3",
-      "reason": "low volume"
-    },
-    {
-      "id": "adshares",
-      "name": "Adshares",
+      "id": "affine",
+      "name": "affine",
       "reason": "low volume"
     },
     {
@@ -99,8 +129,8 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "bless-2",
-      "name": "bless-2",
+      "id": "capybobo",
+      "name": "capybobo",
       "reason": "dropped out of top N"
     },
     {
@@ -114,23 +144,18 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "fartboy",
-      "name": "Fartboy",
-      "reason": "low volume"
-    },
-    {
-      "id": "hippius",
-      "name": "Hippius",
-      "reason": "low volume"
-    },
-    {
-      "id": "nova-3",
-      "name": "NOVA",
-      "reason": "low volume"
+      "id": "puffer-finance",
+      "name": "puffer-finance",
+      "reason": "dropped out of top N"
     },
     {
       "id": "reboot-2",
       "name": "reboot-2",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "score",
+      "name": "score",
       "reason": "dropped out of top N"
     },
     {
@@ -139,8 +164,18 @@
       "reason": "low volume"
     },
     {
+      "id": "surplus-intelligence",
+      "name": "surplus-intelligence",
+      "reason": "dropped out of top N"
+    },
+    {
       "id": "umia",
       "name": "Umia",
+      "reason": "low volume"
+    },
+    {
+      "id": "wiki-cat",
+      "name": "Wiki Cat",
       "reason": "low volume"
     },
     {
