@@ -4,11 +4,16 @@
     {
       "id": "aero",
       "name": "Aero",
-      "score": 59
+      "score": 57
     },
     {
-      "id": "cobak-token",
-      "name": "Cobak",
+      "id": "milk-alliance",
+      "name": "MiL.k",
+      "score": 53
+    },
+    {
+      "id": "be-like-jose",
+      "name": "Be Like Jos\u00e9",
       "score": 50
     },
     {
@@ -17,9 +22,19 @@
       "score": 48
     },
     {
+      "id": "bitdca",
+      "name": "BitDCA",
+      "score": 48
+    },
+    {
       "id": "deapcoin",
       "name": "DEAPCOIN",
       "score": 47
+    },
+    {
+      "id": "tornado-cash",
+      "name": "Tornado Cash",
+      "score": 44
     },
     {
       "id": "doge-pepe-3",
@@ -27,19 +42,14 @@
       "score": 44
     },
     {
-      "id": "milk-alliance",
-      "name": "MiL.k",
-      "score": 44
-    },
-    {
-      "id": "tornado-cash",
-      "name": "Tornado Cash",
-      "score": 42
-    },
-    {
       "id": "pocket-network",
       "name": "Pocket Network",
-      "score": 34
+      "score": 33
+    },
+    {
+      "id": "templar",
+      "name": "\u03c4emplar",
+      "score": 32
     },
     {
       "id": "bitcast",
@@ -47,9 +57,9 @@
       "score": 31
     },
     {
-      "id": "templar",
-      "name": "\u03c4emplar",
-      "score": 31
+      "id": "bitkub-coin",
+      "name": "KUB Coin",
+      "score": 30
     }
   ],
   "left": [
@@ -89,14 +99,19 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "endurance",
-      "name": "endurance",
+      "id": "bless-2",
+      "name": "bless-2",
       "reason": "dropped out of top N"
     },
     {
-      "id": "escoin-token",
-      "name": "Escoin",
+      "id": "credible-finance",
+      "name": "Credible Finance",
       "reason": "low volume"
+    },
+    {
+      "id": "endurance",
+      "name": "endurance",
+      "reason": "dropped out of top N"
     },
     {
       "id": "fartboy",
@@ -106,6 +121,11 @@
     {
       "id": "hippius",
       "name": "Hippius",
+      "reason": "low volume"
+    },
+    {
+      "id": "nova-3",
+      "name": "NOVA",
       "reason": "low volume"
     },
     {
@@ -119,13 +139,8 @@
       "reason": "low volume"
     },
     {
-      "id": "swissborg",
-      "name": "SwissBorg",
-      "reason": "low volume"
-    },
-    {
-      "id": "wiki-cat",
-      "name": "Wiki Cat",
+      "id": "umia",
+      "name": "Umia",
       "reason": "low volume"
     },
     {
