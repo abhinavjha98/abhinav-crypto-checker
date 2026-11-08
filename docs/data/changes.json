@@ -1,212 +1,57 @@
 {
-  "compared_to": "2026-11-06",
+  "compared_to": "2026-11-07",
   "entered": [
     {
-      "id": "nkyc-token",
-      "name": "NKYC Token",
-      "score": 62
-    },
-    {
-      "id": "goldfish-gold",
-      "name": "Goldfish Gold",
-      "score": 52
-    },
-    {
-      "id": "omega-labs",
-      "name": "OMEGA Labs",
-      "score": 48
-    },
-    {
-      "id": "dacity-coin-4",
-      "name": "Dacity Coin",
-      "score": 44
-    },
-    {
-      "id": "ao-computer",
-      "name": "ao Computer",
-      "score": 43
-    },
-    {
-      "id": "1win-token",
-      "name": "1win Token",
-      "score": 42
-    },
-    {
-      "id": "credible-finance",
-      "name": "Credible Finance",
-      "score": 40
-    },
-    {
-      "id": "autonolas",
-      "name": "Autonolas",
-      "score": 39
-    },
-    {
-      "id": "across-protocol",
-      "name": "Across Protocol",
-      "score": 34
-    },
-    {
-      "id": "nova-3",
-      "name": "NOVA",
-      "score": 34
-    },
-    {
-      "id": "nano",
-      "name": "Nano",
-      "score": 33
-    },
-    {
-      "id": "wiki-cat",
-      "name": "Wiki Cat",
-      "score": 31
-    },
-    {
-      "id": "strikecoin",
-      "name": "StrikeX",
-      "score": 31
-    }
-  ],
-  "left": [
-    {
-      "id": "airtor-protocol",
-      "name": "airtor-protocol",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "anonymous-cat",
-      "name": "anonymous-cat",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "anvil",
-      "name": "Anvil",
-      "reason": "low volume"
-    },
-    {
-      "id": "bitcast",
-      "name": "bitcast",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "bitdca",
-      "name": "BitDCA",
-      "reason": "low volume"
-    },
-    {
-      "id": "bora",
-      "name": "BORA",
-      "reason": "low volume"
+      "id": "usdai",
+      "name": "USDai",
+      "score": 56
     },
     {
       "id": "cobak-token",
       "name": "Cobak",
-      "reason": "low volume"
-    },
-    {
-      "id": "cysic",
-      "name": "cysic",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "denim",
-      "name": "denim",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "froggie",
-      "name": "Froggie",
-      "reason": "low volume"
-    },
-    {
-      "id": "gamebuild",
-      "name": "GameBuild",
-      "reason": "low volume"
-    },
-    {
-      "id": "hastra-auto",
-      "name": "Hastra AUTO",
-      "reason": "low volume"
-    },
-    {
-      "id": "idlemine",
-      "name": "IdleMine",
-      "reason": "low volume"
-    },
-    {
-      "id": "iota-2",
-      "name": "iota",
-      "reason": "low volume"
-    },
-    {
-      "id": "mag7-ssi",
-      "name": "MAG7.ssi",
-      "reason": "low volume"
+      "score": 46
     },
     {
       "id": "milk-alliance",
       "name": "MiL.k",
+      "score": 44
+    }
+  ],
+  "left": [
+    {
+      "id": "adshares",
+      "name": "Adshares",
       "reason": "low volume"
     },
     {
-      "id": "ocean-protocol",
-      "name": "Ocean Protocol",
+      "id": "ai-xovia",
+      "name": "AI XOVIA",
       "reason": "low volume"
     },
     {
-      "id": "ondo-high-growth-powered-by-blackrock",
-      "name": "Ondo High Growth Powered by BlackRock",
+      "id": "capybobo",
+      "name": "capybobo",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "reboot-2",
+      "name": "reboot-2",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "swissborg",
+      "name": "SwissBorg",
       "reason": "low volume"
     },
     {
-      "id": "ondo-magnificent-7-and-crypto-portfolio",
-      "name": "Ondo Magnificent 7 and Crypto Portfolio",
+      "id": "wiki-cat",
+      "name": "Wiki Cat",
       "reason": "low volume"
     },
     {
-      "id": "pocket-network",
-      "name": "Pocket Network",
-      "reason": "low volume"
-    },
-    {
-      "id": "railgun",
-      "name": "Railgun",
-      "reason": "low volume"
-    },
-    {
-      "id": "rollbit-coin",
-      "name": "Rollbit Coin",
-      "reason": "low volume"
-    },
-    {
-      "id": "sanctum-2",
-      "name": "Sanctum",
-      "reason": "low volume"
-    },
-    {
-      "id": "tcy",
-      "name": "THORChain Yield",
-      "reason": "low volume"
-    },
-    {
-      "id": "templar",
-      "name": "\u03c4emplar",
-      "reason": "low volume"
-    },
-    {
-      "id": "tx",
-      "name": "tx",
-      "reason": "low volume"
-    },
-    {
-      "id": "usdai",
-      "name": "USDai",
-      "reason": "low volume"
-    },
-    {
-      "id": "usdu",
-      "name": "USDu",
-      "reason": "low volume"
+      "id": "yield-basis",
+      "name": "yield-basis",
+      "reason": "dropped out of top N"
     }
   ]
 }
