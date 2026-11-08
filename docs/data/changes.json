@@ -2,19 +2,54 @@
   "compared_to": "2026-11-07",
   "entered": [
     {
+      "id": "aero",
+      "name": "Aero",
+      "score": 59
+    },
+    {
       "id": "usdai",
       "name": "USDai",
       "score": 56
     },
     {
+      "id": "chainflip",
+      "name": "Chainflip",
+      "score": 47
+    },
+    {
       "id": "cobak-token",
       "name": "Cobak",
+      "score": 47
+    },
+    {
+      "id": "wasted-2",
+      "name": "WASTED",
+      "score": 47
+    },
+    {
+      "id": "deapcoin",
+      "name": "DEAPCOIN",
       "score": 46
     },
     {
       "id": "milk-alliance",
       "name": "MiL.k",
-      "score": 44
+      "score": 40
+    },
+    {
+      "id": "doge-pepe-3",
+      "name": "Doge Pepe",
+      "score": 40
+    },
+    {
+      "id": "pocket-network",
+      "name": "Pocket Network",
+      "score": 33
+    },
+    {
+      "id": "bitcast",
+      "name": "Bitcast",
+      "score": 32
     }
   ],
   "left": [
@@ -29,8 +64,8 @@
       "reason": "low volume"
     },
     {
-      "id": "capybobo",
-      "name": "capybobo",
+      "id": "endurance",
+      "name": "endurance",
       "reason": "dropped out of top N"
     },
     {
@@ -41,11 +76,6 @@
     {
       "id": "swissborg",
       "name": "SwissBorg",
-      "reason": "low volume"
-    },
-    {
-      "id": "wiki-cat",
-      "name": "Wiki Cat",
       "reason": "low volume"
     },
     {
