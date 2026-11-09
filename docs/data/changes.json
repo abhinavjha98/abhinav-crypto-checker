@@ -2,14 +2,29 @@
   "compared_to": "2026-11-08",
   "entered": [
     {
+      "id": "fx-usd-saving",
+      "name": "f(x) USD Saving",
+      "score": 61
+    },
+    {
       "id": "world-assets",
       "name": "WorldAssets",
-      "score": 52
+      "score": 58
+    },
+    {
+      "id": "yield-basis",
+      "name": "Yield Basis",
+      "score": 56
     },
     {
       "id": "score",
       "name": "Score",
-      "score": 51
+      "score": 53
+    },
+    {
+      "id": "puffer-finance",
+      "name": "Puffer",
+      "score": 52
     },
     {
       "id": "chainflip",
@@ -17,9 +32,9 @@
       "score": 51
     },
     {
-      "id": "puffer-finance",
-      "name": "Puffer",
-      "score": 49
+      "id": "tcy",
+      "name": "THORChain Yield",
+      "score": 50
     },
     {
       "id": "tau-fa",
@@ -27,9 +42,24 @@
       "score": 49
     },
     {
-      "id": "ao-computer",
-      "name": "ao Computer",
-      "score": 42
+      "id": "anonymous-cat",
+      "name": "Anonymous Cat",
+      "score": 45
+    },
+    {
+      "id": "idlemine",
+      "name": "IdleMine",
+      "score": 45
+    },
+    {
+      "id": "gamebuild",
+      "name": "GameBuild",
+      "score": 44
+    },
+    {
+      "id": "tutorial",
+      "name": "Tutorial",
+      "score": 43
     },
     {
       "id": "sanctum-2",
@@ -37,14 +67,24 @@
       "score": 41
     },
     {
+      "id": "tokamak-network",
+      "name": "Tokamak Network",
+      "score": 37
+    },
+    {
+      "id": "chromaway",
+      "name": "Chromia",
+      "score": 36
+    },
+    {
+      "id": "ocean-protocol",
+      "name": "Ocean Protocol",
+      "score": 34
+    },
+    {
       "id": "wiki-cat",
       "name": "Wiki Cat",
       "score": 32
-    },
-    {
-      "id": "bora",
-      "name": "BORA",
-      "score": 22
     }
   ],
   "left": [
@@ -54,9 +94,14 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "dacity-coin-4",
-      "name": "dacity-coin-4",
+      "id": "bitcast",
+      "name": "bitcast",
       "reason": "dropped out of top N"
+    },
+    {
+      "id": "chainlink",
+      "name": "Chainlink",
+      "reason": "price too high"
     },
     {
       "id": "doge-pepe-3",
