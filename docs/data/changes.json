@@ -1,187 +1,87 @@
 {
-  "compared_to": "2026-11-07",
+  "compared_to": "2026-11-08",
   "entered": [
     {
-      "id": "mag7-ssi",
-      "name": "MAG7.ssi",
-      "score": 61
+      "id": "world-assets",
+      "name": "WorldAssets",
+      "score": 52
     },
     {
-      "id": "milk-alliance",
-      "name": "MiL.k",
-      "score": 57
+      "id": "score",
+      "name": "Score",
+      "score": 51
     },
     {
-      "id": "cobak-token",
-      "name": "Cobak",
-      "score": 55
+      "id": "chainflip",
+      "name": "Chainflip",
+      "score": 51
     },
     {
-      "id": "aero",
-      "name": "Aero",
-      "score": 55
+      "id": "puffer-finance",
+      "name": "Puffer",
+      "score": 49
     },
     {
-      "id": "chainlink",
-      "name": "Chainlink",
-      "score": 54
-    },
-    {
-      "id": "rollbit-coin",
-      "name": "Rollbit Coin",
-      "score": 50
-    },
-    {
-      "id": "be-like-jose",
-      "name": "Be Like Jos\u00e9",
-      "score": 48
-    },
-    {
-      "id": "crypgpt",
-      "name": "CrypGPT",
-      "score": 47
-    },
-    {
-      "id": "deapcoin",
-      "name": "DEAPCOIN",
-      "score": 47
-    },
-    {
-      "id": "tornado-cash",
-      "name": "Tornado Cash",
-      "score": 46
-    },
-    {
-      "id": "doge-pepe-3",
-      "name": "Doge Pepe",
-      "score": 44
-    },
-    {
-      "id": "zylo-ecosystem",
-      "name": "Zylo Ecosystem",
-      "score": 44
-    },
-    {
-      "id": "railgun",
-      "name": "Railgun",
-      "score": 43
-    },
-    {
-      "id": "tensorcash",
-      "name": "TensorCash",
-      "score": 38
-    },
-    {
-      "id": "bitcast",
-      "name": "Bitcast",
-      "score": 33
-    },
-    {
-      "id": "pocket-network",
-      "name": "Pocket Network",
-      "score": 33
-    },
-    {
-      "id": "templar",
-      "name": "\u03c4emplar",
-      "score": 32
-    },
-    {
-      "id": "lity",
-      "name": "LITY",
-      "score": 29
-    },
-    {
-      "id": "bitkub-coin",
-      "name": "KUB Coin",
-      "score": 29
-    }
-  ],
-  "left": [
-    {
-      "id": "1win-token",
-      "name": "1win-token",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "affine",
-      "name": "affine",
-      "reason": "low volume"
-    },
-    {
-      "id": "ai-powered-finance",
-      "name": "AI Powered Finance",
-      "reason": "low volume"
-    },
-    {
-      "id": "ai-xovia",
-      "name": "AI XOVIA",
-      "reason": "low volume"
+      "id": "tau-fa",
+      "name": "TAU FA",
+      "score": 49
     },
     {
       "id": "ao-computer",
       "name": "ao Computer",
-      "reason": "low volume"
+      "score": 42
     },
     {
-      "id": "autonolas",
-      "name": "autonolas",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "capybobo",
-      "name": "capybobo",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "credible-finance",
-      "name": "Credible Finance",
-      "reason": "low volume"
-    },
-    {
-      "id": "endurance",
-      "name": "endurance",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "puffer-finance",
-      "name": "puffer-finance",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "reboot-2",
-      "name": "reboot-2",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "score",
-      "name": "score",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "strikecoin",
-      "name": "StrikeX",
-      "reason": "low volume"
-    },
-    {
-      "id": "surplus-intelligence",
-      "name": "surplus-intelligence",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "umia",
-      "name": "Umia",
-      "reason": "low volume"
+      "id": "sanctum-2",
+      "name": "Sanctum",
+      "score": 41
     },
     {
       "id": "wiki-cat",
       "name": "Wiki Cat",
+      "score": 32
+    },
+    {
+      "id": "bora",
+      "name": "BORA",
+      "score": 22
+    }
+  ],
+  "left": [
+    {
+      "id": "be-like-jose",
+      "name": "be-like-jose",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "dacity-coin-4",
+      "name": "dacity-coin-4",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "doge-pepe-3",
+      "name": "doge-pepe-3",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "mey-network",
+      "name": "mey-network",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "tensorcash",
+      "name": "TensorCash",
       "reason": "low volume"
     },
     {
-      "id": "yield-basis",
-      "name": "yield-basis",
+      "id": "unifai-network",
+      "name": "unifai-network",
       "reason": "dropped out of top N"
+    },
+    {
+      "id": "zylo-ecosystem",
+      "name": "Zylo Ecosystem",
+      "reason": "low volume"
     }
   ]
 }
