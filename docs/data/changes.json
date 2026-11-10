@@ -7,19 +7,29 @@
       "score": 61
     },
     {
-      "id": "mey-network",
-      "name": "Mey Network",
-      "score": 58
-    },
-    {
       "id": "ondo-magnificent-7-and-crypto-portfolio",
       "name": "Ondo Magnificent 7 and Crypto Portfolio",
       "score": 57
     },
     {
-      "id": "ondo-high-growth-powered-by-blackrock",
-      "name": "Ondo High Growth Powered by BlackRock",
+      "id": "mey-network",
+      "name": "Mey Network",
       "score": 56
+    },
+    {
+      "id": "chainlink",
+      "name": "Chainlink",
+      "score": 55
+    },
+    {
+      "id": "polyswarm",
+      "name": "PolySwarm",
+      "score": 48
+    },
+    {
+      "id": "usdu",
+      "name": "USDu",
+      "score": 48
     },
     {
       "id": "ai-powered-finance",
@@ -29,40 +39,70 @@
     {
       "id": "ao-computer",
       "name": "ao Computer",
-      "score": 45
-    },
-    {
-      "id": "affine",
-      "name": "affine",
-      "score": 39
+      "score": 43
     },
     {
       "id": "asset",
       "name": "REAL",
-      "score": 36
+      "score": 41
+    },
+    {
+      "id": "benqi",
+      "name": "BENQI",
+      "score": 40
+    },
+    {
+      "id": "fuzzybear",
+      "name": "Fuzzybear",
+      "score": 39
     },
     {
       "id": "huobi-token",
       "name": "Huobi",
-      "score": 34
+      "score": 38
     },
     {
-      "id": "bora",
-      "name": "BORA",
+      "id": "umia",
+      "name": "Umia",
+      "score": 38
+    },
+    {
+      "id": "affine",
+      "name": "affine",
+      "score": 38
+    },
+    {
+      "id": "super-inu-3",
+      "name": "Super Inu",
+      "score": 36
+    },
+    {
+      "id": "medibloc",
+      "name": "Medibloc",
+      "score": 33
+    },
+    {
+      "id": "bitcast",
+      "name": "Bitcast",
+      "score": 32
+    },
+    {
+      "id": "haroldonsol",
+      "name": "Harold",
+      "score": 31
+    },
+    {
+      "id": "freysa-ai",
+      "name": "Freysa AI",
+      "score": 28
+    },
+    {
+      "id": "mass-vehicle-ledger",
+      "name": "MVL",
       "score": 24
     }
   ],
   "left": [
-    {
-      "id": "3jane-usd3",
-      "name": "3Jane USD3",
-      "reason": "low volume"
-    },
-    {
-      "id": "apriori",
-      "name": "apriori",
-      "reason": "dropped out of top N"
-    },
     {
       "id": "bc-token",
       "name": "BCGame Coin",
@@ -70,8 +110,8 @@
     },
     {
       "id": "canopy",
-      "name": "Canopy",
-      "reason": "outside top N"
+      "name": "canopy",
+      "reason": "dropped out of top N"
     },
     {
       "id": "chromaway",
@@ -84,8 +124,23 @@
       "reason": "low volume"
     },
     {
-      "id": "sanctum-2",
-      "name": "Sanctum",
+      "id": "rekt-4",
+      "name": "Rekt",
+      "reason": "low volume"
+    },
+    {
+      "id": "standard",
+      "name": "standard",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "superform",
+      "name": "superform",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "swarm-engine",
+      "name": "SWARM ENGINE",
       "reason": "low volume"
     },
     {
@@ -94,8 +149,13 @@
       "reason": "low volume"
     },
     {
-      "id": "wiki-cat",
-      "name": "Wiki Cat",
+      "id": "tutorial",
+      "name": "tutorial",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "world-assets",
+      "name": "WorldAssets",
       "reason": "low volume"
     }
   ]
