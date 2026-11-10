@@ -2,11 +2,6 @@
   "compared_to": "2026-11-09",
   "entered": [
     {
-      "id": "hash-2",
-      "name": "Provenance Blockchain",
-      "score": 61
-    },
-    {
       "id": "anvil",
       "name": "Anvil",
       "score": 61
@@ -14,22 +9,37 @@
     {
       "id": "ondo-high-growth-powered-by-blackrock",
       "name": "Ondo High Growth Powered by BlackRock",
-      "score": 59
+      "score": 60
     },
     {
       "id": "ondo-magnificent-7-and-crypto-portfolio",
       "name": "Ondo Magnificent 7 and Crypto Portfolio",
-      "score": 57
+      "score": 59
     },
     {
       "id": "chainlink",
       "name": "Chainlink",
-      "score": 54
+      "score": 55
+    },
+    {
+      "id": "mey-network",
+      "name": "Mey Network",
+      "score": 52
+    },
+    {
+      "id": "capybobo",
+      "name": "Capybobo",
+      "score": 49
     },
     {
       "id": "caldera",
       "name": "Caldera",
-      "score": 50
+      "score": 48
+    },
+    {
+      "id": "endurance",
+      "name": "Fusionist",
+      "score": 48
     },
     {
       "id": "usdu",
@@ -37,38 +47,28 @@
       "score": 48
     },
     {
-      "id": "capybobo",
-      "name": "Capybobo",
-      "score": 47
-    },
-    {
       "id": "bitdca",
       "name": "BitDCA",
       "score": 47
     },
     {
-      "id": "ao-computer",
-      "name": "ao Computer",
-      "score": 45
-    },
-    {
-      "id": "ai-powered-finance",
-      "name": "AI Powered Finance",
-      "score": 45
-    },
-    {
-      "id": "public-meme-token",
-      "name": "Public Masterpiece Technology",
-      "score": 43
-    },
-    {
       "id": "laqira-protocol",
       "name": "Laqira Protocol",
-      "score": 42
+      "score": 46
     },
     {
       "id": "polyswarm",
       "name": "PolySwarm",
+      "score": 44
+    },
+    {
+      "id": "ao-computer",
+      "name": "ao Computer",
+      "score": 44
+    },
+    {
+      "id": "ai-powered-finance",
+      "name": "AI Powered Finance",
       "score": 42
     },
     {
@@ -77,49 +77,39 @@
       "score": 40
     },
     {
-      "id": "asset",
-      "name": "REAL",
-      "score": 39
-    },
-    {
       "id": "affine",
       "name": "affine",
       "score": 39
     },
     {
-      "id": "huobi-token",
-      "name": "Huobi",
-      "score": 37
-    },
-    {
       "id": "super-inu-3",
       "name": "Super Inu",
-      "score": 37
+      "score": 38
     },
     {
-      "id": "umia",
-      "name": "Umia",
+      "id": "huobi-token",
+      "name": "Huobi",
       "score": 36
     },
     {
       "id": "medibloc",
       "name": "Medibloc",
-      "score": 34
+      "score": 35
+    },
+    {
+      "id": "autonolas",
+      "name": "Autonolas",
+      "score": 35
     },
     {
       "id": "haroldonsol",
       "name": "Harold",
-      "score": 32
+      "score": 34
     },
     {
       "id": "world-mobile-token",
       "name": "World Mobile Token",
-      "score": 30
-    },
-    {
-      "id": "freysa-ai",
-      "name": "Freysa AI",
-      "score": 28
+      "score": 31
     },
     {
       "id": "mass-vehicle-ledger",
@@ -129,6 +119,11 @@
   ],
   "left": [
     {
+      "id": "apriori",
+      "name": "apriori",
+      "reason": "dropped out of top N"
+    },
+    {
       "id": "bc-token",
       "name": "BCGame Coin",
       "reason": "low volume"
@@ -137,11 +132,6 @@
       "id": "chainflip",
       "name": "Chainflip",
       "reason": "low volume"
-    },
-    {
-      "id": "chromaway",
-      "name": "chromaway",
-      "reason": "dropped out of top N"
     },
     {
       "id": "concordium",
@@ -174,6 +164,11 @@
       "reason": "low volume"
     },
     {
+      "id": "goldfish-gold",
+      "name": "Goldfish Gold",
+      "reason": "low volume"
+    },
+    {
       "id": "lity",
       "name": "LITY",
       "reason": "low volume"
@@ -184,9 +179,9 @@
       "reason": "low volume"
     },
     {
-      "id": "puffer-finance",
-      "name": "puffer-finance",
-      "reason": "dropped out of top N"
+      "id": "railgun",
+      "name": "Railgun",
+      "reason": "low volume"
     },
     {
       "id": "rekt-4",
@@ -216,6 +211,11 @@
     {
       "id": "templar",
       "name": "\u03c4emplar",
+      "reason": "low volume"
+    },
+    {
+      "id": "tokamak-network",
+      "name": "Tokamak Network",
       "reason": "low volume"
     },
     {
