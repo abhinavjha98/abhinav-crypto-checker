@@ -1,131 +1,101 @@
 {
-  "compared_to": "2026-11-08",
+  "compared_to": "2026-11-09",
   "entered": [
     {
-      "id": "fx-usd-saving",
-      "name": "f(x) USD Saving",
+      "id": "hash-2",
+      "name": "Provenance Blockchain",
       "score": 61
     },
     {
-      "id": "world-assets",
-      "name": "WorldAssets",
+      "id": "mey-network",
+      "name": "Mey Network",
       "score": 58
     },
     {
-      "id": "yield-basis",
-      "name": "Yield Basis",
+      "id": "ondo-magnificent-7-and-crypto-portfolio",
+      "name": "Ondo Magnificent 7 and Crypto Portfolio",
+      "score": 57
+    },
+    {
+      "id": "ondo-high-growth-powered-by-blackrock",
+      "name": "Ondo High Growth Powered by BlackRock",
       "score": 56
     },
     {
-      "id": "score",
-      "name": "Score",
-      "score": 53
-    },
-    {
-      "id": "puffer-finance",
-      "name": "Puffer",
-      "score": 52
-    },
-    {
-      "id": "chainflip",
-      "name": "Chainflip",
-      "score": 51
-    },
-    {
-      "id": "tcy",
-      "name": "THORChain Yield",
-      "score": 50
-    },
-    {
-      "id": "tau-fa",
-      "name": "TAU FA",
-      "score": 49
-    },
-    {
-      "id": "anonymous-cat",
-      "name": "Anonymous Cat",
+      "id": "ai-powered-finance",
+      "name": "AI Powered Finance",
       "score": 45
     },
     {
-      "id": "idlemine",
-      "name": "IdleMine",
+      "id": "ao-computer",
+      "name": "ao Computer",
       "score": 45
     },
     {
-      "id": "gamebuild",
-      "name": "GameBuild",
-      "score": 44
+      "id": "affine",
+      "name": "affine",
+      "score": 39
     },
     {
-      "id": "tutorial",
-      "name": "Tutorial",
-      "score": 43
-    },
-    {
-      "id": "sanctum-2",
-      "name": "Sanctum",
-      "score": 41
-    },
-    {
-      "id": "tokamak-network",
-      "name": "Tokamak Network",
-      "score": 37
-    },
-    {
-      "id": "chromaway",
-      "name": "Chromia",
+      "id": "asset",
+      "name": "REAL",
       "score": 36
     },
     {
-      "id": "ocean-protocol",
-      "name": "Ocean Protocol",
+      "id": "huobi-token",
+      "name": "Huobi",
       "score": 34
     },
     {
-      "id": "wiki-cat",
-      "name": "Wiki Cat",
-      "score": 32
+      "id": "bora",
+      "name": "BORA",
+      "score": 24
     }
   ],
   "left": [
     {
-      "id": "be-like-jose",
-      "name": "be-like-jose",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "bitcast",
-      "name": "bitcast",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "chainlink",
-      "name": "Chainlink",
-      "reason": "price too high"
-    },
-    {
-      "id": "doge-pepe-3",
-      "name": "doge-pepe-3",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "mey-network",
-      "name": "mey-network",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "tensorcash",
-      "name": "TensorCash",
+      "id": "3jane-usd3",
+      "name": "3Jane USD3",
       "reason": "low volume"
     },
     {
-      "id": "unifai-network",
-      "name": "unifai-network",
+      "id": "apriori",
+      "name": "apriori",
       "reason": "dropped out of top N"
     },
     {
-      "id": "zylo-ecosystem",
-      "name": "Zylo Ecosystem",
+      "id": "bc-token",
+      "name": "BCGame Coin",
+      "reason": "low volume"
+    },
+    {
+      "id": "canopy",
+      "name": "Canopy",
+      "reason": "outside top N"
+    },
+    {
+      "id": "chromaway",
+      "name": "chromaway",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "ocean-protocol",
+      "name": "Ocean Protocol",
+      "reason": "low volume"
+    },
+    {
+      "id": "sanctum-2",
+      "name": "Sanctum",
+      "reason": "low volume"
+    },
+    {
+      "id": "templar",
+      "name": "\u03c4emplar",
+      "reason": "low volume"
+    },
+    {
+      "id": "wiki-cat",
+      "name": "Wiki Cat",
       "reason": "low volume"
     }
   ]
