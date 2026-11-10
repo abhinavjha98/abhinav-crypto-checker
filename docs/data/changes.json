@@ -7,24 +7,29 @@
       "score": 61
     },
     {
+      "id": "anvil",
+      "name": "Anvil",
+      "score": 61
+    },
+    {
+      "id": "ondo-high-growth-powered-by-blackrock",
+      "name": "Ondo High Growth Powered by BlackRock",
+      "score": 59
+    },
+    {
       "id": "ondo-magnificent-7-and-crypto-portfolio",
       "name": "Ondo Magnificent 7 and Crypto Portfolio",
       "score": 57
     },
     {
-      "id": "mey-network",
-      "name": "Mey Network",
-      "score": 56
-    },
-    {
       "id": "chainlink",
       "name": "Chainlink",
-      "score": 55
+      "score": 54
     },
     {
-      "id": "polyswarm",
-      "name": "PolySwarm",
-      "score": 48
+      "id": "caldera",
+      "name": "Caldera",
+      "score": 50
     },
     {
       "id": "usdu",
@@ -32,19 +37,39 @@
       "score": 48
     },
     {
+      "id": "capybobo",
+      "name": "Capybobo",
+      "score": 47
+    },
+    {
+      "id": "bitdca",
+      "name": "BitDCA",
+      "score": 47
+    },
+    {
+      "id": "ao-computer",
+      "name": "ao Computer",
+      "score": 45
+    },
+    {
       "id": "ai-powered-finance",
       "name": "AI Powered Finance",
       "score": 45
     },
     {
-      "id": "ao-computer",
-      "name": "ao Computer",
+      "id": "public-meme-token",
+      "name": "Public Masterpiece Technology",
       "score": 43
     },
     {
-      "id": "asset",
-      "name": "REAL",
-      "score": 41
+      "id": "laqira-protocol",
+      "name": "Laqira Protocol",
+      "score": 42
+    },
+    {
+      "id": "polyswarm",
+      "name": "PolySwarm",
+      "score": 42
     },
     {
       "id": "benqi",
@@ -52,44 +77,44 @@
       "score": 40
     },
     {
-      "id": "fuzzybear",
-      "name": "Fuzzybear",
+      "id": "asset",
+      "name": "REAL",
+      "score": 39
+    },
+    {
+      "id": "affine",
+      "name": "affine",
       "score": 39
     },
     {
       "id": "huobi-token",
       "name": "Huobi",
-      "score": 38
-    },
-    {
-      "id": "umia",
-      "name": "Umia",
-      "score": 38
-    },
-    {
-      "id": "affine",
-      "name": "affine",
-      "score": 38
+      "score": 37
     },
     {
       "id": "super-inu-3",
       "name": "Super Inu",
+      "score": 37
+    },
+    {
+      "id": "umia",
+      "name": "Umia",
       "score": 36
     },
     {
       "id": "medibloc",
       "name": "Medibloc",
-      "score": 33
-    },
-    {
-      "id": "bitcast",
-      "name": "Bitcast",
-      "score": 32
+      "score": 34
     },
     {
       "id": "haroldonsol",
       "name": "Harold",
-      "score": 31
+      "score": 32
+    },
+    {
+      "id": "world-mobile-token",
+      "name": "World Mobile Token",
+      "score": 30
     },
     {
       "id": "freysa-ai",
@@ -99,7 +124,7 @@
     {
       "id": "mass-vehicle-ledger",
       "name": "MVL",
-      "score": 24
+      "score": 26
     }
   ],
   "left": [
@@ -109,9 +134,9 @@
       "reason": "low volume"
     },
     {
-      "id": "canopy",
-      "name": "canopy",
-      "reason": "dropped out of top N"
+      "id": "chainflip",
+      "name": "Chainflip",
+      "reason": "low volume"
     },
     {
       "id": "chromaway",
@@ -119,9 +144,49 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "ocean-protocol",
-      "name": "Ocean Protocol",
+      "id": "concordium",
+      "name": "Concordium",
       "reason": "low volume"
+    },
+    {
+      "id": "deapcoin",
+      "name": "DEAPCOIN",
+      "reason": "low volume"
+    },
+    {
+      "id": "dessa",
+      "name": "dessa",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "edel",
+      "name": "edel",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "fx-usd-saving",
+      "name": "f(x) USD Saving",
+      "reason": "low volume"
+    },
+    {
+      "id": "gamebuild",
+      "name": "GameBuild",
+      "reason": "low volume"
+    },
+    {
+      "id": "lity",
+      "name": "LITY",
+      "reason": "low volume"
+    },
+    {
+      "id": "nova-3",
+      "name": "NOVA",
+      "reason": "low volume"
+    },
+    {
+      "id": "puffer-finance",
+      "name": "puffer-finance",
+      "reason": "dropped out of top N"
     },
     {
       "id": "rekt-4",
@@ -134,13 +199,18 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "superform",
-      "name": "superform",
+      "id": "stonkbroker",
+      "name": "stonkbroker",
       "reason": "dropped out of top N"
     },
     {
       "id": "swarm-engine",
       "name": "SWARM ENGINE",
+      "reason": "low volume"
+    },
+    {
+      "id": "tau-fa",
+      "name": "TAU FA",
       "reason": "low volume"
     },
     {
@@ -152,6 +222,11 @@
       "id": "tutorial",
       "name": "tutorial",
       "reason": "dropped out of top N"
+    },
+    {
+      "id": "wiki-cat",
+      "name": "Wiki Cat",
+      "reason": "low volume"
     },
     {
       "id": "world-assets",
