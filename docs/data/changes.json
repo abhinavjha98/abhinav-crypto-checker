@@ -2,24 +2,34 @@
   "compared_to": "2026-11-10",
   "entered": [
     {
-      "id": "surplus-intelligence",
-      "name": "Surplus intelligence",
+      "id": "collect-on-fanable",
+      "name": "Collect on Fanable",
+      "score": 72
+    },
+    {
+      "id": "mowcat",
+      "name": "MowCat",
       "score": 54
     },
     {
-      "id": "apriori",
-      "name": "Capricorn",
-      "score": 52
-    },
-    {
-      "id": "gekko",
-      "name": "GEKKO",
-      "score": 52
+      "id": "ni-hao-cat-2",
+      "name": "ni hao cat",
+      "score": 51
     },
     {
       "id": "hastra-auto",
       "name": "Hastra AUTO",
       "score": 51
+    },
+    {
+      "id": "apriori",
+      "name": "Capricorn",
+      "score": 49
+    },
+    {
+      "id": "surplus-intelligence",
+      "name": "Surplus intelligence",
+      "score": 48
     },
     {
       "id": "deapcoin",
@@ -32,19 +42,39 @@
       "score": 47
     },
     {
+      "id": "claude-crab",
+      "name": "Claude Crab",
+      "score": 44
+    },
+    {
       "id": "asset",
       "name": "REAL",
       "score": 44
     },
     {
-      "id": "railgun",
-      "name": "Railgun",
+      "id": "tutorial",
+      "name": "Tutorial",
       "score": 43
     },
     {
-      "id": "quantum-resistant-ledger",
-      "name": "Quantum Resistant Ledger",
+      "id": "railgun",
+      "name": "Railgun",
+      "score": 42
+    },
+    {
+      "id": "concordium",
+      "name": "Concordium",
       "score": 41
+    },
+    {
+      "id": "templar",
+      "name": "\u03c4emplar",
+      "score": 40
+    },
+    {
+      "id": "epic-cash",
+      "name": "Epic Private Internet Cash",
+      "score": 40
     },
     {
       "id": "tau-fa",
@@ -54,31 +84,21 @@
     {
       "id": "tokamak-network",
       "name": "Tokamak Network",
-      "score": 38
+      "score": 37
     },
     {
       "id": "tx",
       "name": "tx",
-      "score": 36
-    },
-    {
-      "id": "palladium-network",
-      "name": "Palladium Network",
-      "score": 34
+      "score": 35
     },
     {
       "id": "nova-3",
       "name": "NOVA",
-      "score": 34
-    },
-    {
-      "id": "certik",
-      "name": "Shentu",
       "score": 33
     },
     {
-      "id": "templar",
-      "name": "\u03c4emplar",
+      "id": "bitcast",
+      "name": "Bitcast",
       "score": 31
     },
     {
@@ -89,7 +109,7 @@
     {
       "id": "bora",
       "name": "BORA",
-      "score": 26
+      "score": 25
     }
   ],
   "left": [
@@ -104,6 +124,11 @@
       "reason": "low volume"
     },
     {
+      "id": "autonolas",
+      "name": "autonolas",
+      "reason": "dropped out of top N"
+    },
+    {
       "id": "benqi",
       "name": "benqi",
       "reason": "dropped out of top N"
@@ -114,13 +139,33 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "ergo",
-      "name": "ergo",
+      "id": "endurance",
+      "name": "endurance",
       "reason": "dropped out of top N"
+    },
+    {
+      "id": "escoin-token",
+      "name": "Escoin",
+      "reason": "low volume"
+    },
+    {
+      "id": "fartboy",
+      "name": "Fartboy",
+      "reason": "low volume"
     },
     {
       "id": "haroldonsol",
       "name": "Harold",
+      "reason": "low volume"
+    },
+    {
+      "id": "huobi-token",
+      "name": "Huobi",
+      "reason": "low volume"
+    },
+    {
+      "id": "lcx",
+      "name": "LCX",
       "reason": "low volume"
     },
     {
@@ -129,8 +174,8 @@
       "reason": "low volume"
     },
     {
-      "id": "ondo-high-growth-powered-by-blackrock",
-      "name": "Ondo High Growth Powered by BlackRock",
+      "id": "ocean-protocol",
+      "name": "Ocean Protocol",
       "reason": "low volume"
     },
     {
@@ -144,8 +189,23 @@
       "reason": "low volume"
     },
     {
+      "id": "super-inu-3",
+      "name": "super-inu-3",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "tcy",
+      "name": "THORChain Yield",
+      "reason": "low volume"
+    },
+    {
       "id": "teller",
       "name": "teller",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "world-mobile-token",
+      "name": "world-mobile-token",
       "reason": "dropped out of top N"
     },
     {
