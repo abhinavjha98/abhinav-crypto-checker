@@ -1,236 +1,91 @@
 {
-  "compared_to": "2026-11-09",
+  "compared_to": "2026-11-10",
   "entered": [
     {
-      "id": "anvil",
-      "name": "Anvil",
-      "score": 61
-    },
-    {
-      "id": "ondo-high-growth-powered-by-blackrock",
-      "name": "Ondo High Growth Powered by BlackRock",
-      "score": 60
-    },
-    {
-      "id": "ondo-magnificent-7-and-crypto-portfolio",
-      "name": "Ondo Magnificent 7 and Crypto Portfolio",
-      "score": 59
-    },
-    {
-      "id": "chainlink",
-      "name": "Chainlink",
-      "score": 55
-    },
-    {
-      "id": "mey-network",
-      "name": "Mey Network",
-      "score": 52
-    },
-    {
-      "id": "capybobo",
-      "name": "Capybobo",
-      "score": 49
-    },
-    {
-      "id": "caldera",
-      "name": "Caldera",
-      "score": 48
-    },
-    {
-      "id": "endurance",
-      "name": "Fusionist",
-      "score": 48
-    },
-    {
-      "id": "usdu",
-      "name": "USDu",
-      "score": 48
-    },
-    {
-      "id": "bitdca",
-      "name": "BitDCA",
-      "score": 47
-    },
-    {
-      "id": "laqira-protocol",
-      "name": "Laqira Protocol",
-      "score": 46
-    },
-    {
-      "id": "polyswarm",
-      "name": "PolySwarm",
-      "score": 44
-    },
-    {
-      "id": "ao-computer",
-      "name": "ao Computer",
-      "score": 44
-    },
-    {
-      "id": "ai-powered-finance",
-      "name": "AI Powered Finance",
-      "score": 42
-    },
-    {
-      "id": "benqi",
-      "name": "BENQI",
-      "score": 40
-    },
-    {
-      "id": "affine",
-      "name": "affine",
-      "score": 39
-    },
-    {
-      "id": "super-inu-3",
-      "name": "Super Inu",
-      "score": 38
-    },
-    {
-      "id": "huobi-token",
-      "name": "Huobi",
-      "score": 36
-    },
-    {
-      "id": "medibloc",
-      "name": "Medibloc",
-      "score": 35
-    },
-    {
-      "id": "autonolas",
-      "name": "Autonolas",
-      "score": 35
-    },
-    {
-      "id": "haroldonsol",
-      "name": "Harold",
-      "score": 34
-    },
-    {
-      "id": "world-mobile-token",
-      "name": "World Mobile Token",
-      "score": 31
-    },
-    {
-      "id": "mass-vehicle-ledger",
-      "name": "MVL",
-      "score": 26
-    }
-  ],
-  "left": [
-    {
-      "id": "apriori",
-      "name": "apriori",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "bc-token",
-      "name": "BCGame Coin",
-      "reason": "low volume"
-    },
-    {
-      "id": "chainflip",
-      "name": "Chainflip",
-      "reason": "low volume"
-    },
-    {
-      "id": "concordium",
-      "name": "Concordium",
-      "reason": "low volume"
+      "id": "surplus-intelligence",
+      "name": "Surplus intelligence",
+      "score": 54
     },
     {
       "id": "deapcoin",
       "name": "DEAPCOIN",
-      "reason": "low volume"
+      "score": 46
     },
     {
-      "id": "dessa",
-      "name": "dessa",
-      "reason": "dropped out of top N"
+      "id": "quantum-resistant-ledger",
+      "name": "Quantum Resistant Ledger",
+      "score": 43
     },
     {
-      "id": "edel",
-      "name": "edel",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "fx-usd-saving",
-      "name": "f(x) USD Saving",
-      "reason": "low volume"
-    },
-    {
-      "id": "gamebuild",
-      "name": "GameBuild",
-      "reason": "low volume"
-    },
-    {
-      "id": "goldfish-gold",
-      "name": "Goldfish Gold",
-      "reason": "low volume"
-    },
-    {
-      "id": "lity",
-      "name": "LITY",
-      "reason": "low volume"
-    },
-    {
-      "id": "nova-3",
-      "name": "NOVA",
-      "reason": "low volume"
+      "id": "fuzzybear",
+      "name": "Fuzzybear",
+      "score": 42
     },
     {
       "id": "railgun",
       "name": "Railgun",
-      "reason": "low volume"
-    },
-    {
-      "id": "rekt-4",
-      "name": "Rekt",
-      "reason": "low volume"
-    },
-    {
-      "id": "standard",
-      "name": "standard",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "stonkbroker",
-      "name": "stonkbroker",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "swarm-engine",
-      "name": "SWARM ENGINE",
-      "reason": "low volume"
+      "score": 42
     },
     {
       "id": "tau-fa",
       "name": "TAU FA",
-      "reason": "low volume"
+      "score": 40
     },
     {
-      "id": "templar",
-      "name": "\u03c4emplar",
-      "reason": "low volume"
+      "id": "palladium-network",
+      "name": "Palladium Network",
+      "score": 38
     },
     {
       "id": "tokamak-network",
       "name": "Tokamak Network",
+      "score": 34
+    },
+    {
+      "id": "certik",
+      "name": "Shentu",
+      "score": 32
+    }
+  ],
+  "left": [
+    {
+      "id": "ao-computer",
+      "name": "ao Computer",
       "reason": "low volume"
     },
     {
-      "id": "tutorial",
-      "name": "tutorial",
+      "id": "autonolas",
+      "name": "autonolas",
       "reason": "dropped out of top N"
     },
     {
-      "id": "wiki-cat",
-      "name": "Wiki Cat",
+      "id": "chromaway",
+      "name": "Chromia",
+      "reason": "outside top N"
+    },
+    {
+      "id": "endurance",
+      "name": "endurance",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "ergo",
+      "name": "Ergo",
       "reason": "low volume"
     },
     {
-      "id": "world-assets",
-      "name": "WorldAssets",
+      "id": "haroldonsol",
+      "name": "Harold",
+      "reason": "low volume"
+    },
+    {
+      "id": "laqira-protocol",
+      "name": "laqira-protocol",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "nano",
+      "name": "Nano",
       "reason": "low volume"
     }
   ]
