@@ -1,216 +1,121 @@
 {
-  "compared_to": "2026-11-10",
+  "compared_to": "2026-11-11",
   "entered": [
     {
-      "id": "collect-on-fanable",
-      "name": "Collect on Fanable",
-      "score": 72
+      "id": "teller",
+      "name": "Teller",
+      "score": 59
     },
     {
-      "id": "mowcat",
-      "name": "MowCat",
-      "score": 54
+      "id": "goldfish-gold",
+      "name": "Goldfish Gold",
+      "score": 50
     },
     {
-      "id": "ni-hao-cat-2",
-      "name": "ni hao cat",
-      "score": 51
-    },
-    {
-      "id": "hastra-auto",
-      "name": "Hastra AUTO",
-      "score": 51
-    },
-    {
-      "id": "apriori",
-      "name": "Capricorn",
-      "score": 49
-    },
-    {
-      "id": "surplus-intelligence",
-      "name": "Surplus intelligence",
-      "score": 48
-    },
-    {
-      "id": "deapcoin",
-      "name": "DEAPCOIN",
-      "score": 48
-    },
-    {
-      "id": "gamebuild",
-      "name": "GameBuild",
-      "score": 47
-    },
-    {
-      "id": "claude-crab",
-      "name": "Claude Crab",
-      "score": 44
-    },
-    {
-      "id": "asset",
-      "name": "REAL",
-      "score": 44
-    },
-    {
-      "id": "tutorial",
-      "name": "Tutorial",
-      "score": 43
-    },
-    {
-      "id": "railgun",
-      "name": "Railgun",
-      "score": 42
-    },
-    {
-      "id": "concordium",
-      "name": "Concordium",
-      "score": 41
-    },
-    {
-      "id": "templar",
-      "name": "\u03c4emplar",
-      "score": 40
-    },
-    {
-      "id": "epic-cash",
-      "name": "Epic Private Internet Cash",
-      "score": 40
-    },
-    {
-      "id": "tau-fa",
-      "name": "TAU FA",
-      "score": 40
-    },
-    {
-      "id": "tokamak-network",
-      "name": "Tokamak Network",
-      "score": 37
-    },
-    {
-      "id": "tx",
-      "name": "tx",
-      "score": 35
-    },
-    {
-      "id": "nova-3",
-      "name": "NOVA",
-      "score": 33
-    },
-    {
-      "id": "bitcast",
-      "name": "Bitcast",
-      "score": 31
-    },
-    {
-      "id": "freysa-ai",
-      "name": "Freysa AI",
-      "score": 28
-    },
-    {
-      "id": "bora",
-      "name": "BORA",
-      "score": 25
-    }
-  ],
-  "left": [
-    {
-      "id": "across-protocol",
-      "name": "Across Protocol",
-      "reason": "low volume"
-    },
-    {
-      "id": "ao-computer",
-      "name": "ao Computer",
-      "reason": "low volume"
-    },
-    {
-      "id": "autonolas",
-      "name": "autonolas",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "benqi",
-      "name": "benqi",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "dacity-coin-4",
-      "name": "dacity-coin-4",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "endurance",
-      "name": "endurance",
-      "reason": "dropped out of top N"
+      "id": "bc-token",
+      "name": "BCGame Coin",
+      "score": 50
     },
     {
       "id": "escoin-token",
       "name": "Escoin",
+      "score": 45
+    },
+    {
+      "id": "silencio",
+      "name": "Silencio",
+      "score": 43
+    },
+    {
+      "id": "vvs-finance",
+      "name": "VVS Finance",
+      "score": 40
+    },
+    {
+      "id": "fuzzybear",
+      "name": "Fuzzybear",
+      "score": 38
+    },
+    {
+      "id": "certik",
+      "name": "Shentu",
+      "score": 34
+    },
+    {
+      "id": "autonolas",
+      "name": "Autonolas",
+      "score": 33
+    },
+    {
+      "id": "palladium-network",
+      "name": "Palladium Network",
+      "score": 33
+    }
+  ],
+  "left": [
+    {
+      "id": "ai-powered-finance",
+      "name": "AI Powered Finance",
       "reason": "low volume"
     },
     {
-      "id": "fartboy",
-      "name": "Fartboy",
-      "reason": "low volume"
-    },
-    {
-      "id": "haroldonsol",
-      "name": "Harold",
-      "reason": "low volume"
-    },
-    {
-      "id": "huobi-token",
-      "name": "Huobi",
-      "reason": "low volume"
-    },
-    {
-      "id": "lcx",
-      "name": "LCX",
-      "reason": "low volume"
-    },
-    {
-      "id": "nano",
-      "name": "Nano",
-      "reason": "low volume"
-    },
-    {
-      "id": "ocean-protocol",
-      "name": "Ocean Protocol",
-      "reason": "low volume"
-    },
-    {
-      "id": "orochi-network",
-      "name": "orochi-network",
+      "id": "bitcast",
+      "name": "bitcast",
       "reason": "dropped out of top N"
     },
     {
-      "id": "sanctum-2",
-      "name": "Sanctum",
+      "id": "canopy",
+      "name": "canopy",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "chromaway",
+      "name": "chromaway",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "felysyum",
+      "name": "Felysyum",
       "reason": "low volume"
     },
     {
-      "id": "super-inu-3",
-      "name": "super-inu-3",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "tcy",
-      "name": "THORChain Yield",
+      "id": "gamebuild",
+      "name": "GameBuild",
       "reason": "low volume"
     },
     {
-      "id": "teller",
-      "name": "teller",
+      "id": "huma-finance",
+      "name": "huma-finance",
       "reason": "dropped out of top N"
     },
     {
-      "id": "world-mobile-token",
-      "name": "world-mobile-token",
+      "id": "oho-blockchain",
+      "name": "OHO Blockchain",
+      "reason": "low volume"
+    },
+    {
+      "id": "ondo-high-growth-powered-by-blackrock",
+      "name": "Ondo High Growth Powered by BlackRock",
+      "reason": "low volume"
+    },
+    {
+      "id": "ondo-magnificent-7-and-crypto-portfolio",
+      "name": "Ondo Magnificent 7 and Crypto Portfolio",
+      "reason": "low volume"
+    },
+    {
+      "id": "puffer-finance",
+      "name": "puffer-finance",
       "reason": "dropped out of top N"
     },
     {
-      "id": "yei-finance",
-      "name": "yei-finance",
+      "id": "tornado-cash",
+      "name": "Tornado Cash",
+      "reason": "low volume"
+    },
+    {
+      "id": "tutorial",
+      "name": "tutorial",
       "reason": "dropped out of top N"
     }
   ]
