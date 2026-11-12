@@ -7,80 +7,110 @@
       "score": 60
     },
     {
-      "id": "opal-3",
-      "name": "Opal",
+      "id": "teller",
+      "name": "Teller",
+      "score": 60
+    },
+    {
+      "id": "seppuku",
+      "name": "Seppuku",
+      "score": 54
+    },
+    {
+      "id": "bc-token",
+      "name": "BCGame Coin",
       "score": 52
     },
     {
       "id": "goldfish-gold",
       "name": "Goldfish Gold",
-      "score": 50
+      "score": 49
     },
     {
-      "id": "bc-token",
-      "name": "BCGame Coin",
-      "score": 50
+      "id": "flying-tulip",
+      "name": "Flying Tulip",
+      "score": 46
     },
     {
       "id": "rocco",
       "name": "Rocco",
-      "score": 49
-    },
-    {
-      "id": "escoin-token",
-      "name": "Escoin",
       "score": 45
     },
     {
-      "id": "yei-finance",
-      "name": "Yei Finance",
+      "id": "vow",
+      "name": "Vow",
       "score": 45
     },
     {
-      "id": "seppuku",
-      "name": "Seppuku",
+      "id": "everything",
+      "name": "Everything",
       "score": 44
     },
     {
-      "id": "silencio",
-      "name": "Silencio",
-      "score": 43
-    },
-    {
-      "id": "qanplatform",
-      "name": "QANplatform",
-      "score": 41
+      "id": "fartboy",
+      "name": "Fartboy",
+      "score": 42
     },
     {
       "id": "vvs-finance",
       "name": "VVS Finance",
-      "score": 40
-    },
-    {
-      "id": "fuzzybear",
-      "name": "Fuzzybear",
-      "score": 37
-    },
-    {
-      "id": "certik",
-      "name": "Shentu",
-      "score": 33
-    },
-    {
-      "id": "wiki-cat",
-      "name": "Wiki Cat",
-      "score": 32
+      "score": 42
     },
     {
       "id": "audacity-4",
       "name": "AudaCity",
+      "score": 39
+    },
+    {
+      "id": "ni-hao-cat",
+      "name": "ni hao cat",
+      "score": 36
+    },
+    {
+      "id": "escoin-token",
+      "name": "Escoin",
+      "score": 35
+    },
+    {
+      "id": "lcx",
+      "name": "LCX",
       "score": 32
+    },
+    {
+      "id": "nano",
+      "name": "Nano",
+      "score": 31
+    },
+    {
+      "id": "wiki-cat",
+      "name": "Wiki Cat",
+      "score": 31
+    },
+    {
+      "id": "across-protocol",
+      "name": "Across Protocol",
+      "score": 30
+    },
+    {
+      "id": "world-mobile-token",
+      "name": "World Mobile Token",
+      "score": 27
+    },
+    {
+      "id": "changenow",
+      "name": "ChangeNOW",
+      "score": 26
     }
   ],
   "left": [
     {
-      "id": "ai-powered-finance",
-      "name": "AI Powered Finance",
+      "id": "anonymous-cat",
+      "name": "anonymous-cat",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "asset",
+      "name": "REAL",
       "reason": "low volume"
     },
     {
@@ -94,19 +124,9 @@
       "reason": "low volume"
     },
     {
-      "id": "chromaway",
-      "name": "chromaway",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "collect-on-fanable",
-      "name": "collect-on-fanable",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "dodo",
-      "name": "dodo",
-      "reason": "dropped out of top N"
+      "id": "epic-cash",
+      "name": "Epic Private Internet Cash",
+      "reason": "low volume"
     },
     {
       "id": "hastra-auto",
@@ -129,6 +149,11 @@
       "reason": "dropped out of top N"
     },
     {
+      "id": "ni-hao-cat-2",
+      "name": "ni-hao-cat-2",
+      "reason": "dropped out of top N"
+    },
+    {
       "id": "ondo-high-growth-powered-by-blackrock",
       "name": "Ondo High Growth Powered by BlackRock",
       "reason": "low volume"
@@ -144,18 +169,13 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "tornado-cash",
-      "name": "Tornado Cash",
-      "reason": "low volume"
-    },
-    {
       "id": "tutorial",
       "name": "tutorial",
       "reason": "dropped out of top N"
     },
     {
-      "id": "usdu",
-      "name": "USDu",
+      "id": "tx",
+      "name": "tx",
       "reason": "low volume"
     }
   ]
