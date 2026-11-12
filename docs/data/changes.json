@@ -2,9 +2,14 @@
   "compared_to": "2026-11-11",
   "entered": [
     {
-      "id": "teller",
-      "name": "Teller",
-      "score": 59
+      "id": "fx-usd-saving",
+      "name": "f(x) USD Saving",
+      "score": 60
+    },
+    {
+      "id": "opal-3",
+      "name": "Opal",
+      "score": 52
     },
     {
       "id": "goldfish-gold",
@@ -17,14 +22,34 @@
       "score": 50
     },
     {
+      "id": "rocco",
+      "name": "Rocco",
+      "score": 49
+    },
+    {
       "id": "escoin-token",
       "name": "Escoin",
       "score": 45
     },
     {
+      "id": "yei-finance",
+      "name": "Yei Finance",
+      "score": 45
+    },
+    {
+      "id": "seppuku",
+      "name": "Seppuku",
+      "score": 44
+    },
+    {
       "id": "silencio",
       "name": "Silencio",
       "score": 43
+    },
+    {
+      "id": "qanplatform",
+      "name": "QANplatform",
+      "score": 41
     },
     {
       "id": "vvs-finance",
@@ -34,22 +59,22 @@
     {
       "id": "fuzzybear",
       "name": "Fuzzybear",
-      "score": 38
+      "score": 37
     },
     {
       "id": "certik",
       "name": "Shentu",
-      "score": 34
-    },
-    {
-      "id": "autonolas",
-      "name": "Autonolas",
       "score": 33
     },
     {
-      "id": "palladium-network",
-      "name": "Palladium Network",
-      "score": 33
+      "id": "wiki-cat",
+      "name": "Wiki Cat",
+      "score": 32
+    },
+    {
+      "id": "audacity-4",
+      "name": "AudaCity",
+      "score": 32
     }
   ],
   "left": [
@@ -64,9 +89,9 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "canopy",
-      "name": "canopy",
-      "reason": "dropped out of top N"
+      "id": "bitdca",
+      "name": "BitDCA",
+      "reason": "low volume"
     },
     {
       "id": "chromaway",
@@ -74,24 +99,34 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "felysyum",
-      "name": "Felysyum",
-      "reason": "low volume"
-    },
-    {
-      "id": "gamebuild",
-      "name": "GameBuild",
-      "reason": "low volume"
-    },
-    {
-      "id": "huma-finance",
-      "name": "huma-finance",
+      "id": "collect-on-fanable",
+      "name": "collect-on-fanable",
       "reason": "dropped out of top N"
     },
     {
-      "id": "oho-blockchain",
-      "name": "OHO Blockchain",
+      "id": "dodo",
+      "name": "dodo",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "hastra-auto",
+      "name": "Hastra AUTO",
       "reason": "low volume"
+    },
+    {
+      "id": "infinity-gaming",
+      "name": "Infinity Gaming",
+      "reason": "low volume"
+    },
+    {
+      "id": "mass-vehicle-ledger",
+      "name": "MVL",
+      "reason": "low volume"
+    },
+    {
+      "id": "mowcat",
+      "name": "mowcat",
+      "reason": "dropped out of top N"
     },
     {
       "id": "ondo-high-growth-powered-by-blackrock",
@@ -117,6 +152,11 @@
       "id": "tutorial",
       "name": "tutorial",
       "reason": "dropped out of top N"
+    },
+    {
+      "id": "usdu",
+      "name": "USDu",
+      "reason": "low volume"
     }
   ]
 }
