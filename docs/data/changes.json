@@ -9,37 +9,37 @@
     {
       "id": "chainflip",
       "name": "Chainflip",
+      "score": 62
+    },
+    {
+      "id": "ondo-high-growth-powered-by-blackrock",
+      "name": "Ondo High Growth Powered by BlackRock",
       "score": 61
     },
     {
-      "id": "orderly-network",
-      "name": "Orderly",
-      "score": 59
+      "id": "perle",
+      "name": "Perle",
+      "score": 58
     },
     {
       "id": "ni-hao-cat-2",
       "name": "ni hao cat",
-      "score": 54
+      "score": 56
+    },
+    {
+      "id": "usdai",
+      "name": "USDai",
+      "score": 56
     },
     {
       "id": "infinity-gaming",
       "name": "Infinity Gaming",
-      "score": 52
-    },
-    {
-      "id": "gama-token",
-      "name": "Gama Token",
-      "score": 51
-    },
-    {
-      "id": "prize-protocol",
-      "name": "Prize Protocol",
-      "score": 48
+      "score": 53
     },
     {
       "id": "puffer-finance",
       "name": "Puffer",
-      "score": 47
+      "score": 50
     },
     {
       "id": "anonymous-cat",
@@ -49,64 +49,79 @@
     {
       "id": "elephant-money",
       "name": "Elephant Money",
-      "score": 46
+      "score": 47
     },
     {
-      "id": "obligate-trade-finance-yield",
-      "name": "Obligate Trade Finance Yield",
-      "score": 44
+      "id": "prize-protocol",
+      "name": "Prize Protocol",
+      "score": 47
     },
     {
       "id": "auki-labs",
       "name": "Auki",
-      "score": 44
+      "score": 42
     },
     {
-      "id": "bitcast",
-      "name": "Bitcast",
-      "score": 33
+      "id": "obligate-trade-finance-yield",
+      "name": "Obligate Trade Finance Yield",
+      "score": 37
+    },
+    {
+      "id": "haroldonsol",
+      "name": "Harold",
+      "score": 36
     },
     {
       "id": "certik",
       "name": "Shentu",
-      "score": 33
+      "score": 34
     },
     {
-      "id": "catwifmask",
-      "name": "catwifmask",
-      "score": 32
-    },
-    {
-      "id": "tx",
-      "name": "tx",
+      "id": "bitcast",
+      "name": "Bitcast",
       "score": 31
     },
     {
       "id": "metya",
       "name": "MetYa",
-      "score": 27
+      "score": 28
     },
     {
       "id": "rekt-4",
       "name": "Rekt",
-      "score": 23
+      "score": 22
+    },
+    {
+      "id": "zcoin",
+      "name": "Firo",
+      "score": 16
     }
   ],
   "left": [
+    {
+      "id": "across-protocol",
+      "name": "Across Protocol",
+      "reason": "low volume"
+    },
+    {
+      "id": "audacity-4",
+      "name": "audacity-4",
+      "reason": "dropped out of top N"
+    },
     {
       "id": "bora",
       "name": "BORA",
       "reason": "low volume"
     },
     {
-      "id": "canopy",
-      "name": "canopy",
+      "id": "caldera",
+      "name": "caldera",
       "reason": "dropped out of top N"
     },
     {
-      "id": "changenow",
-      "name": "ChangeNOW",
-      "reason": "low volume"
+      "id": "canopy",
+      "name": "canopy",
+      "reason": "dropped out of top N"
     },
     {
       "id": "claude-crab",
@@ -119,18 +134,8 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "concordium",
-      "name": "Concordium",
-      "reason": "low volume"
-    },
-    {
       "id": "deapcoin",
       "name": "DEAPCOIN",
-      "reason": "low volume"
-    },
-    {
-      "id": "escoin-token",
-      "name": "Escoin",
       "reason": "low volume"
     },
     {
@@ -141,6 +146,11 @@
     {
       "id": "flying-tulip",
       "name": "Flying Tulip",
+      "reason": "low volume"
+    },
+    {
+      "id": "freysa-ai",
+      "name": "Freysa AI",
       "reason": "low volume"
     },
     {
@@ -159,13 +169,13 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "medibloc",
-      "name": "Medibloc",
+      "id": "leo-token",
+      "name": "LEO Token",
       "reason": "low volume"
     },
     {
-      "id": "nova-3",
-      "name": "NOVA",
+      "id": "medibloc",
+      "name": "Medibloc",
       "reason": "low volume"
     },
     {
@@ -181,6 +191,16 @@
     {
       "id": "teller",
       "name": "teller",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "tokamak-network",
+      "name": "Tokamak Network",
+      "reason": "low volume"
+    },
+    {
+      "id": "vow",
+      "name": "vow",
       "reason": "dropped out of top N"
     }
   ]
