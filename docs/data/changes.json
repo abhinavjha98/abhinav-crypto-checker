@@ -2,14 +2,29 @@
   "compared_to": "2026-11-12",
   "entered": [
     {
+      "id": "sanctum-2",
+      "name": "Sanctum",
+      "score": 76
+    },
+    {
       "id": "chainflip",
       "name": "Chainflip",
-      "score": 60
+      "score": 61
+    },
+    {
+      "id": "infinity-gaming",
+      "name": "Infinity Gaming",
+      "score": 52
     },
     {
       "id": "ni-hao-cat-2",
       "name": "ni hao cat",
-      "score": 53
+      "score": 52
+    },
+    {
+      "id": "anonymous-cat",
+      "name": "Anonymous Cat",
+      "score": 51
     },
     {
       "id": "gama-token",
@@ -19,32 +34,37 @@
     {
       "id": "prize-protocol",
       "name": "Prize Protocol",
-      "score": 48
-    },
-    {
-      "id": "anonymous-cat",
-      "name": "Anonymous Cat",
       "score": 47
     },
     {
       "id": "elephant-money",
       "name": "Elephant Money",
-      "score": 47
-    },
-    {
-      "id": "yei-finance",
-      "name": "Yei Finance",
-      "score": 46
+      "score": 44
     },
     {
       "id": "auki-labs",
       "name": "Auki",
-      "score": 44
+      "score": 42
+    },
+    {
+      "id": "epic-cash",
+      "name": "Epic Private Internet Cash",
+      "score": 40
+    },
+    {
+      "id": "vin-2",
+      "name": "VulgarTycoon",
+      "score": 37
+    },
+    {
+      "id": "tx",
+      "name": "tx",
+      "score": 33
     },
     {
       "id": "tensorcash",
       "name": "TensorCash",
-      "score": 39
+      "score": 33
     },
     {
       "id": "certik",
@@ -54,8 +74,38 @@
   ],
   "left": [
     {
+      "id": "bc-token",
+      "name": "BCGame Coin",
+      "reason": "low volume"
+    },
+    {
       "id": "bora",
       "name": "BORA",
+      "reason": "low volume"
+    },
+    {
+      "id": "deapcoin",
+      "name": "DEAPCOIN",
+      "reason": "low volume"
+    },
+    {
+      "id": "gamebuild",
+      "name": "GameBuild",
+      "reason": "low volume"
+    },
+    {
+      "id": "gitcoin",
+      "name": "gitcoin",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "laqira-protocol",
+      "name": "laqira-protocol",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "leo-token",
+      "name": "LEO Token",
       "reason": "low volume"
     },
     {
@@ -64,13 +114,18 @@
       "reason": "low volume"
     },
     {
-      "id": "rocco",
-      "name": "rocco",
+      "id": "ni-hao-cat",
+      "name": "ni-hao-cat",
       "reason": "dropped out of top N"
     },
     {
-      "id": "surplus-intelligence",
-      "name": "surplus-intelligence",
+      "id": "nova-3",
+      "name": "NOVA",
+      "reason": "low volume"
+    },
+    {
+      "id": "rocco",
+      "name": "rocco",
       "reason": "dropped out of top N"
     },
     {
@@ -79,9 +134,14 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "wiki-cat",
-      "name": "Wiki Cat",
+      "id": "tornado-cash",
+      "name": "Tornado Cash",
       "reason": "low volume"
+    },
+    {
+      "id": "vow",
+      "name": "vow",
+      "reason": "dropped out of top N"
     }
   ]
 }
