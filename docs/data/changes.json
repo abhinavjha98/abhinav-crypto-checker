@@ -4,17 +4,27 @@
     {
       "id": "collect-on-fanable",
       "name": "Collect on Fanable",
-      "score": 73
+      "score": 70
     },
     {
       "id": "caldera",
       "name": "Caldera",
-      "score": 62
+      "score": 60
     },
     {
       "id": "canopy",
       "name": "Canopy",
-      "score": 60
+      "score": 59
+    },
+    {
+      "id": "nullmask",
+      "name": "Nullmask",
+      "score": 59
+    },
+    {
+      "id": "doge-pepe",
+      "name": "Doge Pepe",
+      "score": 54
     },
     {
       "id": "hastra-auto",
@@ -24,7 +34,7 @@
     {
       "id": "gama-token",
       "name": "Gama Token",
-      "score": 51
+      "score": 50
     },
     {
       "id": "leo-token",
@@ -32,36 +42,56 @@
       "score": 49
     },
     {
-      "id": "public-meme-token",
-      "name": "Public Masterpiece Technology",
+      "id": "credible-finance",
+      "name": "Credible Finance",
       "score": 43
     },
     {
       "id": "tokamak-network",
       "name": "Tokamak Network",
-      "score": 42
+      "score": 41
     },
     {
       "id": "asset",
       "name": "REAL",
-      "score": 38
+      "score": 41
+    },
+    {
+      "id": "catwifmask",
+      "name": "catwifmask",
+      "score": 33
     },
     {
       "id": "autonolas",
       "name": "Autonolas",
-      "score": 33
+      "score": 32
     },
     {
       "id": "freysa-ai",
       "name": "Freysa AI",
-      "score": 29
+      "score": 27
+    },
+    {
+      "id": "bora",
+      "name": "BORA",
+      "score": 23
     }
   ],
   "left": [
     {
+      "id": "adventure-gold",
+      "name": "adventure-gold",
+      "reason": "dropped out of top N"
+    },
+    {
       "id": "ai-powered-finance",
       "name": "AI Powered Finance",
       "reason": "low volume"
+    },
+    {
+      "id": "anonymous-cat",
+      "name": "anonymous-cat",
+      "reason": "dropped out of top N"
     },
     {
       "id": "auki-labs",
@@ -69,19 +99,44 @@
       "reason": "low volume"
     },
     {
+      "id": "bitcast",
+      "name": "bitcast",
+      "reason": "dropped out of top N"
+    },
+    {
       "id": "bulla-3",
       "name": "bulla-3",
       "reason": "dropped out of top N"
     },
     {
-      "id": "chainflip",
-      "name": "Chainflip",
-      "reason": "low volume"
-    },
-    {
       "id": "changenow",
       "name": "ChangeNOW",
       "reason": "low volume"
+    },
+    {
+      "id": "chromaway",
+      "name": "chromaway",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "escoin-token",
+      "name": "Escoin",
+      "reason": "low volume"
+    },
+    {
+      "id": "fx-usd-saving",
+      "name": "f(x) USD Saving",
+      "reason": "low volume"
+    },
+    {
+      "id": "hookr-fun",
+      "name": "hookr-fun",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "huma-finance",
+      "name": "huma-finance",
+      "reason": "dropped out of top N"
     },
     {
       "id": "idlemine",
@@ -94,18 +149,18 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "ondo-high-growth-powered-by-blackrock",
-      "name": "Ondo High Growth Powered by BlackRock",
+      "id": "obligate-trade-finance-yield",
+      "name": "Obligate Trade Finance Yield",
       "reason": "low volume"
-    },
-    {
-      "id": "perle",
-      "name": "perle",
-      "reason": "dropped out of top N"
     },
     {
       "id": "prize-protocol",
       "name": "Prize Protocol",
+      "reason": "low volume"
+    },
+    {
+      "id": "railgun",
+      "name": "Railgun",
       "reason": "low volume"
     },
     {
@@ -114,8 +169,13 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "tornado-cash",
-      "name": "Tornado Cash",
+      "id": "superform",
+      "name": "superform",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "usdai",
+      "name": "USDai",
       "reason": "low volume"
     },
     {
@@ -135,8 +195,8 @@
     },
     {
       "id": "world-mobile-token",
-      "name": "World Mobile Token",
-      "reason": "low volume"
+      "name": "world-mobile-token",
+      "reason": "dropped out of top N"
     },
     {
       "id": "zcoin",
