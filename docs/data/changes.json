@@ -2,6 +2,16 @@
   "compared_to": "2026-11-13",
   "entered": [
     {
+      "id": "collect-on-fanable",
+      "name": "Collect on Fanable",
+      "score": 73
+    },
+    {
+      "id": "caldera",
+      "name": "Caldera",
+      "score": 62
+    },
+    {
       "id": "canopy",
       "name": "Canopy",
       "score": 60
@@ -12,19 +22,34 @@
       "score": 51
     },
     {
+      "id": "gama-token",
+      "name": "Gama Token",
+      "score": 51
+    },
+    {
       "id": "leo-token",
       "name": "LEO Token",
       "score": 49
     },
     {
-      "id": "tokamak-network",
-      "name": "Tokamak Network",
-      "score": 44
+      "id": "public-meme-token",
+      "name": "Public Masterpiece Technology",
+      "score": 43
     },
     {
-      "id": "tx",
-      "name": "tx",
-      "score": 32
+      "id": "tokamak-network",
+      "name": "Tokamak Network",
+      "score": 42
+    },
+    {
+      "id": "asset",
+      "name": "REAL",
+      "score": 38
+    },
+    {
+      "id": "autonolas",
+      "name": "Autonolas",
+      "score": 33
     },
     {
       "id": "freysa-ai",
@@ -33,6 +58,11 @@
     }
   ],
   "left": [
+    {
+      "id": "ai-powered-finance",
+      "name": "AI Powered Finance",
+      "reason": "low volume"
+    },
     {
       "id": "auki-labs",
       "name": "Auki",
@@ -64,6 +94,11 @@
       "reason": "dropped out of top N"
     },
     {
+      "id": "ondo-high-growth-powered-by-blackrock",
+      "name": "Ondo High Growth Powered by BlackRock",
+      "reason": "low volume"
+    },
+    {
       "id": "perle",
       "name": "perle",
       "reason": "dropped out of top N"
@@ -74,9 +109,39 @@
       "reason": "low volume"
     },
     {
+      "id": "seppuku",
+      "name": "seppuku",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "tornado-cash",
+      "name": "Tornado Cash",
+      "reason": "low volume"
+    },
+    {
+      "id": "usdu",
+      "name": "USDu",
+      "reason": "low volume"
+    },
+    {
       "id": "vvs-finance",
       "name": "VVS Finance",
       "reason": "low volume"
+    },
+    {
+      "id": "wiki-cat",
+      "name": "Wiki Cat",
+      "reason": "low volume"
+    },
+    {
+      "id": "world-mobile-token",
+      "name": "World Mobile Token",
+      "reason": "low volume"
+    },
+    {
+      "id": "zcoin",
+      "name": "zcoin",
+      "reason": "dropped out of top N"
     }
   ]
 }
