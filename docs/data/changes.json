@@ -7,74 +7,84 @@
       "score": 70
     },
     {
-      "id": "caldera",
-      "name": "Caldera",
-      "score": 60
+      "id": "teller",
+      "name": "Teller",
+      "score": 59
     },
     {
       "id": "canopy",
       "name": "Canopy",
-      "score": 59
+      "score": 57
     },
     {
       "id": "nullmask",
       "name": "Nullmask",
-      "score": 59
+      "score": 55
+    },
+    {
+      "id": "lava-network",
+      "name": "Lava Network",
+      "score": 54
     },
     {
       "id": "doge-pepe",
       "name": "Doge Pepe",
-      "score": 54
+      "score": 53
     },
     {
       "id": "hastra-auto",
       "name": "Hastra AUTO",
-      "score": 51
+      "score": 52
     },
     {
       "id": "gama-token",
       "name": "Gama Token",
-      "score": 50
+      "score": 51
     },
     {
       "id": "leo-token",
       "name": "LEO Token",
-      "score": 49
-    },
-    {
-      "id": "credible-finance",
-      "name": "Credible Finance",
-      "score": 43
-    },
-    {
-      "id": "tokamak-network",
-      "name": "Tokamak Network",
-      "score": 41
+      "score": 48
     },
     {
       "id": "asset",
       "name": "REAL",
-      "score": 41
+      "score": 42
+    },
+    {
+      "id": "tokamak-network",
+      "name": "Tokamak Network",
+      "score": 40
+    },
+    {
+      "id": "decred",
+      "name": "Decred",
+      "score": 38
+    },
+    {
+      "id": "targon",
+      "name": "Targon",
+      "score": 36
+    },
+    {
+      "id": "audacity-4",
+      "name": "AudaCity",
+      "score": 34
     },
     {
       "id": "catwifmask",
       "name": "catwifmask",
-      "score": 33
-    },
-    {
-      "id": "autonolas",
-      "name": "Autonolas",
-      "score": 32
+      "score": 34
     },
     {
       "id": "freysa-ai",
       "name": "Freysa AI",
-      "score": 27
+      "score": 26
     },
     {
       "id": "bora",
       "name": "BORA",
-      "score": 23
+      "score": 22
     }
   ],
   "left": [
@@ -109,6 +119,11 @@
       "reason": "dropped out of top N"
     },
     {
+      "id": "certik",
+      "name": "certik",
+      "reason": "dropped out of top N"
+    },
+    {
       "id": "changenow",
       "name": "ChangeNOW",
       "reason": "low volume"
@@ -117,11 +132,6 @@
       "id": "chromaway",
       "name": "chromaway",
       "reason": "dropped out of top N"
-    },
-    {
-      "id": "escoin-token",
-      "name": "Escoin",
-      "reason": "low volume"
     },
     {
       "id": "fx-usd-saving",
@@ -144,9 +154,9 @@
       "reason": "low volume"
     },
     {
-      "id": "ni-hao-cat",
-      "name": "ni-hao-cat",
-      "reason": "dropped out of top N"
+      "id": "nova-3",
+      "name": "NOVA",
+      "reason": "low volume"
     },
     {
       "id": "obligate-trade-finance-yield",
@@ -154,13 +164,28 @@
       "reason": "low volume"
     },
     {
-      "id": "prize-protocol",
-      "name": "Prize Protocol",
+      "id": "oho-blockchain",
+      "name": "OHO Blockchain",
       "reason": "low volume"
     },
     {
-      "id": "railgun",
-      "name": "Railgun",
+      "id": "omega-labs",
+      "name": "omega-labs",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "ondo-high-growth-powered-by-blackrock",
+      "name": "Ondo High Growth Powered by BlackRock",
+      "reason": "low volume"
+    },
+    {
+      "id": "perle",
+      "name": "perle",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "prize-protocol",
+      "name": "Prize Protocol",
       "reason": "low volume"
     },
     {
@@ -174,18 +199,23 @@
       "reason": "dropped out of top N"
     },
     {
+      "id": "surplus-intelligence",
+      "name": "surplus-intelligence",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "templar",
+      "name": "\u03c4emplar",
+      "reason": "low volume"
+    },
+    {
+      "id": "tread-fi",
+      "name": "tread-fi",
+      "reason": "dropped out of top N"
+    },
+    {
       "id": "usdai",
       "name": "USDai",
-      "reason": "low volume"
-    },
-    {
-      "id": "usdu",
-      "name": "USDu",
-      "reason": "low volume"
-    },
-    {
-      "id": "vvs-finance",
-      "name": "VVS Finance",
       "reason": "low volume"
     },
     {
@@ -199,9 +229,14 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "zcoin",
-      "name": "zcoin",
+      "id": "yield-basis",
+      "name": "yield-basis",
       "reason": "dropped out of top N"
+    },
+    {
+      "id": "zcoin",
+      "name": "Firo",
+      "reason": "low volume"
     }
   ]
 }
