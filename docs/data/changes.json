@@ -1,241 +1,131 @@
 {
-  "compared_to": "2026-11-13",
+  "compared_to": "2026-11-14",
   "entered": [
     {
-      "id": "collect-on-fanable",
-      "name": "Collect on Fanable",
-      "score": 70
-    },
-    {
-      "id": "teller",
-      "name": "Teller",
-      "score": 59
-    },
-    {
-      "id": "canopy",
-      "name": "Canopy",
-      "score": 57
-    },
-    {
-      "id": "nullmask",
-      "name": "Nullmask",
-      "score": 55
-    },
-    {
-      "id": "lava-network",
-      "name": "Lava Network",
-      "score": 54
-    },
-    {
-      "id": "doge-pepe",
-      "name": "Doge Pepe",
-      "score": 53
-    },
-    {
-      "id": "hastra-auto",
-      "name": "Hastra AUTO",
-      "score": 52
-    },
-    {
-      "id": "gama-token",
-      "name": "Gama Token",
-      "score": 51
-    },
-    {
-      "id": "leo-token",
-      "name": "LEO Token",
-      "score": 48
-    },
-    {
-      "id": "asset",
-      "name": "REAL",
-      "score": 42
-    },
-    {
-      "id": "tokamak-network",
-      "name": "Tokamak Network",
-      "score": 40
-    },
-    {
-      "id": "decred",
-      "name": "Decred",
-      "score": 38
-    },
-    {
-      "id": "targon",
-      "name": "Targon",
-      "score": 36
-    },
-    {
-      "id": "audacity-4",
-      "name": "AudaCity",
-      "score": 34
-    },
-    {
-      "id": "catwifmask",
-      "name": "catwifmask",
-      "score": 34
-    },
-    {
-      "id": "freysa-ai",
-      "name": "Freysa AI",
-      "score": 26
-    },
-    {
-      "id": "bora",
-      "name": "BORA",
-      "score": 22
-    }
-  ],
-  "left": [
-    {
-      "id": "adventure-gold",
-      "name": "adventure-gold",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "ai-powered-finance",
-      "name": "AI Powered Finance",
-      "reason": "low volume"
-    },
-    {
-      "id": "anonymous-cat",
-      "name": "anonymous-cat",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "auki-labs",
-      "name": "Auki",
-      "reason": "low volume"
-    },
-    {
-      "id": "bitcast",
-      "name": "bitcast",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "bulla-3",
-      "name": "bulla-3",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "certik",
-      "name": "certik",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "changenow",
-      "name": "ChangeNOW",
-      "reason": "low volume"
-    },
-    {
-      "id": "chromaway",
-      "name": "chromaway",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "fx-usd-saving",
-      "name": "f(x) USD Saving",
-      "reason": "low volume"
-    },
-    {
-      "id": "hookr-fun",
-      "name": "hookr-fun",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "huma-finance",
-      "name": "huma-finance",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "idlemine",
-      "name": "IdleMine",
-      "reason": "low volume"
-    },
-    {
-      "id": "nova-3",
-      "name": "NOVA",
-      "reason": "low volume"
-    },
-    {
-      "id": "obligate-trade-finance-yield",
-      "name": "Obligate Trade Finance Yield",
-      "reason": "low volume"
-    },
-    {
-      "id": "oho-blockchain",
-      "name": "OHO Blockchain",
-      "reason": "low volume"
-    },
-    {
-      "id": "omega-labs",
-      "name": "omega-labs",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "ondo-high-growth-powered-by-blackrock",
-      "name": "Ondo High Growth Powered by BlackRock",
-      "reason": "low volume"
-    },
-    {
-      "id": "perle",
-      "name": "perle",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "prize-protocol",
-      "name": "Prize Protocol",
-      "reason": "low volume"
-    },
-    {
-      "id": "seppuku",
-      "name": "seppuku",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "superform",
-      "name": "superform",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "surplus-intelligence",
-      "name": "surplus-intelligence",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "templar",
-      "name": "\u03c4emplar",
-      "reason": "low volume"
-    },
-    {
-      "id": "tread-fi",
-      "name": "tread-fi",
-      "reason": "dropped out of top N"
+      "id": "orochi-network",
+      "name": "Orochi Network",
+      "score": 58
     },
     {
       "id": "usdai",
       "name": "USDai",
-      "reason": "low volume"
+      "score": 56
     },
     {
-      "id": "wiki-cat",
-      "name": "Wiki Cat",
-      "reason": "low volume"
-    },
-    {
-      "id": "world-mobile-token",
-      "name": "world-mobile-token",
-      "reason": "dropped out of top N"
+      "id": "caldera",
+      "name": "Caldera",
+      "score": 56
     },
     {
       "id": "yield-basis",
-      "name": "yield-basis",
+      "name": "Yield Basis",
+      "score": 52
+    },
+    {
+      "id": "tree-capital",
+      "name": "Tree",
+      "score": 49
+    },
+    {
+      "id": "identity-md",
+      "name": "Identity.md",
+      "score": 49
+    },
+    {
+      "id": "anonymous-cat",
+      "name": "Anonymous Cat",
+      "score": 47
+    },
+    {
+      "id": "re-protocol-reusde",
+      "name": "Re Protocol reUSDe",
+      "score": 46
+    },
+    {
+      "id": "tensorcash",
+      "name": "TensorCash",
+      "score": 44
+    },
+    {
+      "id": "sophon",
+      "name": "Sophon",
+      "score": 42
+    },
+    {
+      "id": "idlemine",
+      "name": "IdleMine",
+      "score": 41
+    },
+    {
+      "id": "vin-2",
+      "name": "VulgarTycoon",
+      "score": 36
+    },
+    {
+      "id": "medibloc",
+      "name": "Medibloc",
+      "score": 33
+    },
+    {
+      "id": "ocean-protocol",
+      "name": "Ocean Protocol",
+      "score": 30
+    }
+  ],
+  "left": [
+    {
+      "id": "dkargo",
+      "name": "dkargo",
       "reason": "dropped out of top N"
     },
     {
-      "id": "zcoin",
-      "name": "Firo",
+      "id": "doge-pepe",
+      "name": "doge-pepe",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "ergo",
+      "name": "Ergo",
+      "reason": "low volume"
+    },
+    {
+      "id": "haroldonsol",
+      "name": "Harold",
+      "reason": "low volume"
+    },
+    {
+      "id": "lava-network",
+      "name": "lava-network",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "manadia",
+      "name": "Manadia",
+      "reason": "low volume"
+    },
+    {
+      "id": "ni-hao-cat",
+      "name": "ni-hao-cat",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "numa-x",
+      "name": "NUMA-X",
+      "reason": "low volume"
+    },
+    {
+      "id": "puffer-finance",
+      "name": "puffer-finance",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "teller",
+      "name": "teller",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "tornado-cash",
+      "name": "Tornado Cash",
       "reason": "low volume"
     }
   ]
