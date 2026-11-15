@@ -2,8 +2,18 @@
   "compared_to": "2026-11-14",
   "entered": [
     {
-      "id": "orochi-network",
-      "name": "Orochi Network",
+      "id": "evaa-protocol",
+      "name": "EVAA Protocol",
+      "score": 63
+    },
+    {
+      "id": "caldera",
+      "name": "Caldera",
+      "score": 59
+    },
+    {
+      "id": "hermez-network-token",
+      "name": "Hermez Network",
       "score": 58
     },
     {
@@ -12,33 +22,58 @@
       "score": 56
     },
     {
-      "id": "caldera",
-      "name": "Caldera",
+      "id": "orochi-network",
+      "name": "Orochi Network",
       "score": 56
     },
     {
       "id": "yield-basis",
       "name": "Yield Basis",
-      "score": 52
+      "score": 54
     },
     {
-      "id": "tree-capital",
-      "name": "Tree",
-      "score": 49
-    },
-    {
-      "id": "identity-md",
-      "name": "Identity.md",
-      "score": 49
+      "id": "rambo",
+      "name": "RAMBO",
+      "score": 53
     },
     {
       "id": "anonymous-cat",
       "name": "Anonymous Cat",
+      "score": 51
+    },
+    {
+      "id": "identity-md",
+      "name": "Identity.md",
+      "score": 48
+    },
+    {
+      "id": "tree-capital",
+      "name": "Tree",
+      "score": 48
+    },
+    {
+      "id": "flying-tulip",
+      "name": "Flying Tulip",
+      "score": 48
+    },
+    {
+      "id": "deapcoin",
+      "name": "DEAPCOIN",
       "score": 47
+    },
+    {
+      "id": "surplus-intelligence",
+      "name": "Surplus intelligence",
+      "score": 46
     },
     {
       "id": "re-protocol-reusde",
       "name": "Re Protocol reUSDe",
+      "score": 46
+    },
+    {
+      "id": "prize-protocol",
+      "name": "Prize Protocol",
       "score": 46
     },
     {
@@ -47,46 +82,76 @@
       "score": 44
     },
     {
-      "id": "sophon",
-      "name": "Sophon",
-      "score": 42
-    },
-    {
       "id": "idlemine",
       "name": "IdleMine",
-      "score": 41
+      "score": 43
+    },
+    {
+      "id": "everything",
+      "name": "Everything",
+      "score": 43
+    },
+    {
+      "id": "qanplatform",
+      "name": "QANplatform",
+      "score": 40
+    },
+    {
+      "id": "ao-computer",
+      "name": "ao Computer",
+      "score": 38
     },
     {
       "id": "vin-2",
       "name": "VulgarTycoon",
-      "score": 36
+      "score": 38
     },
     {
       "id": "medibloc",
       "name": "Medibloc",
+      "score": 35
+    },
+    {
+      "id": "tread-fi",
+      "name": "Tread.fi",
+      "score": 35
+    },
+    {
+      "id": "world-mobile-token",
+      "name": "World Mobile Token",
       "score": 33
     },
     {
       "id": "ocean-protocol",
       "name": "Ocean Protocol",
+      "score": 33
+    },
+    {
+      "id": "wiki-cat",
+      "name": "Wiki Cat",
       "score": 30
+    },
+    {
+      "id": "hunt-token",
+      "name": "Hunt",
+      "score": 28
     }
   ],
   "left": [
     {
+      "id": "anvil",
+      "name": "Anvil",
+      "reason": "low volume"
+    },
+    {
+      "id": "audacity-4",
+      "name": "audacity-4",
+      "reason": "dropped out of top N"
+    },
+    {
       "id": "dkargo",
       "name": "dkargo",
       "reason": "dropped out of top N"
-    },
-    {
-      "id": "doge-pepe",
-      "name": "doge-pepe",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "ergo",
-      "name": "Ergo",
-      "reason": "low volume"
     },
     {
       "id": "haroldonsol",
@@ -119,9 +184,19 @@
       "reason": "dropped out of top N"
     },
     {
+      "id": "targon",
+      "name": "Targon",
+      "reason": "price too high"
+    },
+    {
       "id": "teller",
       "name": "teller",
       "reason": "dropped out of top N"
+    },
+    {
+      "id": "tokamak-network",
+      "name": "Tokamak Network",
+      "reason": "low volume"
     },
     {
       "id": "tornado-cash",
