@@ -4,56 +4,36 @@
     {
       "id": "evaa-protocol",
       "name": "EVAA Protocol",
-      "score": 63
+      "score": 65
     },
     {
-      "id": "caldera",
-      "name": "Caldera",
-      "score": 59
-    },
-    {
-      "id": "hermez-network-token",
-      "name": "Hermez Network",
-      "score": 58
-    },
-    {
-      "id": "usdai",
-      "name": "USDai",
+      "id": "yield-basis",
+      "name": "Yield Basis",
       "score": 56
     },
     {
       "id": "orochi-network",
       "name": "Orochi Network",
-      "score": 56
+      "score": 55
     },
     {
-      "id": "yield-basis",
-      "name": "Yield Basis",
+      "id": "claude-crab",
+      "name": "Claude Crab",
       "score": 54
     },
     {
-      "id": "rambo",
-      "name": "RAMBO",
-      "score": 53
-    },
-    {
-      "id": "anonymous-cat",
-      "name": "Anonymous Cat",
+      "id": "surplus-intelligence",
+      "name": "Surplus intelligence",
       "score": 51
     },
     {
-      "id": "identity-md",
-      "name": "Identity.md",
+      "id": "macca-the-gator-2",
+      "name": "Macca the Gator",
       "score": 48
     },
     {
-      "id": "tree-capital",
-      "name": "Tree",
-      "score": 48
-    },
-    {
-      "id": "flying-tulip",
-      "name": "Flying Tulip",
+      "id": "prize-protocol",
+      "name": "Prize Protocol",
       "score": 48
     },
     {
@@ -62,9 +42,19 @@
       "score": 47
     },
     {
-      "id": "surplus-intelligence",
-      "name": "Surplus intelligence",
-      "score": 46
+      "id": "swarm-engine",
+      "name": "SWARM ENGINE",
+      "score": 47
+    },
+    {
+      "id": "tree-capital",
+      "name": "Tree",
+      "score": 47
+    },
+    {
+      "id": "flying-tulip",
+      "name": "Flying Tulip",
+      "score": 47
     },
     {
       "id": "re-protocol-reusde",
@@ -72,64 +62,44 @@
       "score": 46
     },
     {
-      "id": "prize-protocol",
-      "name": "Prize Protocol",
+      "id": "anonymous-cat",
+      "name": "Anonymous Cat",
       "score": 46
+    },
+    {
+      "id": "obligate-trade-finance-yield",
+      "name": "Obligate Trade Finance Yield",
+      "score": 44
     },
     {
       "id": "tensorcash",
       "name": "TensorCash",
-      "score": 44
-    },
-    {
-      "id": "idlemine",
-      "name": "IdleMine",
       "score": 43
     },
     {
-      "id": "everything",
-      "name": "Everything",
+      "id": "identity-md",
+      "name": "Identity.md",
       "score": 43
-    },
-    {
-      "id": "qanplatform",
-      "name": "QANplatform",
-      "score": 40
-    },
-    {
-      "id": "ao-computer",
-      "name": "ao Computer",
-      "score": 38
-    },
-    {
-      "id": "vin-2",
-      "name": "VulgarTycoon",
-      "score": 38
-    },
-    {
-      "id": "medibloc",
-      "name": "Medibloc",
-      "score": 35
     },
     {
       "id": "tread-fi",
       "name": "Tread.fi",
-      "score": 35
+      "score": 41
     },
     {
-      "id": "world-mobile-token",
-      "name": "World Mobile Token",
-      "score": 33
+      "id": "gato-the-cat",
+      "name": "Gato The Cat",
+      "score": 40
+    },
+    {
+      "id": "medibloc",
+      "name": "Medibloc",
+      "score": 34
     },
     {
       "id": "ocean-protocol",
       "name": "Ocean Protocol",
       "score": 33
-    },
-    {
-      "id": "wiki-cat",
-      "name": "Wiki Cat",
-      "score": 30
     },
     {
       "id": "hunt-token",
@@ -144,13 +114,33 @@
       "reason": "low volume"
     },
     {
-      "id": "audacity-4",
-      "name": "audacity-4",
+      "id": "canopy",
+      "name": "canopy",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "constellation-labs",
+      "name": "constellation-labs",
       "reason": "dropped out of top N"
     },
     {
       "id": "dkargo",
       "name": "dkargo",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "escoin-token",
+      "name": "Escoin",
+      "reason": "low volume"
+    },
+    {
+      "id": "goldfish-gold",
+      "name": "Goldfish Gold",
+      "reason": "low volume"
+    },
+    {
+      "id": "hakimi",
+      "name": "hakimi",
       "reason": "dropped out of top N"
     },
     {
@@ -169,19 +159,14 @@
       "reason": "low volume"
     },
     {
-      "id": "ni-hao-cat",
-      "name": "ni-hao-cat",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "numa-x",
-      "name": "NUMA-X",
-      "reason": "low volume"
-    },
-    {
       "id": "puffer-finance",
       "name": "puffer-finance",
       "reason": "dropped out of top N"
+    },
+    {
+      "id": "railgun",
+      "name": "Railgun",
+      "reason": "low volume"
     },
     {
       "id": "targon",
@@ -192,11 +177,6 @@
       "id": "teller",
       "name": "teller",
       "reason": "dropped out of top N"
-    },
-    {
-      "id": "tokamak-network",
-      "name": "Tokamak Network",
-      "reason": "low volume"
     },
     {
       "id": "tornado-cash",
