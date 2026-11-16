@@ -1,227 +1,82 @@
 {
-  "compared_to": "2026-11-14",
+  "compared_to": "2026-11-15",
   "entered": [
     {
-      "id": "evaa-protocol",
-      "name": "EVAA Protocol",
-      "score": 66
+      "id": "auki-labs",
+      "name": "Auki",
+      "score": 43
     },
     {
-      "id": "vine",
-      "name": "Vine",
-      "score": 56
-    },
-    {
-      "id": "yield-basis",
-      "name": "Yield Basis",
-      "score": 56
-    },
-    {
-      "id": "usdai",
-      "name": "USDai",
-      "score": 56
-    },
-    {
-      "id": "claude-crab",
-      "name": "Claude Crab",
-      "score": 55
-    },
-    {
-      "id": "orochi-network",
-      "name": "Orochi Network",
-      "score": 55
-    },
-    {
-      "id": "anonymous-cat",
-      "name": "Anonymous Cat",
-      "score": 47
-    },
-    {
-      "id": "swarm-engine",
-      "name": "SWARM ENGINE",
-      "score": 47
-    },
-    {
-      "id": "deapcoin",
-      "name": "DEAPCOIN",
-      "score": 47
-    },
-    {
-      "id": "prize-protocol",
-      "name": "Prize Protocol",
-      "score": 47
-    },
-    {
-      "id": "tree-capital",
-      "name": "Tree",
-      "score": 47
-    },
-    {
-      "id": "flying-tulip",
-      "name": "Flying Tulip",
-      "score": 47
-    },
-    {
-      "id": "radicle",
-      "name": "Radworks",
-      "score": 46
-    },
-    {
-      "id": "re-protocol-reusde",
-      "name": "Re Protocol reUSDe",
-      "score": 46
-    },
-    {
-      "id": "1win-token",
-      "name": "1win Token",
-      "score": 45
-    },
-    {
-      "id": "identity-md",
-      "name": "Identity.md",
-      "score": 45
-    },
-    {
-      "id": "macca-the-gator-2",
-      "name": "Macca the Gator",
-      "score": 42
-    },
-    {
-      "id": "surplus-intelligence",
-      "name": "Surplus intelligence",
-      "score": 40
-    },
-    {
-      "id": "gato-the-cat",
-      "name": "Gato The Cat",
-      "score": 40
-    },
-    {
-      "id": "tensorcash",
-      "name": "TensorCash",
-      "score": 39
-    },
-    {
-      "id": "obligate-trade-finance-yield",
-      "name": "Obligate Trade Finance Yield",
-      "score": 37
-    },
-    {
-      "id": "medibloc",
-      "name": "Medibloc",
-      "score": 35
-    },
-    {
-      "id": "tread-fi",
-      "name": "Tread.fi",
-      "score": 35
-    },
-    {
-      "id": "ocean-protocol",
-      "name": "Ocean Protocol",
-      "score": 34
-    },
-    {
-      "id": "wiki-cat",
-      "name": "Wiki Cat",
+      "id": "world-mobile-token",
+      "name": "World Mobile Token",
       "score": 31
-    }
-  ],
-  "left": [
-    {
-      "id": "anvil",
-      "name": "Anvil",
-      "reason": "low volume"
-    },
-    {
-      "id": "big-time",
-      "name": "big-time",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "bora",
-      "name": "BORA",
-      "reason": "low volume"
-    },
-    {
-      "id": "canopy",
-      "name": "canopy",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "dkargo",
-      "name": "dkargo",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "doge-pepe",
-      "name": "doge-pepe",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "elephant-money",
-      "name": "Elephant Money",
-      "reason": "low volume"
-    },
-    {
-      "id": "ergo",
-      "name": "Ergo",
-      "reason": "low volume"
     },
     {
       "id": "freysa-ai",
       "name": "Freysa AI",
+      "score": 28
+    },
+    {
+      "id": "ergo",
+      "name": "Ergo",
+      "score": 18
+    }
+  ],
+  "left": [
+    {
+      "id": "bitkub-coin",
+      "name": "KUB Coin",
       "reason": "low volume"
     },
     {
-      "id": "hakimi",
-      "name": "hakimi",
+      "id": "chainflip",
+      "name": "Chainflip",
+      "reason": "low volume"
+    },
+    {
+      "id": "deapcoin",
+      "name": "DEAPCOIN",
+      "reason": "low volume"
+    },
+    {
+      "id": "goldfish-gold",
+      "name": "Goldfish Gold",
+      "reason": "low volume"
+    },
+    {
+      "id": "medibloc",
+      "name": "Medibloc",
+      "reason": "low volume"
+    },
+    {
+      "id": "ocean-protocol",
+      "name": "Ocean Protocol",
+      "reason": "low volume"
+    },
+    {
+      "id": "tokamak-network",
+      "name": "Tokamak Network",
+      "reason": "low volume"
+    },
+    {
+      "id": "tree-capital",
+      "name": "Tree",
+      "reason": "low volume"
+    },
+    {
+      "id": "usdai",
+      "name": "USDai",
+      "reason": "low volume"
+    },
+    {
+      "id": "vine",
+      "name": "vine",
       "reason": "dropped out of top N"
     },
     {
-      "id": "haroldonsol",
-      "name": "Harold",
-      "reason": "low volume"
-    },
-    {
-      "id": "lava-network",
-      "name": "lava-network",
+      "id": "yield-basis",
+      "name": "yield-basis",
       "reason": "dropped out of top N"
-    },
-    {
-      "id": "manadia",
-      "name": "Manadia",
-      "reason": "low volume"
-    },
-    {
-      "id": "nano",
-      "name": "Nano",
-      "reason": "low volume"
-    },
-    {
-      "id": "puffer-finance",
-      "name": "puffer-finance",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "railgun",
-      "name": "Railgun",
-      "reason": "low volume"
-    },
-    {
-      "id": "targon",
-      "name": "Targon",
-      "reason": "price too high"
-    },
-    {
-      "id": "teller",
-      "name": "teller",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "tornado-cash",
-      "name": "Tornado Cash",
-      "reason": "low volume"
     }
   ]
 }
