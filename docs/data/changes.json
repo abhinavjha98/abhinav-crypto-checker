@@ -2,9 +2,14 @@
   "compared_to": "2026-11-15",
   "entered": [
     {
-      "id": "canopy",
-      "name": "Canopy",
+      "id": "hash-2",
+      "name": "Provenance Blockchain",
       "score": 60
+    },
+    {
+      "id": "caldera",
+      "name": "Caldera",
+      "score": 55
     },
     {
       "id": "big-time",
@@ -12,8 +17,13 @@
       "score": 50
     },
     {
-      "id": "ai-powered-finance",
-      "name": "AI Powered Finance",
+      "id": "huma-finance",
+      "name": "Huma Finance",
+      "score": 50
+    },
+    {
+      "id": "bitdca",
+      "name": "BitDCA",
       "score": 48
     },
     {
@@ -22,29 +32,49 @@
       "score": 47
     },
     {
-      "id": "dkargo",
-      "name": "dKargo",
+      "id": "ai-powered-finance",
+      "name": "AI Powered Finance",
       "score": 47
     },
     {
-      "id": "public-meme-token",
-      "name": "Public Masterpiece Technology",
+      "id": "vow",
+      "name": "Vow",
+      "score": 46
+    },
+    {
+      "id": "railgun",
+      "name": "Railgun",
+      "score": 44
+    },
+    {
+      "id": "targon",
+      "name": "Targon",
       "score": 43
     },
     {
-      "id": "superrare",
-      "name": "SuperRare",
-      "score": 43
+      "id": "qanplatform",
+      "name": "QANplatform",
+      "score": 42
     },
     {
-      "id": "auki-labs",
-      "name": "Auki",
-      "score": 40
+      "id": "epic-cash",
+      "name": "Epic Private Internet Cash",
+      "score": 41
     },
     {
-      "id": "haroldonsol",
-      "name": "Harold",
+      "id": "adventure-gold",
+      "name": "Adventure Gold",
+      "score": 41
+    },
+    {
+      "id": "fuzzybear",
+      "name": "Fuzzybear",
       "score": 38
+    },
+    {
+      "id": "chromaway",
+      "name": "Chromia",
+      "score": 37
     },
     {
       "id": "world-mobile-token",
@@ -52,9 +82,34 @@
       "score": 37
     },
     {
+      "id": "haroldonsol",
+      "name": "Harold",
+      "score": 36
+    },
+    {
+      "id": "nova-3",
+      "name": "NOVA",
+      "score": 35
+    },
+    {
+      "id": "certik",
+      "name": "Shentu",
+      "score": 33
+    },
+    {
+      "id": "freysa-ai",
+      "name": "Freysa AI",
+      "score": 30
+    },
+    {
+      "id": "nano",
+      "name": "Nano",
+      "score": 28
+    },
+    {
       "id": "bora",
       "name": "BORA",
-      "score": 22
+      "score": 23
     },
     {
       "id": "ergo",
@@ -64,7 +119,7 @@
     {
       "id": "zcoin",
       "name": "Firo",
-      "score": 14
+      "score": 13
     }
   ],
   "left": [
@@ -79,14 +134,9 @@
       "reason": "low volume"
     },
     {
-      "id": "audacity-4",
-      "name": "audacity-4",
+      "id": "apriori",
+      "name": "apriori",
       "reason": "dropped out of top N"
-    },
-    {
-      "id": "bitkub-coin",
-      "name": "KUB Coin",
-      "reason": "low volume"
     },
     {
       "id": "catwifmask",
@@ -109,8 +159,18 @@
       "reason": "low volume"
     },
     {
+      "id": "decred",
+      "name": "Decred",
+      "reason": "price too high"
+    },
+    {
       "id": "fartboy",
       "name": "Fartboy",
+      "reason": "low volume"
+    },
+    {
+      "id": "flying-tulip",
+      "name": "Flying Tulip",
       "reason": "low volume"
     },
     {
@@ -119,8 +179,13 @@
       "reason": "low volume"
     },
     {
-      "id": "hastra-auto",
-      "name": "Hastra AUTO",
+      "id": "identity-md",
+      "name": "identity-md",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "marscat-token",
+      "name": "Marscat Token",
       "reason": "low volume"
     },
     {
@@ -134,8 +199,18 @@
       "reason": "low volume"
     },
     {
+      "id": "milk-alliance",
+      "name": "MiL.k",
+      "reason": "low volume"
+    },
+    {
       "id": "ni-hao-cat",
       "name": "ni-hao-cat",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "nullmask",
+      "name": "nullmask",
       "reason": "dropped out of top N"
     },
     {
@@ -144,8 +219,13 @@
       "reason": "low volume"
     },
     {
-      "id": "rollbit-coin",
-      "name": "Rollbit Coin",
+      "id": "re-protocol-reusde",
+      "name": "Re Protocol reUSDe",
+      "reason": "low volume"
+    },
+    {
+      "id": "rekt-4",
+      "name": "Rekt",
       "reason": "low volume"
     },
     {
@@ -155,7 +235,12 @@
     },
     {
       "id": "tensorcash",
-      "name": "TensorCash",
+      "name": "tensorcash",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "tokamak-network",
+      "name": "Tokamak Network",
       "reason": "low volume"
     },
     {
@@ -169,14 +254,19 @@
       "reason": "low volume"
     },
     {
+      "id": "usdu",
+      "name": "USDu",
+      "reason": "low volume"
+    },
+    {
       "id": "vine",
       "name": "vine",
       "reason": "dropped out of top N"
     },
     {
-      "id": "yield-basis",
-      "name": "yield-basis",
-      "reason": "dropped out of top N"
+      "id": "wiki-cat",
+      "name": "Wiki Cat",
+      "reason": "low volume"
     }
   ]
 }
