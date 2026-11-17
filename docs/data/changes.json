@@ -1,271 +1,91 @@
 {
-  "compared_to": "2026-11-15",
+  "compared_to": "2026-11-16",
   "entered": [
     {
-      "id": "hash-2",
-      "name": "Provenance Blockchain",
-      "score": 60
-    },
-    {
-      "id": "caldera",
-      "name": "Caldera",
-      "score": 55
-    },
-    {
-      "id": "big-time",
-      "name": "Big Time",
-      "score": 50
-    },
-    {
-      "id": "huma-finance",
-      "name": "Huma Finance",
-      "score": 50
-    },
-    {
-      "id": "bitdca",
-      "name": "BitDCA",
-      "score": 48
-    },
-    {
-      "id": "manadia",
-      "name": "Manadia",
-      "score": 47
-    },
-    {
-      "id": "ai-powered-finance",
-      "name": "AI Powered Finance",
-      "score": 47
-    },
-    {
-      "id": "vow",
-      "name": "Vow",
-      "score": 46
-    },
-    {
-      "id": "railgun",
-      "name": "Railgun",
-      "score": 44
-    },
-    {
-      "id": "targon",
-      "name": "Targon",
-      "score": 43
-    },
-    {
-      "id": "qanplatform",
-      "name": "QANplatform",
-      "score": 42
-    },
-    {
-      "id": "epic-cash",
-      "name": "Epic Private Internet Cash",
-      "score": 41
-    },
-    {
-      "id": "adventure-gold",
-      "name": "Adventure Gold",
-      "score": 41
-    },
-    {
-      "id": "fuzzybear",
-      "name": "Fuzzybear",
-      "score": 38
-    },
-    {
-      "id": "chromaway",
-      "name": "Chromia",
-      "score": 37
-    },
-    {
-      "id": "world-mobile-token",
-      "name": "World Mobile Token",
-      "score": 37
-    },
-    {
-      "id": "haroldonsol",
-      "name": "Harold",
-      "score": 36
-    },
-    {
-      "id": "nova-3",
-      "name": "NOVA",
-      "score": 35
-    },
-    {
-      "id": "certik",
-      "name": "Shentu",
-      "score": 33
-    },
-    {
-      "id": "freysa-ai",
-      "name": "Freysa AI",
-      "score": 30
-    },
-    {
-      "id": "nano",
-      "name": "Nano",
-      "score": 28
-    },
-    {
-      "id": "bora",
-      "name": "BORA",
-      "score": 23
-    },
-    {
-      "id": "ergo",
-      "name": "Ergo",
-      "score": 17
-    },
-    {
-      "id": "zcoin",
-      "name": "Firo",
-      "score": 13
-    }
-  ],
-  "left": [
-    {
-      "id": "1win-token",
-      "name": "1win-token",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "adshares",
-      "name": "Adshares",
-      "reason": "low volume"
-    },
-    {
-      "id": "apriori",
-      "name": "apriori",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "catwifmask",
-      "name": "catwifmask",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "clearpool",
-      "name": "clearpool",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "constellation-labs",
-      "name": "constellation-labs",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "deapcoin",
-      "name": "DEAPCOIN",
-      "reason": "low volume"
-    },
-    {
-      "id": "decred",
-      "name": "Decred",
-      "reason": "price too high"
-    },
-    {
-      "id": "fartboy",
-      "name": "Fartboy",
-      "reason": "low volume"
-    },
-    {
-      "id": "flying-tulip",
-      "name": "Flying Tulip",
-      "reason": "low volume"
-    },
-    {
-      "id": "gama-token",
-      "name": "Gama Token",
-      "reason": "low volume"
-    },
-    {
-      "id": "identity-md",
-      "name": "identity-md",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "marscat-token",
-      "name": "Marscat Token",
-      "reason": "low volume"
-    },
-    {
-      "id": "medibloc",
-      "name": "Medibloc",
-      "reason": "low volume"
-    },
-    {
-      "id": "metya",
-      "name": "MetYa",
-      "reason": "low volume"
-    },
-    {
-      "id": "milk-alliance",
-      "name": "MiL.k",
-      "reason": "low volume"
-    },
-    {
-      "id": "ni-hao-cat",
-      "name": "ni-hao-cat",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "nullmask",
-      "name": "nullmask",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "ocean-protocol",
-      "name": "Ocean Protocol",
-      "reason": "low volume"
-    },
-    {
-      "id": "re-protocol-reusde",
-      "name": "Re Protocol reUSDe",
-      "reason": "low volume"
-    },
-    {
-      "id": "rekt-4",
-      "name": "Rekt",
-      "reason": "low volume"
+      "id": "usdai",
+      "name": "USDai",
+      "score": 56
     },
     {
       "id": "surplus-intelligence",
       "name": "Surplus intelligence",
-      "reason": "low volume"
+      "score": 55
     },
     {
-      "id": "tensorcash",
-      "name": "tensorcash",
-      "reason": "dropped out of top N"
+      "id": "gama-token",
+      "name": "Gama Token",
+      "score": 49
     },
     {
-      "id": "tokamak-network",
-      "name": "Tokamak Network",
-      "reason": "low volume"
+      "id": "mango-markets",
+      "name": "Mango",
+      "score": 43
     },
     {
-      "id": "tree-capital",
-      "name": "Tree",
-      "reason": "low volume"
+      "id": "decred",
+      "name": "Decred",
+      "score": 43
     },
     {
-      "id": "usdai",
-      "name": "USDai",
-      "reason": "low volume"
+      "id": "milk-alliance",
+      "name": "MiL.k",
+      "score": 43
     },
     {
-      "id": "usdu",
-      "name": "USDu",
-      "reason": "low volume"
+      "id": "puffer-finance",
+      "name": "Puffer",
+      "score": 39
     },
     {
-      "id": "vine",
-      "name": "vine",
-      "reason": "dropped out of top N"
+      "id": "fartboy",
+      "name": "Fartboy",
+      "score": 38
+    },
+    {
+      "id": "across-protocol",
+      "name": "Across Protocol",
+      "score": 32
+    },
+    {
+      "id": "dkargo",
+      "name": "dKargo",
+      "score": 32
     },
     {
       "id": "wiki-cat",
       "name": "Wiki Cat",
+      "score": 31
+    }
+  ],
+  "left": [
+    {
+      "id": "audacity-4",
+      "name": "audacity-4",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "bora",
+      "name": "BORA",
+      "reason": "low volume"
+    },
+    {
+      "id": "concordium",
+      "name": "Concordium",
+      "reason": "low volume"
+    },
+    {
+      "id": "epic-cash",
+      "name": "Epic Private Internet Cash",
+      "reason": "low volume"
+    },
+    {
+      "id": "goldfish-gold",
+      "name": "Goldfish Gold",
+      "reason": "low volume"
+    },
+    {
+      "id": "pocket-network",
+      "name": "Pocket Network",
       "reason": "low volume"
     }
   ]
