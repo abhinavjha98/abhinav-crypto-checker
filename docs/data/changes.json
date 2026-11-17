@@ -7,54 +7,79 @@
       "score": 56
     },
     {
-      "id": "surplus-intelligence",
-      "name": "Surplus intelligence",
-      "score": 55
+      "id": "milk-alliance",
+      "name": "MiL.k",
+      "score": 53
     },
     {
       "id": "gama-token",
       "name": "Gama Token",
-      "score": 49
+      "score": 52
+    },
+    {
+      "id": "zylo-ecosystem",
+      "name": "Zylo Ecosystem",
+      "score": 51
+    },
+    {
+      "id": "marscat-token",
+      "name": "Marscat Token",
+      "score": 51
+    },
+    {
+      "id": "superform",
+      "name": "Superform",
+      "score": 47
     },
     {
       "id": "mango-markets",
       "name": "Mango",
-      "score": 43
+      "score": 42
     },
     {
-      "id": "decred",
-      "name": "Decred",
-      "score": 43
-    },
-    {
-      "id": "milk-alliance",
-      "name": "MiL.k",
-      "score": 43
+      "id": "tensorcash",
+      "name": "TensorCash",
+      "score": 42
     },
     {
       "id": "puffer-finance",
       "name": "Puffer",
-      "score": 39
+      "score": 40
     },
     {
-      "id": "fartboy",
-      "name": "Fartboy",
-      "score": 38
+      "id": "tokamak-network",
+      "name": "Tokamak Network",
+      "score": 36
     },
     {
       "id": "across-protocol",
       "name": "Across Protocol",
-      "score": 32
-    },
-    {
-      "id": "dkargo",
-      "name": "dKargo",
-      "score": 32
+      "score": 33
     },
     {
       "id": "wiki-cat",
       "name": "Wiki Cat",
+      "score": 32
+    },
+    {
+      "id": "tx",
+      "name": "tx",
       "score": 31
+    },
+    {
+      "id": "templar",
+      "name": "\u03c4emplar",
+      "score": 30
+    },
+    {
+      "id": "bitcast",
+      "name": "Bitcast",
+      "score": 30
+    },
+    {
+      "id": "rekt-4",
+      "name": "Rekt",
+      "score": 21
     }
   ],
   "left": [
@@ -69,24 +94,44 @@
       "reason": "low volume"
     },
     {
-      "id": "concordium",
-      "name": "Concordium",
-      "reason": "low volume"
-    },
-    {
       "id": "epic-cash",
       "name": "Epic Private Internet Cash",
       "reason": "low volume"
     },
     {
-      "id": "goldfish-gold",
-      "name": "Goldfish Gold",
+      "id": "fuzzybear",
+      "name": "Fuzzybear",
       "reason": "low volume"
     },
     {
-      "id": "pocket-network",
-      "name": "Pocket Network",
+      "id": "hastra-auto",
+      "name": "Hastra AUTO",
       "reason": "low volume"
+    },
+    {
+      "id": "macca-the-gator-2",
+      "name": "macca-the-gator-2",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "ni-hao-cat-2",
+      "name": "ni-hao-cat-2",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "obligate-trade-finance-yield",
+      "name": "Obligate Trade Finance Yield",
+      "reason": "low volume"
+    },
+    {
+      "id": "qanplatform",
+      "name": "QANplatform",
+      "reason": "low volume"
+    },
+    {
+      "id": "yellow",
+      "name": "yellow",
+      "reason": "dropped out of top N"
     }
   ]
 }
