@@ -2,9 +2,34 @@
   "compared_to": "2026-11-17",
   "entered": [
     {
+      "id": "ondo-high-growth-powered-by-blackrock",
+      "name": "Ondo High Growth Powered by BlackRock",
+      "score": 62
+    },
+    {
+      "id": "ondo-ai-leaders-portfolio",
+      "name": "Ondo AI Leaders Portfolio",
+      "score": 57
+    },
+    {
       "id": "tornado-cash",
       "name": "Tornado Cash",
-      "score": 55
+      "score": 54
+    },
+    {
+      "id": "wanted-star",
+      "name": "Wanted Star",
+      "score": 51
+    },
+    {
+      "id": "ondo-magnificent-7-and-crypto-portfolio",
+      "name": "Ondo Magnificent 7 and Crypto Portfolio",
+      "score": 49
+    },
+    {
+      "id": "wasted-4",
+      "name": "WASTED",
+      "score": 48
     },
     {
       "id": "deapcoin",
@@ -12,34 +37,54 @@
       "score": 47
     },
     {
+      "id": "radix",
+      "name": "Radix",
+      "score": 42
+    },
+    {
       "id": "pippin",
       "name": "pippin",
-      "score": 44
+      "score": 42
+    },
+    {
+      "id": "epic-cash",
+      "name": "Epic Private Internet Cash",
+      "score": 39
+    },
+    {
+      "id": "silencio",
+      "name": "Silencio",
+      "score": 38
+    },
+    {
+      "id": "iota-2",
+      "name": "iota",
+      "score": 37
     },
     {
       "id": "apyusd",
       "name": "apyUSD",
-      "score": 38
+      "score": 37
     },
     {
-      "id": "medibloc",
-      "name": "Medibloc",
-      "score": 34
+      "id": "tokamak-network",
+      "name": "Tokamak Network",
+      "score": 35
     },
     {
-      "id": "radix",
-      "name": "Radix",
-      "score": 32
+      "id": "ocean-protocol",
+      "name": "Ocean Protocol",
+      "score": 31
     },
     {
       "id": "burnedfi",
       "name": "BurnedFi",
-      "score": 23
+      "score": 26
     },
     {
       "id": "constellation-labs",
       "name": "Constellation",
-      "score": 18
+      "score": 24
     }
   ],
   "left": [
@@ -54,14 +99,14 @@
       "reason": "low volume"
     },
     {
-      "id": "decred",
-      "name": "Decred",
-      "reason": "price too high"
+      "id": "bitmind",
+      "name": "BitMind",
+      "reason": "low volume"
     },
     {
-      "id": "energy-web-token",
-      "name": "Energy Web Token",
-      "reason": "low volume"
+      "id": "caldera",
+      "name": "caldera",
+      "reason": "dropped out of top N"
     },
     {
       "id": "gama-token",
@@ -74,8 +119,8 @@
       "reason": "low volume"
     },
     {
-      "id": "milk-alliance",
-      "name": "MiL.k",
+      "id": "nova-3",
+      "name": "NOVA",
       "reason": "low volume"
     },
     {
@@ -84,13 +129,8 @@
       "reason": "low volume"
     },
     {
-      "id": "superform",
-      "name": "superform",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "surplus-intelligence",
-      "name": "surplus-intelligence",
+      "id": "puffer-finance",
+      "name": "puffer-finance",
       "reason": "dropped out of top N"
     },
     {
@@ -107,6 +147,11 @@
       "id": "usdai",
       "name": "USDai",
       "reason": "low volume"
+    },
+    {
+      "id": "vow",
+      "name": "vow",
+      "reason": "dropped out of top N"
     },
     {
       "id": "vvs-finance",
