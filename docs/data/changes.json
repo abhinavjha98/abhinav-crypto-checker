@@ -2,30 +2,80 @@
   "compared_to": "2026-11-17",
   "entered": [
     {
-      "id": "hastra-auto",
-      "name": "Hastra AUTO",
-      "score": 51
+      "id": "tornado-cash",
+      "name": "Tornado Cash",
+      "score": 55
+    },
+    {
+      "id": "deapcoin",
+      "name": "DEAPCOIN",
+      "score": 47
+    },
+    {
+      "id": "pippin",
+      "name": "pippin",
+      "score": 44
+    },
+    {
+      "id": "apyusd",
+      "name": "apyUSD",
+      "score": 38
+    },
+    {
+      "id": "medibloc",
+      "name": "Medibloc",
+      "score": 34
     },
     {
       "id": "radix",
       "name": "Radix",
-      "score": 33
-    },
-    {
-      "id": "tornado-cash",
-      "name": "Tornado Cash",
-      "score": 33
+      "score": 32
     },
     {
       "id": "burnedfi",
       "name": "BurnedFi",
-      "score": 27
+      "score": 23
+    },
+    {
+      "id": "constellation-labs",
+      "name": "Constellation",
+      "score": 18
     }
   ],
   "left": [
     {
-      "id": "bitdca",
-      "name": "BitDCA",
+      "id": "adshares",
+      "name": "Adshares",
+      "reason": "low volume"
+    },
+    {
+      "id": "bc-token",
+      "name": "BCGame Coin",
+      "reason": "low volume"
+    },
+    {
+      "id": "decred",
+      "name": "Decred",
+      "reason": "price too high"
+    },
+    {
+      "id": "energy-web-token",
+      "name": "Energy Web Token",
+      "reason": "low volume"
+    },
+    {
+      "id": "gama-token",
+      "name": "Gama Token",
+      "reason": "low volume"
+    },
+    {
+      "id": "idlemine",
+      "name": "IdleMine",
+      "reason": "low volume"
+    },
+    {
+      "id": "milk-alliance",
+      "name": "MiL.k",
       "reason": "low volume"
     },
     {
@@ -34,8 +84,13 @@
       "reason": "low volume"
     },
     {
-      "id": "puffer-finance",
-      "name": "puffer-finance",
+      "id": "superform",
+      "name": "superform",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "surplus-intelligence",
+      "name": "surplus-intelligence",
       "reason": "dropped out of top N"
     },
     {
@@ -44,13 +99,18 @@
       "reason": "low volume"
     },
     {
+      "id": "tx",
+      "name": "tx",
+      "reason": "low volume"
+    },
+    {
       "id": "usdai",
       "name": "USDai",
       "reason": "low volume"
     },
     {
-      "id": "zcoin",
-      "name": "Firo",
+      "id": "vvs-finance",
+      "name": "VVS Finance",
       "reason": "low volume"
     }
   ]
