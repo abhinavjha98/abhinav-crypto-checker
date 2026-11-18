@@ -1,182 +1,57 @@
 {
-  "compared_to": "2026-11-16",
+  "compared_to": "2026-11-17",
   "entered": [
     {
-      "id": "usdai",
-      "name": "USDai",
-      "score": 56
-    },
-    {
-      "id": "gama-token",
-      "name": "Gama Token",
-      "score": 53
-    },
-    {
-      "id": "superform",
-      "name": "Superform",
-      "score": 52
-    },
-    {
-      "id": "zylo-ecosystem",
-      "name": "Zylo Ecosystem",
+      "id": "hastra-auto",
+      "name": "Hastra AUTO",
       "score": 51
     },
     {
-      "id": "marscat-token",
-      "name": "Marscat Token",
-      "score": 47
+      "id": "radix",
+      "name": "Radix",
+      "score": 33
     },
     {
-      "id": "milk-alliance",
-      "name": "MiL.k",
-      "score": 47
+      "id": "tornado-cash",
+      "name": "Tornado Cash",
+      "score": 33
     },
     {
-      "id": "idlemine",
-      "name": "IdleMine",
-      "score": 44
-    },
-    {
-      "id": "decred",
-      "name": "Decred",
-      "score": 42
-    },
-    {
-      "id": "fartboy",
-      "name": "Fartboy",
-      "score": 38
-    },
-    {
-      "id": "tensorcash",
-      "name": "TensorCash",
-      "score": 38
-    },
-    {
-      "id": "puffer-finance",
-      "name": "Puffer",
-      "score": 37
-    },
-    {
-      "id": "bitmind",
-      "name": "BitMind",
-      "score": 32
-    },
-    {
-      "id": "wiki-cat",
-      "name": "Wiki Cat",
-      "score": 32
-    },
-    {
-      "id": "templar",
-      "name": "\u03c4emplar",
-      "score": 30
-    },
-    {
-      "id": "tx",
-      "name": "tx",
-      "score": 30
-    },
-    {
-      "id": "surplus-intelligence",
-      "name": "Surplus intelligence",
-      "score": 29
-    },
-    {
-      "id": "adshares",
-      "name": "Adshares",
-      "score": 26
-    },
-    {
-      "id": "rekt-4",
-      "name": "Rekt",
-      "score": 22
+      "id": "burnedfi",
+      "name": "BurnedFi",
+      "score": 27
     }
   ],
   "left": [
     {
-      "id": "apyusd",
-      "name": "apyUSD",
+      "id": "bitdca",
+      "name": "BitDCA",
       "reason": "low volume"
     },
     {
-      "id": "audacity-4",
-      "name": "audacity-4",
+      "id": "prize-protocol",
+      "name": "Prize Protocol",
+      "reason": "low volume"
+    },
+    {
+      "id": "puffer-finance",
+      "name": "puffer-finance",
       "reason": "dropped out of top N"
     },
     {
-      "id": "bora",
-      "name": "BORA",
+      "id": "tensorcash",
+      "name": "TensorCash",
       "reason": "low volume"
     },
     {
-      "id": "epic-cash",
-      "name": "Epic Private Internet Cash",
+      "id": "usdai",
+      "name": "USDai",
       "reason": "low volume"
     },
     {
-      "id": "freysa-ai",
-      "name": "Freysa AI",
+      "id": "zcoin",
+      "name": "Firo",
       "reason": "low volume"
-    },
-    {
-      "id": "fuzzybear",
-      "name": "Fuzzybear",
-      "reason": "low volume"
-    },
-    {
-      "id": "gato-the-cat",
-      "name": "gato-the-cat",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "haroldonsol",
-      "name": "Harold",
-      "reason": "low volume"
-    },
-    {
-      "id": "hash-2",
-      "name": "Provenance Blockchain",
-      "reason": "low volume"
-    },
-    {
-      "id": "hastra-auto",
-      "name": "Hastra AUTO",
-      "reason": "low volume"
-    },
-    {
-      "id": "macca-the-gator-2",
-      "name": "macca-the-gator-2",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "ni-hao-cat-2",
-      "name": "ni-hao-cat-2",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "obligate-trade-finance-yield",
-      "name": "Obligate Trade Finance Yield",
-      "reason": "low volume"
-    },
-    {
-      "id": "qanplatform",
-      "name": "QANplatform",
-      "reason": "low volume"
-    },
-    {
-      "id": "railgun",
-      "name": "Railgun",
-      "reason": "low volume"
-    },
-    {
-      "id": "world-mobile-token",
-      "name": "World Mobile Token",
-      "reason": "low volume"
-    },
-    {
-      "id": "yellow",
-      "name": "yellow",
-      "reason": "dropped out of top N"
     }
   ]
 }
