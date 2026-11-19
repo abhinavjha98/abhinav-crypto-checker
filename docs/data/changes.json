@@ -1,162 +1,77 @@
 {
-  "compared_to": "2026-11-17",
+  "compared_to": "2026-11-18",
   "entered": [
     {
-      "id": "ondo-high-growth-powered-by-blackrock",
-      "name": "Ondo High Growth Powered by BlackRock",
-      "score": 62
+      "id": "perle",
+      "name": "Perle",
+      "score": 58
     },
     {
-      "id": "ondo-ai-leaders-portfolio",
-      "name": "Ondo AI Leaders Portfolio",
-      "score": 57
+      "id": "caldera",
+      "name": "Caldera",
+      "score": 53
     },
     {
-      "id": "tornado-cash",
-      "name": "Tornado Cash",
-      "score": 54
+      "id": "puffer-finance",
+      "name": "Puffer",
+      "score": 41
     },
     {
-      "id": "wanted-star",
-      "name": "Wanted Star",
-      "score": 51
+      "id": "freysa-ai",
+      "name": "Freysa AI",
+      "score": 40
     },
     {
-      "id": "ondo-magnificent-7-and-crypto-portfolio",
-      "name": "Ondo Magnificent 7 and Crypto Portfolio",
-      "score": 49
-    },
-    {
-      "id": "wasted-4",
-      "name": "WASTED",
-      "score": 48
-    },
-    {
-      "id": "deapcoin",
-      "name": "DEAPCOIN",
-      "score": 47
-    },
-    {
-      "id": "radix",
-      "name": "Radix",
-      "score": 42
-    },
-    {
-      "id": "pippin",
-      "name": "pippin",
-      "score": 42
-    },
-    {
-      "id": "epic-cash",
-      "name": "Epic Private Internet Cash",
-      "score": 39
-    },
-    {
-      "id": "silencio",
-      "name": "Silencio",
-      "score": 38
-    },
-    {
-      "id": "iota-2",
-      "name": "iota",
-      "score": 37
-    },
-    {
-      "id": "apyusd",
-      "name": "apyUSD",
-      "score": 37
-    },
-    {
-      "id": "tokamak-network",
-      "name": "Tokamak Network",
-      "score": 35
-    },
-    {
-      "id": "ocean-protocol",
-      "name": "Ocean Protocol",
-      "score": 31
-    },
-    {
-      "id": "burnedfi",
-      "name": "BurnedFi",
-      "score": 26
-    },
-    {
-      "id": "constellation-labs",
-      "name": "Constellation",
-      "score": 24
+      "id": "gitcoin",
+      "name": "Gitcoin",
+      "score": 40
     }
   ],
   "left": [
     {
-      "id": "adshares",
-      "name": "Adshares",
+      "id": "burnedfi",
+      "name": "BurnedFi",
       "reason": "low volume"
     },
     {
-      "id": "bc-token",
-      "name": "BCGame Coin",
-      "reason": "low volume"
-    },
-    {
-      "id": "bitmind",
-      "name": "BitMind",
-      "reason": "low volume"
-    },
-    {
-      "id": "caldera",
-      "name": "caldera",
+      "id": "certik",
+      "name": "certik",
       "reason": "dropped out of top N"
     },
     {
-      "id": "gama-token",
-      "name": "Gama Token",
-      "reason": "low volume"
-    },
-    {
-      "id": "idlemine",
-      "name": "IdleMine",
-      "reason": "low volume"
-    },
-    {
-      "id": "nova-3",
-      "name": "NOVA",
-      "reason": "low volume"
-    },
-    {
-      "id": "prize-protocol",
-      "name": "Prize Protocol",
-      "reason": "low volume"
-    },
-    {
-      "id": "puffer-finance",
-      "name": "puffer-finance",
+      "id": "cyberconnect",
+      "name": "cyberconnect",
       "reason": "dropped out of top N"
     },
     {
-      "id": "tensorcash",
-      "name": "TensorCash",
-      "reason": "low volume"
-    },
-    {
-      "id": "tx",
-      "name": "tx",
-      "reason": "low volume"
-    },
-    {
-      "id": "usdai",
-      "name": "USDai",
-      "reason": "low volume"
-    },
-    {
-      "id": "vow",
-      "name": "vow",
+      "id": "forta",
+      "name": "forta",
       "reason": "dropped out of top N"
     },
     {
-      "id": "vvs-finance",
-      "name": "VVS Finance",
+      "id": "silencio",
+      "name": "silencio",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "superform",
+      "name": "superform",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "surplus-intelligence",
+      "name": "surplus-intelligence",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "tokamak-network",
+      "name": "Tokamak Network",
       "reason": "low volume"
+    },
+    {
+      "id": "wanted-star",
+      "name": "wanted-star",
+      "reason": "dropped out of top N"
     }
   ]
 }
