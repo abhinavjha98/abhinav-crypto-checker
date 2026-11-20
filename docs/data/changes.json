@@ -2,33 +2,43 @@
   "compared_to": "2026-11-19",
   "entered": [
     {
-      "id": "jagent",
-      "name": "JAGENT",
-      "score": 59
+      "id": "kernel-2",
+      "name": "KernelDAO",
+      "score": 49
     },
     {
-      "id": "prize-protocol",
-      "name": "Prize Protocol",
-      "score": 48
+      "id": "usdu",
+      "name": "USDu",
+      "score": 49
     },
     {
       "id": "bitdca",
       "name": "BitDCA",
-      "score": 47
+      "score": 46
     },
     {
       "id": "railgun",
       "name": "Railgun",
+      "score": 43
+    },
+    {
+      "id": "clearpool-2",
+      "name": "Clearpool",
       "score": 41
     },
     {
-      "id": "max-token",
-      "name": "MAX",
-      "score": 39
+      "id": "ni-hao-cat",
+      "name": "ni hao cat",
+      "score": 41
     },
     {
       "id": "medibloc",
       "name": "Medibloc",
+      "score": 38
+    },
+    {
+      "id": "max-token",
+      "name": "MAX",
       "score": 36
     },
     {
@@ -38,6 +48,11 @@
     }
   ],
   "left": [
+    {
+      "id": "aixbt",
+      "name": "aixbt",
+      "reason": "dropped out of top N"
+    },
     {
       "id": "chainflip",
       "name": "Chainflip",
@@ -54,19 +69,19 @@
       "reason": "low volume"
     },
     {
-      "id": "goldfish-gold",
-      "name": "Goldfish Gold",
-      "reason": "low volume"
-    },
-    {
       "id": "hookr-fun",
       "name": "hookr-fun",
       "reason": "dropped out of top N"
     },
     {
-      "id": "orderly-network",
-      "name": "orderly-network",
-      "reason": "dropped out of top N"
+      "id": "loaded-lions",
+      "name": "Loaded Lions",
+      "reason": "low volume"
+    },
+    {
+      "id": "ondo-high-growth-powered-by-blackrock",
+      "name": "Ondo High Growth Powered by BlackRock",
+      "reason": "low volume"
     },
     {
       "id": "pocket-network",
@@ -79,6 +94,11 @@
       "reason": "dropped out of top N"
     },
     {
+      "id": "surplus-intelligence",
+      "name": "surplus-intelligence",
+      "reason": "dropped out of top N"
+    },
+    {
       "id": "templar",
       "name": "\u03c4emplar",
       "reason": "low volume"
@@ -86,6 +106,11 @@
     {
       "id": "wiki-cat",
       "name": "Wiki Cat",
+      "reason": "low volume"
+    },
+    {
+      "id": "zano",
+      "name": "Zano",
       "reason": "low volume"
     }
   ]
