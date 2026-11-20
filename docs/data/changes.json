@@ -2,24 +2,44 @@
   "compared_to": "2026-11-19",
   "entered": [
     {
+      "id": "jagent",
+      "name": "JAGENT",
+      "score": 64
+    },
+    {
+      "id": "usdai",
+      "name": "USDai",
+      "score": 56
+    },
+    {
       "id": "kernel-2",
       "name": "KernelDAO",
-      "score": 49
+      "score": 53
+    },
+    {
+      "id": "zentry",
+      "name": "Zentry",
+      "score": 52
+    },
+    {
+      "id": "teller",
+      "name": "Teller",
+      "score": 51
     },
     {
       "id": "usdu",
       "name": "USDu",
-      "score": 49
+      "score": 50
     },
     {
-      "id": "bitdca",
-      "name": "BitDCA",
-      "score": 46
+      "id": "bc-token",
+      "name": "BCGame Coin",
+      "score": 50
     },
     {
-      "id": "railgun",
-      "name": "Railgun",
-      "score": 43
+      "id": "elephant-money",
+      "name": "Elephant Money",
+      "score": 44
     },
     {
       "id": "clearpool-2",
@@ -27,30 +47,80 @@
       "score": 41
     },
     {
-      "id": "ni-hao-cat",
-      "name": "ni hao cat",
+      "id": "superrare",
+      "name": "SuperRare",
       "score": 41
+    },
+    {
+      "id": "railgun",
+      "name": "Railgun",
+      "score": 40
     },
     {
       "id": "medibloc",
       "name": "Medibloc",
+      "score": 39
+    },
+    {
+      "id": "ni-hao-cat",
+      "name": "ni hao cat",
       "score": 38
+    },
+    {
+      "id": "qanplatform",
+      "name": "QANplatform",
+      "score": 38
+    },
+    {
+      "id": "tx",
+      "name": "tx",
+      "score": 34
+    },
+    {
+      "id": "chutes",
+      "name": "Chutes",
+      "score": 34
     },
     {
       "id": "max-token",
       "name": "MAX",
-      "score": 36
+      "score": 34
+    },
+    {
+      "id": "rambo",
+      "name": "RAMBO",
+      "score": 33
     },
     {
       "id": "chunkee-the-manatee",
       "name": "Chunkee The Manatee",
-      "score": 34
+      "score": 33
+    },
+    {
+      "id": "tokamak-network",
+      "name": "Tokamak Network",
+      "score": 33
+    },
+    {
+      "id": "adshares",
+      "name": "Adshares",
+      "score": 24
     }
   ],
   "left": [
     {
+      "id": "adventure-gold",
+      "name": "Adventure Gold",
+      "reason": "outside top N"
+    },
+    {
       "id": "aixbt",
       "name": "aixbt",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "bob-build-on-bitcoin",
+      "name": "bob-build-on-bitcoin",
       "reason": "dropped out of top N"
     },
     {
@@ -64,9 +134,14 @@
       "reason": "low volume"
     },
     {
-      "id": "ergo",
-      "name": "Ergo",
-      "reason": "low volume"
+      "id": "freysa-ai",
+      "name": "freysa-ai",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "gitcoin",
+      "name": "gitcoin",
+      "reason": "dropped out of top N"
     },
     {
       "id": "hookr-fun",
@@ -74,19 +149,19 @@
       "reason": "dropped out of top N"
     },
     {
+      "id": "lcx",
+      "name": "LCX",
+      "reason": "low volume"
+    },
+    {
       "id": "loaded-lions",
       "name": "Loaded Lions",
       "reason": "low volume"
     },
     {
-      "id": "ondo-high-growth-powered-by-blackrock",
-      "name": "Ondo High Growth Powered by BlackRock",
-      "reason": "low volume"
-    },
-    {
-      "id": "pocket-network",
-      "name": "Pocket Network",
-      "reason": "low volume"
+      "id": "orderly-network",
+      "name": "orderly-network",
+      "reason": "dropped out of top N"
     },
     {
       "id": "rhea-2",
@@ -99,18 +174,8 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "templar",
-      "name": "\u03c4emplar",
-      "reason": "low volume"
-    },
-    {
       "id": "wiki-cat",
       "name": "Wiki Cat",
-      "reason": "low volume"
-    },
-    {
-      "id": "zano",
-      "name": "Zano",
       "reason": "low volume"
     }
   ]
