@@ -1,137 +1,92 @@
 {
-  "compared_to": "2026-11-18",
+  "compared_to": "2026-11-19",
   "entered": [
     {
-      "id": "perle",
-      "name": "Perle",
-      "score": 60
+      "id": "jagent",
+      "name": "JAGENT",
+      "score": 59
     },
     {
-      "id": "orderly-network",
-      "name": "Orderly",
-      "score": 60
+      "id": "prize-protocol",
+      "name": "Prize Protocol",
+      "score": 48
     },
     {
-      "id": "dkargo",
-      "name": "dKargo",
-      "score": 52
-    },
-    {
-      "id": "caldera",
-      "name": "Caldera",
-      "score": 52
-    },
-    {
-      "id": "hastra-auto",
-      "name": "Hastra AUTO",
-      "score": 51
-    },
-    {
-      "id": "freysa-ai",
-      "name": "Freysa AI",
+      "id": "bitdca",
+      "name": "BitDCA",
       "score": 47
     },
     {
-      "id": "lucia-2",
-      "name": "Lucia",
-      "score": 46
-    },
-    {
-      "id": "gitcoin",
-      "name": "Gitcoin",
-      "score": 44
-    },
-    {
-      "id": "puffer-finance",
-      "name": "Puffer",
+      "id": "railgun",
+      "name": "Railgun",
       "score": 41
     },
     {
-      "id": "vvs-finance",
-      "name": "VVS Finance",
+      "id": "max-token",
+      "name": "MAX",
       "score": 39
     },
     {
-      "id": "hookr-fun",
-      "name": "Hookr.fun",
-      "score": 38
+      "id": "medibloc",
+      "name": "Medibloc",
+      "score": 36
     },
     {
-      "id": "loaded-lions",
-      "name": "Loaded Lions",
-      "score": 37
-    },
-    {
-      "id": "bitcast",
-      "name": "Bitcast",
-      "score": 31
+      "id": "chunkee-the-manatee",
+      "name": "Chunkee The Manatee",
+      "score": 34
     }
   ],
   "left": [
     {
-      "id": "bitdca",
-      "name": "BitDCA",
+      "id": "chainflip",
+      "name": "Chainflip",
       "reason": "low volume"
     },
     {
-      "id": "burnedfi",
-      "name": "BurnedFi",
+      "id": "deapcoin",
+      "name": "DEAPCOIN",
       "reason": "low volume"
     },
     {
-      "id": "certik",
-      "name": "certik",
+      "id": "ergo",
+      "name": "Ergo",
+      "reason": "low volume"
+    },
+    {
+      "id": "goldfish-gold",
+      "name": "Goldfish Gold",
+      "reason": "low volume"
+    },
+    {
+      "id": "hookr-fun",
+      "name": "hookr-fun",
       "reason": "dropped out of top N"
     },
     {
-      "id": "constellation-labs",
-      "name": "constellation-labs",
+      "id": "orderly-network",
+      "name": "orderly-network",
       "reason": "dropped out of top N"
     },
     {
-      "id": "epic-cash",
-      "name": "Epic Private Internet Cash",
+      "id": "pocket-network",
+      "name": "Pocket Network",
       "reason": "low volume"
     },
     {
-      "id": "iota-2",
-      "name": "iota",
-      "reason": "low volume"
-    },
-    {
-      "id": "ocean-protocol",
-      "name": "Ocean Protocol",
-      "reason": "low volume"
-    },
-    {
-      "id": "ondo-magnificent-7-and-crypto-portfolio",
-      "name": "Ondo Magnificent 7 and Crypto Portfolio",
-      "reason": "low volume"
-    },
-    {
-      "id": "orbio-so",
-      "name": "orbio-so",
+      "id": "rhea-2",
+      "name": "rhea-2",
       "reason": "dropped out of top N"
     },
     {
-      "id": "radix",
-      "name": "Radix",
+      "id": "templar",
+      "name": "\u03c4emplar",
       "reason": "low volume"
     },
     {
-      "id": "superform",
-      "name": "superform",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "tokamak-network",
-      "name": "Tokamak Network",
+      "id": "wiki-cat",
+      "name": "Wiki Cat",
       "reason": "low volume"
-    },
-    {
-      "id": "wanted-star",
-      "name": "wanted-star",
-      "reason": "dropped out of top N"
     }
   ]
 }
