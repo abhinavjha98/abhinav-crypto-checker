@@ -1,181 +1,76 @@
 {
-  "compared_to": "2026-11-19",
+  "compared_to": "2026-11-20",
   "entered": [
     {
-      "id": "jagent",
-      "name": "JAGENT",
-      "score": 64
-    },
-    {
-      "id": "usdai",
-      "name": "USDai",
-      "score": 56
-    },
-    {
-      "id": "kernel-2",
-      "name": "KernelDAO",
-      "score": 53
-    },
-    {
-      "id": "zentry",
-      "name": "Zentry",
+      "id": "tree-capital",
+      "name": "Tree",
       "score": 52
     },
     {
-      "id": "teller",
-      "name": "Teller",
-      "score": 51
+      "id": "ondo-magnificent-7-and-crypto-portfolio",
+      "name": "Ondo Magnificent 7 and Crypto Portfolio",
+      "score": 48
     },
     {
-      "id": "usdu",
-      "name": "USDu",
-      "score": 50
+      "id": "bob-build-on-bitcoin",
+      "name": "BOB (Build on Bitcoin)",
+      "score": 48
     },
     {
-      "id": "bc-token",
-      "name": "BCGame Coin",
-      "score": 50
+      "id": "re-protocol-reusde",
+      "name": "Re Protocol reUSDe",
+      "score": 45
     },
     {
-      "id": "elephant-money",
-      "name": "Elephant Money",
-      "score": 44
+      "id": "freysa-ai",
+      "name": "Freysa AI",
+      "score": 45
     },
     {
-      "id": "clearpool-2",
-      "name": "Clearpool",
-      "score": 41
-    },
-    {
-      "id": "superrare",
-      "name": "SuperRare",
-      "score": 41
-    },
-    {
-      "id": "railgun",
-      "name": "Railgun",
+      "id": "adventure-gold",
+      "name": "Adventure Gold",
       "score": 40
     },
     {
-      "id": "medibloc",
-      "name": "Medibloc",
-      "score": 39
+      "id": "wiki-cat",
+      "name": "Wiki Cat",
+      "score": 29
     },
     {
-      "id": "ni-hao-cat",
-      "name": "ni hao cat",
-      "score": 38
-    },
-    {
-      "id": "qanplatform",
-      "name": "QANplatform",
-      "score": 38
-    },
-    {
-      "id": "tx",
-      "name": "tx",
-      "score": 34
-    },
-    {
-      "id": "chutes",
-      "name": "Chutes",
-      "score": 34
-    },
-    {
-      "id": "max-token",
-      "name": "MAX",
-      "score": 34
-    },
-    {
-      "id": "rambo",
-      "name": "RAMBO",
-      "score": 33
-    },
-    {
-      "id": "chunkee-the-manatee",
-      "name": "Chunkee The Manatee",
-      "score": 33
-    },
-    {
-      "id": "tokamak-network",
-      "name": "Tokamak Network",
-      "score": 33
-    },
-    {
-      "id": "adshares",
-      "name": "Adshares",
+      "id": "bora",
+      "name": "BORA",
       "score": 24
     }
   ],
   "left": [
     {
-      "id": "adventure-gold",
-      "name": "Adventure Gold",
-      "reason": "outside top N"
-    },
-    {
-      "id": "aixbt",
-      "name": "aixbt",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "bob-build-on-bitcoin",
-      "name": "bob-build-on-bitcoin",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "chainflip",
-      "name": "Chainflip",
+      "id": "bc-token",
+      "name": "BCGame Coin",
       "reason": "low volume"
     },
     {
-      "id": "deapcoin",
-      "name": "DEAPCOIN",
+      "id": "chutes",
+      "name": "Chutes",
+      "reason": "price too high"
+    },
+    {
+      "id": "forta",
+      "name": "forta",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "max-token",
+      "name": "MAX",
       "reason": "low volume"
     },
     {
-      "id": "freysa-ai",
-      "name": "freysa-ai",
+      "id": "superrare",
+      "name": "superrare",
       "reason": "dropped out of top N"
     },
     {
-      "id": "gitcoin",
-      "name": "gitcoin",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "hookr-fun",
-      "name": "hookr-fun",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "lcx",
-      "name": "LCX",
-      "reason": "low volume"
-    },
-    {
-      "id": "loaded-lions",
-      "name": "Loaded Lions",
-      "reason": "low volume"
-    },
-    {
-      "id": "orderly-network",
-      "name": "orderly-network",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "rhea-2",
-      "name": "rhea-2",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "surplus-intelligence",
-      "name": "surplus-intelligence",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "wiki-cat",
-      "name": "Wiki Cat",
+      "id": "usdai",
+      "name": "USDai",
       "reason": "low volume"
     }
   ]
