@@ -7,19 +7,9 @@
       "score": 59
     },
     {
-      "id": "tree-capital",
-      "name": "Tree",
-      "score": 52
-    },
-    {
-      "id": "ondo-magnificent-7-and-crypto-portfolio",
-      "name": "Ondo Magnificent 7 and Crypto Portfolio",
-      "score": 51
-    },
-    {
       "id": "credible-finance",
       "name": "Credible Finance",
-      "score": 48
+      "score": 49
     },
     {
       "id": "prize-protocol",
@@ -27,13 +17,18 @@
       "score": 48
     },
     {
-      "id": "freysa-ai",
-      "name": "Freysa AI",
-      "score": 46
+      "id": "aixbt",
+      "name": "aixbt",
+      "score": 47
     },
     {
       "id": "anime",
       "name": "Animecoin",
+      "score": 47
+    },
+    {
+      "id": "re-protocol-reusde",
+      "name": "Re Protocol reUSDe",
       "score": 46
     },
     {
@@ -42,34 +37,34 @@
       "score": 46
     },
     {
-      "id": "re-protocol-reusde",
-      "name": "Re Protocol reUSDe",
-      "score": 46
-    },
-    {
-      "id": "aixbt",
-      "name": "aixbt",
-      "score": 45
-    },
-    {
       "id": "gamebuild",
       "name": "GameBuild",
-      "score": 43
+      "score": 44
+    },
+    {
+      "id": "freysa-ai",
+      "name": "Freysa AI",
+      "score": 42
+    },
+    {
+      "id": "omega-labs",
+      "name": "OMEGA Labs",
+      "score": 42
     },
     {
       "id": "chainflip",
       "name": "Chainflip",
-      "score": 42
-    },
-    {
-      "id": "surplus-intelligence",
-      "name": "Surplus intelligence",
-      "score": 41
+      "score": 40
     },
     {
       "id": "adventure-gold",
       "name": "Adventure Gold",
-      "score": 38
+      "score": 40
+    },
+    {
+      "id": "loaded-lions",
+      "name": "Loaded Lions",
+      "score": 39
     },
     {
       "id": "bora",
@@ -77,44 +72,29 @@
       "score": 38
     },
     {
+      "id": "surplus-intelligence",
+      "name": "Surplus intelligence",
+      "score": 37
+    },
+    {
       "id": "lcx",
       "name": "LCX",
       "score": 34
     },
     {
-      "id": "certik",
-      "name": "Shentu",
-      "score": 33
-    },
-    {
       "id": "ocean-protocol",
       "name": "Ocean Protocol",
-      "score": 33
-    },
-    {
-      "id": "wanted-star",
-      "name": "Wanted Star",
-      "score": 33
-    },
-    {
-      "id": "pipi-2",
-      "name": "PIPI",
       "score": 32
     },
     {
       "id": "wiki-cat",
       "name": "Wiki Cat",
-      "score": 32
-    },
-    {
-      "id": "world-mobile-token",
-      "name": "World Mobile Token",
       "score": 31
     },
     {
-      "id": "hunt-token",
-      "name": "Hunt",
-      "score": 27
+      "id": "constellation-labs",
+      "name": "Constellation",
+      "score": 21
     }
   ],
   "left": [
@@ -129,14 +109,19 @@
       "reason": "low volume"
     },
     {
+      "id": "big-time",
+      "name": "big-time",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "chunkee-the-manatee",
+      "name": "chunkee-the-manatee",
+      "reason": "dropped out of top N"
+    },
+    {
       "id": "chutes",
       "name": "Chutes",
       "reason": "price too high"
-    },
-    {
-      "id": "dkargo",
-      "name": "dkargo",
-      "reason": "dropped out of top N"
     },
     {
       "id": "elephant-money",
@@ -144,13 +129,8 @@
       "reason": "low volume"
     },
     {
-      "id": "ergo",
-      "name": "Ergo",
-      "reason": "low volume"
-    },
-    {
-      "id": "forta",
-      "name": "forta",
+      "id": "kaio",
+      "name": "kaio",
       "reason": "dropped out of top N"
     },
     {
@@ -169,13 +149,13 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "ondo-high-growth-powered-by-blackrock",
-      "name": "Ondo High Growth Powered by BlackRock",
+      "id": "ondo-ai-leaders-portfolio",
+      "name": "Ondo AI Leaders Portfolio",
       "reason": "low volume"
     },
     {
-      "id": "railgun",
-      "name": "Railgun",
+      "id": "ondo-high-growth-powered-by-blackrock",
+      "name": "Ondo High Growth Powered by BlackRock",
       "reason": "low volume"
     },
     {
@@ -191,6 +171,11 @@
     {
       "id": "templar",
       "name": "\u03c4emplar",
+      "reason": "low volume"
+    },
+    {
+      "id": "tornado-cash",
+      "name": "Tornado Cash",
       "reason": "low volume"
     },
     {
