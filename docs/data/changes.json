@@ -9,49 +9,79 @@
     {
       "id": "ondo-magnificent-7-and-crypto-portfolio",
       "name": "Ondo Magnificent 7 and Crypto Portfolio",
-      "score": 48
+      "score": 49
     },
     {
-      "id": "bob-build-on-bitcoin",
-      "name": "BOB (Build on Bitcoin)",
+      "id": "chainflip",
+      "name": "Chainflip",
       "score": 48
-    },
-    {
-      "id": "re-protocol-reusde",
-      "name": "Re Protocol reUSDe",
-      "score": 45
     },
     {
       "id": "freysa-ai",
       "name": "Freysa AI",
-      "score": 45
+      "score": 47
+    },
+    {
+      "id": "aixbt",
+      "name": "aixbt",
+      "score": 44
+    },
+    {
+      "id": "vin-2",
+      "name": "VulgarTycoon",
+      "score": 43
     },
     {
       "id": "adventure-gold",
       "name": "Adventure Gold",
+      "score": 41
+    },
+    {
+      "id": "splendor",
+      "name": "Splendor",
       "score": 40
     },
     {
-      "id": "wiki-cat",
-      "name": "Wiki Cat",
-      "score": 29
+      "id": "credible-finance",
+      "name": "Credible Finance",
+      "score": 40
+    },
+    {
+      "id": "gamebuild",
+      "name": "GameBuild",
+      "score": 39
     },
     {
       "id": "bora",
       "name": "BORA",
-      "score": 24
+      "score": 36
+    },
+    {
+      "id": "ocean-protocol",
+      "name": "Ocean Protocol",
+      "score": 31
+    },
+    {
+      "id": "world-mobile-token",
+      "name": "World Mobile Token",
+      "score": 29
+    },
+    {
+      "id": "lcx",
+      "name": "LCX",
+      "score": 29
+    },
+    {
+      "id": "hunt-token",
+      "name": "Hunt",
+      "score": 26
     }
   ],
   "left": [
     {
-      "id": "bc-token",
-      "name": "BCGame Coin",
+      "id": "asset",
+      "name": "REAL",
       "reason": "low volume"
-    },
-    {
-      "id": "chutes",
-      "name": "Chutes",
-      "reason": "price too high"
     },
     {
       "id": "forta",
@@ -59,9 +89,39 @@
       "reason": "dropped out of top N"
     },
     {
+      "id": "kaio",
+      "name": "kaio",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "lucia-2",
+      "name": "lucia-2",
+      "reason": "dropped out of top N"
+    },
+    {
       "id": "max-token",
-      "name": "MAX",
+      "name": "max-token",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "ni-hao-cat",
+      "name": "ni-hao-cat",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "ondo-high-growth-powered-by-blackrock",
+      "name": "Ondo High Growth Powered by BlackRock",
       "reason": "low volume"
+    },
+    {
+      "id": "pumpcade",
+      "name": "pumpcade",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "rambo",
+      "name": "rambo",
+      "reason": "dropped out of top N"
     },
     {
       "id": "superrare",
@@ -69,9 +129,14 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "usdai",
-      "name": "USDai",
+      "id": "zcoin",
+      "name": "Firo",
       "reason": "low volume"
+    },
+    {
+      "id": "zentry",
+      "name": "zentry",
+      "reason": "dropped out of top N"
     }
   ]
 }
