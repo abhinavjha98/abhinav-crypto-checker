@@ -1,197 +1,57 @@
 {
-  "compared_to": "2026-11-20",
+  "compared_to": "2026-11-21",
   "entered": [
     {
-      "id": "fx-usd-saving",
-      "name": "f(x) USD Saving",
-      "score": 59
-    },
-    {
-      "id": "credible-finance",
-      "name": "Credible Finance",
-      "score": 49
-    },
-    {
-      "id": "prize-protocol",
-      "name": "Prize Protocol",
-      "score": 48
-    },
-    {
-      "id": "aixbt",
-      "name": "aixbt",
-      "score": 47
-    },
-    {
-      "id": "anime",
-      "name": "Animecoin",
-      "score": 47
-    },
-    {
-      "id": "re-protocol-reusde",
-      "name": "Re Protocol reUSDe",
-      "score": 46
-    },
-    {
-      "id": "vin-2",
-      "name": "VulgarTycoon",
-      "score": 46
-    },
-    {
-      "id": "gamebuild",
-      "name": "GameBuild",
-      "score": 44
-    },
-    {
-      "id": "freysa-ai",
-      "name": "Freysa AI",
-      "score": 42
-    },
-    {
-      "id": "omega-labs",
-      "name": "OMEGA Labs",
-      "score": 42
-    },
-    {
-      "id": "chainflip",
-      "name": "Chainflip",
+      "id": "tac",
+      "name": "TAC",
       "score": 40
     },
     {
-      "id": "adventure-gold",
-      "name": "Adventure Gold",
-      "score": 40
+      "id": "lucia-2",
+      "name": "Lucia",
+      "score": 33
     },
     {
-      "id": "loaded-lions",
-      "name": "Loaded Lions",
-      "score": 39
-    },
-    {
-      "id": "bora",
-      "name": "BORA",
-      "score": 38
-    },
-    {
-      "id": "surplus-intelligence",
-      "name": "Surplus intelligence",
-      "score": 37
-    },
-    {
-      "id": "lcx",
-      "name": "LCX",
-      "score": 34
-    },
-    {
-      "id": "ocean-protocol",
-      "name": "Ocean Protocol",
+      "id": "world-mobile-token",
+      "name": "World Mobile Token",
       "score": 32
     },
     {
-      "id": "wiki-cat",
-      "name": "Wiki Cat",
-      "score": 31
+      "id": "nova-3",
+      "name": "NOVA",
+      "score": 32
     },
     {
-      "id": "constellation-labs",
-      "name": "Constellation",
+      "id": "arcblock",
+      "name": "Arcblock",
       "score": 21
     }
   ],
   "left": [
     {
-      "id": "3jane-usd3",
-      "name": "3Jane USD3",
+      "id": "bitkub-coin",
+      "name": "KUB Coin",
       "reason": "low volume"
     },
     {
-      "id": "asset",
-      "name": "REAL",
+      "id": "constellation-labs",
+      "name": "constellation-labs",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "jagent",
+      "name": "jagent",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "superrare",
+      "name": "superrare",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "wiki-cat",
+      "name": "Wiki Cat",
       "reason": "low volume"
-    },
-    {
-      "id": "big-time",
-      "name": "big-time",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "chunkee-the-manatee",
-      "name": "chunkee-the-manatee",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "chutes",
-      "name": "Chutes",
-      "reason": "price too high"
-    },
-    {
-      "id": "elephant-money",
-      "name": "Elephant Money",
-      "reason": "low volume"
-    },
-    {
-      "id": "kaio",
-      "name": "kaio",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "lucia-2",
-      "name": "lucia-2",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "max-token",
-      "name": "max-token",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "ni-hao-cat",
-      "name": "ni-hao-cat",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "ondo-ai-leaders-portfolio",
-      "name": "Ondo AI Leaders Portfolio",
-      "reason": "low volume"
-    },
-    {
-      "id": "ondo-high-growth-powered-by-blackrock",
-      "name": "Ondo High Growth Powered by BlackRock",
-      "reason": "low volume"
-    },
-    {
-      "id": "rambo",
-      "name": "rambo",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "teller",
-      "name": "teller",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "templar",
-      "name": "\u03c4emplar",
-      "reason": "low volume"
-    },
-    {
-      "id": "tornado-cash",
-      "name": "Tornado Cash",
-      "reason": "low volume"
-    },
-    {
-      "id": "usdai",
-      "name": "USDai",
-      "reason": "low volume"
-    },
-    {
-      "id": "zcoin",
-      "name": "Firo",
-      "reason": "low volume"
-    },
-    {
-      "id": "zentry",
-      "name": "zentry",
-      "reason": "dropped out of top N"
     }
   ]
 }
