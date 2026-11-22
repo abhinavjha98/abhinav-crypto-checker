@@ -7,34 +7,59 @@
       "score": 52
     },
     {
-      "id": "big-time",
-      "name": "Big Time",
-      "score": 50
+      "id": "splendor",
+      "name": "Splendor",
+      "score": 49
     },
     {
-      "id": "tornado-cash",
-      "name": "Tornado Cash",
+      "id": "deapcoin",
+      "name": "DEAPCOIN",
       "score": 47
     },
     {
       "id": "public-meme-token",
       "name": "Public Masterpiece Technology",
-      "score": 45
-    },
-    {
-      "id": "gitcoin",
-      "name": "Gitcoin",
       "score": 44
     },
     {
-      "id": "certik",
-      "name": "Shentu",
-      "score": 30
+      "id": "popo-the-turtle",
+      "name": "Popo The Turtle",
+      "score": 44
+    },
+    {
+      "id": "tornado-cash",
+      "name": "Tornado Cash",
+      "score": 44
+    },
+    {
+      "id": "ao-computer",
+      "name": "ao Computer",
+      "score": 37
+    },
+    {
+      "id": "wanted-star",
+      "name": "Wanted Star",
+      "score": 36
     },
     {
       "id": "nova-3",
       "name": "NOVA",
-      "score": 30
+      "score": 33
+    },
+    {
+      "id": "certik",
+      "name": "Shentu",
+      "score": 32
+    },
+    {
+      "id": "tacit-token",
+      "name": "Tacit Token",
+      "score": 31
+    },
+    {
+      "id": "airtor-protocol",
+      "name": "ANyONe Protocol",
+      "score": 26
     }
   ],
   "left": [
@@ -44,19 +69,44 @@
       "reason": "low volume"
     },
     {
+      "id": "bora",
+      "name": "BORA",
+      "reason": "low volume"
+    },
+    {
+      "id": "chainflip",
+      "name": "Chainflip",
+      "reason": "low volume"
+    },
+    {
       "id": "constellation-labs",
       "name": "constellation-labs",
       "reason": "dropped out of top N"
     },
     {
-      "id": "escoin-token",
-      "name": "Escoin",
+      "id": "credible-finance",
+      "name": "Credible Finance",
+      "reason": "low volume"
+    },
+    {
+      "id": "dkargo",
+      "name": "dkargo",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "figure-heloc",
+      "name": "Figure Heloc",
       "reason": "low volume"
     },
     {
       "id": "forta",
       "name": "forta",
       "reason": "dropped out of top N"
+    },
+    {
+      "id": "gamebuild",
+      "name": "GameBuild",
+      "reason": "low volume"
     },
     {
       "id": "hastra-auto",
@@ -94,18 +144,13 @@
       "reason": "low volume"
     },
     {
-      "id": "railgun",
-      "name": "Railgun",
-      "reason": "low volume"
+      "id": "superrare",
+      "name": "superrare",
+      "reason": "dropped out of top N"
     },
     {
       "id": "swarm-engine",
       "name": "SWARM ENGINE",
-      "reason": "low volume"
-    },
-    {
-      "id": "tokamak-network",
-      "name": "Tokamak Network",
       "reason": "low volume"
     },
     {
@@ -116,6 +161,16 @@
     {
       "id": "vin-2",
       "name": "VulgarTycoon",
+      "reason": "low volume"
+    },
+    {
+      "id": "wasted-4",
+      "name": "wasted-4",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "zano",
+      "name": "Zano",
       "reason": "low volume"
     }
   ]
