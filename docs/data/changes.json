@@ -2,35 +2,45 @@
   "compared_to": "2026-11-21",
   "entered": [
     {
-      "id": "tac",
-      "name": "TAC",
-      "score": 40
+      "id": "3jane-usd3",
+      "name": "3Jane USD3",
+      "score": 52
     },
     {
-      "id": "lucia-2",
-      "name": "Lucia",
-      "score": 33
+      "id": "big-time",
+      "name": "Big Time",
+      "score": 50
     },
     {
-      "id": "world-mobile-token",
-      "name": "World Mobile Token",
-      "score": 32
+      "id": "tornado-cash",
+      "name": "Tornado Cash",
+      "score": 47
+    },
+    {
+      "id": "public-meme-token",
+      "name": "Public Masterpiece Technology",
+      "score": 45
+    },
+    {
+      "id": "gitcoin",
+      "name": "Gitcoin",
+      "score": 44
+    },
+    {
+      "id": "certik",
+      "name": "Shentu",
+      "score": 30
     },
     {
       "id": "nova-3",
       "name": "NOVA",
-      "score": 32
-    },
-    {
-      "id": "arcblock",
-      "name": "Arcblock",
-      "score": 21
+      "score": 30
     }
   ],
   "left": [
     {
-      "id": "bitkub-coin",
-      "name": "KUB Coin",
+      "id": "adshares",
+      "name": "Adshares",
       "reason": "low volume"
     },
     {
@@ -39,18 +49,73 @@
       "reason": "dropped out of top N"
     },
     {
+      "id": "escoin-token",
+      "name": "Escoin",
+      "reason": "low volume"
+    },
+    {
+      "id": "forta",
+      "name": "forta",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "hastra-auto",
+      "name": "Hastra AUTO",
+      "reason": "low volume"
+    },
+    {
       "id": "jagent",
       "name": "jagent",
       "reason": "dropped out of top N"
     },
     {
-      "id": "superrare",
-      "name": "superrare",
-      "reason": "dropped out of top N"
+      "id": "lcx",
+      "name": "LCX",
+      "reason": "low volume"
     },
     {
-      "id": "wiki-cat",
-      "name": "Wiki Cat",
+      "id": "loaded-lions",
+      "name": "Loaded Lions",
+      "reason": "low volume"
+    },
+    {
+      "id": "medibloc",
+      "name": "Medibloc",
+      "reason": "low volume"
+    },
+    {
+      "id": "milk-alliance",
+      "name": "MiL.k",
+      "reason": "low volume"
+    },
+    {
+      "id": "ocean-protocol",
+      "name": "Ocean Protocol",
+      "reason": "low volume"
+    },
+    {
+      "id": "railgun",
+      "name": "Railgun",
+      "reason": "low volume"
+    },
+    {
+      "id": "swarm-engine",
+      "name": "SWARM ENGINE",
+      "reason": "low volume"
+    },
+    {
+      "id": "tokamak-network",
+      "name": "Tokamak Network",
+      "reason": "low volume"
+    },
+    {
+      "id": "tread-fi",
+      "name": "Tread.fi",
+      "reason": "low volume"
+    },
+    {
+      "id": "vin-2",
+      "name": "VulgarTycoon",
       "reason": "low volume"
     }
   ]
