@@ -2,40 +2,120 @@
   "compared_to": "2026-11-22",
   "entered": [
     {
-      "id": "minelius",
-      "name": "Minelius",
-      "score": 49
+      "id": "usdai",
+      "name": "USDai",
+      "score": 56
+    },
+    {
+      "id": "canopy",
+      "name": "Canopy",
+      "score": 53
+    },
+    {
+      "id": "hastra-auto",
+      "name": "Hastra AUTO",
+      "score": 52
     },
     {
       "id": "zano",
       "name": "Zano",
+      "score": 50
+    },
+    {
+      "id": "tread-fi",
+      "name": "Tread.fi",
+      "score": 50
+    },
+    {
+      "id": "pepe-intelligence",
+      "name": "Pepe Intelligence",
       "score": 49
     },
     {
-      "id": "kaio",
-      "name": "KAIO",
-      "score": 37
+      "id": "apriori",
+      "name": "Capricorn",
+      "score": 49
+    },
+    {
+      "id": "elephant-money",
+      "name": "Elephant Money",
+      "score": 46
+    },
+    {
+      "id": "figure-heloc",
+      "name": "Figure Heloc",
+      "score": 45
+    },
+    {
+      "id": "idlemine",
+      "name": "IdleMine",
+      "score": 43
+    },
+    {
+      "id": "cool-dog",
+      "name": "Cool Dog",
+      "score": 38
+    },
+    {
+      "id": "cargox",
+      "name": "CargoX",
+      "score": 38
+    },
+    {
+      "id": "milk-alliance",
+      "name": "MiL.k",
+      "score": 35
+    },
+    {
+      "id": "tensorcash",
+      "name": "TensorCash",
+      "score": 34
     },
     {
       "id": "forta",
       "name": "Forta",
-      "score": 32
+      "score": 34
     },
     {
       "id": "arcblock",
       "name": "Arcblock",
-      "score": 30
+      "score": 32
+    },
+    {
+      "id": "orbio-so",
+      "name": "Orbio.so",
+      "score": 31
+    },
+    {
+      "id": "lcx",
+      "name": "LCX",
+      "score": 29
+    },
+    {
+      "id": "chainflip",
+      "name": "Chainflip",
+      "score": 26
+    },
+    {
+      "id": "bora",
+      "name": "BORA",
+      "score": 23
+    },
+    {
+      "id": "zcoin",
+      "name": "Firo",
+      "score": 13
     }
   ],
   "left": [
     {
-      "id": "aelf",
-      "name": "aelf",
-      "reason": "low volume"
-    },
-    {
       "id": "aixbt",
       "name": "aixbt",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "anime",
+      "name": "anime",
       "reason": "dropped out of top N"
     },
     {
@@ -49,13 +129,18 @@
       "reason": "dropped out of top N"
     },
     {
+      "id": "chaingpt",
+      "name": "chaingpt",
+      "reason": "dropped out of top N"
+    },
+    {
       "id": "deapcoin",
       "name": "DEAPCOIN",
       "reason": "low volume"
     },
     {
-      "id": "fartboy",
-      "name": "Fartboy",
+      "id": "ergo",
+      "name": "Ergo",
       "reason": "low volume"
     },
     {
@@ -64,14 +149,19 @@
       "reason": "low volume"
     },
     {
-      "id": "goldfish-gold",
-      "name": "Goldfish Gold",
-      "reason": "low volume"
-    },
-    {
       "id": "nano",
       "name": "Nano",
       "reason": "low volume"
+    },
+    {
+      "id": "nova-3",
+      "name": "NOVA",
+      "reason": "low volume"
+    },
+    {
+      "id": "omega-labs",
+      "name": "omega-labs",
+      "reason": "dropped out of top N"
     },
     {
       "id": "popo-the-turtle",
@@ -84,29 +174,24 @@
       "reason": "low volume"
     },
     {
+      "id": "re-protocol-reusde",
+      "name": "Re Protocol reUSDe",
+      "reason": "low volume"
+    },
+    {
       "id": "splendor",
       "name": "Splendor",
       "reason": "low volume"
     },
     {
-      "id": "swissborg",
-      "name": "SwissBorg",
-      "reason": "low volume"
-    },
-    {
-      "id": "usdu",
-      "name": "USDu",
+      "id": "vvs-finance",
+      "name": "VVS Finance",
       "reason": "low volume"
     },
     {
       "id": "wanted-star",
       "name": "wanted-star",
       "reason": "dropped out of top N"
-    },
-    {
-      "id": "wiki-cat",
-      "name": "Wiki Cat",
-      "reason": "low volume"
     }
   ]
 }
