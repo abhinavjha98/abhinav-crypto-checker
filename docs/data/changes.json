@@ -1,176 +1,56 @@
 {
-  "compared_to": "2026-11-21",
+  "compared_to": "2026-11-22",
   "entered": [
     {
-      "id": "3jane-usd3",
-      "name": "3Jane USD3",
+      "id": "superform",
+      "name": "Superform",
+      "score": 54
+    },
+    {
+      "id": "zano",
+      "name": "Zano",
       "score": 52
     },
     {
-      "id": "splendor",
-      "name": "Splendor",
-      "score": 49
+      "id": "forta",
+      "name": "Forta",
+      "score": 34
     },
     {
-      "id": "deapcoin",
-      "name": "DEAPCOIN",
-      "score": 47
-    },
-    {
-      "id": "public-meme-token",
-      "name": "Public Masterpiece Technology",
-      "score": 44
-    },
-    {
-      "id": "popo-the-turtle",
-      "name": "Popo The Turtle",
-      "score": 44
-    },
-    {
-      "id": "tornado-cash",
-      "name": "Tornado Cash",
-      "score": 44
-    },
-    {
-      "id": "ao-computer",
-      "name": "ao Computer",
-      "score": 37
-    },
-    {
-      "id": "wanted-star",
-      "name": "Wanted Star",
-      "score": 36
-    },
-    {
-      "id": "nova-3",
-      "name": "NOVA",
-      "score": 33
-    },
-    {
-      "id": "certik",
-      "name": "Shentu",
-      "score": 32
-    },
-    {
-      "id": "tacit-token",
-      "name": "Tacit Token",
-      "score": 31
-    },
-    {
-      "id": "airtor-protocol",
-      "name": "ANyONe Protocol",
+      "id": "arcblock",
+      "name": "Arcblock",
       "score": 26
     }
   ],
   "left": [
     {
-      "id": "adshares",
-      "name": "Adshares",
+      "id": "fartboy",
+      "name": "Fartboy",
       "reason": "low volume"
     },
     {
-      "id": "bora",
-      "name": "BORA",
+      "id": "nano",
+      "name": "Nano",
       "reason": "low volume"
     },
     {
-      "id": "chainflip",
-      "name": "Chainflip",
+      "id": "pocket-network",
+      "name": "Pocket Network",
       "reason": "low volume"
     },
     {
-      "id": "constellation-labs",
-      "name": "constellation-labs",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "credible-finance",
-      "name": "Credible Finance",
+      "id": "public-meme-token",
+      "name": "Public Masterpiece Technology",
       "reason": "low volume"
     },
     {
-      "id": "dkargo",
-      "name": "dkargo",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "figure-heloc",
-      "name": "Figure Heloc",
+      "id": "quark-chain",
+      "name": "QuarkChain",
       "reason": "low volume"
     },
     {
-      "id": "forta",
-      "name": "forta",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "gamebuild",
-      "name": "GameBuild",
-      "reason": "low volume"
-    },
-    {
-      "id": "hastra-auto",
-      "name": "Hastra AUTO",
-      "reason": "low volume"
-    },
-    {
-      "id": "jagent",
-      "name": "jagent",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "lcx",
-      "name": "LCX",
-      "reason": "low volume"
-    },
-    {
-      "id": "loaded-lions",
-      "name": "Loaded Lions",
-      "reason": "low volume"
-    },
-    {
-      "id": "medibloc",
-      "name": "Medibloc",
-      "reason": "low volume"
-    },
-    {
-      "id": "milk-alliance",
-      "name": "MiL.k",
-      "reason": "low volume"
-    },
-    {
-      "id": "ocean-protocol",
-      "name": "Ocean Protocol",
-      "reason": "low volume"
-    },
-    {
-      "id": "superrare",
-      "name": "superrare",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "swarm-engine",
-      "name": "SWARM ENGINE",
-      "reason": "low volume"
-    },
-    {
-      "id": "tread-fi",
-      "name": "Tread.fi",
-      "reason": "low volume"
-    },
-    {
-      "id": "vin-2",
-      "name": "VulgarTycoon",
-      "reason": "low volume"
-    },
-    {
-      "id": "wasted-4",
-      "name": "wasted-4",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "zano",
-      "name": "Zano",
+      "id": "swissborg",
+      "name": "SwissBorg",
       "reason": "low volume"
     }
   ]
