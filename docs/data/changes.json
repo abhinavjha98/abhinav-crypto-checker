@@ -2,30 +2,70 @@
   "compared_to": "2026-11-22",
   "entered": [
     {
-      "id": "superform",
-      "name": "Superform",
-      "score": 54
+      "id": "minelius",
+      "name": "Minelius",
+      "score": 49
     },
     {
       "id": "zano",
       "name": "Zano",
-      "score": 52
+      "score": 49
+    },
+    {
+      "id": "kaio",
+      "name": "KAIO",
+      "score": 37
     },
     {
       "id": "forta",
       "name": "Forta",
-      "score": 34
+      "score": 32
     },
     {
       "id": "arcblock",
       "name": "Arcblock",
-      "score": 26
+      "score": 30
     }
   ],
   "left": [
     {
+      "id": "aelf",
+      "name": "aelf",
+      "reason": "low volume"
+    },
+    {
+      "id": "aixbt",
+      "name": "aixbt",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "ao-computer",
+      "name": "ao Computer",
+      "reason": "low volume"
+    },
+    {
+      "id": "certik",
+      "name": "certik",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "deapcoin",
+      "name": "DEAPCOIN",
+      "reason": "low volume"
+    },
+    {
       "id": "fartboy",
       "name": "Fartboy",
+      "reason": "low volume"
+    },
+    {
+      "id": "fx-usd-saving",
+      "name": "f(x) USD Saving",
+      "reason": "low volume"
+    },
+    {
+      "id": "goldfish-gold",
+      "name": "Goldfish Gold",
       "reason": "low volume"
     },
     {
@@ -34,9 +74,9 @@
       "reason": "low volume"
     },
     {
-      "id": "pocket-network",
-      "name": "Pocket Network",
-      "reason": "low volume"
+      "id": "popo-the-turtle",
+      "name": "popo-the-turtle",
+      "reason": "dropped out of top N"
     },
     {
       "id": "public-meme-token",
@@ -44,13 +84,28 @@
       "reason": "low volume"
     },
     {
-      "id": "quark-chain",
-      "name": "QuarkChain",
+      "id": "splendor",
+      "name": "Splendor",
       "reason": "low volume"
     },
     {
       "id": "swissborg",
       "name": "SwissBorg",
+      "reason": "low volume"
+    },
+    {
+      "id": "usdu",
+      "name": "USDu",
+      "reason": "low volume"
+    },
+    {
+      "id": "wanted-star",
+      "name": "wanted-star",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "wiki-cat",
+      "name": "Wiki Cat",
       "reason": "low volume"
     }
   ]
