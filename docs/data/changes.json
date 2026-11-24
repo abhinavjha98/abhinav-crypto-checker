@@ -1,196 +1,106 @@
 {
-  "compared_to": "2026-11-22",
+  "compared_to": "2026-11-23",
   "entered": [
     {
-      "id": "usdai",
-      "name": "USDai",
+      "id": "orderly-network",
+      "name": "Orderly",
       "score": 56
-    },
-    {
-      "id": "canopy",
-      "name": "Canopy",
-      "score": 53
-    },
-    {
-      "id": "hastra-auto",
-      "name": "Hastra AUTO",
-      "score": 52
-    },
-    {
-      "id": "zano",
-      "name": "Zano",
-      "score": 50
-    },
-    {
-      "id": "tread-fi",
-      "name": "Tread.fi",
-      "score": 50
-    },
-    {
-      "id": "pepe-intelligence",
-      "name": "Pepe Intelligence",
-      "score": 49
-    },
-    {
-      "id": "apriori",
-      "name": "Capricorn",
-      "score": 49
-    },
-    {
-      "id": "elephant-money",
-      "name": "Elephant Money",
-      "score": 46
-    },
-    {
-      "id": "figure-heloc",
-      "name": "Figure Heloc",
-      "score": 45
-    },
-    {
-      "id": "idlemine",
-      "name": "IdleMine",
-      "score": 43
-    },
-    {
-      "id": "cool-dog",
-      "name": "Cool Dog",
-      "score": 38
-    },
-    {
-      "id": "cargox",
-      "name": "CargoX",
-      "score": 38
-    },
-    {
-      "id": "milk-alliance",
-      "name": "MiL.k",
-      "score": 35
-    },
-    {
-      "id": "tensorcash",
-      "name": "TensorCash",
-      "score": 34
-    },
-    {
-      "id": "forta",
-      "name": "Forta",
-      "score": 34
-    },
-    {
-      "id": "arcblock",
-      "name": "Arcblock",
-      "score": 32
-    },
-    {
-      "id": "orbio-so",
-      "name": "Orbio.so",
-      "score": 31
-    },
-    {
-      "id": "lcx",
-      "name": "LCX",
-      "score": 29
-    },
-    {
-      "id": "chainflip",
-      "name": "Chainflip",
-      "score": 26
-    },
-    {
-      "id": "bora",
-      "name": "BORA",
-      "score": 23
-    },
-    {
-      "id": "zcoin",
-      "name": "Firo",
-      "score": 13
-    }
-  ],
-  "left": [
-    {
-      "id": "aixbt",
-      "name": "aixbt",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "anime",
-      "name": "anime",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "ao-computer",
-      "name": "ao Computer",
-      "reason": "low volume"
-    },
-    {
-      "id": "certik",
-      "name": "certik",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "chaingpt",
-      "name": "chaingpt",
-      "reason": "dropped out of top N"
     },
     {
       "id": "deapcoin",
       "name": "DEAPCOIN",
-      "reason": "low volume"
+      "score": 48
     },
     {
-      "id": "ergo",
-      "name": "Ergo",
-      "reason": "low volume"
+      "id": "anime",
+      "name": "Animecoin",
+      "score": 48
     },
     {
-      "id": "fx-usd-saving",
-      "name": "f(x) USD Saving",
-      "reason": "low volume"
+      "id": "chaingpt",
+      "name": "ChainGPT",
+      "score": 48
     },
     {
-      "id": "nano",
-      "name": "Nano",
-      "reason": "low volume"
+      "id": "aixbt",
+      "name": "aixbt",
+      "score": 45
+    },
+    {
+      "id": "asset",
+      "name": "REAL",
+      "score": 38
     },
     {
       "id": "nova-3",
       "name": "NOVA",
-      "reason": "low volume"
+      "score": 33
     },
     {
-      "id": "omega-labs",
-      "name": "omega-labs",
+      "id": "world-mobile-token",
+      "name": "World Mobile Token",
+      "score": 33
+    },
+    {
+      "id": "medibloc",
+      "name": "Medibloc",
+      "score": 33
+    },
+    {
+      "id": "certik",
+      "name": "Shentu",
+      "score": 31
+    },
+    {
+      "id": "templar",
+      "name": "\u03c4emplar",
+      "score": 30
+    },
+    {
+      "id": "gradients",
+      "name": "Gradients",
+      "score": 28
+    }
+  ],
+  "left": [
+    {
+      "id": "cool-dog",
+      "name": "cool-dog",
       "reason": "dropped out of top N"
     },
     {
-      "id": "popo-the-turtle",
-      "name": "popo-the-turtle",
+      "id": "elephant-money",
+      "name": "Elephant Money",
+      "reason": "low volume"
+    },
+    {
+      "id": "forta",
+      "name": "forta",
       "reason": "dropped out of top N"
     },
     {
-      "id": "public-meme-token",
-      "name": "Public Masterpiece Technology",
+      "id": "goldfish-gold",
+      "name": "Goldfish Gold",
       "reason": "low volume"
     },
     {
-      "id": "re-protocol-reusde",
-      "name": "Re Protocol reUSDe",
+      "id": "pepe-intelligence",
+      "name": "pepe-intelligence",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "pocket-network",
+      "name": "Pocket Network",
       "reason": "low volume"
     },
     {
-      "id": "splendor",
-      "name": "Splendor",
+      "id": "prize-protocol",
+      "name": "Prize Protocol",
       "reason": "low volume"
     },
     {
-      "id": "vvs-finance",
-      "name": "VVS Finance",
-      "reason": "low volume"
-    },
-    {
-      "id": "wanted-star",
-      "name": "wanted-star",
+      "id": "sharex-2",
+      "name": "sharex-2",
       "reason": "dropped out of top N"
     }
   ]
