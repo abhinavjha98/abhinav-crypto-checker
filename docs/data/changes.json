@@ -2,9 +2,19 @@
   "compared_to": "2026-11-23",
   "entered": [
     {
-      "id": "orderly-network",
-      "name": "Orderly",
-      "score": 56
+      "id": "bugscoin",
+      "name": "BugsCoin",
+      "score": 63
+    },
+    {
+      "id": "big-time",
+      "name": "Big Time",
+      "score": 51
+    },
+    {
+      "id": "dkargo",
+      "name": "dKargo",
+      "score": 50
     },
     {
       "id": "deapcoin",
@@ -12,29 +22,19 @@
       "score": 48
     },
     {
-      "id": "anime",
-      "name": "Animecoin",
-      "score": 48
-    },
-    {
-      "id": "chaingpt",
-      "name": "ChainGPT",
-      "score": 48
-    },
-    {
-      "id": "aixbt",
-      "name": "aixbt",
-      "score": 45
-    },
-    {
       "id": "asset",
       "name": "REAL",
-      "score": 38
+      "score": 44
     },
     {
-      "id": "nova-3",
-      "name": "NOVA",
-      "score": 33
+      "id": "medibloc",
+      "name": "Medibloc",
+      "score": 37
+    },
+    {
+      "id": "obligate-trade-finance-yield",
+      "name": "Obligate Trade Finance Yield",
+      "score": 37
     },
     {
       "id": "world-mobile-token",
@@ -42,27 +42,42 @@
       "score": 33
     },
     {
-      "id": "medibloc",
-      "name": "Medibloc",
-      "score": 33
-    },
-    {
-      "id": "certik",
-      "name": "Shentu",
-      "score": 31
-    },
-    {
-      "id": "templar",
-      "name": "\u03c4emplar",
+      "id": "variational-x",
+      "name": "Variational X",
       "score": 30
     },
     {
-      "id": "gradients",
-      "name": "Gradients",
-      "score": 28
+      "id": "everything",
+      "name": "Everything",
+      "score": 30
+    },
+    {
+      "id": "nova-3",
+      "name": "NOVA",
+      "score": 29
     }
   ],
   "left": [
+    {
+      "id": "arcblock",
+      "name": "Arcblock",
+      "reason": "low volume"
+    },
+    {
+      "id": "bora",
+      "name": "BORA",
+      "reason": "low volume"
+    },
+    {
+      "id": "canopy",
+      "name": "canopy",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "cargox",
+      "name": "CargoX",
+      "reason": "low volume"
+    },
     {
       "id": "cool-dog",
       "name": "cool-dog",
@@ -79,13 +94,23 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "goldfish-gold",
-      "name": "Goldfish Gold",
+      "id": "idlemine",
+      "name": "IdleMine",
       "reason": "low volume"
     },
     {
-      "id": "pepe-intelligence",
-      "name": "pepe-intelligence",
+      "id": "mantra",
+      "name": "mantra",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "orbio-so",
+      "name": "orbio-so",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "perle",
+      "name": "perle",
       "reason": "dropped out of top N"
     },
     {
@@ -99,9 +124,39 @@
       "reason": "low volume"
     },
     {
+      "id": "puffer-finance",
+      "name": "puffer-finance",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "qanplatform",
+      "name": "QANplatform",
+      "reason": "low volume"
+    },
+    {
       "id": "sharex-2",
       "name": "sharex-2",
       "reason": "dropped out of top N"
+    },
+    {
+      "id": "tacit-token",
+      "name": "tacit-token",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "the-black-bull",
+      "name": "the-black-bull",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "usdai",
+      "name": "USDai",
+      "reason": "low volume"
+    },
+    {
+      "id": "wiki-cat",
+      "name": "Wiki Cat",
+      "reason": "low volume"
     }
   ]
 }
