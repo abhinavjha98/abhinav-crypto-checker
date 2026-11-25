@@ -4,53 +4,83 @@
     {
       "id": "mantra",
       "name": "MANTRA",
-      "score": 55
+      "score": 50
     },
     {
-      "id": "qanplatform",
-      "name": "QANplatform",
+      "id": "bitdca",
+      "name": "BitDCA",
+      "score": 49
+    },
+    {
+      "id": "anime",
+      "name": "Animecoin",
+      "score": 48
+    },
+    {
+      "id": "re-protocol-reusde",
+      "name": "Re Protocol reUSDe",
+      "score": 46
+    },
+    {
+      "id": "omega-labs",
+      "name": "OMEGA Labs",
       "score": 44
     },
     {
-      "id": "gamebuild",
-      "name": "GameBuild",
-      "score": 42
+      "id": "non-playable-shiba",
+      "name": "Non-Playable Shiba",
+      "score": 43
     },
     {
-      "id": "tacit-token",
-      "name": "Tacit Token",
-      "score": 39
+      "id": "vin-2",
+      "name": "VulgarTycoon",
+      "score": 42
     },
     {
       "id": "pocket-network",
       "name": "Pocket Network",
+      "score": 39
+    },
+    {
+      "id": "chutes",
+      "name": "Chutes",
       "score": 36
     },
     {
-      "id": "forta",
-      "name": "Forta",
-      "score": 34
+      "id": "tacit-token",
+      "name": "Tacit Token",
+      "score": 35
     },
     {
       "id": "bora",
       "name": "BORA",
-      "score": 29
+      "score": 33
     },
     {
       "id": "wiki-cat",
       "name": "Wiki Cat",
-      "score": 28
+      "score": 31
+    },
+    {
+      "id": "hunt-token",
+      "name": "Hunt",
+      "score": 29
+    },
+    {
+      "id": "metadium",
+      "name": "Metadium",
+      "score": 20
     }
   ],
   "left": [
     {
-      "id": "affine",
-      "name": "affine",
-      "reason": "low volume"
-    },
-    {
       "id": "airtor-protocol",
       "name": "airtor-protocol",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "bugscoin",
+      "name": "bugscoin",
       "reason": "dropped out of top N"
     },
     {
@@ -59,8 +89,23 @@
       "reason": "low volume"
     },
     {
+      "id": "freysa-ai",
+      "name": "Freysa AI",
+      "reason": "low volume"
+    },
+    {
+      "id": "hastra-auto",
+      "name": "Hastra AUTO",
+      "reason": "low volume"
+    },
+    {
       "id": "nova-3",
       "name": "NOVA",
+      "reason": "low volume"
+    },
+    {
+      "id": "obligate-trade-finance-yield",
+      "name": "Obligate Trade Finance Yield",
       "reason": "low volume"
     },
     {
@@ -74,13 +119,23 @@
       "reason": "low volume"
     },
     {
+      "id": "rollbit-coin",
+      "name": "Rollbit Coin",
+      "reason": "low volume"
+    },
+    {
+      "id": "starpower",
+      "name": "starpower",
+      "reason": "dropped out of top N"
+    },
+    {
       "id": "tensorcash",
       "name": "TensorCash",
       "reason": "low volume"
     },
     {
-      "id": "tokamak-network",
-      "name": "Tokamak Network",
+      "id": "tornado-cash",
+      "name": "Tornado Cash",
       "reason": "low volume"
     },
     {
@@ -89,9 +144,9 @@
       "reason": "low volume"
     },
     {
-      "id": "variational-x",
-      "name": "variational-x",
-      "reason": "dropped out of top N"
+      "id": "world-mobile-token",
+      "name": "World Mobile Token",
+      "reason": "low volume"
     },
     {
       "id": "zcoin",
