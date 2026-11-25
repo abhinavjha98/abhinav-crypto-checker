@@ -1,161 +1,101 @@
 {
-  "compared_to": "2026-11-23",
+  "compared_to": "2026-11-24",
   "entered": [
     {
-      "id": "bugscoin",
-      "name": "BugsCoin",
-      "score": 63
-    },
-    {
-      "id": "big-time",
-      "name": "Big Time",
-      "score": 51
-    },
-    {
-      "id": "dkargo",
-      "name": "dKargo",
-      "score": 50
-    },
-    {
-      "id": "deapcoin",
-      "name": "DEAPCOIN",
-      "score": 48
-    },
-    {
-      "id": "asset",
-      "name": "REAL",
-      "score": 44
-    },
-    {
-      "id": "medibloc",
-      "name": "Medibloc",
-      "score": 37
-    },
-    {
-      "id": "obligate-trade-finance-yield",
-      "name": "Obligate Trade Finance Yield",
-      "score": 37
-    },
-    {
-      "id": "world-mobile-token",
-      "name": "World Mobile Token",
-      "score": 33
-    },
-    {
-      "id": "variational-x",
-      "name": "Variational X",
-      "score": 30
-    },
-    {
-      "id": "everything",
-      "name": "Everything",
-      "score": 30
-    },
-    {
-      "id": "nova-3",
-      "name": "NOVA",
-      "score": 29
-    }
-  ],
-  "left": [
-    {
-      "id": "arcblock",
-      "name": "Arcblock",
-      "reason": "low volume"
-    },
-    {
-      "id": "bora",
-      "name": "BORA",
-      "reason": "low volume"
-    },
-    {
-      "id": "canopy",
-      "name": "canopy",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "cargox",
-      "name": "CargoX",
-      "reason": "low volume"
-    },
-    {
-      "id": "cool-dog",
-      "name": "cool-dog",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "elephant-money",
-      "name": "Elephant Money",
-      "reason": "low volume"
-    },
-    {
-      "id": "forta",
-      "name": "forta",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "idlemine",
-      "name": "IdleMine",
-      "reason": "low volume"
-    },
-    {
       "id": "mantra",
-      "name": "mantra",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "orbio-so",
-      "name": "orbio-so",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "perle",
-      "name": "perle",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "pocket-network",
-      "name": "Pocket Network",
-      "reason": "low volume"
-    },
-    {
-      "id": "prize-protocol",
-      "name": "Prize Protocol",
-      "reason": "low volume"
-    },
-    {
-      "id": "puffer-finance",
-      "name": "puffer-finance",
-      "reason": "dropped out of top N"
+      "name": "MANTRA",
+      "score": 55
     },
     {
       "id": "qanplatform",
       "name": "QANplatform",
-      "reason": "low volume"
+      "score": 44
     },
     {
-      "id": "sharex-2",
-      "name": "sharex-2",
-      "reason": "dropped out of top N"
+      "id": "gamebuild",
+      "name": "GameBuild",
+      "score": 42
     },
     {
       "id": "tacit-token",
-      "name": "tacit-token",
-      "reason": "dropped out of top N"
+      "name": "Tacit Token",
+      "score": 39
     },
     {
-      "id": "the-black-bull",
-      "name": "the-black-bull",
-      "reason": "dropped out of top N"
+      "id": "pocket-network",
+      "name": "Pocket Network",
+      "score": 36
     },
     {
-      "id": "usdai",
-      "name": "USDai",
-      "reason": "low volume"
+      "id": "forta",
+      "name": "Forta",
+      "score": 34
+    },
+    {
+      "id": "bora",
+      "name": "BORA",
+      "score": 29
     },
     {
       "id": "wiki-cat",
       "name": "Wiki Cat",
+      "score": 28
+    }
+  ],
+  "left": [
+    {
+      "id": "affine",
+      "name": "affine",
+      "reason": "low volume"
+    },
+    {
+      "id": "airtor-protocol",
+      "name": "airtor-protocol",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "chainflip",
+      "name": "Chainflip",
+      "reason": "low volume"
+    },
+    {
+      "id": "nova-3",
+      "name": "NOVA",
+      "reason": "low volume"
+    },
+    {
+      "id": "pepe-intelligence",
+      "name": "pepe-intelligence",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "railgun",
+      "name": "Railgun",
+      "reason": "low volume"
+    },
+    {
+      "id": "tensorcash",
+      "name": "TensorCash",
+      "reason": "low volume"
+    },
+    {
+      "id": "tokamak-network",
+      "name": "Tokamak Network",
+      "reason": "low volume"
+    },
+    {
+      "id": "usdu",
+      "name": "USDu",
+      "reason": "low volume"
+    },
+    {
+      "id": "variational-x",
+      "name": "variational-x",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "zcoin",
+      "name": "Firo",
       "reason": "low volume"
     }
   ]
