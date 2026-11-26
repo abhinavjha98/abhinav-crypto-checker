@@ -2,9 +2,19 @@
   "compared_to": "2026-11-25",
   "entered": [
     {
+      "id": "gno-land",
+      "name": "Gno.land",
+      "score": 60
+    },
+    {
+      "id": "solstice",
+      "name": "Solstice",
+      "score": 56
+    },
+    {
       "id": "gama-token",
       "name": "Gama Token",
-      "score": 49
+      "score": 50
     },
     {
       "id": "usdu",
@@ -12,23 +22,33 @@
       "score": 48
     },
     {
-      "id": "idlemine",
-      "name": "IdleMine",
-      "score": 43
-    },
-    {
       "id": "mira-3",
       "name": "Mira",
+      "score": 44
+    },
+    {
+      "id": "railgun",
+      "name": "Railgun",
       "score": 43
     },
     {
-      "id": "vvs-finance",
-      "name": "VVS Finance",
+      "id": "epic-cash",
+      "name": "Epic Private Internet Cash",
+      "score": 42
+    },
+    {
+      "id": "ao-computer",
+      "name": "ao Computer",
       "score": 38
     },
     {
-      "id": "adshares",
-      "name": "Adshares",
+      "id": "tornado-cash",
+      "name": "Tornado Cash",
+      "score": 37
+    },
+    {
+      "id": "pepe-wojak",
+      "name": "Pepe Wojak",
       "score": 26
     }
   ],
@@ -39,9 +59,24 @@
       "reason": "low volume"
     },
     {
+      "id": "bitdca",
+      "name": "BitDCA",
+      "reason": "low volume"
+    },
+    {
       "id": "chutes",
       "name": "Chutes",
       "reason": "price too high"
+    },
+    {
+      "id": "goldfish-gold",
+      "name": "Goldfish Gold",
+      "reason": "low volume"
+    },
+    {
+      "id": "hunt-token",
+      "name": "Hunt",
+      "reason": "low volume"
     },
     {
       "id": "jobcoin-2",
@@ -49,14 +84,14 @@
       "reason": "dropped out of top N"
     },
     {
-      "id": "nkyc-token",
-      "name": "NKYC Token",
+      "id": "nano",
+      "name": "Nano",
       "reason": "low volume"
     },
     {
-      "id": "pepe-intelligence",
-      "name": "pepe-intelligence",
-      "reason": "dropped out of top N"
+      "id": "nkyc-token",
+      "name": "NKYC Token",
+      "reason": "low volume"
     },
     {
       "id": "pocket-network",
@@ -67,6 +102,21 @@
       "id": "variational-x",
       "name": "variational-x",
       "reason": "dropped out of top N"
+    },
+    {
+      "id": "vin-2",
+      "name": "VulgarTycoon",
+      "reason": "low volume"
+    },
+    {
+      "id": "wiki-cat",
+      "name": "Wiki Cat",
+      "reason": "low volume"
+    },
+    {
+      "id": "zano",
+      "name": "Zano",
+      "reason": "low volume"
     }
   ]
 }
