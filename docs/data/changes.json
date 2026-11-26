@@ -1,177 +1,72 @@
 {
-  "compared_to": "2026-11-24",
+  "compared_to": "2026-11-25",
   "entered": [
     {
-      "id": "mantra",
-      "name": "MANTRA",
-      "score": 57
-    },
-    {
-      "id": "gamebuild",
-      "name": "GameBuild",
-      "score": 52
-    },
-    {
-      "id": "omega-labs",
-      "name": "OMEGA Labs",
-      "score": 50
-    },
-    {
-      "id": "chaingpt",
-      "name": "ChainGPT",
+      "id": "gama-token",
+      "name": "Gama Token",
       "score": 49
-    },
-    {
-      "id": "prize-protocol",
-      "name": "Prize Protocol",
-      "score": 48
-    },
-    {
-      "id": "bitdca",
-      "name": "BitDCA",
-      "score": 48
-    },
-    {
-      "id": "tcy",
-      "name": "THORChain Yield",
-      "score": 47
-    },
-    {
-      "id": "anime",
-      "name": "Animecoin",
-      "score": 46
-    },
-    {
-      "id": "aixbt",
-      "name": "aixbt",
-      "score": 42
-    },
-    {
-      "id": "vin-2",
-      "name": "VulgarTycoon",
-      "score": 41
-    },
-    {
-      "id": "non-playable-shiba",
-      "name": "Non-Playable Shiba",
-      "score": 41
-    },
-    {
-      "id": "jobcoin-2",
-      "name": "JOBCOIN",
-      "score": 40
-    },
-    {
-      "id": "pocket-network",
-      "name": "Pocket Network",
-      "score": 40
-    },
-    {
-      "id": "chutes",
-      "name": "Chutes",
-      "score": 38
-    },
-    {
-      "id": "tacit-token",
-      "name": "Tacit Token",
-      "score": 38
-    },
-    {
-      "id": "iota-2",
-      "name": "iota",
-      "score": 37
-    },
-    {
-      "id": "bulla-3",
-      "name": "BULLA",
-      "score": 35
-    },
-    {
-      "id": "bora",
-      "name": "BORA",
-      "score": 32
-    },
-    {
-      "id": "bitmind",
-      "name": "BitMind",
-      "score": 31
-    },
-    {
-      "id": "nano",
-      "name": "Nano",
-      "score": 30
-    },
-    {
-      "id": "wiki-cat",
-      "name": "Wiki Cat",
-      "score": 30
-    },
-    {
-      "id": "hunt-token",
-      "name": "Hunt",
-      "score": 29
-    },
-    {
-      "id": "orbio-so",
-      "name": "Orbio.so",
-      "score": 28
-    }
-  ],
-  "left": [
-    {
-      "id": "bugscoin",
-      "name": "bugscoin",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "chainflip",
-      "name": "Chainflip",
-      "reason": "low volume"
-    },
-    {
-      "id": "everything",
-      "name": "Everything",
-      "reason": "low volume"
-    },
-    {
-      "id": "nova-3",
-      "name": "NOVA",
-      "reason": "low volume"
-    },
-    {
-      "id": "obligate-trade-finance-yield",
-      "name": "Obligate Trade Finance Yield",
-      "reason": "low volume"
-    },
-    {
-      "id": "railgun",
-      "name": "Railgun",
-      "reason": "low volume"
-    },
-    {
-      "id": "starpower",
-      "name": "starpower",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "tensorcash",
-      "name": "TensorCash",
-      "reason": "low volume"
-    },
-    {
-      "id": "tornado-cash",
-      "name": "Tornado Cash",
-      "reason": "low volume"
     },
     {
       "id": "usdu",
       "name": "USDu",
+      "score": 48
+    },
+    {
+      "id": "idlemine",
+      "name": "IdleMine",
+      "score": 43
+    },
+    {
+      "id": "mira-3",
+      "name": "Mira",
+      "score": 43
+    },
+    {
+      "id": "vvs-finance",
+      "name": "VVS Finance",
+      "score": 38
+    },
+    {
+      "id": "adshares",
+      "name": "Adshares",
+      "score": 26
+    }
+  ],
+  "left": [
+    {
+      "id": "affine",
+      "name": "affine",
       "reason": "low volume"
     },
     {
-      "id": "world-mobile-token",
-      "name": "World Mobile Token",
+      "id": "chutes",
+      "name": "Chutes",
+      "reason": "price too high"
+    },
+    {
+      "id": "jobcoin-2",
+      "name": "jobcoin-2",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "nkyc-token",
+      "name": "NKYC Token",
       "reason": "low volume"
+    },
+    {
+      "id": "pepe-intelligence",
+      "name": "pepe-intelligence",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "pocket-network",
+      "name": "Pocket Network",
+      "reason": "low volume"
+    },
+    {
+      "id": "variational-x",
+      "name": "variational-x",
+      "reason": "dropped out of top N"
     }
   ]
 }
