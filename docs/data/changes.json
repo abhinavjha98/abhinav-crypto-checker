@@ -4,7 +4,7 @@
     {
       "id": "gno-land",
       "name": "Gno.land",
-      "score": 60
+      "score": 59
     },
     {
       "id": "solstice",
@@ -14,7 +14,7 @@
     {
       "id": "gama-token",
       "name": "Gama Token",
-      "score": 50
+      "score": 55
     },
     {
       "id": "usdu",
@@ -22,34 +22,39 @@
       "score": 48
     },
     {
-      "id": "mira-3",
-      "name": "Mira",
-      "score": 44
-    },
-    {
-      "id": "railgun",
-      "name": "Railgun",
-      "score": 43
-    },
-    {
-      "id": "epic-cash",
-      "name": "Epic Private Internet Cash",
-      "score": 42
+      "id": "re-protocol-reusde",
+      "name": "Re Protocol reUSDe",
+      "score": 45
     },
     {
       "id": "ao-computer",
       "name": "ao Computer",
-      "score": 38
+      "score": 39
     },
     {
-      "id": "tornado-cash",
-      "name": "Tornado Cash",
-      "score": 37
+      "id": "mira-3",
+      "name": "Mira",
+      "score": 39
+    },
+    {
+      "id": "montra",
+      "name": "Montra",
+      "score": 38
     },
     {
       "id": "pepe-wojak",
       "name": "Pepe Wojak",
-      "score": 26
+      "score": 36
+    },
+    {
+      "id": "nova-3",
+      "name": "NOVA",
+      "score": 33
+    },
+    {
+      "id": "token-pocket",
+      "name": "TokenPocket Token",
+      "score": 18
     }
   ],
   "left": [
@@ -59,9 +64,24 @@
       "reason": "low volume"
     },
     {
+      "id": "bc-token",
+      "name": "BCGame Coin",
+      "reason": "low volume"
+    },
+    {
       "id": "bitdca",
       "name": "BitDCA",
       "reason": "low volume"
+    },
+    {
+      "id": "bitmind",
+      "name": "BitMind",
+      "reason": "low volume"
+    },
+    {
+      "id": "chaingpt",
+      "name": "chaingpt",
+      "reason": "dropped out of top N"
     },
     {
       "id": "chutes",
@@ -69,9 +89,24 @@
       "reason": "price too high"
     },
     {
-      "id": "goldfish-gold",
-      "name": "Goldfish Gold",
+      "id": "doublezero",
+      "name": "doublezero",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "fartboy",
+      "name": "Fartboy",
       "reason": "low volume"
+    },
+    {
+      "id": "freysa-ai",
+      "name": "Freysa AI",
+      "reason": "low volume"
+    },
+    {
+      "id": "huma-finance",
+      "name": "huma-finance",
+      "reason": "dropped out of top N"
     },
     {
       "id": "hunt-token",
@@ -80,8 +115,8 @@
     },
     {
       "id": "jobcoin-2",
-      "name": "jobcoin-2",
-      "reason": "dropped out of top N"
+      "name": "JOBCOIN",
+      "reason": "low volume"
     },
     {
       "id": "nano",
@@ -89,13 +124,18 @@
       "reason": "low volume"
     },
     {
-      "id": "nkyc-token",
-      "name": "NKYC Token",
-      "reason": "low volume"
+      "id": "non-playable-shiba",
+      "name": "non-playable-shiba",
+      "reason": "dropped out of top N"
     },
     {
-      "id": "pocket-network",
-      "name": "Pocket Network",
+      "id": "pepe-intelligence",
+      "name": "pepe-intelligence",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "tcy",
+      "name": "THORChain Yield",
       "reason": "low volume"
     },
     {
@@ -106,16 +146,6 @@
     {
       "id": "vin-2",
       "name": "VulgarTycoon",
-      "reason": "low volume"
-    },
-    {
-      "id": "wiki-cat",
-      "name": "Wiki Cat",
-      "reason": "low volume"
-    },
-    {
-      "id": "zano",
-      "name": "Zano",
       "reason": "low volume"
     }
   ]
