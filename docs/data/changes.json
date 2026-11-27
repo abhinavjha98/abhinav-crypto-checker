@@ -2,14 +2,54 @@
   "compared_to": "2026-11-26",
   "entered": [
     {
+      "id": "portal-2",
+      "name": "Portal",
+      "score": 63
+    },
+    {
+      "id": "super-iguana",
+      "name": "Super Iguana",
+      "score": 58
+    },
+    {
       "id": "doublezero",
       "name": "DoubleZero",
-      "score": 64
+      "score": 55
+    },
+    {
+      "id": "perle",
+      "name": "Perle",
+      "score": 53
+    },
+    {
+      "id": "pumpchan",
+      "name": "PumpChan",
+      "score": 49
+    },
+    {
+      "id": "elephant-money",
+      "name": "Elephant Money",
+      "score": 45
+    },
+    {
+      "id": "tornado-cash",
+      "name": "Tornado Cash",
+      "score": 44
+    },
+    {
+      "id": "railgun",
+      "name": "Railgun",
+      "score": 43
+    },
+    {
+      "id": "vvs-finance",
+      "name": "VVS Finance",
+      "score": 40
     },
     {
       "id": "forta",
       "name": "Forta",
-      "score": 34
+      "score": 35
     },
     {
       "id": "nano",
@@ -34,14 +74,34 @@
       "reason": "low volume"
     },
     {
-      "id": "nova-3",
-      "name": "NOVA",
+      "id": "apriori",
+      "name": "apriori",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "deapcoin",
+      "name": "DEAPCOIN",
       "reason": "low volume"
     },
     {
-      "id": "pepe-wojak",
-      "name": "pepe-wojak",
+      "id": "evaa-protocol",
+      "name": "evaa-protocol",
       "reason": "dropped out of top N"
+    },
+    {
+      "id": "hastra-auto",
+      "name": "Hastra AUTO",
+      "reason": "low volume"
+    },
+    {
+      "id": "nkyc-token",
+      "name": "NKYC Token",
+      "reason": "low volume"
+    },
+    {
+      "id": "nova-3",
+      "name": "NOVA",
+      "reason": "low volume"
     },
     {
       "id": "pocket-network",
@@ -49,13 +109,13 @@
       "reason": "low volume"
     },
     {
-      "id": "re-protocol-reusde",
-      "name": "Re Protocol reUSDe",
-      "reason": "low volume"
+      "id": "radicle",
+      "name": "radicle",
+      "reason": "dropped out of top N"
     },
     {
-      "id": "targon",
-      "name": "Targon",
+      "id": "re-protocol-reusde",
+      "name": "Re Protocol reUSDe",
       "reason": "low volume"
     },
     {
