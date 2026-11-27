@@ -1,151 +1,71 @@
 {
-  "compared_to": "2026-11-25",
+  "compared_to": "2026-11-26",
   "entered": [
     {
-      "id": "gno-land",
-      "name": "Gno.land",
-      "score": 59
-    },
-    {
-      "id": "solstice",
-      "name": "Solstice",
-      "score": 56
-    },
-    {
-      "id": "gama-token",
-      "name": "Gama Token",
-      "score": 55
-    },
-    {
-      "id": "usdu",
-      "name": "USDu",
-      "score": 48
-    },
-    {
-      "id": "re-protocol-reusde",
-      "name": "Re Protocol reUSDe",
-      "score": 45
-    },
-    {
-      "id": "ao-computer",
-      "name": "ao Computer",
-      "score": 39
-    },
-    {
-      "id": "mira-3",
-      "name": "Mira",
-      "score": 39
-    },
-    {
-      "id": "montra",
-      "name": "Montra",
-      "score": 38
-    },
-    {
-      "id": "pepe-wojak",
-      "name": "Pepe Wojak",
-      "score": 36
-    },
-    {
-      "id": "nova-3",
-      "name": "NOVA",
-      "score": 33
-    },
-    {
-      "id": "token-pocket",
-      "name": "TokenPocket Token",
-      "score": 18
-    }
-  ],
-  "left": [
-    {
-      "id": "affine",
-      "name": "affine",
-      "reason": "low volume"
-    },
-    {
-      "id": "bc-token",
-      "name": "BCGame Coin",
-      "reason": "low volume"
-    },
-    {
-      "id": "bitdca",
-      "name": "BitDCA",
-      "reason": "low volume"
-    },
-    {
-      "id": "bitmind",
-      "name": "BitMind",
-      "reason": "low volume"
-    },
-    {
-      "id": "chaingpt",
-      "name": "chaingpt",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "chutes",
-      "name": "Chutes",
-      "reason": "price too high"
-    },
-    {
       "id": "doublezero",
-      "name": "doublezero",
-      "reason": "dropped out of top N"
+      "name": "DoubleZero",
+      "score": 64
     },
     {
-      "id": "fartboy",
-      "name": "Fartboy",
-      "reason": "low volume"
-    },
-    {
-      "id": "freysa-ai",
-      "name": "Freysa AI",
-      "reason": "low volume"
-    },
-    {
-      "id": "huma-finance",
-      "name": "huma-finance",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "hunt-token",
-      "name": "Hunt",
-      "reason": "low volume"
-    },
-    {
-      "id": "jobcoin-2",
-      "name": "JOBCOIN",
-      "reason": "low volume"
+      "id": "forta",
+      "name": "Forta",
+      "score": 34
     },
     {
       "id": "nano",
       "name": "Nano",
+      "score": 30
+    },
+    {
+      "id": "freysa-ai",
+      "name": "Freysa AI",
+      "score": 29
+    },
+    {
+      "id": "adshares",
+      "name": "Adshares",
+      "score": 27
+    }
+  ],
+  "left": [
+    {
+      "id": "ao-computer",
+      "name": "ao Computer",
       "reason": "low volume"
     },
     {
-      "id": "non-playable-shiba",
-      "name": "non-playable-shiba",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "pepe-intelligence",
-      "name": "pepe-intelligence",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "tcy",
-      "name": "THORChain Yield",
+      "id": "nova-3",
+      "name": "NOVA",
       "reason": "low volume"
     },
     {
-      "id": "variational-x",
-      "name": "variational-x",
+      "id": "pepe-wojak",
+      "name": "pepe-wojak",
       "reason": "dropped out of top N"
     },
     {
-      "id": "vin-2",
-      "name": "VulgarTycoon",
+      "id": "pocket-network",
+      "name": "Pocket Network",
+      "reason": "low volume"
+    },
+    {
+      "id": "re-protocol-reusde",
+      "name": "Re Protocol reUSDe",
+      "reason": "low volume"
+    },
+    {
+      "id": "targon",
+      "name": "Targon",
+      "reason": "low volume"
+    },
+    {
+      "id": "usdu",
+      "name": "USDu",
+      "reason": "low volume"
+    },
+    {
+      "id": "zcoin",
+      "name": "Firo",
       "reason": "low volume"
     }
   ]
