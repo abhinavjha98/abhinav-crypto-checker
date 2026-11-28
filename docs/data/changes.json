@@ -2,14 +2,29 @@
   "compared_to": "2026-11-27",
   "entered": [
     {
+      "id": "evaa-protocol",
+      "name": "EVAA Protocol",
+      "score": 53
+    },
+    {
       "id": "usdu",
       "name": "USDu",
-      "score": 47
+      "score": 53
     },
     {
       "id": "laqira-protocol",
       "name": "Laqira Protocol",
-      "score": 46
+      "score": 49
+    },
+    {
+      "id": "nkyc-token",
+      "name": "NKYC Token",
+      "score": 47
+    },
+    {
+      "id": "puffer-finance",
+      "name": "Puffer",
+      "score": 45
     },
     {
       "id": "radicle",
@@ -17,19 +32,24 @@
       "score": 44
     },
     {
-      "id": "puffer-finance",
-      "name": "Puffer",
-      "score": 41
+      "id": "hunt-token",
+      "name": "Hunt",
+      "score": 30
     },
     {
-      "id": "apriori",
-      "name": "Capricorn",
-      "score": 41
+      "id": "mass-vehicle-ledger",
+      "name": "MVL",
+      "score": 27
     },
     {
       "id": "metadium",
       "name": "Metadium",
       "score": 23
+    },
+    {
+      "id": "ergo",
+      "name": "Ergo",
+      "score": 20
     }
   ],
   "left": [
@@ -39,18 +59,13 @@
       "reason": "low volume"
     },
     {
-      "id": "bitcast",
-      "name": "Bitcast",
-      "reason": "low volume"
+      "id": "anime",
+      "name": "anime",
+      "reason": "dropped out of top N"
     },
     {
       "id": "elephant-money",
       "name": "Elephant Money",
-      "reason": "low volume"
-    },
-    {
-      "id": "fractal-bitcoin",
-      "name": "Fractal Bitcoin",
       "reason": "low volume"
     },
     {
@@ -59,18 +74,43 @@
       "reason": "dropped out of top N"
     },
     {
+      "id": "gamebuild",
+      "name": "GameBuild",
+      "reason": "low volume"
+    },
+    {
+      "id": "kernel-2",
+      "name": "kernel-2",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "lcx",
+      "name": "LCX",
+      "reason": "low volume"
+    },
+    {
       "id": "pepe-wojak",
       "name": "pepe-wojak",
       "reason": "dropped out of top N"
     },
     {
-      "id": "token-pocket",
-      "name": "TokenPocket Token",
+      "id": "perle",
+      "name": "perle",
+      "reason": "dropped out of top N"
+    },
+    {
+      "id": "rekt-4",
+      "name": "Rekt",
       "reason": "low volume"
     },
     {
-      "id": "tornado-cash",
-      "name": "Tornado Cash",
+      "id": "tacit-token",
+      "name": "Tacit Token",
+      "reason": "low volume"
+    },
+    {
+      "id": "token-pocket",
+      "name": "TokenPocket Token",
       "reason": "low volume"
     }
   ]
