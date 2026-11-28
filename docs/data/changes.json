@@ -1,131 +1,76 @@
 {
-  "compared_to": "2026-11-26",
+  "compared_to": "2026-11-27",
   "entered": [
     {
-      "id": "portal-2",
-      "name": "Portal",
-      "score": 63
+      "id": "usdu",
+      "name": "USDu",
+      "score": 47
     },
     {
-      "id": "super-iguana",
-      "name": "Super Iguana",
-      "score": 58
+      "id": "laqira-protocol",
+      "name": "Laqira Protocol",
+      "score": 46
     },
     {
-      "id": "doublezero",
-      "name": "DoubleZero",
-      "score": 55
-    },
-    {
-      "id": "perle",
-      "name": "Perle",
-      "score": 53
-    },
-    {
-      "id": "pumpchan",
-      "name": "PumpChan",
-      "score": 49
-    },
-    {
-      "id": "elephant-money",
-      "name": "Elephant Money",
-      "score": 45
-    },
-    {
-      "id": "tornado-cash",
-      "name": "Tornado Cash",
+      "id": "radicle",
+      "name": "Radworks",
       "score": 44
     },
     {
-      "id": "railgun",
-      "name": "Railgun",
-      "score": 43
+      "id": "puffer-finance",
+      "name": "Puffer",
+      "score": 41
     },
     {
-      "id": "vvs-finance",
-      "name": "VVS Finance",
-      "score": 40
+      "id": "apriori",
+      "name": "Capricorn",
+      "score": 41
     },
     {
-      "id": "forta",
-      "name": "Forta",
-      "score": 35
-    },
-    {
-      "id": "nano",
-      "name": "Nano",
-      "score": 30
-    },
-    {
-      "id": "freysa-ai",
-      "name": "Freysa AI",
-      "score": 29
-    },
-    {
-      "id": "adshares",
-      "name": "Adshares",
-      "score": 27
+      "id": "metadium",
+      "name": "Metadium",
+      "score": 23
     }
   ],
   "left": [
     {
-      "id": "ao-computer",
-      "name": "ao Computer",
+      "id": "adshares",
+      "name": "Adshares",
       "reason": "low volume"
     },
     {
-      "id": "apriori",
-      "name": "apriori",
+      "id": "bitcast",
+      "name": "Bitcast",
+      "reason": "low volume"
+    },
+    {
+      "id": "elephant-money",
+      "name": "Elephant Money",
+      "reason": "low volume"
+    },
+    {
+      "id": "fractal-bitcoin",
+      "name": "Fractal Bitcoin",
+      "reason": "low volume"
+    },
+    {
+      "id": "freysa-ai",
+      "name": "freysa-ai",
       "reason": "dropped out of top N"
     },
     {
-      "id": "deapcoin",
-      "name": "DEAPCOIN",
-      "reason": "low volume"
-    },
-    {
-      "id": "evaa-protocol",
-      "name": "evaa-protocol",
+      "id": "pepe-wojak",
+      "name": "pepe-wojak",
       "reason": "dropped out of top N"
     },
     {
-      "id": "hastra-auto",
-      "name": "Hastra AUTO",
+      "id": "token-pocket",
+      "name": "TokenPocket Token",
       "reason": "low volume"
     },
     {
-      "id": "nkyc-token",
-      "name": "NKYC Token",
-      "reason": "low volume"
-    },
-    {
-      "id": "nova-3",
-      "name": "NOVA",
-      "reason": "low volume"
-    },
-    {
-      "id": "pocket-network",
-      "name": "Pocket Network",
-      "reason": "low volume"
-    },
-    {
-      "id": "radicle",
-      "name": "radicle",
-      "reason": "dropped out of top N"
-    },
-    {
-      "id": "re-protocol-reusde",
-      "name": "Re Protocol reUSDe",
-      "reason": "low volume"
-    },
-    {
-      "id": "usdu",
-      "name": "USDu",
-      "reason": "low volume"
-    },
-    {
-      "id": "zcoin",
-      "name": "Firo",
+      "id": "tornado-cash",
+      "name": "Tornado Cash",
       "reason": "low volume"
     }
   ]
